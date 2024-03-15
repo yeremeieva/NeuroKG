@@ -1,0 +1,9 @@
+This text provides a comprehensive overview of deep brain stimulation (DBS) as a treatment for Parkinson's disease (PD), focusing on the historical context, the evolution of surgical treatments, the emergence of DBS, and its effectiveness compared to other treatments. 
+
+The early use of ablative brain surgery in the 20th century gave way to DBS in the 1990s, following the limitations observed with the medication levodopa, which, despite initially reducing PD symptoms, failed to halt disease progression and introduced significant treatment-related complications. DBS, particularly targeting the subthalamic nucleus (STN) and the globus pallidus internus (GPI), offered an alternative that could alleviate symptoms while reducing the side effects associated with levodopa.
+
+The text highlights several studies comparing outcomes of DBS targeting the STN versus the GPI. While improvements in motor function were notable with both targets, STN DBS showed a significant reduction in medication requirements, unlike GPI DBS. However, GPI DBS was associated with improvements in activities of daily living (ADL) in both on and off medication states, suggesting a potential benefit over STN DBS in this aspect.
+
+Despite these findings, the text underscores the need for more extensive, randomized trials to fully understand the comparative effectiveness and safety of STN versus GPI targeting in DBS. It also emphasizes the importance of considering patient-specific factors, such as age, disease characteristics, and the presence of nonmotor symptoms, in deciding the most appropriate surgical treatment for PD.
+
+This study contributes to the ongoing discussion on optimizing DBS as a treatment for PD, acknowledging its benefits while also recognizing the need for further research to refine surgical approaches, target selection, and postoperative management to maximize patient outcomes.

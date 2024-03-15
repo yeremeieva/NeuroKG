@@ -1,0 +1,7 @@
+.DS_Store
+data/.DS_Store
+data/pdf_papers/.DS_Store
+data/txt_papers/.DS_Store
+data/txt_parsed_papers/.DS_Store
+pipeline/__pycache__/
+utils/__pycache__/

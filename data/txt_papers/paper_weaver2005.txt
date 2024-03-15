@@ -1,0 +1,826 @@
+BLATIVE brain sur gery was used as early as 1912
+to treat PD.24,66When levodopa was introduced in
+the 1960s, surgical interventions for PD decreased
+dramatically .Within a few years, however ,the therapeutic
+limitations of levodopa became apparent. Following the
+administration of levodopa, PD continued to progress andtreatment-related complications including motor fluctua -
+tions and dyskinesias became a major therapeutic chal-
+lenge. More recently, neurosurgical interventions experi-enced a renaissance in the form of ablative procedures (forexample, pallidotomy).
+43,44Nonetheless, as the use of pal-
+lidotomy became more widespread, the shortcomings ofthis procedure were also realized. Adverse ef fects related to
+bilateral pallidotomy included speech impairment, balance
+and gait problems, visual field defects, and cognitive defi-cits.
+1,21,68The search for safer and more ef fective sur gical
+treatments, particularly for bilateral symptoms, fueled inter-
+est in DBS.
+Deep brain stimulation, which involves the application of
+electrical stimuli, produces a functional lesion within a focalarea of the brain. T wo targets within the brain have been
+stimulated to treat PD: the STN and the GPI. The first re -
+ports of DBS for the management of PD were published
+in the mid 1990s. Studies published since then have doc-
+umented significant improvement in patient motor func-tioning
+12,27,35,54and quality of life following STN DBS.10,31
+Serious adverse events have also been reported including
+infections,12,33,76 depression, mood changes, and psychosis
+requiring intervention5,72,76,81 as well as equipment issues
+such as lead fractures and dislodgements.12,54,81Authors of
+studies on GPI stimulation have also reported improvedmotor function and time spent in the on state
+12,21,29,38,42,47,55,82
+as well as an enhanced perceived quality of life.67,78Serious
+complications reported for bilateral GPI DBS include he-
+matomas,12,47infections,63,81and equipment issues.12Oh and
+colleagues52reported a hardware-related complication rate
+(including lead fractures, migrations, erosions, and infec -
+tions) of 25% for DBS, whereas authors of a long-term fol-
+low-up study on STN DBS found 5% of patients with
+dementia and/or hallucinations and 12% with apathy not
+responsive to increased dopaminergic therapy.34Although
+mortality rates have been low ( /H110211% in the 1st year post-
+procedure), the rate of serious complications reveals the
+need to systematically track, record, and compare adverseoutcomes according to the stimulation target.
+As evidenced by the increase in publications in the lastJNeurosurg 103 :956–967, 2005
+956Deep brain stimulation in Parkinson disease: a metaanalysis
+of patient outcomes
+FRANCES WEA VER ,PH.D., K ENNETH FOLLETT ,M.D., P H.D., K WAN HUR,PH.D.,
+DOLORES IPPOLITO ,M.P.H., ANDMATTHEW STERN ,M.D.
+Midwest Center for Health Services and Policy Research, Edward Hines Jr. VA Hospital, Hines, Illinois;
+VA Iowa City Health Care System and University of Iowa, Iowa City, Iowa; Cooperative Studies ProgramCoordinating Center, Edward Hines Jr. VA Hospital, Hines, Illinois; and Philadelphia VA MedicalCenter and University of Pennsylvania, Philadelphia, Pennsylvania
+Object. Deep brain stimulation (DBS) to treat advanced Parkinson disease (PD) has been focused on one of two anatom-
+ical targets: the subthalamic nucleus (STN) and the globus pallidus internus (GPI). Authors of more than 65 articles havereported on bilateral DBS outcomes. With one exception, these studies involved pre- and postintervention comparisons of
+asingle target. Despite the paucity of data directly comparing STN and GPI DBS, many clinicians already consider the
+STN to be the preferred target site. In this study the authors conducted a metaanalysis of the existing literature on patientoutcomes following DBS of the STN and the GPI.
+Methods. This metaanalysis includes 31 STN and 14 GPI studies. Motor function improved significantly following
+stimulation (54% in patients whose STN was targeted and 40% in those whose GPI was stimulated), with effect sizes (ESs)
+of 2.59 and 2.04, respectively. After controlling for participant and study characteristics, patients who had undergone ei-ther STN or GPI DBS experienced comparable improved motor function following surgery (p = 0.094). The perfor-mance of activities of daily living improved significantly in patients with either target (40%). Medication requirementswere significantly reduced following stimulation of the STN (ES = 1.51) but did not change when the GPI was stimulat-ed (ES = 
+/H110020.02).
+Conclusions. In this analysis the authors highlight the need for uniform, detailed reporting of comprehensive motor and
+nonmotor DBS outcomes at multiple time points and for a randomized trial of bilateral STN and GPI DBS. 
+KEYWORDS • Parkinson disease • deep brain stimulation • subthalamic nucleus •
+globus pallidus internus
+A
+J. Neurosurg. / Volume 103 / December, 2005Abbreviations used in this paper: ADL = activities of daily living;
+CI = confidence interval; DBS = deep brain stimulation; ES = effectsize; GPI = globus pallidus internus; PD = Parkinson disease; SD =
+standard deviation; STN = subthalamic nucleus; UPDRS = United
+Parkinson’s Disease Rating Scale.12_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 956several years, DBS for PD has gained widespread accept-
+ance. Data from an analysis of practice patterns confirm thatDBS is now the preferred surgical treatment for PD.
+15Sig-
+nificant questions regarding DBS remain, however, includ-ing which stimulation target site leads to better outcomes.It is not yet known whether certain patients or particularsymptoms respond better to stimulation of one target thananother. To our knowledge, in only one small study (10 pa-tients) have the authors randomly assigned patients to re-ceive bilateral GPI or STN stimulation and evaluated out-comes in a blinded fashion.
+9In this study improvements
+in motor function were documented regardless of the stim-ulation target. Levodopa intake decreased following DBS
+in the STN-targeted group but remained unchanged in the
+GPI-tar geted group. Given the small sample size, however,
+a larger trial is needed to determine whether these findings
+are robust.
+In lieu of a large randomized trial, we conducted a sys-
+tematic review of the work completed to date to quantifywhat has been learned about the outcomes of DBS for PD.In this metaanalysis we synthesized the results of publishedresearch on patient outcomes following bilateral DBS of theSTN and GPI targets in the brain.
+Clinical Material and Methods
+Literature Search and Article Selection
+Several strategies were undertaken to identify all pub-
+lished reports on outcomes of bilateral DBS of either theSTN or the GPI. We began with a MEDLINE search usingthe following MeSH terms: “Parkinson’s disease,” “deepbrain stimulation,” “subthalamic nucleus,” and “globus pal-lidum.” This search was supplemented by examining thebibliography published with a recent Food and Drug Ad-ministration report in which the literature on bilateral DBSof the STN and GPI was reviewed.
+75In addition, we re -
+viewed the references from articles identified in the afore-
+mentioned searches to include any additional papers relatedto outcomes of DBS that may have been missed.
+Inclusion criteria included the following factors: study
+patients had idiopathic PD, therapeutic intervention in-volved bilateral DBS of either the STN or the GPI, report-ed outcomes included UPDRS motor function scores of f
+medications at baseline and off medications/on stimulation
+at follow up, and follow-up assessment occurred at least 3months post-DBS. Thus, studies documenting only non -
+motor outcomes (for example, cognitive function) or surgi-
+cal parameters (such as microelectrode recording) were notconsidered in our review . We also excluded publications
+with motor function results that had already been publishedin another paper or in which DBS sur gery had been per -
+formed for another indication (for instance, essential trem-
+or), the electrode implantation site was neither the STN northe GPI or it was not bilateral, or the study patients had pre -
+viously under gone intracranial sur gery for PD. Each article
+considered was compared with a checklist of inclusion and
+exclusion criteria. Only articles meeting the inclusion crite -
+ria were retained for analysis.
+A data extraction table was developed to code the ar-
+ticles. This table included authors; journal title and yearof publication; country in which the study had been per-formed; percentage of male patients; average age of pa-tients; study design (single group pretest posttest, random-
+ized trial, or quasiexperiment); intervention site (STN orGPI); number of patients undergoing each intervention; du-ration of follow-up periods (in months); average baselineUPDRS motor score off medication, standard deviation,and standard error or range; and average follow-up UPDRSscore off medication/on stimulation, standard deviation, andstandard error or range. If the study also included the ADLsubscore of the UPDRS we reported the baseline and fol-low-up scores and the conditions in which these scores hadbeen obtained (for example, off medication or on stimula-tion). Finally, if the study included the average medicationdosage in levodopa equivalents at baseline and follow up,
+we recorded this information.
+Dependent Variables
+The primary outcome of interest in our metaanalysis is
+the UPDRS17motor score (Part III) in the of f-medica-
+tion/on-stimulation state. The motor subscale consists of
+14 items, with score totals ranging from 0 to 104;3higher
+scores are indicative of greater impairment. This subscaleenables assessments of facial expression, speech, tremors,rigidity, gait, posture, and bradykinesia and is scored basedon a trained assessor ’s observation of the patient. This mo-
+tor outcome score is the most commonly reported in DBS
+studies and reflects the ef fect of stimulation on patient mo -
+tor function without medication. Regarding the more re-
+cently published studies—that is, those from 2001 andthereafter—in which UPDRS motor scores were not report -
+ed, we attempted to contact the authors to obtain this infor-mation, a successful strategy in only three cases.
+30,39,74
+Other frequently reported outcomes of interest include
+the UPDRS ADL score (Part II) and medication require -
+ments based on levodopa equivalents before and after DBS.The UPDRS ADL are self-reported by the patient and fo-cus on activities such as walking, writing, dressing, andspeaking. The ADL scores can range from 0 (no functionalimpairment) to 52 (maximal functional impairment). The
+levodopa equivalent measure involves converting doses
+of antiparkinsonian medications into comparable units oflevodopa. Most authors refer to the convention of Pahwa, etal.,
+55who stated that 1 unit antiparkinsonian medication =
+100 mg standard levodopa = 125 mg sustained-release levo-dopa = 100 ml liquid levodopa = 1 mg per golide = 10 mg
+bromocriptine. These outcomes were examined only in the
+papers that also included UPDRS motor scores. In one case,we were able to obtain UPDRS ADL scores directly fromthe authors even though they had not been reported in thepaper.
+65Although we tried to reach some authors of earlier
+reports to obtain additional information, either we were un -
+able to reach these individuals or they no longer had the in -
+formation we needed. 
+Analysis of Data
+Effect size expresses in terms of SD units the magnitude
+of a treatment difference between two groups.25It allows for
+comparisons across studies and is commonly used in meta-analyses. In our study, the primary outcome variables wereconverted to ESs, which were measured using a standard-ized mean difference between pre- (baseline) and post-DBS(follow up) for each separate outcome for the STN and GPIstudies. To calculate ES, the pre- and post-DBS means and
+J. Neurosurg. / Volume 103 / December, 2005Deep brain stimulation in Parkinson disease
+95712_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 957some measure of variance (that is, SD, standard error, or
+values for tests of significance) were needed.22For studies
+with no variance information, SDs were estimated. The av-erage ratio of means to SDs was obtained from studies that
+had both means and SDs. Then, SDs were estimated by di-viding the means for studies with no variance by the aver-
+age ratio. To examine the impact of using estimated SDs,the overall ESs between including and excluding the stud -
+ies with estimated SDs were compared. A test for the ho-mogeneity of outcome variables was performed to addresswhether all studies shared the same ES. In cases in which
+results were not homogeneous, the overall mean ES for
+each outcome was obtained from a random-ef fects model.
+13
+To figure statistical significance and to assist in determining
+the clinical importance of ES, 95% CIs were calculated for
+each individual study and all studies combined. Possible sources of heterogeneity were explored by com-
+paring the mean ESs for subgroups of studies categorizedaccording to selected study level characteristics by using aformal random-effects metaregression analysis that includ-
+ed these characteristics as covariates. Subgroup analyseswere conducted for the STN and GPI target groups sepa-
+rately, and metaregressions were performed for the STNand GPI combined data. In the metaregression, the depen -
+dent variable was the ES for each outcome of interest, andthe independent variables were the mean age of the sample,percentage of male participants, study location (European
+compared with non-European), duration of follow up, study
+publication year , and study sample size. T o evaluate the rel-
+ative effectiveness of the anatomical target of stimulation
+(STN compared with GPI) on the UPDRS motor score, this
+target was included as a covariate in the model. All statisti-F. Weaver, et al.
+958 J. Neurosurg. / Volume 103 / December, 2005TABLE 1
+Literature review of bilateral STN DBS studies*
+Mean Mean Baseline Follow-Up
+No. of Patient Follow UPDRS Mo- UPDRS
+Authors & Year Study Origin Patients Age (yrs)† % Male Up (mos) tor Score† Motor Score†‡ % Change
+Limousin, et al., 1995 France 3 52 100 3 58.3 /H110067.6 20.3 /H1100616.2 65.2
+Krack, et al., 1997 France 15 60 /H110068 60 NA 63.0 /H1100615.0§ 28.0 /H1100615.0§ 55.6
+Limousin, et al., 1997 France 6 53 /H110064 67 NA 53 || 22 /H1100685 8
+Krack, et al., 199838France 8 51 /H1100610 63 6 57.5 /H1100614.5 17.1 /H110068.2 70.3
+Brown, et al., 1999 France & Spain 6 53 67 8.3 (mean) 63.3 /H1100611.3§ 21.7 /H110068.3§ 65.7
+Burchiel, et al., 1999 US 6 62.8 /H1100612 70** 12 49.0 /H1100612 27.4 || 44
+Figueiras-Méndez, et al., 1999 Spain 1 68 100 3 51.0 37.0 27.5Moro, et al., 1999†† Italy 7 57.4 /H110065.5 14 1, 3, 6, & 12 67.6 /H110069.9 43.5 /H1100611.5 35.7
+Pinter, et al., 1999 Austria 9 56.8 /H110069.6 67 3 60.0 /H1100614.3 27.8 /H110065.8 53.7
+Houeto, et al., 2000 France 23 53 /H110062 70 6 51.7 /H1100614.4 17.1‡‡ 66.9
+Molinuevo, et al., 2000 Spain 15 60.9 /H110066.8 67 6 49.6 /H1100614.0§ 16.9 /H110067.0§ 65.9
+Pillon, et al., 2000 France 48 55.7 /H110067.5 56 3 55.4 /H1100612.8 18.1 /H1100611.8 67.3
+15 53.5 /H110069.7 67 6 56.1 /H1100617.9 19.4 /H1100620.4 65.4
+Rodriguez-Oroz, et al., 2000 Spain 15 59.9 /H110067.03 80 3, 6, & 12 56 /H1100616.42 || 22.4|| 60
+Beric, et al., 2001 US 23 58 70 6 33 11 66.6Broggi, et al., 2001 Italy 17 59 /H110066.06 65 8.2 (mean) 52.07 /H1100617.49 32.93 /H1100612.99 36.2
+DBSPDSG, 2001 multiple countries 96 59 /H1100615.1 62 6 54.0 /H1100615.1 25.7 /H1100614.1 52.4
+Krause, et al., 2001 Germany 12 58.7 NA 3, 6, & 12 57.9 /H110064.6 34.6 /H110066.0§§ 40.2
+Lopiano, et al., 2001 Italy 20 61.2 60 3 & 12 58 25.7 55.7V olkmann, et al., 2001 Germany 16 60.2 /H110069.8 NA 6 56.4 /H1100611.62 18.6 /H1100614.12 37.8
+Figueiras-Méndez, et al., 2002 Spain 22 57 /H1100612 64 12 & 24 49 18 63.3
+Iansek, et al., 2002 Australia 10 |||| 54.1 /H1100612.6 60 6 & 12 29.5 /H1100613.9 18.20 /H1100610.94 38.3
+Oster gaard, et al., 2002 Denmark 26 59 /H110068 81 3 & 12 51.3 /H1100621.1 20.1 /H1100613.6 60.8
+Simuni, et al., 2002 US 12 58 /H1100611 83 3, 6, & 12 43.5 /H110063.6 25.5 /H110062.8 41.4
+Thobois, et al., 2002 France 18 56.9 /H110066 50 6 & 12 44.9 /H1100613.4 20.2 /H1100610 55
+Vesper, et al., 2002 Germany 38 55.6 68 1, 6, & 12 48.3 26.8 44.5
+Vingerhoets, et al., 2002 Switzerland 20 63 /H110068 70 3, 6, 12, & 24 48.8 /H1100614.6 27.1 /H1100610.9*** 44.5
+Bronte-Stewart, et al., 2003 US 19 59.4 /H110069.3 NA 6 & 12 40.4 /H1100611.7 8.1 /H110065.0 80
+Chen, et al., 2003 China 7 57.3 /H110068.8 86 6 65.7 /H1100621.7§ 32.8 /H1100620.1§ 53
+Kleiner-Fisman, et al., 2003 Canada 25 57.2 /H1100611.7 60 12 50.1 /H1100612.3 24.6 /H110067.3 50.9
+Varma, et al., 2003 United Kingdom 7 61.0 /H110068.1 100 6 74.29 /H1100610.13§§ 36.57 /H1100614.68§§ 61
+summary 565 57.8 66 6 (median) 54.3
+*All reported probability levels were significant at a value /H110210.05; authors of 14 studies did not provide probability values. Abbreviations: DBSPDSG =
+Deep-Brain Stimulation for Parkinson’s Disease Study Group; NA = not available.
+† Not all authors reported an SD.‡Assessment data used were obtained from the 6-month postintervention follow up or the follow up closest to 6 months postsur gery.
+§ Motor scores ranged from 0 to 108 (scores were rescaled in the calculation); otherwise, assume a range from 0 to 104.
+||Calculation based on other information available.
+** This study was a randomized trial; 70% of patients who underwent STN and GPI stimulation were male; the breakdown of sex by sur gical site was not
+provided.
+†† Six patients at the 6-month follow up.‡‡ Follow-up score calculated (reported 67% improvement).§§Information provided through email correspondence with author (one patient was lost to follow up).
+||||Fourteen patients received DBS, but follow-up data were only available in 10 cases.
+*** One patient did not complete the 6-month assessment.12_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 958cal analyses were done using STATA (version 8.2; Stata-
+Corp., L.P., College Station, TX).
+Results
+Description of Studies and Study Patients
+We initially identified 65 studies through September
+2003, with the first paper on bilateral DBS published in1995. (Note that some papers were counted more than once
+if the authors reported findings separately for STN and GPIcases [for example, Krack, et al.
+38]. In one study,56there
+were separate samples of cases in two dif ferent geograph-
+ic locations for both STN and GPI cases, resulting in four
+sets of findings). Of this total, 20 studies were exclud-ed: five did not include UPDRS motor scores pre- and
+post-DBS,
+10,62–64,71six consisted of already reported data on
+patients in another primary DBS study,2,35,41,49,73,80five had
+either only pretest59,60or only posttest UPDRS motor
+scores,4,20,69one had on-medication motor scores only,67one
+included uni- and bilateral cases combined,32and two in-
+volved only unilateral DBS on further inspection.23,83As a
+result, our analysis included 45 studies: 23 with STN tar gets
+only, six with GPI targets only, and eight with both STN andGPI targets, although results were reported separately for
+each target.
+The UPDRS motor scores at baseline and postsurgery
+as well as the characteristics of each study included in themetaanalysis are detailed in Tables 1 (STN) and 2 (GPI).
+The first report of bilateral DBS was published in 1995.
+46
+Most of the published studies had been conducted in six Eu-
+ropean countries, with fewer studies originating in the US,
+Canada, or elsewhere. Thirty papers and one published ab -
+stract on bilateral STN published through September 2003
+documented motor function outcomes in patients with PD.
+Burchiel and colleagues9performed the only random-
+ized trial in which STN and GPI targets were directly com-pared. For purposes of our metaanalysis, however, we re-
+port the findings on the site of surgery separately. All otherreports were pre- and postintervention studies. The mean
+sample size per study was 18 patients. The patients had a
+mean age of 57.8 years at the time of surgery, and 66% of
+those with an STN target were male. Because most studies(58%) included 6-month postsurgical outcomes, we exam-ined 6-month outcome data or those from the time period
+closest to 6 months after sur gery. If a 6-month follow up had
+not been conducted, we used data from the 3-month as -
+sessment (16%). In some cases 8-month (7%) or 12-month
+(9%) data only were available.
+There were 13 published reports on bilateral GPI DBS
+(Table 2). Again, most originated in European countries,and all were pre- and postintervention designs with samplesizes ranging from three to 38 patients (mean 10 patients).The mean age of patients was 55 years and 69% weremale. Only one GPI study has been published since 2001,
+47
+whereas one third (11 studies) of the STN reports were pub-
+lished between 2002 and 2003.
+J. Neurosurg. / Volume 103 / December, 2005Deep brain stimulation in Parkinson disease
+959TABLE 2
+Literature review of bilateral GPI DBS studies*
+Mean  Mean Baseline Follow-Up 
+No. of Patient Follow UPDRS UPDRS  
+Authors & Year Study Origin Patients Age (yrs) % Male Up (mos) Motor Score† Motor Score†‡ % Change
+Limousin, et al., 1997 France 6 50 83 NA 43§ 26 /H1100611 40
+Pahwa, et al., 1997 || US 3 57 100 3 48 /H1100612.77 15.3 /H1100611.78 68.1
+Ghika, et al., 1998 Swiss 6 55 NA 3, 6, 12, 15, 66.0 31.0 53.0
+18, & 24
+Krack, et al., 199838France 5 51 80 6 53.6 /H1100610.4 32.5 /H1100612.4 39.4
+Brown, et al., 1999** France & Spain 6 50.7 67 8.3 (mean) 54.2 /H110069.2 27.2 /H1100612.0 49.8
+Burchiel, et al., 1999 US 4 46.5 70 12 67.0 /H1100624 40.87§ 39
+Durif, et al., 1999†† France 6 64 33 6 36 /H110062 23 /H110065 36.1
+Kumar, et al., 2000 Canada, France, 22‡‡ 52.7 68 6 53.4 /H110063.3 37.1 /H110063.8 31
+& Spain
+Pillon, et al., 2000 France 8 52.5 75 3 55.4 /H110068.5 37.1 /H1100613.3 33.0
+5 55.2 60 6 41.6 /H1100614.1 27.0 /H1100612.5 35.1
+DBSPDSG, 2001 multiple 38 55.7 71 6 50.8 /H1100611.6 33.9 /H1100612.3 33.3
+countries
+Krause, et al., 2001§§ Germany 6 58.5 NA 6 43.8 /H110068.2 39.2 /H110064.9 10.5
+V olkmann, et al., 2001 Germany 11 56.6 NA 6 52.5 /H1100614.16 22.9 /H1100615.48 56.4
+Loher, et al., 2002 Switzerland & 10 |||| 64.6 50 3 & 12 63.4 /H1100617.4 40.3 /H1100610.3 36.4
+Germany
+summary 136 55.0 69 6 (median) 40.1
+* All reported probability levels were significant at a value /H110210.05, except in Durif, et al., 1999; six studies did not include probability values. 
+† Not all authors reported an SD.‡ Assessment data used were obtained from the 6-month postintervention follow up or the follow up closest to 6 months postsurgery.§ Calculated based on other information available; note that one patient did not complete the 6-month assessment.||Results for three patients with bilateral GPI only; measures were obtained during the on stimulation/on medication state.
+** Motor scores ranged from 0 to 108 (scores were rescaled in the calculation); otherwise, assume a range from 0 to 104.†† This study included one patient who underwent unilateral electrode implantation.‡‡ Demographic information is based on 22 patients; of these, 17 underwent bilateral and five underwent unilateral sur gery. Outcome data were obtained
+in the 17 bilateral cases only .
+§§ Information provided through email correspondence with author (one patient was lost to follow up).||||There were 16 cases total, of which 10 were bilateral DBS cases.12_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 959Motor Function According to the UPDRS
+As shown in Table 1, all authors documented improve-
+ment in motor function following STN DBS, with 50% re-porting outcomes at 6 months postintervention. The meanimprovement in motor function according to the UPDRSmotor score was 54.3%, a decrease from a mean baselinemotor score of 51.9 to 22.8 at the follow up. Calculated ESs
+and 95% CIs for each study and the overall mean ES arepresented in Fig. 1 
+upper . Note that the study by Figueiras-
+Méndez and colleagues18had only one patient and so was
+not included in the ES calculation. Effect sizes of the indi-
+vidual studies ranged from 0.9 to 5.58. The 95% confidence
+limits of the ESs did not include 0 except for one study. TheF. Weaver, et al.
+960 J. Neurosurg. / Volume 103 / December, 2005
+FIG. 1. Upper: Graph demonstrating the ESs and 95% CIs for each study and overall, based on the UPDRS motor
+function in the stimulation on/medication off state in patients who had undergone STN DBS. Lower: Graph depicting
+the ESs and 95% CIs for each study and overall, according to the UPDRS motor function score in the stimulation on/med-ication medication off state in patients who underwent GPI DBS. Krack(98) refers to Krack, et al., 1998
+38in all figures.12_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 960overall mean ES calculated from the random-effects mod-
+el was 2.59 (95% CI 2.23–2.91), which was significantlygreater than 0 (p 
+/H110210.001). The UPDRS motor scores
+decreased significantly after STN DBS, signifying im-proved motor function. These studies were not homogene-ous in terms of ES (Q = 92.8, df = 29, p 
+/H110210.001). The
+results of subgroup analyses to examine possible sources ofheterogeneity showed that there was no significant differ-ence in the ESs when comparing studies conducted in Eu-rope and those in other countries (2.53 compared with 2.77,respectively), studies with a mean patient age of 55 years oryounger and those with a mean patient age greater than 55years (2.62 compared with 2.6, respectively), studies with
+sample sizes of 10 or fewer patients and those with sample
+sizes greater than 10 patients (2.44 compared with 2.65, re -
+spectively), and studies published between 2001 and 2003
+and those published in 2000 or earlier (2.53 compared with2.74, respectively). The calculated ESs for studies that didnot include SDs and those that did were 2.9 and 2.48, re-spectively (the probability value was not significant).
+Similarly, Fig. 1 
+lower provides motor function data for
+individuals who underwent bilateral GPI stimulation. Six-
+month follow-up outcomes were reported for most cases.
+These reports documented a mean UPDRS motor score of52.2 at baseline and a mean score of 32.5 on follow up, as
+well as a 40% improvement in motor function in the on-stimulation/of f-medication state following GPI DBS (T able
+2). Individual ESs ranged from 0.68 to 4.58. There werethree studies in which the 95% confidence limits included0. The overall mean ES from the random-effects model was
+2.04 (95% CI 1.5–2.58), which indicated that the UPDRS
+motor scores significantly decreased following GPI DBS.
+Again, there was significant heterogeneity between the ESs(Q = 32.57, df = 13, p 
+/H110210.0021). Results of subgroup anal -
+yses for GPI DBS revealed that the dif ferences in the ESs
+between subgroups were more pronounced than the dif-
+ferences in the ESs for STN DBS subgroups. Nonetheless,
+there was no significant difference in the ESs when compar-
+ing the studies conducted in Europe and those in other coun -
+tries (2.07 compared with 1.77, respectively), studies with
+a mean patient age of 55 years or younger and those witha mean patient age of 55 years (2.48 compared with 1.57,
+respectively), studies with sample sizes of 10 or fewer pa -
+tients and those with samples greater than 10 patients (1.81compared with 2.57, respectively), and studies published
+between 2001 and 2003 and those published in 2000 or ear -
+lier (1.44 compared with 2.42, respectively). The calculated
+ESs for reports that included no SD and those with SDs
+were not statistically significant (2.2 compared with 2.01,respectively; probability level not significant).
+Patient (age and sex) and study characteristics (study
+location, duration of study follow up, publication year ofstudy, and sample size) were not significantly associated
+with the ES for the UPDRS motor score in the metaregres-sion analysis. The surgical target (STN or GPI) was notstatistically significant (p = 0.361) after adjusting for theaforementioned dichotomous independent variables (ex-
+cluding sex because five studies were missing this informa -
+tion). When the analysis was repeated including studies
+with sex information (37 studies) and adjusting for all pa-tient and study characteristics, the surgical target was notsignificant (p = 0.743), indicating that patients in whom ei-
+ther target was used had comparable improvement in motorfunction following DBS. When STN and GPI sites were
+compared without adjusting for any covariates, greater im-provement was associated with the STN than the GPI, butthis result was not statistically significant (p = 0.09).
+Because of the progressive nature of PD, we were also in-
+terested in examining the long-term effects of DBS. Un-fortunately, only 11 STN and three GPI studies included
+12-month or longer outcomes; therefore, we examined all
+studies with 12-month outcomes and those with 6-month
+outcomes if the 12-month results were not available. This
+approach resulted in 26 STN studies with a mean motor
+function improvement of 56.5% and 11 GPI studies with a
+mean functional improvement of 39.8%.
+3The overall ESs
+(95% CIs) for these studies of STN and GPI targets were
+2.63 (2.29–2.97) and 2.21 (1.47–2.95), respectively. Results
+of a metaregression analysis adjusting for patient and study
+characteristics (that is, patient age and sex, study origin,
+year of study, and sample size) revealed that the overall ESs
+between STN and GPI surgical sites were not statistically
+different, indicating that stimulation of either of these sites
+was equally effective in improving motor function. As in
+the earlier analyses, the ESs between studies were not ho-mogeneous for either STN or GPI reports (p 
+/H110210.001 for
+each).
+Activities of Daily Living According to the UPDRS
+Authors of 50% of the STN DBS studies reported
+UPDRS ADL scores before and after stimulation in the off-medication state, as did 57% of the authors of the GPI DBSstudies. Ef fect sizes and their 95% CIs for the individual
+studies are presented in Fig. 2. In all studies, the ESs for
+STN DBS were positive and none of the 95% confidencelimits included 0. The overall mean ES from the random-ef-
+fects model was 1.81 (95% CI 1.62–2), indicating signifi-
+cant improvement in ADL following STN DBS. Similarly,there was only one negative ES for GPI DBS. The overall
+mean ES from the random-effects model of GPI studies was
+1.48 (95% CI 1.14–1.81), indicating significantly improvedADL functioning after DBS. There was significant hetero-
+geneity for both STN and GPI studies (p 
+/H110210.001 for each).
+Results of the subgroup analyses indicated that the ES forstudies published in 2000 or earlier was greater than the ES
+for studies published between 2001 and 2003 (4.03 com-
+pared with 1.82, respectively, for STN and 3.89 comparedwith 1.1, respectively, for GPI). The ES for both STN andGPI studies with a mean patient age of 55 years or youngerwas greater than that for studies with a mean patient age
+greater than 55 years. In the metaregression analysis (ex-
+cluding studies with missing sex information), the ESs forthe ADL score were significantly smaller for studies withsample sizes of 10 or fewer patients, those published morerecently (2001–2003), and those with a mean patient age
+greater than 55 years; the remaining independent variables
+that characterize these studies were not significantly asso -
+ciated with ADL. The site of sur gery did not dif ferentially
+affect improvement in ADL functioning in the off-medica-
+tion state, with ADL scores improving by a mean of 40%
+over baseline for both surgical sites. The mean ADL scores
+in the off-medication state at baseline and follow up were27.9 and 14.8 for STN DBS studies and 28 and 17.2, re -
+spectively , for GPI DBS studies.
+Authors of several studies (11 STN and five GPI) also
+J. Neurosurg. / Volume 103 / December, 2005Deep brain stimulation in Parkinson disease
+96112_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 961reported UPDRS ADL scores obtained while the patient
+was on medication at baseline and follow up. Data from theSTN studies revealed a decrease from a mean score of 11.3
+at baseline to 8.5 at the follow up. Nonetheless, the ES
+was small (0.61) and the 95% confidence limits for morethan half of the studies included 0, indicating that improve-
+ment in ADL functioning was not statistically significant. A
+change in the mean ADL scores from 19.4 to 12.4 in the on-medication/on-stimulation state was noted in the GPI stud-
+ies. These studies had a mean ES equal to 1.6 and only oneof the five studies had a confidence limit that included 0.
+Medical Therapy and Levodopa Equivalents
+Approximately half of the studies contained information
+on antiparkinsonian medication use. Authors of these analy-F. Weaver, et al.
+962 J. Neurosurg. / Volume 103 / December, 2005
+FIG. 2. Upper: Graph illustrating ESs and 95% CIs for each study and overall, for STN DBS, according to the UPDRS
+ADL score in the stimulation on/medication off state in patients who had undergone STN DBS. Lower: Graph exhibit-
+ing ESs and 95% CIs for each study and overall, based on the UPDRS ADL score in the stimulation on/medication offstate in patients who had undergone GPI DBS.12_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 962ses converted common PD medication dosages to compa -
+rable units called levodopa equivalents.55Effect sizes and
+their 95% CIs for the individual studies are presented in Fig.
+3. Effect sizes for STN DBS ranged from 0.39 to 6.83, with
+an overall mean ES of 1.51 (95% CI 1.15–1.87), indicatinga significant reduction in medication use following DBS.
+On average, authors of these studies reported a 52% reduc-
+tion in daily medication dosage. Effect sizes for GPI DBSranged from 
+/H110020.6 to 0.4, and the mean ES was /H110020.02 (95%
+CI /H110020.29–0.26). The ES was positive in four studies (50%)and all 95% confidence limits included 0, which indicated
+that in none of the studies was medication use significantlyreduced following GPI DBS. There was significant hetero -
+geneity of ESs for STN DBS (p 
+/H110210.001) but not for GPI
+DBS (p = 0.948).
+Discussion
+Data from an analysis of several dozen studies of bilater-
+al STN and GPI DBS for PD indicated that motor function
+J. Neurosurg. / Volume 103 / December, 2005Deep brain stimulation in Parkinson disease
+963
+FIG. 3. Upper: Graph demonstrating ESs and 95% CIs for each study and overall, according to levodopa equivalents
+in patients who underwent STN DBS. Lower: Graph revealing ESs and 95% CIs for each study and overall, according
+to levodopa equivalents in patients who underwent STN DBS.12_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 963based on the UPDRS motor subscale improves significant-
+ly after DBS, regardless of the stimulation target. The ben-eficial effect was greater, although not statistically signif-icantly so, in STN compared with GPI cases. Medicationdosages were reduced by 50% following STN DBS but didnot change in patients who had undergone GPI DBS. Ac-tivities of daily living functioning improved equally in bothgroups in the off-medication state; GPI DBS (but not STNDBS) also led to improvement in ADL in the on-medicationstate.
+The results presented in the current metaanalysis should
+be interpreted cautiously. Only one study was a randomized
+trial and numerous factors limited our ability directly to
+compare outcomes according to the anatomical target ofstimulation. Among these factors are differences in sample
+sizes, enrollment criteria, and selection criteria for DBS at
+one site as opposed to the other (for example, physician and
+patient preferences or predominant symptom). Physician
+experience
+3and patient expectations58may have a signif-
+icant impact on outcomes and cannot be assessed in theexisting literature. Other factors including targeting tech-
+niques, final location of implanted electrodes, and the extentto which stimulation is fine-tuned after DBS can also affectoutcomes. This information is neither reported nor easilysynthesized when available. Generalization of our findings
+to the general PD population may be limited, given that themean age of patients reported in the literature (~ 56 years)
+and the age at onset of the disease (62.4 years) dif fer from
+the average age of the general PD population.
+70Neverthe -
+less, the findings are quite robust; when we excluded cer-tain studies based on sample size, year of study publication,study origin, or duration of follow up, the results remainedrelatively stable.
+A differential effect of the stimulation target was found
+when medication requirements were examined. Medica-
+tion requirements decreased in all studies following STN
+DBS but not following bilateral GPI DBS. W e do not know
+whether STN DBS and GPI DBS have differential effects
+on medication requirements or whether the difference is
+an artifact resulting from assumptions about medicationneeds following stimulation at these sites. In general, STNDBS allows reduced medication without adversely affect-
+ing motor function. Furthermore, STN DBS may exacer-
+bate dyskinesias, and reduction of dyskinesias following
+this therapy is dependent on a reduction in PD medications.
+In contrast, GPI DBS may have a direct antidyskinetic ef -
+fect that is not dependent on a reduction in medications,
+and many providers do not attempt to reduce medication in
+this group.
+79Whether medications can be reduced follow-
+ing GPI stimulation without negative consequences has notbeen studied, nor have differences in medication require-
+ments after STN and GPI DBS been compared in a prospec -
+tive, blinded fashion.
+Mounting evidence suggests that medication withdraw-
+al after surgery for PD may not be desirable in all patients.
+The withdrawal of medication after surgery may exacerbate
+nonmotor symptoms, especially neuropsychological dys-
+function such as af fective and personality disorders.
+28,34,36,81
+In some patients, adverse ef fects of STN DBS on nonmotor
+symptoms can negate improvement in motor symptoms.
+Reinstitution of medical therapy can correct these problemsin some patients.
+16,34In light of these observations, data indi-
+cating better ADL and disability outcomes in the on-med-ication state in patients undergoing GPI DBS, compared
+with STN DBS, are interesting. Our data revealed that pa-tients undergoing GPI and STN DBS had improvement ofADLs in the off-medication state, but only patients who had
+undergone GPI DBS showed improvement in ADLs while
+in the on-medication state as well. Burchiel and colleagues
+9
+reported that medical therapy might have a synergistic ef-
+fect with GPI but not with STN DBS. The Deep-BrainStimulation for Parkinson’s Disease Study Group
+12reported
+disability scores (rated separately by physicians and pa-tients) before and after DBS for treatment of PD. The de-gree of improvement in disability was greater in patients
+who had undergone GPI DBS than in those who had under-
+gone STN DBS (the degree of significance was not indicat-ed). The better ADL and disability scores in patients whounderwent GPI DBS support the presence of a synergisticeffect between medical therapy and GPI DBS. Perhaps this
+result occurs through better control of nonmotor symptomsby continued medication therapy in the patients treated us-
+ing GPI DBS.
+In this metaanalysis we used the UPDRS motor score as
+its primary measure for a comparison between STN DBS
+and GPI DBS because this measure is most commonly re-
+ported in the published literature pertaining to the surgicaltreatment of PD. Objective motor function as scored using
+the UPDRS is relatively easy for physicians to assess butmay not be the outcome of greatest functional significanceto patients. Other patient and physician-related outcomesthat can influence the superiority of DBS at one site com-pared with another include time in the on state withoutdyskinesias, functional disability and ADLs, complicationsof therapy , mood, mentation, and complexity of patient
+care. Whether the relative superiority of STN DBS in im-proving functional (UPDRS) motor scores is sufficient inand of itself to place STN DBS at the forefront of surgicaltherapy for PD remains unsettled. The better UPDRS mo-
+tor scores achieved through STN DBS must be balanced
+by the postprocedural potential for increased cognitive dys-
+function
+26and greater frequency of mood changes com -
+pared with those in patients who undergo GPI DBS.53,79
+Complications and adverse events of DBS are also im-
+portant to consider in a comparison of STN and GPI stimu -
+lation but were not examined in this metaanalysis. It was not
+possible to synthesize these findings across studies because
+not all authors reported adverse events, definitions of any
+reported adverse events were not uniform across studies,and it was not always possible to distinguish among stim-ulation effects (modifiable), transient effects, and adverse
+events that resulted in permanent changes. 
+Limitations of metaanalyses pertaining to surgery for PD
+have been described by Bakay.
+3Chief among these limita-
+tions is the adverse impact of including poor -quality, non-
+uniform data in the metaanalysis. Our review of the exist-ing literature reveals significant variability in the quality ofpublished reports. We have tried to minimize the inherent
+limitations of metaanalyses through careful selection and
+evaluation of published reports detailing outcomes of STN
+and GPI DBS. Only those reports that met our strict inclu -
+sion criteria were incorporated into the analysis. Some re -
+ports may have included patients whose data were also de-
+tailed in other publications, but this duplication was notalways clear. We therefore attempted to identify and use
+data only from the most recent, most relevant, and/or mostF. Weaver, et al.
+964 J. Neurosurg. / Volume 103 / December, 200512_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 964complete publication. Additionally, in several studies the
+sample size changed between the baseline and follow-upassessments and it was not always clear on what sample theanalysis had been conducted. Although most authors only
+examined outcomes at a single time point (for example, 6
+months postintervention), a few reported outcomes at mul-
+tiple points (for example, 1, 3, and 12 months post-DBS).
+We selected the time closest to 6 months postsurgery forall studies to have a more uniform assessment. In fact, 12-
+month data in some studies showed that the effect of DBSon motor function is greater than that found in assessmentscloser to the time of surgery (perhaps reflecting fine-tuning
+of medications and stimulation over time). Furthermore, we
+included three studies in which the authors did not spe-cifically report when follow up had been conducted. Whenanalyses were redone limiting studies to those with 6- or,preferably, 12-month outcomes, the results did not change.
+Finally, although we excluded studies that combined unilat-eral and bilateral cases if the data were not presented sepa-
+rately, we did include one paper in which one patient had re-
+ceived a unilateral implant and the rest of the sample hadreceived bilateral implants.
+14We could not control some
+factors that directly affect surgical outcomes, such as physi-
+cian experience, lack of blinded assessments, targeting tech-niques, location of implanted electrodes, and postoperativestimulation management.
+Subthalamic nucleus DBS has gained significant popu-
+larity and, based on improvement in motor function and de -
+creased medication requirements, the STN is considered thepreferred site of bilateral stimulation by most PD specialtycenters. Data from our analysis indicates that motor func -
+tion improves equally in the GPI-targeted cases, while med-ication needs do not change. Additional important questionsabout DBS tar get sites remain unanswered. What are the
+effects of the stimulation target site on other outcomes suchas cognitive and psychosocial functioning, speech, balance,gait, and quality of life? Do patients value improvement insome symptoms more than others? Are there dif ferential
+costs and is cost-ef fectiveness dependent on the target site?
+Are there differential surgical risks and management com-
+plexities? These issues are critically important to the field:DBS is an expensive therapy , its use requires a long-term
+commitment on the part of patients as well as physicians,and there are many potential candidates for the procedure.
+Conclusions
+A review of the published literature and the results of our
+metaanalysis reveal the need for a large randomized con-trolled trial of STN and GPI DBS to evaluate the relative ef-fectiveness of stimulation targets based on multiple patientoutcomes at multiple time points. Within the context of alarge randomized trial, patient factors such as age, sex, andrace and disease factors such as the predominant symptom(for example, tremor, dyskinesia, or postural instability) thatmay differentially affect outcomes of DBS can be distin-guished. Long-term effects (that is, those present 
+/H110221 year
+postsurgery) of DBS on patient functioning should also beconsidered. In all likelihood, certain types of patients and/orparticular disease symptoms may respond better to stimula-tion at one target than another, but we cannot determine thedifference based on the existing literature. Therapy-specificfactors that could influence target selection for DBS might
+also be identified in a large-scale trial, for instance, inci-dence and severity of surgical complications, stimulation-related side effects, and management complexity. Given thepromise of DBS for long-term management of advancedPD, clinicians and patients should make treatment decisionsbased on evidence from well-designed trials that minimizebias and provide valid findings to inform clinical practice.
+Acknowledgments
+We thank Todd Lee, Ph.D., and William Henderson, Ph.D., for
+their reviews of earlier versions of this paper.
+References
+1. Anonymous: Management of Parkinson’s disease: an evidence-
+based review. Mov Disord 17 (Suppl 4): S1–S166, 2002
+2. Ardouin C, Pillon B, Peiffer E, Bejjani P, Limousin P, Damier P,
+et al: Bilateral subthalamic or pallidal stimulation for Parkinson’sdisease affects neither memory nor executive functions: a consec-
+utive series of 62 patients. 
+Ann Neurol 46: 217–223, 1999
+3. Bakay R: Metaanalysis, pallidotomy, and microelectrodes. J Neu-
+rosurg 97: 1253–1256, 2002 (Letter)
+4. Bejjani BP, Gervais D, Arnulf I, Papadopoulos S, Demeret S, Bon-
+net AM, et al: Axial parkinsonian symptoms can be improved: the
+role of levodopa and bilateral subthalamic stimulation. J Neurol
+Neurosurg Psychiatry 68: 595–600, 2000
+5.Beric A, Kelly P, Sterio D, Rezai A, Mogilner AY, Zonenshayn
+M: Six-month clinical outcome of bilateral subthalamic deep
+brain stimulation in Parkinson’s disease. Stereotact Funct Neu-
+rosurg 77: 146, 2001
+6.Broggi G, Franzini A, Ferroli P, Servello D, D’Incerti L, Genitrini
+S, et al: Effect of bilateral subthalamic electrical stimulation inParkinson’s disease. 
+Surg Neurol 56: 89–96, 2001
+7.Bronte-Stewart H, Courtney T, McGuire K, Shaw H, Fujikami G,
+Heit G: Bilateral subthalamic nucleus deep brain stimulation (B-STN DBS) changes the expected course of advanced Parkinson’sdisease (PD). American Academy of Neurology 55th Annual
+Meeting, 2003. 
+Neurology 60 (Suppl 1): A121, 2003
+8. Brown RG, Dowsey PL, Brown P, Jahanshahi M, Pollak P, Bena-
+bid AL, et al: Impact of deep brain stimulation on upper limb aki-nesia in Parkinson’s disease. 
+Ann Neurol 45: 473–488, 1999
+9. Burchiel KJ, Anderson VC, Favre J, Hammerstad JP: Comparison
+of pallidal and subthalamic nucleus deep brain stimulation for ad-vanced Parkinson’s disease: results of a randomized, blinded pilot
+study. 
+Neurosurgery 45: 1375–1384, 1999
+10. Capus L, Melatini A, Zorzon M, Torre P, Carraro N, Moretti D,
+et al: Chronic bilateral electrical stimulation of the subthalamic
+nucleus for the treatment of advanced Parkinson’s disease. Neu-
+rol Sci 22: 57–58, 2001
+11. Chen CC, Lee ST, Wu T, Chen CJ, Chen MC, Lu CS: Short-term
+effect of bilateral subthalamic stimulation for advanced Parkin -
+son’s disease. Chang Gung Med J 26: 344–351, 2003
+12. Deep-Brain Stimulation for Parkinson’s Disease Study Group:
+Deep-brain stimulation of the subthalamic nucleus or the pars in -
+terna of the globus pallidus in Parkinson’s disease. N Engl J Med
+345:956–963, 2001
+13.DerSimonian R, Laird N: Meta-analysis in clinical trials. Control
+Clin Trials 7: 177–188, 1986
+14. Durif F, Lemaire J, Debilly B, Dordain G: Acute and chronic ef-
+fects of anteromedial globus pallidus stimulation in Parkinson’s
+disease. J Neurol Neurosurg Psychiatry 67: 315–322, 1999
+15. Eskandar EN, Flaherty A, Cosgrove GR, Shinobu LA, Barker FG
+II: Surgery for Parkinson disease in the United States, 1996 to2000: practice patterns, short-term outcomes, and hospital charges
+in a nationwide sample. 
+J Neurosurg 99: 863–871, 2003
+J. Neurosurg. / Volume 103 / December, 2005Deep brain stimulation in Parkinson disease
+96512_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 96516. Esselink RA, de Bie RM, de Haan RJ, Lenders MW, Nijssen PC,
+Staal MJ, et al: Unilateral pallidotomy versus bilateral subthalam-
+ic nucleus stimulation in PD: a randomized trial. Neurology 62:
+201–207, 2004
+17. Fahn S, Elton RL: Unified Parkinson’s Disease Rating Scale, in
+Fahn S, Marsden CD, Goldstein M (eds): Recent Developments
+in Parkinson’s Disease, ed 2. New York: Macmillan, 1987, pp
+153–163
+18. Figueiras-Méndez R, Marín-Zarza F, Molina JA, Jiménez-Ji-
+ménez FJ, Ortí-Pareja M, Magariños C, et al: Subthalamic nucle-
+us stimulation improves directly levodopa induced dyskinesias
+in Parkinson’s disease. J Neurol Neurosurg Psychiatry 66:
+549–550, 1999
+19. Figueiras-Méndez R, Regidor I, Riva-Meana C, Magariños-As-
+cone CM: Further supporting evidence of beneficial subthalamicstimulation in Parkinson’s patients. 
+Neurology 58: 469–470,
+2002
+20. Fukuda M, Ghilardi MF, Carbon M, Dhawan V, Ma Y, Feigin A,
+et al: Pallidal stimulation for parkinsonism: improved brain acti-
+vation during sequence learning. Ann Neurol 52: 144–152, 2002
+21. Ghika J, Villemure JG, Fankhauser H, Favre J, Assal G, Ghika-
+Schmid F: Efficiency and safety of bilateral contemporaneous pal-
+lidal stimulation (deep brain stimulation) in levodopa-responsive
+patients with Parkinson’s disease with severe motor fluctuations:a 2-year follow-up review. 
+J Neurosurg 89: 713–718, 1998
+22. Glass GV, McGaw B, Smith ML: Meta-Analysis in Social Re-
+search. Beverly Hills: SAGE Publications, 1981
+23. Gross C, Rougier A, Guehl D, Boraud T, Julien J, Bioulac B:
+High-frequency stimulation of the globus pallidus internalis inParkinson’s disease: a study of seven cases. 
+J Neurosurg 87:
+491–498, 1997
+24.Guridi J, Lozano AM: A brief history of pallidotomy. Neurosur -
+gery 41: 1169–1183, 1997
+25.Hedges LV, Olkin I: Statistical Methods for Meta-Analysis. San
+Diego: Academic Press, 1985
+26.Hershey T, Revilla FJ, Wernle A, Schneider Gibson P, Dowling
+JL, Perlmutter JS: STN stimulation-induced impairment in cogni -
+tive control in PD. Society for Neuroscience meetings: New Or-
+leans, Nov. 12, 2003
+27. Houeto JL, Damier P, Bejjani PB, Staedler C, Bonnet AM, Arnulf
+I, et al: Subthalamic stimulation in Parkinson disease: a multidis -
+ciplinary approach. Arch Neurol 57: 461–465, 2000
+28. Houeto JL, Mesnage V, Mallet L, Pillon B, Gargiulo M, du Mon-
+cel ST, et al: Behavioural disorders, Parkinson’s disease, and
+subthalamic stimulation. J Neurol Neurosurg Psychiatry 72:
+701–707, 2002
+29. Iacono RP, Lonser RR, Maeda G, Kuniyoshi S, Warner D, Man-
+dybur G, et al: Chronic anterior pallidal stimulation for Parkin -
+son’s disease. Acta Neurochir (Wien) 137: 106–112, 1995
+30.Iansek R, Rosenfeld JV, Huxham FE: Deep brain stimulation of
+the subthalamic nucleus in Parkinson’s disease. Med J Aust 177:
+142–146, 2002
+31. Just H, Ostergaard K: Health-related quality of life in patients with
+advanced Parkinson’s disease treated with deep brain stimulation
+of the subthalamic nuclei. Mov Disord 17: 539–545, 2002
+32. Katayama Y, Kasai M, Oshima H, Fukaya C, Yamamoto T, Mizu-
+tani T: Double blinded evaluation of the effects of pallidal and sub-thalamic nucleus stimulation on daytime activity in advanced Par-
+kinson’s disease. 
+Parkinsonism Relat Disord 7: 35–40, 2000
+33.Kleiner-Fisman G, Fisman DN, Sime E, Saint-Cyr JA, Lozano
+AM, Lang AE: Long-term follow up of bilateral deep brain stim -
+ulation of the subthalamic nucleus in patients with advanced Par -
+kinson disease. J Neurosurg 99: 489–495, 2003
+34. Krack P, Batir A, Van Blercom N, Chabardes S, Fraix V, Ardouin
+C, et al: Five-year follow-up of bilateral stimulation of the subtha-
+lamic nucleus in advanced Parkinson’s disease. N Engl J Med
+349:1925–1934, 2003
+35. Krack P, Benazzouz A, Pollak P, Limousin P, Piallat B, Hoffmann
+D, et al: Treatment of tremor in Parkinson’s disease by subthala-
+mic nucleus stimulation. Mov Disord 13: 907–914, 199836. Krack P, Fraix V, Mendes A, Benabid AL, Pollack P: Postoper-
+ative management of subthalamic nucleus stimulation for Parkin-
+son’s disease. Mov Disord 17 (3 Suppl): S188–S197, 2002
+37. Krack P, Pollak P, Limousin P, Benazzouz A, Benabid AL: Stimu-
+lation of subthalamic nucleus alleviates tremor in Parkinson’s dis-
+ease. Lancet 350: 1675, 1997
+38. Krack P, Pollak P, Limousin P, Hoffmann D, Xie J, Benazzouz A,
+et al: Subthalamic nucleus or internal pallidal stimulation in youngonset Parkinson’s disease. 
+Brain 121: 451–457, 1998
+39. Krause M, Fogel W, Heck A, Hacke W, Bonsanto M, Trenk-
+walder C, et al: Deep brain stimulation for the treatment of Parkin-
+son’s disease: subthalamic nucleus versus globus pallidus inter-
+nus. J Neurol Neurosurg Psychiatry 70: 464–470, 2001
+40. Kumar R, Lang AE, Rodriguez-Oroz MC, Lozano AM, Limousin
+P, Pollack P, et al: Deep brain stimulation of the globus pallidus
+pars interna in advanced Parkinson’s disease. Neurology 55 (12
+Suppl 6): S34–S39, 2000
+41. Kumar R, Lozano AM, Kim YJ, Hutchison WD, Sime E, Halket
+E, et al: Double-blind evaluation of subthalamic nucleus deep
+brain stimulation in advanced Parkinson’s disease. Neurology 51:
+850–855, 1998
+42. Kumar R, Lozano AM, Montgomery E, Lang AE: Pallidotomy
+and deep brain stimulation of the pallidum and subthalamic nucle-
+us in advanced Parkinson’s disease. Mov Disord 13 (Suppl 1):
+73–82, 1998
+43. Laitinen LV, Bergenheim AT, Hariz MI: Leksell’s posteroventral
+pallidotomy in the treatment of Parkinson’s disease. J Neurosurg
+76:53–61, 1992
+44. Lang AE, Lozano AM, Montgomery E, Duff J, Tasker R, Hutch-
+inson W: Posteroventral medial pallidotomy in advanced Parkin-son’s disease. 
+N Engl J Med 337: 1036–1042, 1997
+45. Limousin P, Greene J, Pollak P, Rothwell J, Benabid AL, Fracko-
+wiak R: Changes in cerebral activity pattern due to subthalamic
+nucleus or internal pallidum stimulation in Parkinson’s disease.
+Ann Neurol 42: 283–291, 1997
+46.Limousin P, Pollak P, Benazzouz A, Hoffmann D, Le Bas JF,
+Broussolle E, et al: Effect on Parkinsonian signs and symptoms
+of bilateral subthalamic nucleus stimulation. Lancet 345: 91–95,
+1995
+47. Loher TJ, Burgunder JM, Pohle T, Weber S, Sommerhalder R,
+Krauss JK: Long-term pallidal deep brain stimulation in patients
+with advanced Parkinson disease: 1-year follow-up study. J Neu-
+rosurg 96: 844–853, 2002
+48. Lopiano L, Rizzone M, Perozzo P, Tavella A, Torre E, Lanotte M,
+et al: Deep brain stimulation of the subthalamic nucleus: selection
+of patients and clinical results. Neurol Sci 22: 67–68, 2001
+49. Martínez-Martín P, Valldeoriola F, Tolosa E, Pilleri M, Moli-
+nuevo JL, Rumiá J, et al: Bilateral subthalamic nucleus stimula -
+tion and quality of life in advanced Parkinson’s disease. Mov Dis-
+ord 17: 372–377, 2002
+50. Molinuevo JL, Valldeoriola F, Tolosa E, Rumiá J, Valls-Solé J,
+Roldán H, et al: Levodopa withdrawal after bilateral subthalamic
+nucleus stimulation in advanced Parkinson disease. Arch Neurol
+57:983–988, 2000
+51. Moro E, Scerrati M, Romito MA, Roselli R, Tonali P, Albanese
+A: Chronic subthalamic nucleus stimulation reduces medication
+requirements in Parkinson’s disease. Neurology 53: 85–90, 1999
+52. Oh MY, Abosch A, Kim SH, Lang AE, Lozano AM: Long-term
+hardware-related complications of deep brain stimulation. Neuro-
+surgery 50: 1268–1276, 2002
+53.Okun MS, Green J, Saben R, Gross R, Foote KE, Vitek JL: Mood
+changes with deep brain stimulation of STN and GPi: results ofa pilot study. 
+J Neurol Neurosurg Psychiatry 74: 1584–1586,
+2003
+54. Ostergaard K, Sunde N, Dupont E: Effects of bilateral stimulation
+of the subthalamic nucleus in patients with severe Parkinson’s dis -
+ease and motor fluctuations. Mov Disord 17: 693–700, 2002
+55. Pahwa R, Wilkinson S, Smith D, Lyons K, Miyawaki E, Koller
+WC: High-frequency stimulation of the globus pallidus for the
+treatment of Parkinson’s disease. Neurology 49: 249–253, 1997F. Weaver, et al.
+966 J. Neurosurg. / Volume 103 / December, 200512_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 96656. Pillon B, Ardouin C, Damier P, Krack P, Houeto JL, Klinger H, et
+al: Neuropsychological changes between “off” and “on” STN or
+GPi stimulation in Parkinson’s disease. Neurology 55: 411–418,
+2000
+57. Pinter MM, Alesch F, Murg M, Seiwald M, Helscher RJ, Binder
+H: Deep brain stimulation of the subthalamic nucleus for control
+of extrapyramidal features in advanced idiopathic Parkinson’s dis-
+ease: one year follow-up. J Neural Transm 106: 693–709, 1999
+58. Pollo A, Torre E, Lopiano L, Rizzone M, Lanotte M, Cavan-
+na A, et al: Expectation modulates the response to subthalamic
+nucleus stimulation in Parkinsonian patients. Neuroreport 13:
+1383–1386, 2002
+59. Rizzone M, Lanotte M, Bergamasco B, Tavella A, Torre E, Fac-
+cani G, et al: Deep brain stimulation of the subthalamic nucleus in
+Parkinson’s disease: effects of variation in stimulation parameters.
+J Neurol Neurosurg Psychiatry 71: 215–219, 2001
+60. Rodriguez MC, Guridi OJ, Alvarez L, Mewes K, Macias R, Vitek
+J, et al: The subthalamic nucleus and tremor in Parkinson’s dis-
+ease. Mov Disord 13 (Suppl 3): 111–118, 1998
+61. Rodriguez-Oroz MC, Gorospe A, Guridi J, Ramos E, Linazasoro
+G, Rodriguez-Palmero M, et al: Bilateral deep brain stimulationof the subthalamic nucleus in Parkinson’s disease. 
+Neurology 55
+(Suppl 6): S45–S51, 2000
+62. Schuurman PR, Bosch DA, Bossuyt PM, Bonsel GJ, van Somer-
+en EJ, de Bie RM, et al: A comparison of continuous thalamicstimulation and thalamotomy for suppression of severe tremor. 
+N
+Engl J Med 342: 461–468, 2000
+63. Scotto di Luzio AE, Ammannati F, Marini P, Sorbi S, Mennonna
+P: Which target for DBS in Parkinson’s disease? Subthalamic nu -
+cleus versus globus pallidus internus. Neurol Sci 22: 87–88, 2001
+64. Siegfried J, Taub E, Wellis GN: Long-term electrostimulation of
+the ventroposterolateral pallidum in the treatment of Parkinson’s
+disease. Adv Neurol 80: 623–626, 1999
+65. Simuni T, Jaggi JL, Mulholland H, Hurtig HI, Colcher A, Sider-
+owf A, et al: Bilateral stimulation of the subthalamic nucleus in
+patients with Parkinson disease: a study of efficacy and safety. J
+Neurosurg 96: 666–672, 2002
+66. Speelman JD, Bosch DA: Resurgence of functional neurosurgery
+for Parkinson’s disease: a historical perspective. Mov Disord 13:
+582–588, 1998
+67. Straits-Troster K, Fields JA, Wilkinson SB, Pahwa R, Lyons KE,
+Koller WC, et al: Health-related quality of life in Parkinson’s dis-
+ease after pallidotomy and deep brain stimulation. Brain Cogn
+42:399–416, 2000
+68. Taha JM, Favre J, Burchiel KJ: Bilateral pallidotomy for the treat-
+ment of Parkinson’s disease, in Krauss JK, Grossman RG, Janko -
+vic J (eds): Pallidal Surgery for the Treatment of Parkinson’s
+Disease and Movement Disorders. Philadelphia: Lippincott-Ra -
+ven, 1998, pp 173–178
+69. Tamma F, Rampini P, Egidi M, Caputo E, Locatelli M, Pesenti A,
+et al: Deep brain stimulation for Parkinson’s disease: the experi -
+ence of the Policlinico-San Paolo Group In Milan. Neurol Sci 24:
+S41–S42, 2003
+70.Tanner CM, Goldman SM: Epidemiology of Parkinson’s disease.
+Neurol Clin 12: 317–335, 1992
+71.Tavella A, Bergamasco B, Bosticco E, Lanotte M, Perozzo P,
+Rizzone M, et al: Deep brain stimulation of the subthalamic nucle -us in Parkinson’s disease: long-term follow-up. Neurol Sci 23
+(Suppl 2): S111–S112, 2002
+72. Thobois S, Mertens P, Guenot M, Hermier M, Mollion H, Bouvard
+M, et al: Subthalamic nucleus stimulation in Parkinson’s disease:
+clinical evaluation of 18 patients. J Neurol 249: 529–534, 2002
+73. Umemura A, Jaggi JL, Hurtig HI, Siderowf AD, Colcher A, Stern
+MB, et al: Deep brain stimulation for movement disorders: mor-
+bidity and mortality in 109 patients. J Neurosurg 98: 779–784,
+2003
+74. Varma TR, Fox SH, Eldridge PR, Littlechild P, Byrne P, Forster
+A, et al: Deep brain stimulation of the subthalamic nucleus: ef-
+fectiveness in advanced Parkinson’s disease patients previous-
+ly reliant on apomorphine. J Neurol Neurosurg Psychiatry 74:
+170–174, 2003
+75. Vatz JB: Bilateral Deep Brain Stimulation (DBS) of the Sub-
+thalamic Nucleus (STN) or the Globus Pallidus Interna (GPi)for Treatment of Advanced Parkinson’s Disease.
+Chicago:
+Blue Cross & Blue Shield Association, 2002
+76. Vesper J, Klostermann F, Stockhammer F, Funk T, Brock M: Re-
+sults of chronic subthalamic nucleus stimulation for Parkinson’s
+disease: a 1-year follow-up study. Surg Neurol 57: 306–313, 2002
+77. Vingerhoets FJG, Villemure JG, Temperli P, Pollo C, Pralong E,
+Ghika J: Subthalamic DBS replaces levodopa in Parkinson’s dis-ease: two-year follow-up. 
+Neurology 58: 396–401, 2002
+78. Vingerhoets G, Lannoo E, van der Linden C, Caemaert J, Vande-
+walle V, van den Abbeele D, et al: Changes in quality of life fol -
+lowing unilateral pallidal stimulation in Parkinson’s disease. J
+Psychosom Res 46: 247–255, 1999
+79.Vitek JL: Deep brain stimulation for Parkinson’s disease. A crit-
+ical re-evaluation of STN versus GPi DBS. Stereotact Funct
+Neurosurg 78: 119–131, 2002
+80. Voges J, Volkmann J, Allert N, Lehrke R, Koulousakis A, Freund
+HJ, et al: Bilateral high-frequency stimulation in the subthalamic
+nucleus for the treatment of Parkinson disease: correlation of ther-
+apeutic effect with anatomical electrode position. J Neurosurg
+96:269–279, 2002
+81. Volkmann J, Allert N, Voges J, Weiss PH, Freund HJ, Sturm V:
+Safety and efficacy of pallidal or subthalamic nucleus stimulation
+in advanced PD. Neurology 56: 548–551, 2001
+82. Volkmann J, Sturm V, Weiss P, Kappler J, Voges J, Koulousakis
+A, et al: Bilateral high-frequency stimulation of the internal glo-
+bus pallidus in advanced Parkinson’s disease. Ann Neurol 44:
+953–961, 1998
+83. Yokoyama T, Sugiyama K, Nishizawa S, Yokota N, Ohta S,
+Uemura K: Subthalamic nucleus stimulation for gait disturbancein Parkinson’s disease. 
+Neurosurgery 45: 41–49, 1999
+Manuscript received November 22, 2004.
+Accepted in final form June 6, 2005.
+The research reported here was supported by the Department of
+Veterans Affairs, Veterans Health Administration. The views ex-pressed in this article are those of the authors and do not necessarily
+represent the views of the Department of Veterans Affairs.
+Address reprint requests to: Frances Weaver, Ph.D., Midwest
+Center for Health Services and Policy Research, Hines VAMC,P.O. Box 5000 (151H), Hines, Illinois 60141-5000. email: Frances.
+Weaver@va.gov.
+J. Neurosurg. / Volume 103 / December, 2005Deep brain stimulation in Parkinson disease
+96712_05_JNS_pt_1,2  11/9/05  10:05 AM  Page 967

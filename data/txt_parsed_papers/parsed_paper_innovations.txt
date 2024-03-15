@@ -1,0 +1,15 @@
+The document is a comprehensive review on the innovations in Deep Brain Stimulation (DBS) methodology, authored by Andrea A. Kühn, MD, PhD, and Jens Volkmann, MD, PhD. It was published in the Movement Disorders journal, indicating its focus on neurological and movement disorders. The review highlights that while DBS is a well-established treatment for movement disorders like Parkinson's disease, tremor, and dystonia, its advancement has been limited due to technological stagnation. However, recent collaborative efforts between bioengineers, neuroscientists, and clinicians have led to a better understanding of DBS mechanisms and are paving the way for significant methodological advances.
+
+**Key Innovations and Needs in DBS Methodology:**
+
+1. **Directional Deep Brain Stimulation:** Traditional DBS systems use ring-shaped electrodes that create a spherical electrical field, limiting the precision of stimulation. Recent developments include directional leads that can steer current more precisely, potentially improving outcomes by sparing non-target brain regions.
+
+2. **Novel Pulse Parameters:** Exploring different pulse widths and shapes can modify the charge delivered to brain tissue and improve the selectivity of DBS, possibly enhancing therapeutic effects while minimizing side effects.
+
+3. **Computational Models:** These models predict the volume of tissue activated by DBS and help tailor stimulation parameters to individual patients, potentially leading to more effective and personalized treatments.
+
+4. **Identification of Symptom- or Disease-Specific Physiomarkers:** Discovering reliable physiological markers that correlate with disease symptoms can guide the development of adaptive DBS systems. These systems would adjust stimulation based on real-time feedback from the patient's brain activity, aiming for more efficient symptom control.
+
+5. **Novel Stimulation Patterns:** Experimentation with different stimulation patterns, including coordinated reset stimulation, could offer new ways to counteract pathological brain activity associated with movement disorders. These approaches might lead to long-lasting improvements even after the stimulation has ended.
+
+The review emphasizes the potential of these innovations to transform DBS into a more effective, adaptable, and personalized treatment for movement disorders. However, it also notes that much of this potential is yet to be realized in clinical practice, calling for further research and development in the field.

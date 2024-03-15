@@ -1,0 +1,20 @@
+2024-03-14 22:45:34,974 [ERROR] not successful list of files, exception "[Errno 2] No such file or directory: 'data/pdf_papers'"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 9, in list_files
+    files = os.listdir(folder_path)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/pdf_papers'
+2024-03-14 22:45:52,058 [ERROR] not successful list of files, exception "[Errno 2] No such file or directory: 'data/pdf_papers'"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 9, in list_files
+    files = os.listdir(folder_path)
+FileNotFoundError: [Errno 2] No such file or directory: 'data/pdf_papers'
+2024-03-14 22:46:55,300 [INFO] The folder '/data/pdf_papers/wishart2003.pdf' does not exist.
+2024-03-14 22:47:05,969 [INFO] The folder '/data/pdf_papers/wishart2003.pdf' does not exist.
+2024-03-14 22:47:05,970 [ERROR] not successfully write pdf, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/pipeline/pipeline.py", line 8, in pdf_to_txt
+    write_txt(f'../data/txt_papers/paper_{paper_name_pdf[:-4]}.txt', paper_text)
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 49, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-14 22:47:12,540 [INFO] The folder '/data/pdf_papers/wishart2003.pdf' does not exist.
