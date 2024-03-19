@@ -1,0 +1,2 @@
+2024-03-18 15:11:25,077 [INFO] The folder 'data/txt_parsed_papers/parsed_paper_innovations.txt' does not exist.
+2024-03-18 15:11:26,226 [ERROR] Failed to write data to connection IPv4Address(('localhost', 7687)) (ResolvedIPv4Address(('127.0.0.1', 7687)))

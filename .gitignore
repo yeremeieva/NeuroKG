@@ -5,3 +5,4 @@ data/txt_papers/.DS_Store
 data/txt_parsed_papers/.DS_Store
 pipeline/__pycache__/
 utils/__pycache__/
+.env
