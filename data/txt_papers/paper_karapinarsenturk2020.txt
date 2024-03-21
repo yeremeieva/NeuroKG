@@ -1,0 +1,402 @@
+Contents listsavailableat ScienceDirect
+MedicalHypotheses
+journal homepage: www.elsevier.com/locate/mehy
+EarlydiagnosisofParkinson’sdiseaseusingmachinelearningalgorithms
+Zehra KarapinarSenturk
+Duzce University, Engineering Faculty, Department of Computer Engineering, 81620 Duzce, Turkey
+ARTICLEINFO
+Keywords:
+Decision supportsystemsFeatureselection
+Machine learning
+MedicaldiagnosisSupport VectorMachinesABSTRACT
+Parkinson’sdiseaseiscausedbythedisruptionofthebraincellsthatproducesubstancetoallowbraincellsto
+communicatewitheachother,calleddopamine.Thecellsthatproducedopamineinthebrainareresponsiblefor
+thecontrol,adaptationandfluencyofmovements.When60–80%ofthesecellsarelost,thenenoughdopamineis
+notproducedandParkinson’smotorsymptomsappear.Itisthoughtthatthediseasebeginsmanyyearsbeforethemotor(movementrelated)symptomsandtherefore,researchersarelookingforwaystorecognizethenon-motor symptoms that appear early in the disease as early as possible, thereby halting the progression of the
+disease. In this paper, machine learning based diagnosis of Parkinson’s disease is presented. The proposed di-
+agnosis method consists of feature selection and classification processes. Feature Importance and RecursiveFeature Elimination methods were considered for feature selection task. Classification and Regression Trees,
+ArtificialNeuralNetworks,andSupportVectorMachineswereusedfortheclassificationofParkinson'spatients
+intheexperiments.SupportVectorMachineswithRecursiveFeatureEliminationwasshowntoperformbetterthantheothermethods.93.84%accuracywasachievedwiththeleastnumberofvoicefeaturesforParkinson’s
+diagnosis.
+Introduction
+Parkinson’s is a slow progressing neurodegenerative brain disease
+[1]. Neurodegenerative means that it causes loss of brain cells. Nor-
+mally,therearebraincellsthatproducedopamineincertainregionsof
+the human brain. These cells are concentrated in a certain area of the
+brain called substantia nigra. Dopamine is a chemical that transmits
+messages between the substantia nigra and other brain regions thatcontrolbodymovements [1].Dopamineallowspeopletomakesmooth
+and harmonious movements. When 60–80% of dopamine producingcells are lost, not enough dopamine can be produced and motor
+symptomsofParkinson'sdisease(PD)appear.Theearliestsymptomsof
+PDappearintheentericnervoussystem,lowerbrainstemandolfactory
+tracts. PD spreads from these regions to the higher parts of the brain,
+namely the substantia nigra and the brain shell [1]. It is thought that
+thediseasebeginsmanyyearsbeforethemotorsymptomssuchaslossor decrease of sense of smell, sleep disturbances and constipation,
+tremor and slowing of movement. Besides, 90% of PD patients faces
+withvocalimpairments [2].Therefore,theresearchersarelookingfor
+waystorecognizethesenon-motorsymptomsthatappearearlyduringthe disease as early as possible, thereby halting the progression of the
+disease.
+Machine learning (ML) is frequently used for medical disease di-
+agnosis recently because of its implementation convenience and highaccuracy[3]. ML has also been used for the treatment of PD in the
+literature.[4]reviewedthepapersforfeatureselection(FS)tobeused
+forMLinbrainsurgery.DuringbrainsurgeryforPD,thetrueregionto
+beoperatedisdeterminedbyanMLbasedapproach.Thispaperfocuses
+onthestudiesafterPDisdiagnosed. [5]usedMLmethodstoestimate
+cognitive consequences of PD. [6]predicted the tremor level of PD
+patients by an ML application. Stage prediction of PD was also per-
+formed by ML [7]. But mostly, the researchers focus on the early di-
+agnosis of PD by this popular approach, ML. [8]tried to predict PD
+based on the motion data acquired from upper limbs of people. Theresearchers made the experimental objects (both PD patients and
+healthypeople)wearadeviceintotheirupperlimbsanddirectedthem
+to do several performance tasks. Spatiotemporal and frequency data
+analysis was performed to obtain parameters and then different su-
+pervisedlearningmethodswereusedforclassification.Differentfeature
+extractionmethodsandMLmethodswereusedforthedetectionofPD
+in[9].TheyshowedthatphonationisthemostconvenienttaskforPD
+detection. K-NN, Multilayer Perceptron (MLP), Optimum Path Forest,and Support Vector Machines (SVM) were the evaluated classifiers in
+thestudy.Voicefeatureswerereducedusingartificialneuralnetworks
+fortheMLbaseddiagnosisofPDin [10].Classificationwasperformed
+by SVM. Different from the others an unsupervised method was also
+used for PD [11]. After dimension reduction by partial least squares,
+self-organizing map (SOM) was used for clustering and incremental
+https://doi.org/10.1016/j.mehy.2020.109603
+Received17December2019; Receivedinrevisedform22January2020; Accepted24January2020E-mail address: zehrakarapinar@duzce.edu.tr.Medical Hypotheses 138 (2020) 109603
+0306-9877/ © 2020 Elsevier Ltd. All rights reserved.
+Tsupport vector regression prediction. UPDRS (Unified Parkinson’s Dis-
+easeRatingScale)waspredictedinthestudy. [12]compareddifferent
+methods and decided neural networks as the best performing MLmethodfortheproblem. [13]usedfuzzyC-meansclusteringforfeature
+weightingandk-NNforclassificationinPDdiagnosistask.WeightedPD
+datasetwasgiventok-NNclassifierfordifferentkvaluesandthebestk
+value was determined. [14]used Extreme Learning Machines for PD
+diagnosis. Imbalanced data was enhanced by a weighted strategy andnon-linearmappingofkernelfunction.ABCalgorithmwasusedforFS
+and optimization of parameters. [15]performed a successful decision
+for PD diagnosis using PCA (Principle Component Analysis) for di-
+mensionreduction,FDR(FisherDiscriminantRatio)forFSandSVMfor
+classification. Although they obtained very high classification ac-
+curacies, they used more than 100 features extracted from brain MRI
+images. Therefore, their computational cost is high. Abdulhay et al.
+[16]investigatedgaitandtremorforthediagnosisofPD.Gaitfeatures
+were extracted from the raw data obtained from PhysioNet database.Peaksandpulseswereevaluatedfromthephysicalsignalsobtainedvia
+the sensors located into the underneath of the subjects’ feet. They
+achieved 92.7% classification accuracy. [17]used voice features of a
+commondataset.Theyappliedfeatureaugmentationandobtained177features from 44 features on the dataset. After feature augmentation,
+theyusedReliefFtofilteroutthemosteffectivefeaturesandatlast66
+features were used for the classification of PD. PD was also diagnosed
+viahandwritingtasks [18]ratherthanMRI,motion,orvoicedatausing
+MLmethods.
+Althoughhighclassificationrateswereobtainedintheliteraturefor
+ML based diagnosis of PD, either they used many features (like[9,14,16]) which increases computation time or the extraction of the
+featureswerehardeventheyusefewfeatures.Therefore,indirectly,the
+computationtimeisagainhigh.Inthispaper,decreasingcomputation
+time via less amount of effective features, a lightweight feature ex-
+traction process and a classifier have been aimed. The features areobtainedfromthespeechsignalsandsotoobtainthefeaturesiseasier
+thantheotherMRI-based [15]ormotion-based[7,15]methodsinthe
+literature.Althoughsomeauthors(suchas[8,9,12])usedvoicefeaturesfor the diagnosis of PD, they used more number of features than the
+proposed approach. The least number of features were used in [16]
+with an acceptableclassification accuracy, buttheyused MRIdatafor
+featureextractionandit isharderthanobtainingvoicefeatures.
+The main contributions of the proposed ML based early PD diag-
+nosismethodare givenbelow.
+•Recursive Feature Elimination (RFE) and Feature Importance (FI)
+methods were used for the determination of the most relevant fea-
+tures tobeusedin theclassificationtask.
+•The importance of using FS methods in the preprocessing phase ofclassification of PD patients was proven. The performance of SVM
+classifier hasbeenimprovedabout13%by FS.
+•TheleastnumberofvoicefeaturesintheliteraturewereusedforPDdiagnosis and very high detection accuracies (93.84%) were ob-
+tainedwithlesseffort.
+•Theperformancesofdifferentpopularclassifierswereevaluatedandthebestclassifierwas foundasSVMforPDdiagnosisproblem.
+•Different optimizers were evaluated for the dataset and the bestoptimizerwas determined.
+•Theproposedmethodisbetterthantheothermethodswithrespecttocomputationalcostsincefewnumberofvoicefeatureswereused
+instead of heavy feature extraction processes such as MRI, motion
+sensorsorhandwritingassessments.
+Materials
+The dataset used in the experiments of this study consists of the
+featuresobtainedfromthespeech signalsof31peopleattheNational
+CentreforVoiceandSpeech,Denver,Colorado.Thedatasetwascreatedby Max Little from University of Oxford and donated to UCI Machine
+Learning Repository [19]. 23 of the 31 people have PD and 8 of them
+arethecontrolgroup.Thereare195biomedicalvoicemeasurementsinthedataset. Table1showsthevoicemeasuresusedintheexperiments.
+Statuscolumninthedatabasedefinestheclassandgets0forhealthy,1forPD.Classdistributionofthedatasetisshownin Fig.1.Thereare48
+healthyphoneticsand147 PDphoneticsthatbelongto31people.
+Methods
+FSwasperformedonthe23voicefeatures.ByperformingFS,only
+the effective features were used and the cost of the analysis was re-
+duced.DifferentFSalgorithmswereappliedfordifferentclassification
+methods. New feature subsets and classifications were generated by
+usingthesealgorithmsfromtheoriginalfeatureset.Performanceofthe
+modelwas evaluatedbasedon multiplecriteria. Fig.2shows theflow
+chartof thestudy.
+Feature selection
+FSwhichisapreprocessingphaseindatascienceidentifiesthekey
+features of the problem [20]. Satisfactory determination of attributes
+hasabigsignificancetoimprovetheaccuracyofclassification.Overall
+performance of ML methods can be improved by dimensionality re-
+duction[21]. Jain and Singh says “The application ofclassificationTable1
+Thevoicemeasuresusedintheexperiments [19].
+Featureno Voice measure MEANING
+1 MDVP:Fo(Hz) Averagevocalfundamentalfrequency
+2 MDVP:Fhi (Hz) Maximumvocal fundamentalfrequency
+3 MDVP:Flo(Hz) Minimumvocalfundamentalfrequency
+4 MDVP:Jitter(%) Severalmeasuresofvariationin
+fundamentalfrequency 5 MDVP:Jitter(Abs)
+6 MDVP:RAP
+7 MDVP:PPQ
+8 Jitter:DDP
+9 MDVP:Shimmer Severalmeasuresofvariationinamplitude
+10 MDVP:Shimmer (dB)
+11 Shimmer:APQ3
+12 Shimmer:APQ5
+13 MDVP:APQ
+14 Shimmer:DDA
+15 NHR Twomeasuresofratioof noisetotonal
+componentsinthe voice 16 HNR
+17 RPDE Twononlineardynamical complexity
+measures 18 D2
+19 DFA Signalfractalscalingexponent
+20 spread1 Threenonlinearmeasuresoffundamental
+frequencyvariation 21 spread2
+22 PPE
+23 status Healthstatusofthesubject:(1)Parkinson’s,
+(0)healthy
+Fig.1.Class distributionoftherecordedphoneticsin thedataset.Z. Karapinar Senturk Medical Hypotheses 138 (2020) 109603
+2algorithmson disease datasets yields promising results by developing
+adaptive, automated and intelligent diagnostic systems for chronic
+diseases.”[21].FShasmanyadvantagessuchassavingtimeforfuture
+data collection, understanding causes of diseases, less computationalcost, no degradation in performance [20]. Therefore, in this paper we
+usedFSforthediagnosisofPD.DifferentFSmethodsweretriedfortheproblemandtheyareUnivariateSelection(US),RFE,andFI.FImethod
+was determined to be used in Classification and Regression Trees
+(CART) classification method, and RFE method was used in SVM and
+Artificial Neural Networks (ANN) classification methods. These FS
+methods wereselectedbasedontheperformanceof theclassifier they
+wereused.FImethodgivesascoreforeachfeatureinthedatasetand
+higherscoreimpliesthatthefeatureismorerelevanttotheoutputdata
+variable. RFE method fits a model and removes the weakest feature
+untilthedesirednumberoffeaturesisreached.Featuresarerankedand
+recursivelyeliminatedinloops.Unlikecorrelationbasedmethods,RFE
+utilizesSVM.Ittrainstheclassifierandoptimizestheparameters.Then
+it computes the ranking criterion for all features and removes the fea-
+turewithsmallestrankingcriterion [22].
+Classification
+CART, SVM and ANN methods were applied to the problem of
+classifying PD patients and healthy people. CART is a nonparametric
+statistical methodology and it helps to understand variables or inter-
+actionofvariableswhichareresponsibleforagivenproblem [23].Ifan
+output variable is continuous, CART produces regression trees; if it iscategorical,CARTproducesclassificationtrees.CARTdecisiontreeisa
+binary treeandhasabilitytowork onnoisydata.
+SVMmapsnonlineardataintoahigherdimensionalspaceinwhich
+the data is linearly separable. It uses hyper planes to separate two
+classes and the optimal hyperplane is the one that maximizes the
+marginbetweentwoclasses [24].Itshighgeneralizationabilitymakes
+it tobeusedinmanyfieldsofclassificationsuccessfully.
+ANN is a very powerful ML method. It inspires from the working
+principleofhumanbrain.Itisacomputerizedsystemthatisdevelopedto produce new information via learning and to realize this abilityautomatically [25]. Producing newinformation or exploring new data
+is almost impossible by traditional programming methods. ANN is ap-plied to many topics successfully such as learning, association, clus-
+tering,generalizing,FS,andoptimizationbecauseofitspropertieslike
+parallelism, fault tolerance, easy adaptation to different fields, low
+computationalcost,and self-organization [25].Parameter adjustments of classifiers
+BinarytreeestablishedinCARTmethodhadsixlevels,i.e.rootwas
+inlevel0andleafswereinlevel6.Sevenphoneticbasedfeatureswere
+used and the tree was branched according to these seven features. In
+SVM method, the most important issue is to determine the best [c,γ]
+pair. For this purpose, we realized a grid search for the best choice of
+theseparameters.Theperformanceofclassificationhighlydependson
+these parameters. Fig. 3shows the accuracy of classification with re-
+specttogamma(γ).AsforANN,thenetworktopologyisdeterminedbytrialanderror.Activationfunctionsinlayers,numberofhiddenlayers,
+and the number of neurons in hidden layers must be determined. For
+the Parkinson disease diagnosis problem, hundreds of different ex-
+periments were performed to determine the best model. The network
+topology consisted of single hidden layer with 8 neurons after trials.
+Tanh,Relu,andsigmoidactivationfunctionswereusedininput,hidden
+and output layers respectively. Optimal epoch number was 150 and
+batchsizewas50.Differentoptimizationmethodswerealsoevaluated
+for the dataset as given in Table 3and nadam was determined as the
+bestoptimizer.
+Experimentalresults
+FS was performed in this study for the diagnosis of PD via the
+phonetic features. There were 22 phonetic features extracted from the
+speechsignalsofPDpatientsandthehealthypeople.Thepresentstudy
+not only aimed to diagnose PD patients but also to evaluate the per-
+formances of FS algorithms on the classification performance. The da-
+tasetwasrearrangedtoincludelessnumberofcolumns(features)foran
+efficient classification. 7 features were used for CART and 13 features
+wereusedforSVMandANNmethods. Table2showsthefeaturesused
+inclassifiers.Theexperiments wereperformedusingPython program-
+ming language and its libraries Keras, Tensorflow, and sci-kit learn.
+Accuracygiveninequation (1)wasusedasperformancemetric.TPin
+theequationstandsforthenumberofPDpatientsclassifiedcorrectlyas
+having PD, TN means the number of healthy subjects classified cor-
+rectly as healthy, FP stands for the number of healthy people mis-
+classified as PD patient, and FN is the number of PD patients mis-
+classified as healthy. Accuracy is the ratio of the number of correct
+assessments to the number of overall assessments [26]. The success of
+differentclassifiersbeforeand afterFSareshownin Table4.
+Asseenfrom Table4,SVMwithFSshowedthehighestclassification
+performance (93.84%) and pure SVM showed the lowest performance(79.98%). By these results it is proven that the determination of the
+most relevant features increases the classification performance in ac-
+cordance with the literature. RFE method made SVM the most suc-
+cessfulclassifierforPDdiagnosiswhileit wastheworstbeforeFS.
+Fig.2.Flow chartoftheproposed decisionsupportsystem.
+Fig.3.VariationofAccuracywithrespecttoGamma(γ).Z. Karapinar Senturk Medical Hypotheses 138 (2020) 109603
+3=+
++ + +AccuracyTN TP
+TN TP FN FP(1)
+Table5showsabriefsummaryandcomparisonofthestate-of-the-
+art. The number of features, the way that the features were obtained,
+the classification method, and the accuracies are shown in the table.
+AlthoughhighclassificationrateswereobtainedintheliteratureforML
+based diagnosis of PD, either they used many features (like [9,14])
+whichincreasescomputationtimeortheextractionofthefeatureswere
+hardeventheyusefewfeatures.Therefore,indirectly,thecomputation
+time is again high. In the proposed approach, computation time was
+decreased via less number of effective features, a lightweight feature
+extractionprocessandaclassifier.Thefeatureswereobtainedfromthe
+speech signals and so to obtain these features is easier and less costly
+thantheotherMRI-based [15],motion-based([7,15])andhand-writing
+based([18])methodsintheliterature.Althoughsomeauthors(suchas[8,9,12]) used voice features for the diagnosis of PD, they used more
+number of features than the proposed approach. Besides using more
+features,acostlyFSprocessusedin [10].Theleastnumberoffeatures
+were used in [16]with an acceptable classification accuracy, but they
+used MRI data for feature extraction and it is harder than obtaining
+voice features. [14]used similar number of voice features but theydeterminedthefeaturesbyaheavierFSmethod.Aversionofartificial
+bee colony algorithm was utilized to reduce number of features. Also,
+theirclassificationmethodhasgreateralgorithmiccomplexitythanthe
+proposedapproach.
+Discussion
+ThepresentstudydevelopedanFSbaseddecisionsupportsystemby
+using the features extracted from speech signals of PD patients and
+healthy people. Different FS methods were applied to different classi-
+fiersand theonewiththehighest performancewas determined.
+FS has a strong effect on the performance of the classifier. It is
+shownin[20]thatFSisabeneficialpreprocessingtoolanditnotonly
+reduces the number of inputs of classifiers, but also helps people un-derstand the underlying causes of diseases. Three FS methods were
+evaluatedinthepresentstudyandtheyshoweddifferentperformance
+for different classifiers. The best combination of FS method and clas-
+sification method was determined and used for the diagnosis of PD.
+Table 4shows the effect of FS methods on the classification perfor-
+mance. Remarkable results were obtained using FS. It provided about13% performance improvement for SVM, about 11% for ANN, and
+about 5% improvement for CART. In addition, classification perfor-
+mancealsodependsontheparametersoftheclassifiers.Determination
+of the optimal parameters for certain classification method is a key
+point.ForSVM,candgammamustbeproperlydetermined.Incaseof
+ANN based classification, the topology must be determined properly.
+Thatisthenumberofhiddenlayers,thenumberofneuronsinhidden
+layers, the activation functions, the parameters like learning rate and
+momentumcoefficient,normalizationofdata,epochnumber,etc.must
+beinvestigatedindetail.
+PD diagnosis system proposed in this study differs from the litera-
+tureintermsofFSmethod,alightweightfeatureextractionprocessand
+a classifier. A high enough classification performance has been
+achieved.UsingvoicefeaturesinthediagnosisofPDhelpedverymuch.Obtainingvoicefeaturesarebotheasierandcheaperwhencomparedto
+MRI-basedormotionbaseddiagnosismethods.Inthisstudy,SVMwith
+RFE gave the best classification accuracy. These findings suggest that
+using certain subset of voice features help researchers classify PD pa-
+tients moreaccurately and less effortscan be made to extract featuresTable2
+Selectedfeaturesbased onclassifiers.
+Classifier FSmethod Determinedfeatures
+CART FI Shimmer:APQ3,spread2,D2,Shimmer:APQ5, DFA,RPDE,PPE
+SVM,ANN RFE Shimmer:APQ3,spread1,Shimmer:APQ5,RPDE,DFA,spread2,PPE,D2, Jitter:DDPMDVP:APQ,HNR,NHR,MDVP:Shimmer
+Table3
+Optimization methodsused.
+No Optimizer No Optimizer
+1 Adam 5 Adagrad
+2 Adamx 6 Adadelta
+3 Adamax 7 rmsprop
+4 Nadam 8 TfOptimizer
+Table4Accuracyof classificationbeforeandafter FS.
+ClassificationMethod AccuracybeforeFS AccuracyafterFS
+CART 85.23% 90.76%
+SVM 79.98% 93.84%
+ANN 80.25% 91.54%
+Table5
+Comparisonwiththestate-of-the-art.
+Ref.No Numberoffeatures FSmethod Sourceoffeatures Method Accuracy(%)
+[8] 28 Correlation Motion-based RF 95
+[9] 18 – Voice-based k-NN 94.55
+[10] 20 MLP Voice-based LSVM 100%
+[11] 10 NIPALS Voice-based ISVR-SOM 0.4656 (MAE)
+[12] 23 – Voice-based NN 92.9
+[13] 23 FCMFW Voice-based k-NN 97.93
+[14] 14 AABC Voice-based KWELM 98.97
+[15] 100+ FDR MRI-based SVM 100
+[16] 4 – Gaitandtremor-based SVM 92.7
+[17] 66 ReliefF Voice-based SVM 91.25
+[18] 9 Wrapper Hand-writing NB 91.00
+Proposed 13 RFE Voice-based SVM 93.84
+Abbreviationsinthetableare:LSVM:LagrangianSupportVectorMachines,RF:RandomForests,k-NN:kNearestNeighbor,AABC:Adaptive
+Artificial Bee Colony, OPF: Optimum-Path Forest, ISVR: Incremental Support Vector Regression, KWELM: Kernel-based Weighted ExtremeLearningMachine,MAE:MeanAbsoluteError,NIPALS:Non-lineariterativepartialleastsquares,FCMFW:FuzzyC-MeansFeatureWeighting.Z. Karapinar Senturk Medical Hypotheses 138 (2020) 109603
+4from voice signals of candidate PD patients. Besides, the classification
+canberealizedbylesscomputationalcost.
+Conclusion
+In the present study, a FS based decision support system was de-
+velopedusingthefeaturesofvoicesignalsofbothPDpatientsandthe
+healthy people for the early diagnosis of Parkinson’s. Different FS
+methods and different classification methods were used in the experi-
+ments. The primary objective in doing so was to improve the perfor-
+mance and the accuracy of the model and also to reduce the compu-
+tational cost of classification task. Accuracies of the classification
+methodswereevaluatedwithandwithoutFSandtheremarkableeffect
+of FS was shown. The results indicate that using FS methods together
+with classification methods is quite advantageous especially when
+dealingwithspeechsignalsinwhichhundredsofphoneticfeaturescan
+be obtained. By the help of the developed early diagnosis system, PD
+can be diagnosed with a high accuracy rate in its early stages and the
+worse symptomsofthediseasecanbestopped.
+DeclarationofCompetingInterest
+The authors declare that they have no known competing financial
+interests or personal relationships that could have appeared to influ-
+encethe workreportedinthispaper.
+References
+[1]KarabudakR.Parkinson’sdisease.2014.
+[2]SakarCO,KursunO.TelediagnosisofParkinson’sdiseaseusingmeasurementsof
+dysphonia.JMed Syst2010;34(4):591–9.
+[3] RayanZ,AlfonseM,Salem A-BM.Machinelearningapproachesinsmarthealth.
+ProcediaComputSci2019;154:361–8. https://doi.org/10.1016/j.procs.2019.06.
+052.
+[4]WanKR,MaszczykT,SeeAAQ,DauwelsJ,KingNKK.Areviewonmicroelectrode
+recordingselection offeatures formachinelearningin deepbrainstimulationsur-
+geryforParkinson’sdisease. ClinNeurophysiol2019;130(1):145–54.
+[5]SalmanpourMR, etal.Optimizedmachinelearningmethods forpredictionof
+cognitiveoutcomeinParkinson’sdisease. ComputBiol Med2019;111.
+[6]PedrosaTÍ, VasconcelosFF,MedeirosL,SilvaLD.Machinelearningapplicationto
+quantifythetremor levelforParkinson’sdiseasepatients.ProcediaComputSci2018;138:215–20.
+[7]PrashanthR,Dutta RoyS.NovelandimprovedstageestimationinParkinson’s
+diseaseusingclinicalscalesandmachinelearning.Neurocomputing
+2018;305:78–103.
+[8]CavalloF,MoschettiA,EspositoD,MaremmaniC,RoviniE.Upperlimbmotorpre-clinicalassessmentinParkinson’sdiseaseusingmachinelearning.ParkRelatDisord
+2019;63:111–6.
+[9]AlmeidaJS,etal.DetectingParkinson’sdiseasewithsustainedphonationand
+speechsignalsusingmachine learningtechniques.PatternRecognLett
+2019;125:55–62.
+[10]ParisiL,RaviChandranN,ManaogML.Feature-drivenmachinelearningtoimprove
+earlydiagnosisofParkinson’sdisease.ExpertSystAppl2018;110:182–90.
+[11]NilashiM,IbrahimO,AhmadiH,ShahmoradiL,FarahmandM.Ahybridintelligent
+systemforthepredictionofParkinson’sDiseaseprogressionusingmachinelearning
+techniques.BiocybernBiomedEng2018;38(1):1–15.
+[12]DasR.Acomparison ofmultipleclassificationmethodsfordiagnosisof Parkinsondisease. ExpertSystAppl2010;37(2):1568–72.
+[13]PolatK.ClassificationofParkinson’sdiseaseusingfeatureweightingmethodonthebasisoffuzzyC-meansclustering.IntJSystSci 2012;43(4):597–609.
+[14]WangY, WangAN,AiQ,SunHJ.Anadaptivekernel-basedweightedextreme
+learningmachineapproachforeffective detectionofParkinson’sdisease. Biomed
+SignalProcessControl2017;38:400–10.
+[15]SinghG,VaderaM, SamavedhamL,LimECH.Machinelearning-basedframeworkformulti-class diagnosisof neurodegenerativediseases:astudyon Parkinson’sDisease.IFAC-PapersOnLine2016;49(7):990–5.
+[16]AbdulhayE,ArunkumarN,NarasimhanK,VellaiappanE,VenkatramanV.Gaitand
+tremor investigationusingmachine learningtechniques forthediagnosisof
+Parkinson disease.Fut GenerComputSyst2018;83:366–73.
+[17]YamanO,ErtamF,TuncerT.AutomatedParkinson’sdiseaserecognitionbasedonstatisticalpoolingmethodusingacousticfeatures.MedHypotheses2019:109483.
+[18]KotsavasiloglouC, KostikisN,Hristu-VarsakelisD,Arnaoutoglou M.Machine
+learning-basedclassificationofsimpledrawingmovements inParkinson’sdisease.
+BiomedSignalProcessControl2017;31:174–80.
+[19] UCImachinelearningrepository:Parkinsonsdataset.[Online].Available: https://
+archive.ics.uci.edu/ml/datasets/parkinsons.[Accessed: 10-Dec-2019].
+[20]Remeseiro B,Bolon-CanedoV.Areviewof featureselection methodsin medical
+applications.ComputBiolMed 2019;112.
+[21]JainD,Singh V.Featureselectionandclassificationsystemsforchronicdiseaseprediction:areview.EgyptInformJ2018;19(3):179–89.
+[22] GuyonI,Weston J,BarnhillS,Vapnik V.Geneselection forcancer classification
+usingsupport vectormachines.
+[23]YohannesY,WebbP.ClassificationandRegressionTrees,CART:ausermanualfor
+identifyingindicatorsofvulnerability tofamineandchronicfoodinsecurity Pap/
+Dsk.IntlFoodPolicyResearchInst;1999.
+[24]HsuC-W,ChangC-C,LinC-J.Apracticalguidetosupportvectorclassification.
+2003.
+[25]ÖztemelE. YapaySinirAğları.3rded. İstanbul:PapatyaYayıncılık; 2012.
+[26]ZhuW,ZengN,WangN.Sensitivity,specificity,accuracy,associatedconfidence
+intervalandROCanalysiswith practicalSAS ®implementations.2010.Z. Karapinar Senturk
+Medical Hypotheses 138 (2020) 109603
+5

@@ -26,7 +26,7 @@ def read_pdf(path_pdf):
         with open(path_pdf, "rb") as file:
             reader = PyPDF2.PdfReader(file)
             num_pages = len(reader.pages)
-            for page_num in range(num_pages):
+            for page_num in range(5):
                 page = reader.pages[page_num]
                 text += page.extract_text()
         return text
@@ -50,15 +50,10 @@ def write_txt(path_txt, text):
         file.writelines(text)
 
 
-# class Document:
-#     def __init__(self, page_content, metadata=None):
-#         self.page_content = page_content
-#         self.metadata = metadata if metadata is not None else {}
-
 def txt_to_doc(file_path):
     text_content = read_txt(file_path)
     metadata = {
-        'title': file_path[36:-4],
+        'title': file_path[38:-4],
         'summary': 'no',
         'source': file_path,
         'id': 1

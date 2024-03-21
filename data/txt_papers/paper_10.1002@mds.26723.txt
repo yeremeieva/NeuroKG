@@ -1,0 +1,281 @@
+New Methods for the Assessment of Parkinson’s Disease
+(2005 to 2015): A Systematic Review
+/C19Alvaro S /C19anchez-Ferro, MD, MSc,1,2*Morad Elshehabi, MD, MSc,3,4Catarina Godinho, PhD,5,6,7Dina Salkovic, MD, MSc,3,4
+Markus A. Hobert, MD,3,4Josefa Domingos, MSc,5,7Janet MT. van Uem, MSc,3,4Joaquim J. Ferreira, MD, PhD,5,7,8and
+Walter Maetzler, MD3,4
+1HM CINAC, Hospital Universitario HM Puerta del Sur, M /C19ostoles, Madrid, Spain
+2Research Laboratory of Electronics, Massachusetts Institute of Technology, Cambridge, Massachusetts, USA
+3Center for Neurology and Hertie Institute for Clinical Brain Research (HIH), Department of Neurodegeneration, University of T €ubingen,
+T€ubingen, Germany
+4DZNE, German Center for Neurodegenerative Diseases, T €ubingen, Germany
+5Clinical Pharmacology Unit, Instituto de Medicina Molecular, Lisbon, Portugal
+6Center of Interdisciplinary Research Egas Moniz (CiiEM), Instituto Superior de Ci ^encias da Sa /C19ude Egas Moniz, Monte de Caparica, Portugal
+7CNS-Campus Neurol /C19ogico S /C19enior, Torres Vedras, Portugal
+8Laboratory of Clinical Pharmacology and Therapeutics, Faculty of Medicine, University of Lisbon, Portugal
+ABSTRACT: Background: The past decade has
+witnessed a highly dynamic and growing expansion ofnovel methods aimed at improving the assessment ofParkinson’s disease with technology (NAM-PD) in labo-ratory, clinical, and home environments. However, thecurrent state of NAM-PD regarding their maturity, feasi-bility, and usefulness in assessing the main PD featureshas not been systematically evaluated.
+Methods: A systematic review of articles published in
+the ﬁeld from 2005 to 2015 was performed. Of 9,503publications identiﬁed in PubMed and the Web of Sci-ence, 848 full papers were evaluated, and 588 originalarticles were assessed to evaluate the technological,demographic, clinimetric, and technology transfer readi-
+ness parameters of NAM-PD.
+Results: Of the studies, 65% included fewer than 30
+patients, <50% employed a standard methodology to
+validate diagnostic tests, 8% conﬁrmed their results ina different dataset, and 87% occurred in a clinic or lab.The axial features domain was the most frequently
+studied, followed by bradykinesia. Rigidity and nonmo-tor domains were rarely investigated. Only 6% of thesystems reached a technology level that justiﬁed thehope of being included in clinical assessments in a use-ful time period.Conclusions: This systematic eval uation provides an
+overview of the current options for quantitative assess-ment of PD and what can be expected in the near future.There is a particular need for standardized and collabora-tive studies to conﬁrm the results of preliminary initiatives,assess domains that are curren tly underinvestigated, and
+better validate the exist ing and upcoming NAM-PD.
+VC2016 International Parkins on and Movement Disorder
+Society
+Key Words: Parkinson disease; technology assess-
+ment; biomedical; diagnosis; inventions
+Recently there has been an exponential development
+of novel methods to improve the assessment of Parkin-
+son’s disease (PD) by using different technologies(NAM-PD; Supplementary Figure). Wearable sensors,
+accelerometers, gyroscopes, magnetometers, smart-
+phones, and a plethora of other electronic systems
+have been employed to obtain physiological signals
+related to motor and nonmotor aspects of the dis-
+ease.
+1-3Although some of the used technologies are
+not new (the ﬁrst accelerometer was invented by
+George Atwood in 1783), they all represent methods
+that have recently been investigated and used for the------------------------------------------------------------
+*Correspondence to : Dr. /C19Alvaro S /C19anchez-Ferro, Centro Integral de Neu-
+rociencias A.C., Avenida del Emperador Carlos V, 70, E-28938 Madrid,Spain; asferro@mit.edu
+Funding agency : The research leading to these results has received
+funding from “Consejer /C19ıa de Educaci /C19on, Juventud y Deporte of Comuni-
+dad de Madrid” and the People Programme (Marie Curie Actions) of theEuropean Union’s Seventh Framework Programme (FP7/2007-2013)under REA Grant 291820.
+Relevant conﬂicts of interests/ﬁnancial disclosures : Nothing to
+report.Received: 20 March 2016; Revised: 19 May 2016; Accepted: 3 June
+2016
+Published online 00 Month 2016 in Wiley Online Library
+(wileyonlinelibrary.com). DOI: 10.1002/mds.26723
+REVIEW
+Movement Disorders, Vol. 00, No. 00, 2016 1assessment of PD. The reasons for this increased adop-
+tion are beyond the scope of this review, but all of
+these techniques attempt to provide an objectivemeans to measure aspects of the disease.
+4,5Their
+intended applications range from the improvement
+and prediction of diagnosis to the assessment of dis-ease progression and the evaluation of care and thera-
+py efﬁcacy.
+6
+This systematic review presents a comprehensive
+evaluation of the NAM-PD investigated in the past 10years. Our efforts should be considered in light of oth-er recent initiatives.
+2,4,7-9In addition to a narrative2
+and a systematic review9by some of the authors listed
+here, a systematic review on wearable technology forthe assessment of gait and balance has recently beenpublished.
+7None of these reviews provide an exhaus-
+tive and comprehensive overview of the current stateof the NAM-PD ﬁeld and how far (potentially clinical-ly relevant) quantitative assessment strategies havebeen developed. This review combines the strengths ofall of these previous initiatives. It includes informationabout both wearable and nonwearable technologies;covers the assessment approaches of the most relevantdisease domains and complications; follows a strict,transparent, and exhaustive systematic approach by,for example, including MeSH and non-MeSH terms;presents clinimetric information and—for the ﬁrsttime, to our knowledge—the technology readiness lev-el (TRL
+10of every system reported in the studies eval-
+uated; and provides a spreadsheet of these dataextracted from the papers.
+After reading this article, cl inicians, people with Par-
+kinson’s disease (PwP), and other stakeholders will havean overview of how quantitative assessments of PD havedeveloped during the course of the recent decade ofinnovation, what the options are to date, and what wecan expect in the near future from these technologies.To fulﬁll this latter purpose in particular, a list of sys-tems that are close to being translated into practical useis provided. In addition, the ab ove-mentioned systematic
+spreadsheet containing the extracted information on theevaluated systems can serve as a living document thatwill be regularly updated by the authors. Interested read-ers are encouraged to use this resource to complementthe manuscript, which in fact can only provide some ini-tial steps of analysis.
+Methods
+A systematic search for arti cles published between Jan-
+uary 1, 2005, and January 4, 2016, was conducted in 2electronic databases (PubMe d/Medline and Web of Sci-
+ence). Using a Boolean search structure, 3 blocks of key-words were introduced and connected. The ﬁrst blockwas related to the disease (“ Parkinsonian Disorders,”
+“Parkinson( /C19s) disease,” “Parkinson Disease, Secondary,”“Basal Ganglia Diseas es,” “Parkinsonism” ). The second
+block included 45 technology terms related to PD assess-ment (eg, “ Technology /-ies ,” “Diagnostic Techniques,
+Neurological ,” “Assessment ,” “Patient Outcome Asses-
+sment ,” “ Accelerometer ,” “ Smartphone ”). The third
+block was composed of different keywords describing
+12 disease domains. These 12 domains were based on
+clinical (eg, cardinal PD features) and technical reason-ing and on previous reviews.
+2,9,11,12Six domains referred
+to motor aspects (and are discussed separately in theResults section), 5 to nonmotor aspects, and 1 totreatment-related complic ations (eg, wearing-off and
+dyskinesias). Table 1 provides an overview of the num-
+ber of studies investigating these domains. The vastmajority of the identiﬁed and evaluated referencesreferred to motor aspects; therefore, the focus of the ini-tial analyses in this manuscript is on these domains.Nonmotor features and treat ment-related complications
+were relatively underrepresented and are therefore not
+discussed in detail. Papers that were not covered bythese 12 domains were collected in a miscellaneous cate-gory. This category includes p latforms (eg, telemonitor-
+ing and telemedicine systems) , studies evaluating driving
+skills, and a breath test to distinguish PwP from con-trols. No detailed results are reported for this category
+because of its heterogeneity. A complete description of
+the search structure and keywords used is provided inthe supplementary material section.TABLE 1. New technologies for the assessment of
+Parkinson /C19s disease (NAM-PD) published during the past
+decade (2005-2015) by disease domain
+DomainNumber of references
+describing the NAM-PD
+(% of all included)
+Motor 504 (85.7)
+Axial features 212 (36.1)Bradykinesia 126 (21.4)
+Tremor 81 (13.8)
+Speech 42 (7.1)
+Activity 32 (5.4)
+Rigidity 11 (1.9)
+Nonmotor
+a24 (4.1)
+Cognition 12 (2.0)
+Sleep 9 (1.5)
+ANS 2 (0.3)
+Neuropsychiatric features 1 (0.2)Smell 0 (0.0)
+Treatment complications 20 (3.4)
+Miscellaneous 40 (6.8)Total, included in the results 588
+Not included in the full evaluation process
+b260
+Total number of references evaluated 848
+ANS, autonomous nervous system.
+aDetailed information about studies in different domains is available at
+http://bit.ly/pd-technologies-database and is presented in a common non-motor domain in the Results section.
+bThese are review papers, technologies used for other applications (eg,
+schizophrenia and essential tremors), or references in which a technologyused was discarded after the evaluation.S/C19A NCHEZ-FERRO ET AL
+2 Movement Disorders, Vol. 00, No. 00, 2016The following 3 steps were then performed (Figure 1):
+/C15Identiﬁcation step: A total of 6,874 papers in the
+Web of Science and 6,804 in PubMed/Medlinewere identiﬁed. After eliminating duplicates,
+9,503 papers entered the next step.
+/C15Screening step: One author (A.S.F.) screened the
+titles and abstracts. The criteria for the articles
+included in the next step were (i) use of an NAM-
+PD, (ii) published in English, and (iii) used in
+humans.
+The exclusion criteria were the following: (i) the use
+of only questionnaires/scales, (ii) electromyography,(iii) electroencephalography, (iv) imaging techniques,
+(v) molecular diagnostic/therapeutic methods, (vi)
+genetic tests, (vii) established speech recognition sys-
+tems (ie, computerized speech lab), (viii) new develop-
+ments in deep brain stimulation (DBS), and (ix)
+magnetic transcranial stimulation. A total of 848
+articles entered the next step.
+/C15Evaluation step: This step was performed by 7
+authors (A.S.F., M.E., C.G., D.S., M.A.H.,J.M.T.v.U., and J.D.) using a standardized web-
+based form designed by A.S.F. (http://bit.ly/pd-
+technologies). The full text of the 848 articles
+were evaluated. Articles underwent a basic evalu-ation (author, journal, volume, pages, year, and
+type of article) and were not evaluated more
+extensively (and were not included in the analysisof this review) if they (i) were reviews (n 539),
+(ii) reported a therapeutic application of NAM-
+PD (n 565), (iii) did not include NAM-PD
+(n5129), and (iv) were not used to assess PD
+(n527).
+From the remaining 588 original articles, the type of
+NAM-PD used and the type of researcher using theNAM-PD (developers vs nondevelopers) were deﬁned.The use of an NAM-PD by a nondeveloper reinforced
+its validation because it conﬁrmed that the NAM-PD
+can be applied in different settings. In addition, its useby a nondeveloper usually indicates that a system ismore ready to be used. Moreover, demographic char-
+acteristics (eg, sample size, stage of the disease, inclu-
+sion of a control group, and patients with other
+FIG. 1. Flowchart of the systematic search and review process of novel technologies to improve the assessment of Parkinson’s disease (NAM-PD)
+in the past decade (2005-2015).NEW METHODS FOR PD ASSESSMENT
+Movement Disorders, Vol. 00, No. 00, 2016 3diseases) were extracted. Then, the clinimetric charac-
+teristics were evaluated. The selection of clinimetric
+characteristics was based on the literature13-16and
+included accuracy (ie, the degree to which a measure-ment represents the true value of the attribute being
+measured, eg, by providing sensitivity and speciﬁcity
+measures
+17, agreement (ie, how well a test measures
+the event of interest when compared with a standard,eg, by using Bland-Altman analyses,
+18intraclass corre-
+lation coefﬁcients,17and Kappa values17, responsive-
+ness (sensitivity to change), and repeatability (thestability of the metric over time in a population with-out an expected change). Despite being used in many
+studies, pure statistical correlations (ie, Spearman’s
+Rho, Pearson’s R,o r r
+2from regression models) were
+not considered adequate to test the clinimetric proper-
+ties of an NAM-PD and hence are not reported in the
+results.17,19
+Moreover, as mentioned previously, we extracted
+information about the TRL of each original article
+included in the full evaluation. The TRL scale was
+developed by the National Aeronautics and SpaceAdministration and has recently been adapted by theEuropean Commission for the Horizon 2020 initia-
+tive
+10(Supplementary Table). This scale can be
+applied by different stakeholders (eg, researchers, clini-cians, patients, regulatory and funding agencies, and
+industrial partners) as a tool to determine how close a
+technology is to being translated and for what use. Itsuse in biomedical applications has recently begun.
+Development of the Systematic
+Spreadsheet and Its Proposed Use
+Detailed information about all 848 evaluated
+articles is available at http://bit.ly/pd-technologies-
+database. The systematic table derived from our evalu-ation is shared publicly for several purposes. First,interested readers are offered the opportunity to inves-
+tigate any facet of the current state of NAM-PD
+because the analyses presented in this manuscript arenecessarily limited to certain meta aspects and cannot
+provide detailed answers on all aspects. Second, the
+authors of the evaluated technologies can peer reviewthe information systematized by our group. In case ofany inconsistency, we are prepared to adapt the
+spreadsheet accordingly. Third, it can serve as a living
+document: Because the form used is also shared athttp://bit.ly/pd-technologies, any upcoming studies areoffered the opportunity to be included in this spread-
+sheet. To provide an example of the opportunities the
+spreadsheet provides, we focus in the Results sectionon the presentation of frequency, type of technologyused, demographic aspects, clinimetric properties, and
+TRL aspects of studies sorted by different motor fea-
+tures. In addition, we include a paragraph each onnonmotor aspects and treatment complications. Thedata are presented as absolute numbers and, in paren-
+theses, the percentages of the total of all studies that
+provided the information of interest.
+Results
+Of the 588 fully evaluated articles, 208 (35%)
+reported on the validation of NAM-PD by developers,
+183 (31%) on NAM-PD performance evaluated bynondevelopers, 157 (27%) on mathematical algorithms,and 40 (7%) on future NAM-PD platforms/ideas.
+Studies using wearable NAM-PD covered a relevant
+proportion of the research performed in this ﬁeld (211[37%] included this type of technology), and the num-ber of published studies showed a substantial relativeincrease during the period evaluated. For example,
+wearable NAM-PD were used in 3 (18%) of the stud-
+ies published in 2005 and in 38 (44%) of the studiespublished in 2015. Of the studies, 45 (8%) conﬁrmedtheir results in a different dataset.
+Basic disease severity information using Hoehn and
+Yahr stages was reported in 247 (42%) of the studies.PwP in stage 2 were most often included (in 216 ofthose studies), followed by those in stage 3 (193), 2.5(154), 1 (120), 4 (77), and 5 (11).
+The ages of the participants were included in 394
+(76%) of the studies that tested individuals, and 110studies (20%) included information on the statisticalassumptions (eg, whether the data followed a Gauss-
+ian distribution).
+The technologies used were accelerometers and
+gyroscopes alone or combined, which we categorizedas inertial measurement units (IMUs), digitizing tab-
+lets, optoelectronic systems, electromagnetic trackers,
+force plates, virtual reality systems, software-basedtechnologies, smartphones, audio recorders, insoles,computer vision systems, smart gloves, videogameconsoles and ad hoc solutions.
+NAM-PD for the Assessment
+of Motor Aspects
+Axial Features
+Number of Studies. A total of 70 articles (33%)
+reported on NAM-PD used by nondevelopers, 68(32%) on validation aspects, 65 (31%) on a mathemat-
+ical algorithm, and 9 (4%) on future NAM-PD plat-
+forms/ideas.
+Type of Technologies. The most frequently used sys-
+tems (106 articles, 50%) were IMUs, followed by
+optoelectronic systems (20 articles, 9%).
+Demographic Aspects. Of the evaluated studies, 147
+(71%) included 30 or fewer PwP. The most frequentlyincluded mean/median age group ranged from 61 to70 years (101 studies, 69%), followed by 71 to 80S/C19A NCHEZ-FERRO ET AL
+4 Movement Disorders, Vol. 00, No. 00, 2016years in 26 (18%) of the studies, and 51 to 60 years
+in 20 (14%) of the studies.
+Clinimetric Properties. A total of 49 studies (23%)
+performed data diagnostics (eg, normality assumption
+tests) prior to conducting statistical analyses. The
+most frequently reported reference standard was themotor section of the Uniﬁed Parkinson’s Disease Rat-ing Scale (UPDRS-III), which was employed in 33(16%) of the studies. Accuracy was reported in 98studies (48%). The sensitivity and speciﬁcity of the
+NAM-PD were higher than 80% in 27 (28%) and 35
+(36%) of them, respectively. The areas under thereceiver operating characteristics curve (AUCs) andthe predictive values/likelihood ratios were providedin 8 (4%) and 5 (2%) of the studies, respectively.
+Agreement with a reference standard was described in
+26 (13%) of the articles. Of these articles, 19 (73%)provided evidence of adequate agreement. Responsive-ness was investigated in 31 (15%) of the articles. Themost frequent method used to induce a change waspharmacological intervention, which was present in 13
+(42%) of these studies. Repeatability was assessed in 6
+articles (3%).
+Technology Readiness. Of the studies, 85 (45%)
+included NAM-PD with a TRL /C203, and NAM-PD
+with TRL9 were used in 18 (8%) of the studies.
+Bradykinesia
+Number of Studies. Of the studies, 72 (57%)
+reported on the validation of NAM-PD in characteriz-
+ing bradykinesia. Thirty-two (25%) involved NAM-PDused by nondevelopers, 17 (13%) tested a mathemati-cal algorithm for NAM-PD, and 5 (4%) described anNAM-PD or idea.
+Type of Technologies. The most frequently used sys-
+tems were IMUs (39 studies, 31%), followed by a com-bination of various methods (14 studies, 11%).
+Demographic Aspects. Of the studies, 89 (71%) includ-
+ed 30 or fewer PwP. The most frequently included mean/median age group range was 61 to 70 years (73 studies,
+85%). With one exception, the mean/median age of the
+groups was between 50 and 80 years in all studies.
+Clinimetric Properties. Of the studies, 18 (15%) per-
+formed data diagnostics prior to conducting any statis-
+tical analyses. The most frequently reported referencestandard was the UPDRS-III, which was employed in41 (34%) of the studies, followed by expert diagnosis(eg, classiﬁcation of PD according to established crite-ria) in 36 (30%) studies.
+The accuracy of the NAM-PD was reported in 45
+(37%) of the studies. The sensitivity and speciﬁcity ofthe results generated by NAM-PD were higher than
+80% in 10 (22%) and 7 (15%) of the studies, respec-tively. Of the studies, 11 (9%) and 5 (4%) providedAUCs and predictive values/likelihood ratios, respec-tively. Agreement with a reference standard was
+described in 10 (8%) of the studies. A total of
+8 (60%) of them provided evidence of an adequateagreement. Responsiveness and repeatability wereinvestigated in 32 (26%) and 6 (5%) studies, respec-tively. For the former, the most frequent methodapplied to induce a change was a pharmacologicalintervention (21 studies, 66%).
+Technology Readiness. A total of 94 studies (74%)
+included NAM-PD with a TRL /C203, and 9 (7%) of the
+studies used NAM-PD that reached TRL9.
+Tremors
+Number of Studies. A total of 33 studies (41%)
+reported the validation of NAM-PD in characterizingtremors, 23 (28%) tested a mathematical algorithm forNAM-PD, 20 (25%) involved NAM-PD used by nonde-velopers, and 5 (6%) described an NAM-PD or an idea.
+Type of Technologies. The most frequently used sys-
+tems were IMUs (38 studies, 47%), followed by smart-phones, which were used in 11 (14%) of the studies.
+Demographic Aspects. A total of 52 (67%) studies
+included 30 or fewer PwP. The most frequent mean/median age group in the studies ranged from 61 to 70
+years (29 studies, 10%), and in all studies, the mean/
+median age of the participants was between 50 and80 years.
+Clinimetric Properties. A total of 15 studies (20%)
+performed data diagnostics prior to conducting statis-tical analyses. The most frequently reported referencestandard was PD classiﬁcation according to estab-lished criteria (14 studies, 18%), followed by the
+UPDRS-III (12 studies, 16%).
+Accuracy was reported in 35 studies (46%). The
+sensitivity and speciﬁcity were higher than 80% in 17(49%) and 14 (40%) studies, respectively. AUCs andpredictive values/likelihood ratios were provided in8 (10%) and 2 (2%) of the studies, respectively.Agreement with a reference standard was described in5 studies (7%), with all of them providing evidence ofan adequate agreement. Of the studies, 6 (8%) investi-gated responsiveness (3 by pharmacological interven-tion), and 1 (1%) assessed repeatability.
+Technology Readiness. Of the studies, 50 (68%)
+included NAM-PD considered to represent TRL1 toTRL3. Two studies (2%) included NAM-PD of TRL9.NEW METHODS FOR PD ASSESSMENT
+Movement Disorders, Vol. 00, No. 00, 2016 5

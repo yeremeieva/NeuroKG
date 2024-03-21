@@ -1,5 +1,5 @@
 from utils.reader import list_files, read_pdf, write_txt, read_txt
-from utils.parser import parse_text_gpt
+from chat.raw_text_parser import parse_raw_text_gpt
 from utils.debugger import logger
 
 import time
@@ -16,10 +16,11 @@ def txt_to_parsed_txt(input_papers):
     for paper in input_papers:
         try:
             text = read_txt(f'./data/txt_papers/{paper}')
-            result = parse_text_gpt(str(text))
+            result = parse_raw_text_gpt(str(text))
             try:
                 write_txt(f'./data/txt_parsed_papers/parsed_{paper}', result)
                 logger.info(f'paper {paper} is parsed')
+                time.sleep(3)
             except Exception as e:
                 logger.exception(f'not successfully write parsed txt, exception "{e}"')
         except Exception as e:

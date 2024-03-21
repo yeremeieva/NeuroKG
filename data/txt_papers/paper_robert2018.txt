@@ -1,0 +1,102 @@
+Accepted Manuscript
+Parkinson's disease: Evolution of the scientific literature from 1983 to 2017 by
+countries and journals
+C. Robert, C.S. Wilson, R.B. Lipton, C.-D. Arreto
+PII: S1353-8020(18)30495-4
+DOI: https://doi.org/10.1016/j.parkreldis.2018.11.011
+Reference: PRD 3841
+To appear in: Parkinsonism and Related Disorders
+Received Date: 11 June 2018
+Revised Date: 1 November 2018
+Accepted Date: 7 November 2018
+Please cite this article as: Robert C, Wilson CS, Lipton RB, Arreto C-D, Parkinson's disease: Evolution of
+the scientific literature from 1983 to 2017 by countries and journals, Parkinsonism and Related Disorders
+(2018), doi: https://doi.org/10.1016/j.parkreldis.2018.11.011 .
+This is a PDF file of an unedited manuscript that has been accepted for publication. As a service to
+our customers we are providing this early version of the manuscript. The manuscript will undergo
+copyediting, typesetting, and review of the resulting proof before it is published in its final form. Please
+note that during the production process errors may be discovered which could affect the content, and all
+legal disclaimers that apply to the journal pertain.MANUSCRIPT 
+ACCEPTED
+ACCEPTED MANUSCRIPT1 
+ Parkinson’s disease:  
+Evolution of the scientific literature from 1983 to  2017 by countries and journals  
+ 
+Robert C. 1,2 *; Wilson C.S. 3; Lipton R.B. 4; Arreto C.-D. 2,5  
+ 
+ 
+ 
+1* Université Paris Descartes, Paris, France, 
+2 Gliaxone; Saint Germain Sous Doue, France 
+3 Formerly at: School of Information Systems, Techn ology and Management, University of New 
+South Wales, UNSW Sydney, 2052 Australia; 
+4 Department of Neurology, Albert Einstein College of Medicine, Bronx, NY, USA;  
+5 Université Paris Descartes, Faculté de Chirurgie Dentaire, Hôpital Bretonneau, HUPNVS, AP-
+HP, Paris, France 
+*Corresponding author:  ROBERT Claude  
+ GLIAXONE 
+ 30 rue de la Fontaine 
+ 77 169 Saint Germain Sous Doue 
+ France 
+ Email : clauderobert99@yahoo.fr 
+ 
+ 
+  MANUSCRIPT 
+ACCEPTED
+ACCEPTED MANUSCRIPT2 
+ Abstract 
+This study charts the evolution of the scientific l iterature on Parkinson’s disease (PD) from 
+1983-2017 to inform communities of scientists, phys icians, patients, caregivers and 
+politicians concerned with PD. Articles published i n journals indexed in the Science Citation 
+Index-Expanded  database of the Web of Science  were retrieved and analyzed in seven five-
+year periods: 1983-1987, 1988-1992, 1993-1997, 1998 -2002, 2003-2007, 2008-2012 and 
+2013-2017. Over 35 years the number of research pap ers on PD increased 33-fold: 885 
+papers in 1983-1987 to 29,972 in 2013-2017. At the same time the number of countries 
+contributing to PD research increased from 37 to 13 1. The USA was the most prolific 
+country throughout, followed by several European (U K, Germany, Italy and France) and 
+English-speaking (Canada and Australia) countries. By 2003, several Asian countries 
+(China, South Korea, India and Turkey) emerged with  rapid increases in publications related 
+to PD. By 2013-2017, China surpassed all but the US A to rank 2nd globally in productivity. 
+Despite an increase from 4 to 22 African countries publishing PD research from 1983-2017, 
+most were either unproductive or contributed ≤ 5 papers in each five-year period. There has 
+also been a 12-fold increase in the number of journ als (232 to 2,824) containing papers on 
+PD. In 2013-2017 three PD-focused journals ( Parkinsonism & Related Disorders , 
+Movement Disorders  and Journal of Parkinson’s Disease ) contained 6.8% of all PD papers 
+while a large majority (82.5%) of journals publishe d ≤ 10 papers. This quantitative study 
+complements the numerous extant qualitative reviews  to provide a global perspective on PD 
+research.  
+ 
+Keywords: Parkinson’s Disease, Bibliometrics, Publi cation Growth, Journal Analysis, 
+Country Productivity 
+  MANUSCRIPT 
+ACCEPTED
+ACCEPTED MANUSCRIPT3 
+ 1. Introduction 
+ During the last two decades, the scientific publis hing activity on Parkinson’s disease (PD) 
+increased tremendously, well beyond that of the glo bal scientific literature (Fig. 1). This literature  
+growth accompanies the important scientific progres s made in PD, along with the growing interest 
+among researchers and clinicians. PD is now the wor ld’s second most common neurodegenerative 
+disorder, affecting more than six million people wo rldwide. The 2016 global health metrics show 
+that Parkinson’s disease contributes 3.2 million di sability-adjusted life-years (DALY) and is 
+responsible for 706 thousand YLD, years lived with disability [1,2]. Based on the two metrics, PD 
+ranked 6th among neurologic disorders. On the occas ion of the 200th anniversary of Shaking Palsy, 
+a comprehensive review paper on the past, present, and future of Parkinson’s disease prepared by 
+over three dozen prominent researchers was publishe d recently [3].   
+In the past decade, several studies have tried to q uantify various aspects of the PD scientific 
+literature, for example: citation analysis of eithe r highly-cited PD papers [4-5] or highly-cited PD 
+research authors [6]; bibliometric profile of deep brain stimulation [7]; bibliometric impact of 
+neurosurgical research [8,9]; highly-cited works in  essential tremor and dystonia [10,11]; 
+bibliometric analysis of movement disorder [12]; bi bliometric analysis of stem cell transplantation 
+[13]; and bibliometric study of neuroscience resear ch from 2006 to 2015 [14].  
+A global bibliometric analysis of the PD field from  1991-2006 showed increasing 
+international collaboration among researchers and d emonstrated that author-provided keyword 
+analysis was a novel approach to research trends in  PD [15]. Gupta and Bala [16] provide India’s 
+research output of PD papers for 10 years (2002-201 1) and note that there are no other PD scientific 
+literature studies which focusses on specific count ries or regions.  
+To enhance the extant body of research briefly ment ioned above, we studied the evolution of 
+the PD scientific literature over the last 35 years  (1983-2017). Our investigation focuses on the 
+geographical distribution of the PD research activi ty, and on the scientific journals publishing PD MANUSCRIPT 
+ACCEPTED
+ACCEPTED MANUSCRIPT4 
+ research. We reviewed publications from 1983-2017 g rouped in five-year periods: 1983-1987, 
+1988-1992, 1993-1997, 1998-2002, 2003-2007, 2008-20 12 and 2013-2017.    

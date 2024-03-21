@@ -1,0 +1,344 @@
+Received: 10May 2021
+-Revised: 5July2021
+-Accepted: 6July2021
+DOI: 10.1002/rmv.2278
+REVIEW
+TheimpactofParkinson'sdiseaseonmanifestations and
+outcomesofCovid‐19patients:Asystematicreviewand
+meta‐analysis
+AmrEhabEl‐Qushayri1
+|SheriefGhozy2
+|AbdullahReda3
+|
+AhmedMostafaAhmedKamel4
+|AlzhraaSalahAbbas1
+|AdamA.Dmytriw5
+1Faculty ofMedicine, Minia University, Minia,
+Egypt
+2Faculty ofMedicine, Mansoura University,
+Mansoura, Egypt
+3Faculty ofMedicine, Al‐Azhar University,
+Cairo, Egypt
+4Faculty ofPharmacy, Minia University, Minia,
+Egypt
+5Neuroradiology andNeurointervention
+Service, Brigham andWomen's Hospital,
+Boston, Massachusetts, USA
+Correspondence
+Sherief Ghozy, MDFaculty ofMedicine,
+Mansoura University, Mansoura, Egypt.
+Email: sherief_ghozy@yahoo.comSummary
+Parkinson's disease (PD)patients whocontracted Coronavirus disease 2019 (Covid‐
+19)hadadecline inmotor functions; nevertheless, there islimited evidence on
+whether PDpatients have ahigher riskforcontracting Covid‐19 orhave worse
+outcomes. Thisisthefirstsystematic review andmeta‐analysis toreview theimpact
+ofPDontheprognosis ofCovid‐19 patients. Weperformed asystematic search
+through seven electronic databases under therecommendations ofthePreferred
+Reporting Items forSystematic Review andMeta‐analyses statement (PRISMA)
+guidelines. TheRsoftware version 4.0.2 wasused tocalculate pooled sample sizes
+andtheir associated confidence intervals (95%CI). Finally, weincluded 13papers in
+thisstudy. Thepooled prevalence rateofCovid‐19 was2.12% (95%CI: 0.75–5.98).
+Fever, cough, fatigue andanorexia were themost common symptoms witharateof
+72.72% (95% CI:57.3 ‐92.29), 66.99% (95% CI:49.08–91.42), 61.58% (95% CI:
+46.69–81.21) and52.55% (95% CI:35.09–78.68), respectively. Thepooled rates
+were 39.89% (95% CI:27.09–58.73) forhospitalisation, 4.7% (95% CI:1.56–14.16)
+forICU admission and25.1% (95%CI: 16.37–38.49) formortality. Onfurther
+comparison ofhospitalisation andmortality rates among Covid‐19 patients withand
+without PD,there were nosignificant differences. Inconclusion, theprevalence and
+prognosis ofCovid‐19 patients seem comparable inpatients with PDandthose
+without it.Theincreased hospitalisation andmortality maybeattributed tooldage
+andco‐morbidities.
+KEYWORDS
+Covid‐19, mortality, length ofstay, Parkinson's disease, SARS‐CoV‐2, MLS
+Abbreviations: CI,95% confidence interval; Covid‐19, Coronavirus disease 2019; DDC, Dopa Decarboxylase; HEV67, Haemagglutinating encephalomyelitis virus 67;HCoV‐OC43, Human
+coronavirus OC43; ICU,Intensive careunit;MD,Mean difference; MERS‐COV, Middle Eastrespiratory syndrome–related coronavirus; NIH, National Institutes ofHealth; OR,Odds ratio; PD,
+Parkinson's disease; PRISMA, Preferred Reporting Items forSystematic Review andMeta‐analyses statement; SARS‐CoV, Severe acute respiratory syndrome coronavirus.
+AmrEhab El‐Qushayri andSherief Ghozy equally contributed tothework.
+RevMed Virol. 2021;e2278. wileyonlinelibrary.com/journal/rmv ©2021 John Wiley &Sons Ltd.
+-1of11
+https://doi.org/10.1002/rmv.2278
+1|INTRODUCTION
+Coronavirus disease 2019 (Covid‐19) isoneofthebeta coronavi-
+ruses (βCoVs), which hasawell‐documented propensity ofneuro-
+invasion, including severe acute respiratory syndrome coronavirus
+(SARS‐CoV),1Middle Eastrespiratory syndrome–related coronavirus
+(MERS‐COV),2human coronavirus 229E,3human coronavirus OC43
+(HCoV‐OC43).4,5Insome earlier studies, SARS‐CoV particles were
+found inthebrain ofSARS patients,6–8which wasalsoexperimentally
+produced through intranasal injection ofSARS‐CoV5orMERS‐COV,2
+passing through theolfactory nerves.5Although theexact route of
+SARS‐CoV orMERS‐COV reaching thebrain isunknown, non‐
+neurological routes arenotprobable since noviral particles were
+detected innon‐neuronal cells ofinfected brain regions.6–8Viral in-
+vasion oftheterminal nerves followed bytrans‐synaptic transfer to
+thecentral nervous system iswell‐documented forhaemagglutinat-
+ingencephalomyelitis virus 67(HEV67)9–12andavian bronchitis vi-
+rus,13,14which aremembers ofthecorona family.5,15Noteworthy,
+theHEV67 shares over 91%homology withHCoV‐OC43.16,17Taken
+together, SARS‐CoV‐2 mostly hasthesame neuroinvasive propensity
+documented inother CoVs.
+Ingeneral, Covid‐19 neurological manifestations were evident in
+many patients since thevery beginning ofthispandemic, ranging
+from mildheadache, nausea, vomiting, anduptogeneralised seizure
+andaltered consciousness.18–23Less frequent, yetimportant, mani-
+festations include seizures, strokes ofmultiple etiologies, and
+Guillain‐Barre syndrome.20–22,24,25The possible neuroinvasive
+mechanism may help explain therespiratory failure inCOVID‐19
+patients; themedian time from thefirst symptom torespiratory
+deterioration (5–8 days) isenough forviralparticles toinfiltrate the
+brain anddisrupt medullary neurons.5,10
+TheCovid‐19‐related case fatality ishigher among vulnerable
+groups such asolder agegroups andthose with co‐morbidities.26–28
+Individuals with Parkinson's disease (PD) show multiple patterns of
+vulnerability, being advanced inage, mostly have age‐related
+chronic conditions, andrelated polypharmacy burden.29Thecur-
+rent literature shows that PDpatients who contracted Covid‐19
+hadadecline inmotor functions andstress‐induced psychiatric
+problems (e.g., anxiety andmood changes)30–34;however, whether
+PDpatients have ahigher riskforcontracting Covid‐19 orhave
+worse outcomes isstilldebatable.35–39This isthefirstsystematic
+review and meta‐analysis toreview theimpact ofPDonthe
+prognosis ofCovid‐19 patients.
+2|METHODS
+2.1 |Searchstrategyandstudyselection
+Weperformed asystemic search through theelectronic databases
+from thecommencement andtill12thMarch 2021 under therec-
+ommendations ofthePreferred Reporting Items forSystematic
+Review andMeta‐analyses statement (PRISMA) guidelines.40Thesearch went through seven databases including System forInfor-
+mation onGrey Literature inEurope, Google Scholar, Web ofSci-
+ence, PubMed, Scopus, TheNew York Academy ofMedicine, and
+Virtual Health Library, under thesearch term ([Parkinson] AND
+[Covid‐19 ORCOVID 19ORnovel coronavirus]). Toensure not
+missing anypaper, amanual search wasconducted after thesys-
+temic oneusing various methods, allrelevant papers inPubMed and
+Google Scholar were checked, wesearched intothereferences of
+papers included from thesystemic search, andwealsoused rele-
+vant Mesh terms andkeywords tocheck formissing papers.41,42
+Duplication between database results wasremoved using EndNote
+X8software. Four authors independently reviewed search results
+from thetitle and theabstract considering ourinclusion and
+exclusion criteria inapreformed excel sheet, alloriginal papers
+reporting patients with PDandCovid‐19 were included. Wemade
+norestrictions forthelanguage, country, study design, age,sex,or
+ethnicity ofpatients. Reviews, animal studies, papers with over-
+lapping data, incomplete data ornotreliable forextraction, case
+reports, case series lessthan fivepatients andpapers including the
+same patients inapreviously included paper were allexcluded. We
+performed another phase offull‐text screening togetthefinal
+included studies andidentify papers eligible fortheanalysis. A
+study wasincluded when allthereviewers agreed toinclude it;
+whenever contradiction wasfound, adiscussion washeldtoresolve
+theconflict using asenior reviewer ifneeded.
+2.2 |Dataextraction
+Wedeveloped adataextraction form using Microsoft Excel‐based on
+thetype ofdata inourincluded papers. Theextraction sheet con-
+sisted ofthree domains. Thefirstoneincluded study ID,study design,
+sample size,age,male prevalence, andmethod ofCovid‐19 diagnosis.
+Thesecond part included ouroutcomes ofinterest (prevalence of
+Covid‐19 inPD,theprevalence ofmortality, hospitalisation, intensive
+careunit(ICU) admission, length ofhospital stay, manifestations, and
+comorbidities inPDpatients with Covid‐19). Thethird partincluded
+thequality rating oftheincluded studies. Three authors indepen-
+dently extracted thedata from included papers using theformed
+excel sheet. Another fourth author was added torecheck the
+extracted data. Adiscussion washeldtosolve anydisputations. Upon
+reaching thefinalextracted data, wemade another phase ofchecking
+toensure thevalidity ofthedata.
+2.3 |Qualityassessment
+Weused theNational Institutes ofHealth (NIH) tool forthe
+methodological quality assessment ofincluded studies.43Three in-
+dependent reviewers evaluated each study using apre‐formed 14
+question assessment sheet forthecohort and cross‐sectional
+studies, 12questions forthecase‐control studies andnine ques-
+tionassessment sheet forthecase series studies. Thefinaldecision2of11
+/
+EL‐QUSHAYRI ETAL.wasbased upon adiscussion between thereviewers. Depending on
+theanswers tothequestions ascore wasgiven foreach study.
+Regarding cohort andcross ‐sectional studies, an11to14score was
+considered tohave agood quality, a6to10score wasconsidered
+tohave afairquality, andbelow 6scores were considered tohave a
+lowquality. Meanwhile, incase series studies good quality was
+adopted when thescore was 7–9 points, fairquality andpoor
+quality were considered ifthescore was3–6and0–3points, in
+order. Forcase‐control studies, thescores forgood, fairandpoor
+quality wasreported when thepoints fallintherange of10–12, 7–
+9and0–6, respectively.
+2.4 |Statisticalanalysis
+Weused Rsoftware version 4.0.2 toperform themeta ‐analysis
+whenever available. Event rate andthecorresponding 95% confi-
+dence interval (CI)were used toanalyse categorical data. Meanwhile,
+thepooled mean difference (MD) andthecorresponding 95%CIwasused toanalyse continuous data. Theodds ratio (OR) with 95% CI
+wasused toanalyse categorical outcomes when outcomes oftwo
+compared groups were presented inmore than onestudy. Asignifi-
+cant difference wasconsidered when thepvalue was <0.05. Het-
+erogeneity between studies wasevaluated using theI‐squared and
+Q‐test, significant heterogeneity wasconsidered when thep‐value
+exceeds 0.1.44Weused afixed ‐effect model under Mantel ‐Haenszel
+methods when there wasnoevidence forheterogeneity; otherwise, a
+random effect model wasused topool thedata.45Weperformed
+publication biasaccording tothemethod ofEgger andcolleagues if
+theoutcomes were presented inmore than 10studies.46,47
+3|RESULTS
+3.1 |Studycharacteristics
+Weexported 910records intoendnote after performing thesys-
+tematic search, ofthose 89records were considered asduplicates.
+FIGURE1Preferred reporting items forsystematic review andmeta ‐analyses statement flowdiagram ofqualitative study selection
+processEL‐QUSHAYRI ETAL.
+/3of11Wescanned 829records foratitleandabstract screening followed
+byafull‐text screening of51eligible fulltexts. Finally, weincluded
+eight papers from thesystematic search inaddition tofivepapers
+obtained bythemanual search making atotal of13papers48–60
+(Figure 1).One paper wasexcluded duetotheinclusion ofdupli-
+catepatients,61andanother onereported combined outcomes ofPD
+patients combined with parkinsonism patients.62
+Regarding study design, there were fiveretrospective cohorts,
+three case‐controls, twocross‐sectionals, twocase series, andone
+prospective cohort (Table 1).Weincluded 8649 PDpatients and
+88710 control subjects. Covid‐19 diagnosis wasreported inonly
+sixpapers. One paper wascategorised aspoor quality while therestofthepapers were categorised asfairquality (Table S1,S2
+andS3).
+3.2 |PrevalenceofCovid19amongpatientswith
+PD
+Four studies reported theprevalence ofCovid‐19 inatotal of6878
+PDpatients. Thepooled prevalence rateofCovid‐19 was2.12% (95%
+CI:0.75–5.98); nevertheless, heterogeneity wassignificant among
+thepooled studies (I2=95%; p<0.001) with prevalence rates
+ranging from 0.94% to8.51% (Figure 2).
+TABLE1Characteristics oftheincluded studies
+StudyIDStudydesignCompared
+groupSample
+sizeAge(mean
+[SD])Male
+prevalenceCOVID‐19diagnosisQuality
+assessment
+Kobylecki/
+2020/UKProspective
+cohortP/C 13/27 78.3 (9.5)/
+79.8
+(8.5)8/15 NR Poor
+Zhang/2021/
+USARetrospective
+cohortP/C 694/
+78,35579/50a417/
+35024NR Fair
+Zahi/2021/
+ChinaRetrospective
+cohortP/C 10/286 70/66a3/147 Guidelines outlined inthediagnosis andtreatment
+protocol fornovel coronavirus (2019‐nCoV)
+disease (trial version 7)compiled bytheChinese
+National Health Commission.Fair
+Vignatelli/
+2021/
+ItalyRetrospective
+cohortP/C 696/8590 75/76 409/5000 (ICD‐9‐CM) Fair
+Garcia/2020/
+SpainCross‐
+sectionalP 568 63.5 (12.5) 267 NR Fair
+Sainz‐Amo/
+2020/
+SpainCase‐control P 211 74.1 (9.5) 124 Centres forDisease Control andPrevention (2020)
+Coronavirus disease 2019 (COVID‐19).Fair
+Fasano/
+2020/
+ItalyRetrospective
+cohortP 117 71.4 (10.8) 74 Real‐time PCR assay orwhen symptoms were
+compatible with COVID‐19 andthepatient has
+been incontact with aPCR‐confirmed caseFair
+DelPrete/
+2020/
+ItalyCase‐control P 740 NR NR NR Fair
+Cilia/2020/
+ItalyCase‐control P 141 NR NR World Health Organization criteria onMarch 20,
+2020Fair
+Buccafusca/
+2021/
+ItalyRetrospective
+cohortP 12 NR 6 Rhinopharyngeal swab Fair
+Brown/2020/
+USACross‐
+sectionalP/C 5429/
+145268/60 2800/313 NR Fair
+Artusi/2020/
+ItalyCase series P 8 63–80b5 NR Fair
+Antonini/
+2020/UKCase series P 10 78.3 6 NR Fair
+Abbreviations: P,Parkinson; C,control; NR,notreported.
+amedian.
+brange.4of11
+/
+EL‐QUSHAYRI ETAL.Toinvestigate thepresence ofpossible co‐founders tothe
+investigated prevalence rates, therates ofdifferent comorbidities
+among PDpatients were compared inSARS ‐CoV‐2positive and
+SARS ‐CoV‐2negative patients. The results showed significantly
+higher rates ofdiabetes mellitus (OR: 2.12, 95% CI:1.06–4.23;
+p=0.033) andimmunocompromise (OR: 2.06, 95% CI:1.08–3.94;
+p=0.029), with noheterogeneity inboth analyses (I2=0%).How-
+ever, nosignificant differences were noticed intherates ofhyper-
+tension, obesity, dementia, chronic pulmonary disease, malignancy, or
+cardiomyopathy (Figure 3).
+3.3 |Covid ‐19manifestations amongpatientswith
+PD
+Fever, cough, fatigue andanorexia were found tobethemost com-
+mon symptoms with arateof72.72% (95% CI:57.3–92.29), 66.99%
+(95% CI:49.08–91.42), 61.58% (95% CI:46.69–81.21) and52.55%
+(95% CI:35.09–78.68), respectively. Heterogeneity wasonly found
+among cough (I2=79%; p<0.001), fever (I2=73%; p<0.001), and
+diarrhoea (I2=64%; p<0.064) analyses (Figure 4a).Onthefurther
+comparison ofPDpatients with Covid ‐19totheCovid ‐19patients
+without PD,there wasnosignificant difference incough (OR: 0.93,
+95% CI:0.01–98.09; p=0.977) orfever (OR: 0.54, 95% CI:0.22–
+1.32; p=0.177) rates. There wasasignificant heterogeneity inthe
+cough comparison (I2=86%; p=0.008), while thefever analysis did
+notshow thesame (I2=0%;p=0.819) (Figure 4b).
+3.4 |Patientoutcomes
+Hospitalisation wasreported ineight studies (263 patients) with a
+pooled rate of39.89% (95% CI:27.09–58.73); nevertheless, there
+wasasignificant heterogeneity among thepooled studies (I2=81%;
+p<0.001) (Figure 5a).Moreover, thelength ofhospital stay was
+comparable inPDpatients with Covid ‐19andCovid ‐19patients
+without PD(MD: 2.69, 95%CI: −6.99–12.37; p=0.586), with no
+heterogeneity observed (I2=0%;p=0.396) (Figure 5b).Inthesame
+context, thepooled rateofICUadmission was4.7% (95% CI:1.56–
+14.16) withnopresent heterogeneity (I2=0%;p=0.655) (Figure 5a).
+Themortality rates among PDpatients with Covid ‐19were re-
+ported in11studies with atotal of928 patients. The pooledmortality ratewasfound tobe25.1% (95% CI:16.37–38.49), with
+significant heterogeneity among theincluded studies (I2=77%;
+p<0.001)(Figure 5a).TheEgger's regression testshowed norisk
+biasinthemortality analysis (p=0.972). Onfurther comparison of
+mortality rates among Covid ‐19patients with PDandthose with
+Covid ‐19without PD,there were nosignificant differences among
+thetwogroups (OR: 1.42, 95% CI:0.26; 7.70; p=0.687). However,
+there was significant heterogeneity among theincluded studies
+(I2=82%; p=0.003) (Figure 5c).
+4|DISCUSSION
+Inthismeta ‐analysis, weinvestigated whether PDhasasignificant
+impact ontheseverity andprognosis ofCovid ‐19infections. Our
+pooled analysis oftherelevant studies showed that thehospital-
+isation rateforPDpatients with Covid ‐19infections was39.89%,
+while thetotal mortality ratewas25.1%. Ourestimated mortality
+rateismuch higher than thepreviously reported rates forPDpa-
+tients from thegeneral population.63Akbar etal.64conducted along‐
+term follow ‐upinvestigation intheUnited States tofindthatamong
+hospitalised patients, themortality rateforPDwas17%, which was
+alsosmaller than therateforthenon‐PDincluded population (22%)
+over 32years. Aprevious systematic review byMacleod etal.65re-
+ported thatamong 88studies, theestimated mortality ratio ranged
+between 0.9and3.8%, with thisratio reportedly increasing over
+time. Ontheother hand, aprevious meta ‐analysis byXuetal.66re-
+ported thatPDincreased theriskofall‐cause mortality forpatients
+suffering from thedisease by2.2foldhigher than thegeneral pop-
+ulation. Moreover, another meta ‐analysis reported that infections
+were thecommonest cause forhospitalisation forPDpatients.67
+ForCovid ‐19infections tooccur, SARS ‐CoV‐2must attach toits
+receptors within human cells, namely angiotensin ‐converting enzyme
+2(ACE2) receptors, which canbeextensively found within the
+epithelial cellsoftherespiratory tract. Moreover, thesame receptors
+were also observed within dopaminergic neuronal cells,68which
+might explain thepotential association between Covid ‐19infections
+andneurological disorders. Recent studies have alsodescribed the
+potential rolethat angiotensin might have inPDbyinduction of
+neurodegeneration through some pro‐oxidative and pro‐
+inflammatory actions.69Aprevious investigation byNataf etal.70
+alsoreported thatACE2 andDopa Decarboxylase (DDC) probably
+FIGURE2Prevalence ofCOVID ‐19inParkinson's disease patients (represented bythepooled event rateandthecorresponding 95%CI)EL‐QUSHAYRI ETAL.
+/5of11
