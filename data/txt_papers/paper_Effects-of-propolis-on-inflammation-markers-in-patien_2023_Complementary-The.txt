@@ -1,0 +1,491 @@
+Complementary Therapies in Clinical Practice 51 (2023) 101732
+Available online 26 January 2023
+1744-3881/© 2023 Elsevier Ltd. All rights reserved.Effects of propolis on inflammation markers in patients undergoing 
+hemodialysis: A randomized, double-blind controlled clinical trial 
+Tuany Ramos Chermuta, Larissa Fonsecab, Nathalia Figueiredoc, Viviane de Oliveira Leald, 
+Natalia Alvarenga Borgese, Ludmila FMF. Cardozoc, Paulo Emilio Correa Leitei, 
+Livia Alvarengab, Bruna Regisc, Alvimar Delgadof, Andresa A. Berrettag, 
+Marcelo Ribeiro-Alvesh, Denise Mafraa,b,j,* 
+aPost-Graduate Program in Nutrition Sciences, Fluminense Federal University (UFF), Niter ˘oi, RJ, Brazil 
+bPost-Graduate Program in Medical Sciences, Fluminense Federal University (UFF), Niter ˘oi, RJ, Brazil 
+cPost-Graduate Program in Cardiovascular Sciences, Fluminense Federal University (UFF), Niter ˘oi, RJ, Brazil 
+dNutrition Division, Pedro Ernesto University Hospital, Rio de Janeiro State University (UERJ), Rio de Janeiro, Brazil 
+eInstitute of Nutrition, Rio de Janeiro State University (UERJ), Rio de Janeiro, Brazil 
+fNephology Division, Department of Internal Medicine, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, Brazil 
+gResearch, Development & Innovation Department, Apis Flora Indl. Coml. Ltda, Ribeir ~ao Preto, Brazil 
+hHIV/AIDS Clinical Research Center, National Institute of Infectology Evandro Chagas (INI/Fiocruz), Rio de Janeiro, RJ, Brazil 
+iPost-Graduate Program in Science and Biotechnology, Fluminense Federal University (UFF), Niter ˘oi, RJ, Brazil 
+jGraduate Program in Biological Sciences – Physiology, Federal University of Rio de Janeiro (UFRJ), Rio de Janeiro, RJ, Brazil   
+ARTICLE INFO  
+Keywords: 
+Chronic kidney disease 
+Hemodialysis 
+Inflammation 
+Propolis 
+Nutrition ABSTRACT  
+Background and aims: Several studies have been performed in vitro and in animals showing that propolis (a resin 
+made by bees) has excellent anti-inflammatory properties, but no study has been performed in patients with 
+chronic kidney disease (CKD) on hemodialysis (HD). The present study aimed to evaluate the effects of propolis 
+supplementation on inflammatory markers in patients with CKD on HD. 
+Methods: This is a longitudinal, double-blind, placebo-controlled trial with patients randomized into two groups: 
+propolis (4 capsules of 100 mg/day containing concentrated and standardized dry EPP-AF ® green propolis 
+extract) or placebo (4 capsules of 100 mg/day containing microcrystalline cellulose, magnesium stearate and 
+colloidal silicon dioxide) for two months. Routine parameters were analyzed using commercial kits. The plasma 
+levels of inflammatory cytokines were evaluated by flow luminometry. 
+Results: Forty-one patients completed the follow-up, 21 patients in the propolis group (45 ±12 years, 13 women, 
+BMI, 22.8 ±3.7 kg/m2) and 20 in the placebo group (45.5 ±14 years, 13 women, BMI, 24.8 ±6.8 kg/m2). The 
+obtained data revealed that the intervention with propolis significantly reduced the serum levels of tumour 
+necrosis factor α (TNF α) (p 0.009) as well as had the tendency to reduce the levels of macrophage inflam -
+matory protein-1 β (MIP-1 β) (p 0.07). There were no significant differences in the placebo group. 
+Conclusion: Short-term EPP-AF ® propolis dry extract 400 mg/day supplementation seems to mitigate inflam -
+mation, reducing the plasma levels of TNFα and MIP-1 β in patients with CKD on HD. This study was registered at 
+clinicaltrials.gov (NCT04411758).   
+1.Introduction 
+Despite recent advances in dialysis solute and membrane technology, 
+patients with chronic kidney disease (CKD) undergoing hemodialysis 
+(HD) have several risk factors for cardiovascular diseases (CVD), which is the leading cause of mortality in these patients [1,2]. In addition to 
+traditional risk factors (obesity, hypertension, diabetes, dyslipidemia) 
+and typical situations of kidney disease (such as hypervolemia, anaemia 
+and changes in calcium-phosphorus metabolism), patients on renal 
+replacement therapy also have a high prevalence of emerging factors, 
+*Corresponding author. Hospital Universit ˘ario Antkonio Pedro, Universidade Federal Fluminense (UFF), Rua Marqu kes do Paran ˘a nº 303, 4º andar, Niter ˘oi, Rio de 
+Janeiro, 24033 900, Brazil. 
+E-mail address: dm@id.uff.br (D. Mafra).  
+Contents lists available at ScienceDirect 
+Complementary Therapies in Clinical Practice 
+u{�~zkw! s{yo| kro>! ÐÐÐ1ow�o�t o~1m{y2w{m k�o2m�m|!
+https://doi.org/10.1016/j.ctcp.2023.101732 
+Received 10 November 2022; Received in revised form 19 January 2023; Accepted 24 January 2023   Complementary Therapies in Clinical Practice 51 (2023) 101732
+2such as oxidative stress and inflammation [2–5]. 
+These patients have a high production of reactive oxygen species 
+(ROS) and a reduction in the functioning of the body ’s antioxidant 
+system. Oxidative stress is directly linked to inflammation since ROS 
+promote the activation of nuclear factor κB (NF- κB), a transcription 
+factor responsible for the synthesis of inflammatory cytokines such as 
+interleukins IL-1, IL-6, IL8, IL-1β, IL-18, tumour necrosis factor α (TNF- 
+α), interferon- γ (INF- γ) and other molecules such as vascular cell 
+adhesion molecule-1 (VCAM-1) and intercellular adhesion molecule-1 
+(ICAM-1), which are closely associated with the progression of CVD, 
+including acute myocardial infarction and congestive heart failure [6,7]. 
+ROS also reduce the antioxidant capacity, caused mainly by impaired 
+activation of factor 2-related erythroid nuclear factor 2 (Nrf2), one of the 
+main cellular defense mechanisms against oxidative stress [8,9]. 
+Therapeutic approaches to mitigate inflammation and oxidative 
+stress are studied in patients with CKD, and nutritional interventions 
+using food as medicine have been adopted for these patients [10]. 
+Propolis, a resinous substance produced by bees from different plant 
+exudates, has been used since ancient times for medicinal purposes and, 
+currently, research has confirmed its biological effects, including anti-
+cancer, antidiabetic, antibacterial, antioxidant, and anti-inflammatory 
+activities reducing the production of pro-inflammatory cytokines 
+[11–14]. 
+It is important to know that the chemical composition of propolis 
+depends on the flora of the region where it comes from [15,16]. So, the 
+propolis substances have a variable composition. The combination of its 
+various chemical components determines its broad biological activity, 
+such as pinocembrin, acacetin, chrysin, rutin, luteolin, kaempferol, 
+apigenin, myricetin, catechin, naringenin, galangin and quercetin, caf-
+feic, cinnamic and ferulic acids, prenylated phenylpropanids, and 
+several others compounds including vitamins and minerals [11,12,17]. 
+Some standardized extracts were already proposed offer batch-to- 
+batch reproducible chemical profiles, such as Brazilian propolis stan-
+dardized extracts EPP-AF ® [18], which was already studied under the 
+safety and efficacy point of view in several models, including human 
+clinical trials [17,19–24]. 
+There are no studies on the role of propolis in patients with CKD on 
+HD. Only one study performed in non-dialysis CKD patients showed that 
+supplementation of 500 mg/day of green propolis extract for 12 months 
+reduced urinary MCP-1 (monocyte chemoattractant protein-1) and 
+proteinuria in these patients [21]. Considering the vital safety and ef-
+ficacy background of propolis extract, it could be proposed as an option 
+to be studied focused on the benefit of patients with CKD and reducing 
+its inflammatory process. 
+Thus, the possible effects of propolis in patients with CKD were 
+discussed in a narrative review. It was concluded that this resin made by 
+bees could attenuate inflammation in these patients [25]. Also, a recent 
+systematic review showed that propolis might reduce oxidative stress 
+and renal damage, including inflammation status [26]. 
+The hypothesis proposed in this study is that propolis supplemen -
+tation could reduce the inflammatory markers in patients with CKD 
+undergoing HD. Therefore, this study aimed to evaluate the effect of 
+propolis dry extract supplementation on inflammation in patients un-
+dergoing HD and its safety. 
+2.Methods 
+2.1. Propolis extraction and analysis 
+The green propolis standardized extract was kindly provided by Apis 
+Flora Co. (Ribeir ~ao Preto, S~ao Paulo, Brazil). Propolis glycolic extract 
+(PGE) was obtained from EPP-AF ® after evaporation of the ethanol 
+portion and to achieve 30% w/v of dry matter. The analysis was pre-
+viously described by Sousa et al. (2007) [27]. The propolis extracts were 
+analyzed by HPLC [18]. Table 1 shows the chemical characteristics of 
+the propolis extract used. The total flavonoid as quercetin and the total phenolic as gallic acid were analyzed according to the method described 
+above [18]. 
+2.2. Patients 
+This randomized, double-blind, placebo-controlled clinical trial with 
+41 hemodialysis patients was carried out from January to March 2021. 
+Sample size calculation was performed a priori using G-Power 3.1 
+software for comparison of means between two groups (differences be-
+tween post-intervention and baseline collections for placebo and prop-
+olis groups) by T-test. We assumed statistical power of 80%, a two-tailed 
+significance level of 5%, an effect size (differences between groups) of 1, 
+and a sample ratio between groups of 1, resulting in the desired sample 
+size of 17 individuals per group. The primary endpoint was the TNF- α 
+serum level. 
+The research was carried out after each participant signed the free 
+and informed consent form, under the norms of the local Research Ethics 
+Committees, based on the guidelines of the Declaration of Helsinki and 
+the World Medical Association on research with human subjects. This 
+study has been approved by the local ethics committee, and it is regis-
+tered with ClinicalTrials.gov (NCT04411758). 
+2.3. Inclusion and exclusion criteria 
+Men and women with CKD on HD for at least six months, aged be-
+tween 18 and 75 years, arteriovenous fistula (AVF) as vascular access, 
+and patients with individualized dietary prescription (adequate energy 
+supply 25–35 Kcal/ideal Kg/day and protein from 1.0 to 1.2 g/ideal Kg/ 
+day according to recommended by NKF-KDOQI, 2020) were included in 
+the study. The HD sessions ranged from 3 to 4.5 h and occurred 3x/ 
+week, with a dialysate flow of 500 mL/min and a blood flow greater than 
+250 mL/min. Patients with autoimmune and infectious diseases, dia-
+betes, cancer, and AIDS; pregnant, those using catabolic drugs, antibi -
+otics, or antioxidant vitamin supplements (except for vitamin C, which is 
+commonly used in the clinic), with regular intake of propolis and those 
+who report being allergic to a bee sting, were excluded. Patients who 
+had Covid-19 during the intervention period were also excluded. 
+2.4. Study design 
+In this clinical trial, patients were divided into two groups, the 
+propolis group, in which CKD patients on HD received capsules con-
+taining standardized, concentrated and dry extract of dry green propolis 
+and the placebo group, in which the patients received capsules con-
+taining microcrystalline cellulose, magnesium stearate and colloidal 
+silicon dioxide. All the pots with the capsules were coded as A or B since 
+it was a double-blind trial. 
+The dosage was two capsules of 100 mg after lunch and two after 
+dinner for two months, totaling 400 mg per day of propolis. 
+The randomization of the groups was performed by an external 
+person after checking the inclusion and exclusion criteria. Eligible pa-
+tients were ranked 1:1 according to a computer-generated list of treat-
+ment codes. Blood tests, assessment of dietary intake, and 
+anthropometric measurements were performed before and after the 
+supplementation period with green propolis extract or placebo. 
+Regarding the adherence to the propolis supplementation, our staff 
+verified through telephone contact, message by text, or by the app Table 1 
+Chemical characterization of the standardized propolis extract (EPP-AF ®) used 
+in this study.  
+Compounds Standardized propolis extract (mg/400 mg) 
+Quercetin 20.0 
+Gallic acid 26.2 
+Artepellin C 25.9  T.R. Chermut et al.                                                                                                                                                                                                                             Complementary Therapies in Clinical Practice 51 (2023) 101732
+3WhatsApp ® whether patients were taking the capsules as directed. At 
+the end of the two months of supplementation, we calculated the 
+remaining capsules in the bottles. With the difference between the 
+capsules offered for two months of treatment and the capsules left over 
+at the end, it was possible to establish the percentage of adherence of 
+each patient by multiplying the number of capsules remaining by 100. 
+The assessment of nutritional status was carried out from the 
+collection of anthropometric data obtained from the patient ’s medical 
+records to minimize direct contact with patients as a result of the Covid- 
+19 pandemic. It was used the dry weight (post HD) of the day on which 
+the patients ’ blood samples were collected, and the same was used to 
+calculate the BMI. Information on body weight and height was collected 
+from the patient ’s medical records. A 3-day food recall assessed food 
+intake. 
+2.5. Primary and secondary outcomes 
+The primary outcome was to evaluate the anti-inflammatory effects 
+of propolis, and the secondary outcome was the safety of propolis 
+evaluated by biochemical parameters and also by an adverse events 
+questionnaire used in the study of Silveira et al. (2019) [21]. 
+2.6. Collection and analysis of biological material 
+Blood samples were obtained in the morning from the arterial side of 
+the hemodialysis access prior to the dialysis session. Blood was collected 
+in Vacutainer ® tubes containing ethylenediaminetetraacetic acid 
+(EDTA) as the anticoagulant (1.0 mg/mL). To obtain the plasma and 
+serum, the blood was centrifuged at 2500 rpm for 10 min at 4 •C and 
+then stored at  80 •C until further analysis. 
+2.7. Multiplex test (serum) – inflammation markers 
+According to the manufacturer ’s recommendation, a multiplex bead- 
+based assay was performed by the commercial kit and apparatus Bio- 
+Plex Magpix (Biorad Laboratories Inc., Hercules, California, USA). The 
+xMAP magnetic technology is based on microspheres that allow the 
+detection of several different circulating proteins in the sample. In this 
+study, serum levels of the following cytokines were analyzed: monocyte 
+chemotactic protein 1 (MCP-1/CCL-2); macrophage inflammatory pro-
+tein-1 β (MIP-1 β/CCL-4); interleukin-2, -6, -7, -8 (CXCL8),  10 e  17; 
+tumor necrosis factor α (TNF- α). 
+2.8. Routine parameters 
+Plasma levels of biochemical parameters (albumin, glucose, total 
+cholesterol, high-density lipoprotein (HDL), triglycerides, phosphorus, 
+potassium, parathyroid hormone, hematocrit, and haemoglobin were 
+analyzed using commercial kits from BioClin ®. 
+2.9. Statistical analysis 
+Non-parametric Mann –Whitney U tests were used to compare 
+continuous numerical baseline demographic and clinical variables, 
+whereas Fisher ’s exact tests were used for categorical variables. The 
+cytokine plasma levels were log (base 10) transformed and used as 
+outcome parameters. Multiple linear mixed-effects models were used to 
+evaluate the time-intervention interactions, where patients were 
+considered a random effect. The model ’s fixed systematic component 
+was adjusted by confounding variables (i.e., time on HD and BMI). The 
+mean and 95% confidence intervals were used, and the results were also 
+presented graphically for the estimated mean marginal effects. The 
+sample distributions of data are represented in box plots (strip plots in 
+grey and the black horizontal bars represent the 95% confidence in-
+tervals of the expected mean marginal effects by the group). The whole 
+other variables made in the multiple linear mixed models remained in equal proportions or their average values, and contrasts were con-
+structed from these estimated mean marginal effects. The Tukey Honest 
+Significant Difference (HSD) method was used to correct p-values by the 
+number of comparisons. It was considered statically significant p values 
+≼0.05. R software version 4.1.1, packages ‘lme4 ’, ‘emmeans ’, and their 
+dependencies were used to perform the statistical analyses. 
+3.Results 
+Forty-two patients completed the two months of intervention 
+described in the CONSORT flow diagram (Fig. 1). The general charac -
+teristics of the patients studied are shown in Table 2, and no difference 
+was observed between the groups at the baseline. Only two patients 
+presented BMI below 18.5 kg/m2 and five presented above 30 kg/m2. 
+Regarding medication, 100% of all patients used antihypertensive 
+drugs. The classes of antihypertensive drugs in descending order were: 
+angiotensin II receptor blockers (58%), beta-blockers (41%), diuretics 
+(33%), vasodilators (33%), angiotensin-converting enzyme inhibitors 
+(16%) and calcium channel blockers (8%). Regarding the food intake, 
+patients presented a protein intake of 0.93 g/kg/day and 23.6 kcal/kg/ 
+day. 
+The baseline biochemical parameters are presented in Table 3, and 
+there are no statically differences between the groups at baseline. Ac-
+cording to albumin, 28% presented values below the recommendation 
+(F3.8 g/dL). Around 50% presented hyperphosphatemia (F5.5 mg/dL), 
+33% had high potassium levels (F5.5 mg/dL) and all patients presented 
+anaemia according to haemoglobin values. Also, there is no evidence of 
+plasma level differences after two months of intervention in both groups 
+(data not shown). The values of dialysis adequacy (Kt/V) were in the 
+adequate average and did not change after interventions. Additionally, 
+to the biochemical analysis, the safety of supplementation was guaran -
+teed, as there were no reports of adverse events that compromised the 
+health of patients according to the questionnaire applied. 
+Table 4 shows the cytokine levels (expressed in Log 10) before and 
+after each intervention. Fig. 2 illustrates the cytokine plasma levels of 
+both treatment groups, comparing before and after the intervention of 
+each group. After two months of supplementation, the inflammation 
+parameters showed a significant reduction in the TNF- α and a tendency 
+to reduce the MIP-1 β serum levels in the propolis group. 
+4.Discussion 
+In this study, we show that supplementation with 400 mg of propolis 
+per day for two months reduced the serum levels of TNFα and MIP-1 β. To 
+our knowledge, this is the first study evaluating propolis ’s anti- 
+inflammatory activities in patients undergoing hemodialysis. 
+The main components of propolis are flavonoids and phenolic acids 
+such as galangin and pinocembrin, well-known for their antioxidant 
+action, with the ability to scavenge free radicals (donating hydrogen 
+ions), neutralizing their action on cell membrane peroxidation and 
+concomitantly apoptosis [28–30]. 
+In the case of green propolis, prenylated cinnamic acid derivatives 
+such as artepellin C, baccharin and drupanin are the key biomarkers and 
+also participate in the biological activities of this product [17,31,32]. 
+Artepellin C was demonstrated to control inflammation by down -
+regulating the mediators as NF-kB and reducing the inflammation 
+symptoms such as pain, oedema and redness [33,34]. Artepellin C also 
+decreased the synthesis of TNFα, IL-1β, IL-6, IL-8, IFN- γ and other in-
+flammatory cytokines [33–39], besides the increase of IL-10 37. 
+Furthermore, the inhibitory effects of propolis on NF-kB expression 
+have already been elucidated in the literature [26,40–42]. Pinocembrin 
+binds at the site of action and prevents the nuclear translocation of 
+NF-kB to the nucleus, thereby inhibiting its activation [43]. Other 
+bioactive compounds found in propolis, like caffeic acid phenethyl ester 
+(CAPE), have a direct role in the inhibition of mRNA expression of 
+NF-kB, responsible for the synthesis of several pro-inflammatory T.R. Chermut et al.                                                                                                                                                                                                                             Complementary Therapies in Clinical Practice 51 (2023) 101732
+4cytokines with IL-1, IL-6, IL-8, IL-18, INF- γ, and TNFα [7,44,45]. Indeed, 
+propolis can inhibit the synthesis of inflammatory markers such as 
+C-reactive protein, TNFα, IL-6, and IL-1β [35]. 
+Propolis efficiently reduced serum levels of TNFα by neutralizing 
+ROS and activating the signaling pathway for its transcription in cuta-
+neous anthrax animal models [46]. During the inflammatory process, 
+TNFα also modulates the migration of neutrophils by stimulating endothelial cells to increase the expression of adhesion molecules, which 
+are directly linked to adhesion, rolling, and transmigration of neutro -
+phils [47]. Therefore, a possible way propolis modulates neutrophil 
+Fig. 1.CONSORT flow diagram of the study regarding propolis supplementation in patients with chronic kidney disease on hemodialysis.  
+Table 2 
+General characteristics between placebo and propolis groups at the baseline.  
+Parameters Overall Placebo Propolis p-value 
+Sex (F/M) 26/15 13/7 13/8 1.00 
+Age (yr) 45.0 (14.0) 45.5 (14.0) 45.0 (12.0) 0.85 
+Time on HD (months) 61.0 (70.0) 44.5 (46.5) 68.0 (60.0) 0.11 
+Kt/V 1.6 (0.5) 1.7 (0.5) 1.6 (0.4) 0.23 
+BMI (kg/m2) 23.4 (4.7) 24.8 (6.8) 22.8 (3.7) 0.57 
+Data are presented as median (interquartile range – IQR) or absolute pro-
+portions. 
+Abbreviation: HD: hemodialysis; Kt/V – dialysis adequacy; BMI: body mass 
+index. 
+Table 3 
+Biochemical parameters between placebo and propolis groups at the baseline.  
+Parameters Overall Placebo Propolis p- 
+value 
+Total Cholesterol (mg/ 
+dL) 151.0 
+(35.5) 153.0 
+(40.5) 150.0 
+(25.2) 0.95 
+Albumin (mg/dL) 3.9 (0.3) 3.9 (0.2) 3.8 (0.3) 0.87 
+Phosphorus (mg/dL) 5.5 (2.4) 5.4 (2.7) 5.6 (1.5) 0.69 
+Glucose (mg/dL) 103.0 
+(27.0) 102.0 
+(22.5) 107.0 
+(29.0) 0.45 
+Potassium (mg/dL) 5.2 (0.6) 5.3 (0.6) 5.1 (0.8) 0.21 
+Haematocrit (%) 29.3 (3.7) 29.5 (5.6) 28.7 (5.1) 0.16 
+Haemoglobin (mg/dL) 9.5 (1.7) 9.4 (1.9) 9.6 (1.8) 0.67 
+Parathyroid hormone 
+(pg/dL) 677.8 
+(857.5) 448.5 
+(541.9) 700.3 
+(800.4) 0.13 
+Data are presented as median (interquartile range – IQR). Table 4 
+Plasma/Serum levels of cytokines (Log10) of placebo and propolis groups before 
+and after each intervention.  
+Parameters 
+(pg/mL) Placebo p- 
+value Propolis p- 
+value Pre Pos Pre Pos 
+IL6 0.39 
+(0.21; 
+0.57) 0.38 
+(0.13; 
+0.64) 1.00 0.15 
+( 0.02; 
+0.33)  0.02 
+( 0.31; 
+0.27) 0.56 
+IL2 0.04 
+(0.03; 
+0.06) 0.03 
+(0.02; 
+0.04) 0.14 0.02 
+(0.01; 
+0.04) 0.02 
+(0.01; 
+0.03) 0.99 
+IL8 0.17 
+(0.07; 
+0.27) 0.21 
+(0.11; 
+0.31) 0.76 0.08 
+( 0.01; 
+0.17) 0.08 
+( 0.01; 
+0.17) 0.99 
+IL10 0.08 
+( 0.67; 
+0.84) 0.24 
+( 0.51; 
+1.00) 0.59 0.16 
+( 0.56; 
+0.89) 0.20 
+( 0.52; 
+0.92) 0.99 
+IL7 0.10 
+(0.05; 
+0.14) 0.06 
+(0.01; 
+0.11) 0.42 0.08 
+(0.04; 
+0.12) 0.08 
+(0.03; 
+0.12) 0.99 
+IL17 0.00 
+(0.00; 
+0.01) 0.00 
+(0.00; 
+0.01) 0.97 0.00 
+(0.00; 
+0.01) 0.00 
+(0.00; 
+0.01) 0.98 
+MCP1 0.25 
+(0.13; 
+0.37) 0.14 
+(0.01; 
+0.28) 0.48 0.19 
+(0.08; 
+0.30) 0.15 
+(0.04; 
+0.26) 0.87 
+TNF- α 0.76 
+(0.63; 
+0.90) 0.70 
+(0.57; 
+0.84) 0.17 0.58 
+(0.45; 
+0.70) 0.48 
+(0.35; 
+0.61) 0.00 
+MIP-1 β 0.49 
+(0.43; 
+0.54) 0.44 
+(0.39; 
+0.49) 0.17 0.40 
+(0.35; 
+0.46) 0.35 
+(0.30; 
+0.40) 0.07 
+Data are presented as media (confidence range – IC). 
+Abbreviations: IL 6, IL 2, IL 8, IL 10, IL 7, IL 17: Interleukins 6,2,8,10,7,17; 
+MCP1: Monocyte chemotactic protein 1; TNF- α: Tumor Necrosis Factor α; 
+MIP1 β: Macrophage inflammatory protein-1 beta. T.R. Chermut et al.                                                                                                                                                                                                                             Complementary Therapies in Clinical Practice 51 (2023) 101732
+5chemotaxis during the inflammatory process is through the inactivation 
+of TNFα, which leads to a decrease in the activation and migration of 
+neutrophils. It also acts via the CXCL2/MIP-2 chemokine, which, when 
+activated, connects to its CXCR2 chemokine receptor and stimulates the 
+influx of calcium into neutrophils, activating them. It was seen that 
+propolis acts by blocking this influx of calcium and decreases the acti-
+vation and migration of neutrophils [48]. 
+MIP-1 β is an important chemokine; among its functions, it is high-
+lighted its role in the recruitment of leukocytes to the sites of infection, 
+and in certain situations, it also acts by activating these cells [49]. In a 
+study carried out in a cellular model, Szliszka et al. (2013) analyzed the 
+action of Artepillin C isolated on macrophages, which suppressed the 
+expression of MIP-1 β and also inhibited the synthesis of several in-
+flammatory cytokines. The same author also tested different concen -
+trations of green propolis ethanol extract that also showed an inhibitory 
+effect on MIP-1 β, confirming the anti-inflammatory effects of propolis 
+[50]. 
+Still, on the immunomodulatory effect of propolis and its relation -
+ship with the inflammatory system, the study of Conte et al. (2021) 
+performed in a cell model explains that propolis from southeastern 
+Brazil reduced the TNFα concentrations by inhibiting the production of 
+Th cytokines and reduced IL-6 concentrations by inhibiting the stimu -
+lation of retinoic acid in the production of this cytokine. In addition, 
+propolis reduced NF-kB expression and increased IL-10 concentrations. 
+These results are justified by propolis suppressing TLR-2 function (an 
+important defense mechanism against pathogens) [41]. Machado et al. 
+(2012) demonstrated that propolis increased IL-10 while reducing the 
+inflammatory cytokines TNF- α and IL-6, proposing that the 
+anti-inflammatory action is due to the immune regulation effects [37]. Furthermore, experimental and in vitro studies suggest that propolis 
+restrains the production of leukotrienes, prostaglandins, and the enzyme 
+prostaglandin-endoperoxide synthase and blocks COX-1 and COX-2 
+activation and regulates signaling pathways and modulation of B and 
+T lymphocyte cell function [51–54]. 
+As previously mentioned, galangin is another flavonoid present in 
+propolis with an important anti-inflammatory function. Chaihongsa 
+et al. (2021) showed that this flavonoid reduced blood pressure and 
+improved the capacity of endothelium-related vasodilation in rats with 
+induced hypertension. In addition, when analyzing the effects on the 
+inflammatory system, suppression of TNF-R1, NF-kB, and VCAM-1 was 
+seen in the aorta tissue, and TNFα serum levels reduced [55]. They also 
+showed reduced damage caused by oxidative stress in a systemic way 
+and in the vessel itself. This result was explained by the fact that gal-
+angin reduces the production of vascular O2, thus having a lower reac-
+tion of O2 with NO2, which would produce more free radicals and 
+consequently greater production of ROS [55]. 
+Martin et al. (2021) observed a reduction in TNFα concentrations in 
+patients with atopic dermatitis after the treatment with a cream con-
+taining green propolis extract (34–120 ng/mL) for 60 days [56]. 
+Regarding the effects of propolis on oxidative stress, a study carried 
+out with 67 subjects who had at least one altered parameter (fasting 
+glycemia, lipids profile and blood pressure, or diabetes mellitus, car-
+diovascular disease, and/or overweight), where they received supple -
+mentation of 15 drops of propolis (3% solution preparation in propylene 
+glycol) twice daily for 90 days showed a reduction in serum levels of 
+TBARS, which was not seen in the placebo group [57]. 
+A clinical trial with healthy volunteers showed that after seven days 
+of using EPP-AF ® (375 and 750 mg/day), the urinary excretion of 8- 
+Fig. 2.Cytokines serum levels in both groups before and after each intervention. We found no evidence of interleukins serum levels differences after two 
+months of intervention in both groups for interleukins-2, -6, -7, -8 (CXCL8),  10,  17 (A - F), nor for MCP-1 serum levels (G). However, we found significant 
+differences for TNFα (H) and the tendency to reduce MIP-1 β (I) after two months of intervention in the propolis group. T.R. Chermut et al.                                                                                                                                                                                                                             

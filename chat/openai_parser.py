@@ -32,7 +32,7 @@ def create_node_label_openai(node_name: str,  temperature=0.7) -> str:
         temperature=temperature)
         return response.choices[0].message.content
     except Exception as e:
-        logger.exception(f'not successfully parsing text with fucking chat gpt, exception "{e}"')
+        logger.exception(f'not successfully created new label with fucking chat gpt, exception "{e}"')
 
 def prompt_to_create_knowledge_openai():
     llm = langchain_openai.ChatOpenAI(model="gpt-4-turbo-preview", temperature=0)

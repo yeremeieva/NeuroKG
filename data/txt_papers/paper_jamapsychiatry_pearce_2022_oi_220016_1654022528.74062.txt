@@ -1,0 +1,267 @@
+Association Between Physical Activity and Risk of Depression
+A Systematic Review and Meta-analysis
+Matthew Pearce, PhD; Leandro Garcia, PhD; Ali Abbas, PhD; Tessa Strain, PhD; Felipe Barreto Schuch, PhD;
+Rajna Golubic, PhD; Paul Kelly, PhD; Saad Khan, MB,BChir; Mrudula Utukuri, MB,BChir; Yvonne Laird, PhD;Alexander Mok, PhD; Andrea Smith, PhD; Marko Tainio, PhD; Søren Brage, PhD; James Woodcock, PhD
+IMPORTANCE
+Depression is the leading cause of mental health–related disease burden and
+may be reduced by physical activity, but the dose-response relationship between activity anddepression is uncertain.
+OBJECTIVE To systematically review and meta-analyze the dose-response association
+between physical activity and incident depression from published prospective studies ofadults.
+DATA SOURCES PubMed, SCOPUS, Web of Science, PsycINFO, and the reference lists of
+systematic reviews retrieved by a systematic search up to December 11, 2020, with nolanguage limits. The date of the search was November 12, 2020.
+STUDY SELECTION We included prospective cohort studies reporting physical activity at 3 or
+more exposure levels and risk estimates for depression with 3000 or more adults and 3 yearsor longer of follow-up.
+DATA EXTRACTION AND SYNTHESIS Data extraction was completed independently by 2
+extractors and cross-checked for errors. A 2-stage random-effects dose-responsemeta-analysis was used to synthesize data. Study-specific associations were estimated usinggeneralized least-squares regression and the pooled association was estimated by combiningthe study-specific coefficients using restricted maximum likelihood.
+MAIN OUTCOMES AND MEASURES The outcome of interest was depression, including (1)
+presence of major depressive disorder indicated by self-report of physician diagnosis, registrydata, or diagnostic interviews and (2) elevated depressive symptoms established usingvalidated cutoffs for a depressive screening instrument.
+RESULTS Fifteen studies comprising 191 130 participants and 2 110 588 person-years were
+included. An inverse curvilinear dose-response association between physical activity anddepression was observed, with steeper association gradients at lower activity volumes;heterogeneity was large and significant ( I
+2= 74%; P< .001). Relative to adults not reporting
+any activity, those accumulating half the recommended volume of physical activity (4.4marginal metabolic equivalent task hours per week [mMET-h/wk]) had 18% (95% CI,13%-23%) lower risk of depression. Adults accumulating the recommended volume of 8.8mMET hours per week had 25% (95% CI, 18%-32%) lower risk with diminishing potentialbenefits and higher uncertainty observed beyond that exposure level. There werediminishing additional potential benefits and greater uncertainty at higher volumes ofphysical activity. Based on an estimate of exposure prevalences among included cohorts, ifless active adults had achieved the current physical activity recommendations, 11.5% (95% CI,7.7%-15.4%) of depression cases could have been prevented.
+CONCLUSIONS AND RELEVANCE This systematic review and meta-analysis of associations
+between physical activity and depression suggests significant mental health benefits frombeing physically active, even at levels below the public health recommendations. Healthpractitioners should therefore encourage any increase in physical activity to improve mentalhealth.
+JAMA Psychiatry . 2022;79(6):550-559. doi: 10.1001/jamapsychiatry.2022.0609
+Published online April 13, 2022.Supplemental content
+Author Affiliations: Author
+affiliations are listed at the end of thisarticle.
+Corresponding Author: James
+Woodcock, PhD, MRC EpidemiologyUnit, University of Cambridge Schoolof Clinical Medicine, Level 3 Instituteof Metabolic Science, Addenbrooke’sTreatment Centre, CambridgeBiomedical Campus, Cambridge CB20QQ, England ( jw745@cam.ac.uk ).Research
+JAMA Psychiatry | Original Investigation
+550 (Reprinted) jamapsychiatry.com
+Downloaded from jamanetwork.com by guest on 03/21/2024Depression is the leading cause of mental health–
+relateddiseaseburdenandamajorcauseofdisabilityworldwide,affectingapproximately280millionpeople
+andaccountingformorethan47milliondisability-adjustedlife-years in 2019.
+1Depression is also associated with premature
+mortalityfromotherillnesses2andsuicide.3
+Prevention of depression requires effective interven-
+tions,includingmodificationofestablishedriskfactors.4Nar-
+rativereviewshaveconcludedthatphysicalactivitycanpre-vent future depression.
+5,6One meta-analysis of prospective
+studies reported that compared with people with low levelsofphysicalactivity,thosewithhigherlevelshad17%(95%CI,12%-21%) lower odds of developing depression,
+7while an-
+other meta-analysis reported 21% (95% CI, 18%-25%) lowerodds when synthesizing 106 associations from 65 studiesusing diverse exposure definitions.
+8To our knowledge, no
+studyhasyetsynthesizedtheevidencetodescribethestrengthor shape of the association by conducting a dose-responsemeta-analysisusingharmonizedexposureestimates.
+Estimatingthedose-responserelationshipbetweenphysi-
+calactivityandanyhealthoutcomeusingmeta-analysisischal-lenging because of the diversity of assessment and inconsis-tent reporting. Most often, the harmonization of differentestimates of physical activity exposure is achieved using bi-narycategorizationoflowvshighactivity,butthisapproachresults in loss of information and does not tell us about thevariationinriskacrossarangeofphysicalactivitydoses.Incon-trast,previousworkhasshownthatbyusingmoredetailedex-posure harmonization, it is possible to investigate the shapeoftheassociationbetweenphysicalactivityandtype2diabe-tesusingdose-responsemeta-analyticaltechniques.
+9Exam-
+iningtheassociationbetweenthedoseofphysicalactivityanddepressioninthiswayallowsapproximationofthereductioninriskassociatedwithdifferentlevelsofactivity.Bycombin-ingestimatesofreductioninriskwithpopulationprevalenceestimatesofactivity,itispossibletoquantifythepopulationburdenofdepressionrelatedtoinsufficientphysicalactivityand the potential public health impact of activity-relatedinterventions.
+Theaimofthissystematicreviewandmeta-analysiswas
+to investigate the dose-response association between physi-cal activity and depression. We also assessed the potentialpopulationchangesindepressionthatmaybepreventablebyhigherphysicalactivitylevels.
+Methods
+ThestudyprotocolisavailableatPROSPERO( CRD42018095507 )
+and followed Meta-analysis of Observational Studies inEpidemiology( MOOSE)reportingguidelines.
+Eligibility Criteria
+Weincludedprospectivecohortstudiesofadults(≥18yearsof
+age)thatreportedanydimensionofphysicalactivityat3ormoreexposurelevelsandreportedriskestimatesfordepression.Stud-ieswereexcludedifthesamplesizewasfewerthan3000par-ticipants(tolimitsmall-studyeffectsindicativeofpublicationbias)orifthefollow-upperiodwaslessthan3years(tominimizere-
+versecausalitybiasfromundiagnoseddepressionatbaseline).FulldetailsareprovidedineTable1inthe Supplement .Studies
+wereeligibleiftheexposureincludedleisure-timephysicalac-tivity,eitheraloneorcombinedwithotheractivitydomains.Theoutcomeofinterestwasdepression,including(1)presenceofma-jordepressivedisorderindicatedbyself-reportofphysiciandi-agnosis,registrydata,ordiagnosticinterviewsusing DSMcrite-
+riaorInternationalStatisticalClassificationofDiseasesandRelated
+HealthProblems,TenthRevision, codesF32throughF33;(2)el-
+evateddepressivesymptomsestablishedusingvalidatedcutoffsforadepressivescreeninginstrument,eg,CenterforEpidemio-logicStudiesDepressionscale.
+Search and Selection
+WesearchedPubMed,SCOPUS,WebofScience,PsycINFO,andthe reference lists of systematic reviews and articles re-trievedfromthesearchorknowntotheauthors.SpecificsearchstringsareavailableineMethods1inthe Supplement .Wecon-
+sidered peer-reviewed articles published in academic jour-nals until November 12, 2020. No language limits were set.Titles and abstracts and subsequently full-text articles werescreenedby2independentreviewersforeligibility,withdis-agreements resolved by a third reviewer (eFigure 1 in theSupplement ).
+Data Extraction
+Data extraction was carried out using a standardized extrac-
+tionformandconductedindependentlyby2researchers,withdisagreementsresolvedbyathirdresearcher.Foreachexpo-surecategory,weextractedinformationtoestimatephysicalactivity volume if not reported directly, number of depres-sioncases,numberofparticipantsandperson-yearsoffollow-up,andtheeffectestimatewith95%CIs.Effectestimatesfromthe most adjusted model were used. Results reported sepa-rately for men and women, or for multiple cohorts within astudy,wereextractedasseparateassociations.
+When the data required for exposure harmonization or
+meta-analysiswerenotreportedintheoriginalarticles,norob-tainablethroughotherpublicationsfromthesamecohort,wecontactedauthorsbeforeimputingcriticalinformationifnec-essary(eMethods2inthe Supplement ).Key Points
+Question What is the dose-response association between
+physical activity and incident depression in adults?
+Findings This systematic review and meta-analysis of 15
+prospective studies including more than 2 million person-yearsshowed an inverse curvilinear association between physicalactivity and incident depression, with greater differences in risk atlower exposure levels. Adults meeting physical activityrecommendations (equivalent to 2.5 h/wk of brisk walking) hadlower risk of depression, compared with adults reporting nophysical activity.
+Meaning In this study, relatively small doses of physical activity
+were associated with substantially lower risks of depression.Association Between Physical Activity and Risk of Depression Original Investigation Research
+jamapsychiatry.com (Reprinted) JAMA Psychiatry June 2022 Volume 79, Number 6 551
+Downloaded from jamanetwork.com by guest on 03/21/2024Physical Activity Exposure Harmonization
+We harmonized reported exposure levels to a common met-
+ricofphysicalactivityvolumeinmarginalmetabolicequiva-lenttaskhoursperweek(mMET-h/wk),reflectingtheenergyexpendedabovetherestingmetabolicrate(1MET).Combina-tions of harmonization techniques were used depending onwhatwasreportedorobtainedfromauthorsandavailabilityofvalidationwork(detailsoftheoriginalexposuredata,har-monizationmethods,andharmonizationflowchartareavail-ableinanOpenScienceFramework
+10repository).
+Frequency, Duration, and Intensity Assumptions
+Studies that described physical activity exposure as fre-
+quencyanddurationwereconvertedtoameasureofweeklyduration.Ifsessiondurationwasnotprovided,asessiondu-rationof0.75hourswasassumed.WeeklydurationswerethenconvertedtoactivityvolumeinmMEThoursperweekbymul-tiplying by intensity values of 1.5 mMET for light, 3.5 mMETformoderateandmoderatetovigorous,and7.0mMETforvig-orousphysicalactivity.
+11Ascoreof3.5mMETcorrespondsto
+themidpointoftherangeformoderate-intensityactivity(≥2to<5mMETs).Vigorouswasscoredat7mMETbecauseactiv-ity of this intensity contributes twice as much toward meet-ingphysicalactivityguidelinescomparedwithmoderateac-tivity(theWorldHealthOrganizationadvises150-300minutesof moderate intensity activity or 75-150 minutes of vigorousintensityactivityperweek
+12).Lightactivitiesarethoseinthe
+rangeof0.5to2mMETs;however,thesewerescoredslightlyhigherthanthemidpointat1.5mMETtoreflecttheintensityof behaviors commonly referred to as light activity in ques-tionnaires(eg,lighthousework,lightgardening).
+Converting Energy Expenditure to MET Units
+One study reported energy expenditure without adjustment
+forbodyweight(kcal/wk).Weightwascalculatedusingbodymassindexandheightfromnationalsurveydata.
+13Theexpo-
+sureinkcalperweekwasthendividedbyderivedweightandfurtherconvertedtoMEThoursusing1kcal/kg = 1METhour.
+Removing the Resting Energy Expenditure Component
+of Physical Activity
+Forstudiesreportingphysicalactivityvolumeandcorrespond-
+ing duration data, 1 MET hour per week was subtracted foreach hour of activity undertaken; this is equivalent to theoriginal studies having multiplied activity duration with net(mMET)ratherthangross(MET)intensityvalues.Ifdurationfor each volume level was not reported or obtainable fromauthors, we used a prediction equation derived from studieswherebothvolumeanddurationwereavailable(eMethods3in theSupplement ).
+Removing Occupational Component of Aggregate
+Physical Activity Estimates
+Nonoccupational physical activity was used as the exposure
+inallbut1study
+14thatusedtotalphysicalactivity,including
+leisure-time, domestic, occupational, and transport do-mains. Given no domain-specific activity results were avail-ableforthisstudy,weassumedoccupationalactivitytobe40hours per week at 1.25 METs (or 0.25 mMETs, ie, equivalent
+to sedentary office work) and estimated nonoccupationalphysical activity by subtracting this assumed occupationalvolume.
+Analyses
+We conducted dose-response meta-analyses for outcomeswith at least 4 independent studies available. For studiesreporting only sex-stratified results, strata-specific risks werecombined using fixed-effect meta-analysis. Sex-stratifiedmeta-analyses were not conducted because only 2 sets ofsex-stratifiedresultswereavailable.
+A2-stagerandom-effectsmeta-analysiswasusedtomodel
+thedose-responseassociationbetweenphysicalactivityanddepression.First,study-specificassociationswereestimatedusinggeneralizedleast-squaresregression.
+15,16Second,wees-
+timated the pooled association by combining the study-specificcoefficientsusingrestrictedmaximumlikelihood.
+17We
+assumedthedose-responseassociationswerenonlinearandmodeledthembyfittingrestrictedcubicsplineswith3knotsat the 0, 37.5th, and 75th percentiles of person-years. If thestatistical model was unable to converge for these knots, weincreasedthepercentilefortheupperknotuntilitdid.
+Estimated Population Risk
+To provide a population perspective of the relative impor-
+tanceoftheestimateddose-responseassociations,potentialimpact fractions (PIFs) were calculated based on the expo-sureprevalenceinthepopulationsofincludedcohorts.
+18PIFs
+werecalculatedfor3exposurelevelsbasedontheWorldHealthOrganizationrecommendationsforadults
+12:theminimumrec-
+ommendedlevelof8.8mMEThoursperweek(volumeequiva-lenttoapproximately2.5h/wkofphysicalactivityatmoder-ate intensity of 3.5 marginal METs), the level recommendedfor additional health benefits of 17.5 mMET hours per week,aswellas4.4mMEThoursperweek(halftheminimumrec-ommendedlevel).
+Sensitivity and Subgroup Analysis
+Weconducted2sensitivityanalyses.First,weassigned2.5and
+6 mMET to moderate and vigorous physical activity, respec-tively,whenintensityhadtobeassumedforphysicalactivityexposure harmonization; for studies requiring assumptionsabout duration of sessions, we assigned a 0.5-hour duration(ratherthan0.75-hourduration).Second,wetestedtheuseofknotsatthe0,42.5th,and85thpercentilesinthecubicsplinefunctions.
+We conducted subgroup analyses by depression diagno-
+sis method using 2 outcome subtypes: (1) major depressionfromregistrydata,self-reportofphysiciandiagnosis,ordiag-nostic interview; (2) use of a screening tool for elevated de-pressivesymptomswithvalidatedcutoffs.
+Analysis of Heterogeneity
+Cochran Qtest and I
+2statistic were used to assess heteroge-
+neityofeffectmeasuresbetweenstudies.Wealsoconductedrandom-effectmeta-regressions(atthephysicalactivitylevelof 8.8 mMET-h/wk) using restricted maximum likelihood toResearch Original Investigation Association Between Physical Activity and Risk of Depression
+552 JAMA Psychiatry June 2022 Volume 79, Number 6 (Reprinted) jamapsychiatry.com
+Downloaded from jamanetwork.com by guest on 03/21/2024identifyhowmuchofthevarianceineffectmeasureswasdue
+to proportion of men and women (women only, men only,mixed),outcomeascertainment(registrydata,self-reportofphy-sician diagnosis, diagnostic interview, Center for Epidemio-logic Studies Depression scale, other depressive symptomsscale), duration of follow-up (above or below median of 8.5years),exclusionofprevalentcasesatbaseline(yes,no),han-dling other morbidities at baseline (exclusion of participants,statistical adjustment), and our exposure harmonization ap-proaches (measurement unit conversion, measurement unitconversionplusoccupationalphysicalactivityassumption,du-ration/intensity/frequency assumptions). See eTable 2 in theSupplement for more details. We conducted a leave-one-out
+sensitivity analysis to investigate the influence of each studyon the overall effect-size (at the physical activity level of 8.8mMET-h/wk).
+Software, Data, and Code Availability
+AnalyseswereperformedusingR,version4.0.5,andthedos-
+resmetapackage,
+19version2.0.1.Aninteractiveinterfacetovi-
+sualizedose-responsecurveswasdevelopedusingtheShinypackage,version1.0.5.Codesforallanalysesandtheinterac-tive interface are available in a repository on GitHub
+20(see
+READMEfile).
+Results
+Literature Search
+Thesystematicliteraturesearchyielded19175resultsfollow-ingremovalofduplicates.Afterexcluding18827recordsbasedontitleandabstractscreening,348full-textarticleswerere-viewed.Full-textscreeningidentified15eligiblepublicationsreporting 15 associations including 191130 participants con-tributing28806incidentdepressioneventsand2110588per-son-years. Approximately 64% of participants in the studieswere women. All but 1 of the included studies originated inhigh-income countries: 6 from the United States,
+21-266fr o m
+Europe,27-321fromAustralia,331fromJapan,34and1studythat
+includeddatafromIndia,Ghana,Mexico,andRussia.14Study
+characteristicsaredescribedin Table1.14,21-43
+Dose-Response Analyses
+Themajority(78%)ofparticipantsreportedexposurelevelsbe-
+low17.5mMEThoursperweek,withalmostall(95%)databe-low 35 mMET hours per week; participants in studies of el-evateddepressivesymptomstendedtobelessactivethanthoseinstudiesofmajordepression(eFigure2inthe Supplement ).
+Figure1 showsaninverse,curvilineardose-responseassocia-
+tionbetweenphysicalactivityanddepression,withgreaterdif-ferencesinriskinthelower-doseregion.Relativetoadultsnotreporting any activity, those accumulating half the recom-mendedvolumeofphysicalactivity(4.4mMET-h/wk)had18%(95% CI, 13%-23%) lower risk of depression. Adults accumu-latingtherecommendedvolumeof8.8mMEThoursperweekhad 25% (95% CI, 18%-32%) lower risk with diminishing po-tentialbenefitsandhigheruncertaintyobservedbeyondthatexposurelevel( Table2).Interactivedose-responsecurvesandexposure distributions are available online.
+44The dose-
+response curves for major depression and elevated depres-sive symptoms showed similar curvilinear relationships(Table2and Figure2 ).
+Estimated Population Risk
+BasedonPIFanalysesofprevalencesofphysicalactivityand
+depressionoutcomesintheincludedcohorts,11.5%(95%CI,7.7%-15.4%) of incident depression could have been pre-ventedifalladultshadachievedatleast8.8mMEThoursperweek of physical activity (Table 2). PIFs were approximatelytwiceashighforelevateddepressivesymptomsthanforma-jordepressionatboth8.8and17.5mMEThoursperweekandapproximately 3 times higher at 4.4 mMET hours per week(Table2).
+Sensitivity Analyses
+Using alternative assumptions of 0.5 hours for session dura-tion and 1 MET lower-intensity values for moderate and vig-orous physical activity (only when those assumptions werenecessary)oralternativeplacementofknotsforthesplinesdidnotmateriallyalterdose-responseassociations(eTable3intheSupplement )orPIFs(eTable4inthe Supplement ).
+Analysis of Heterogeneity
+Differencesbetweenproportionofwomen,exposureharmo-
+nizationmethod,outcomeascertainment,durationoffollow-up,exclusionofprevalentcasesatbaseline,ormanagingothermorbiditiesatbaselinedidnotsignificantlyexplainvarianceintheeffectmeasuresofassociationsbetweenphysicalactiv-ityanddepression(eFigure3inthe Supplement ).Theleave-
+one-outsensitivityanalysisdidnotidentifyanyoutliers(eFig-ure4inthe Supplement ).
+Discussion
+This study reports the first dose-response meta-analysis of
+associations between physical activity and incident depres-siontoourknowledge.Ourresultsshowaninversecurvilin-earassociationwiththegreatestdifferencesinriskobservedbetweenlowdosesofphysicalactivity,suggestingmostben-efitsarerealizedwhenmovingfromnoactivitytoatleastsome.Accumulating an activity volume equivalent to 2.5 hours ofbriskwalkingperweekwasassociatedwith25%lowerriskofdepression, and at half that dose, risk was 18% lower com-pared with no activity. Only minor additional benefits wereobservedathigheractivitylevels.
+Previous meta-analyses have shown lower risks of de-
+pressionamongadultsreportinghighvslowphysicalactivity
+7
+and suggested a dose-response association using meta-regression without quantifying the association.
+8Our study
+directly models how risk of depression varies across thephysical activity exposure range using a continuous scalerather than cruder categories. We also found that even smallvolumes of activity were beneficial but go further by quanti-fying differences in risk for these doses. Our findings there-forehaveimportantnewimplicationsforhealthpractitionersAssociation Between Physical Activity and Risk of Depression Original Investigation Research
+jamapsychiatry.com (Reprinted) JAMA Psychiatry June 2022 Volume 79, Number 6 553
+Downloaded from jamanetwork.com by guest on 03/21/2024Table 1. Study Characteristics and Exposure Harmonization
+Source (country) Study nameParticipants
+(cases), No.aSexAge range
+atbaseline, yFollow-up
+time, yOutcome
+subtype Outcome ascertainment Exposure harmonization
+b
+Mikkelsen et al,272010
+(Denmark)Copenhagen City Heart
+Study8804 (436) Women 20-93 ≤26 Major
+depressionRegistry Used duration category midpoints. Multiplied by intensity
+(mMET) for light (1.5) and moderate (3.5) activity.
+Paffenbarger et al,241994
+(United States)Harvard Alumni Health
+Study10 201
+(387)Men 35-74 23-27 Major
+depressionSelf-report of physician
+diagnosisInterpolated to get median BMI for sample. Mean height for men
+aged 35-74 y, 173 cm. Used these data to get weight bycategory. Divided midpoint of absolute activity volume byweight to give kcal/kg/wk. which is MET-h/wk. Equation used toremove resting metabolic rate component to give mMET-h/wk.
+T e nH a v ee ta l ,
+322011 (the
+Netherlands)Netherlands Mental Health
+Survey and Incidence Study3998 (244) Both (49%
+women)18-64 3 Major
+depressionElectronic CIDI35Used duration category midpoints. Multiplied by intensity
+(mMET) for moderate (3.5) activity.
+Chang et al,252016 (United
+States)Nurses’ Health Study 21 728
+(3945)Women ≥65 ≤10 Major
+depressionSelf-report of
+depressive symptoms,use of antidepressants,physician diagnosisUsed duration category midpoints. Multiplied by intensity
+(mMET) for moderate (3.5) activity.
+Cabello et al,
+142017 (Ghana,
+India, Mexico, Russia)World Health Organization’s
+Study on Global Aging andAdult Health5970 (594) Both (67%
+women)≥18 3-8 Major
+depressionWorld Mental Health
+Survey Initiative versionof the CIDI,
+36
+self-report of physiciandiagnosis, medication,or treatmentAssigned MET-h/wk based on scoring described and used
+equation to remove resting metabolic rate component.Instrument does not capture sedentary behaviors, so no volumeremoved for assumed occupational physical activity.
+Fernandez-Montero et al,
+31
+2020 (Spain)Seguimiento Universidad de
+Navarra15 488
+(870)Both (60%
+women)18-64 Mean
+(SD): 8.5(4.4)Major
+depressionSelf-report of physician
+diagnosisUsed volume category midpoints. Equation used to remove
+resting metabolic rate component to give mMET-h/wk.
+Hallgren et al,
+292019
+(Sweden)Swedish National March
+Cohort Study20 594
+(289)Both (65%
+women)≥18 ≤13 Major
+depressionRegistry Used duration category midpoints. Multiplied by intensity
+(mMET) for moderate (3.5) activity.
+España-Romero et al,212013
+(United States)Aerobics Center Longitudinal
+Study5110 (641) Both (20%
+women)20-83 Mean
+(range):6.1(1-12)Elevated
+depressivesymptoms10-Item CES-D scale
+37Used volume category midpoints. Equation used to remove
+resting metabolic rate component to give mMET-h/wk.
+Camacho et al,231991 (United
+States)Alameda County Study 3664 (733) Men ≥20 9 Elevated
+depressivesymptomsHuman Population
+Laboratory depressionindex
+38Article reported activity index 0-14 based on frequency of 4behaviors; 14 represents often engaging in sports, swimming orwalking, doing exercises, and gardening. The mMET-h/wk for ascore of 14 was calculated by assuming frequency and durationand by assigning mMET based on description of activities.Midpoints of the index ranges of the 3 categories (0-4 [2], 5-8[6.5], 9-14 [11.5]) were taken and assigned mMET-h/wkrelative to the known score of an index of 14.
+Pavey et al,
+332013 (Australia) Australian Longitudinal
+Study on Women’s Health12 094
+(2419)Women 45-53 3 Elevated
+depressivesymptoms10-Item CES-D scale
+37Used volume category midpoints. Equation used to remove
+resting metabolic rate component to give mMET-h/wk.
+Wise et al,222006 (United
+States)Black Women’s Health Study 35 224
+(9465)Women 21-69 3-5 Elevated
+depressivesymptoms20-Item CES-D scale
+39Used duration category midpoints. Multiplied by intensity
+(mMET) for vigorous (7) activity.
+Hamer et al,282009 (England) English Longitudinal Study
+of Aging4323 (348) Both (53%
+women)≥50 4 Elevated
+depressivesymptoms8-Item CES-D scale
+40Used frequency category midpoints. Assumed session duration
+of 0.75 h. Multiplied by intensity (mMET) for light (1.5),moderate (3.5), and vigorous (7) activity.
+(continued)Research Original Investigation Association Between Physical Activity and Risk of Depression
+554 JAMA Psychiatry June 2022 Volume 79, Number 6 (Reprinted) jamapsychiatry.com
+Downloaded from jamanetwork.com by guest on 03/21/2024

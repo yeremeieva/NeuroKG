@@ -6931,3 +6931,163 @@ TypeError: 'NoneType' object is not iterable
 2024-03-21 17:13:24,465 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-03-21 17:15:16,117 [ERROR] Failed to write data to connection IPv4Address(('localhost', 7687)) (ResolvedIPv4Address(('127.0.0.1', 7687)))
 2024-03-21 17:15:16,120 [ERROR] Failed to write data to connection IPv4Address(('localhost', 7687)) (ResolvedIPv4Address(('127.0.0.1', 7687)))
+2024-03-21 17:47:16,361 [INFO] number of papers is 30
+2024-03-21 17:47:16,540 [INFO] The folder './data/txt_papers/paper_patients.txt' does not exist.
+2024-03-21 17:47:16,754 [INFO] The folder './data/txt_papers/paper_Adherence-to-24-h-movement-guidelines-and-cog_2023_Complementary-Therapies-i.txt' does not exist.
+2024-03-21 17:47:16,799 [INFO] The folder './data/txt_papers/paper_10.1002@mds.26723.txt' does not exist.
+2024-03-21 17:47:16,844 [INFO] The folder './data/txt_papers/paper_coley2009.txt' does not exist.
+2024-03-21 17:47:16,903 [INFO] The folder './data/txt_papers/paper_bhan-31-01-1.txt' does not exist.
+2024-03-21 17:47:16,973 [INFO] The folder './data/txt_papers/paper_innovations.txt' does not exist.
+2024-03-21 17:47:17,029 [INFO] The folder './data/txt_papers/paper_A systematic review of psychiatric indications for deep brain stimulation  with focus on major depressive and obsessive-compulsive disorder.txt' does not exist.
+2024-03-21 17:47:17,079 [INFO] The folder './data/txt_papers/paper_bibliometric.txt' does not exist.
+2024-03-21 17:47:17,722 [INFO] The folder './data/txt_papers/paper_Effects-of-somatic-acupoint-stimulation-on-anxiety-and_2023_Complementary-Th.txt' does not exist.
+2024-03-21 17:47:17,897 [INFO] The folder './data/txt_papers/paper_Effects-of-propolis-on-inflammation-markers-in-patien_2023_Complementary-The.txt' does not exist.
+2024-03-21 17:47:17,940 [INFO] The folder './data/txt_papers/paper_side.txt' does not exist.
+2024-03-21 17:47:17,977 [INFO] The folder './data/txt_papers/paper_luigjes2011.txt' does not exist.
+2024-03-21 17:47:18,023 [INFO] The folder './data/txt_papers/paper_robert2018.txt' does not exist.
+2024-03-21 17:47:18,187 [INFO] The folder './data/txt_papers/paper_The-effectiveness-and-safety-of-Jihwang-eumja--Dihuang-Y_2023_Complementary-.txt' does not exist.
+2024-03-21 17:47:18,311 [INFO] The folder './data/txt_papers/paper_The-association-between-vitamin-C-dietary-intake-and-_2023_Complementary-The.txt' does not exist.
+2024-03-21 17:47:18,373 [INFO] The folder './data/txt_papers/paper_10.1016@j.clineuro.2019.105442.txt' does not exist.
+2024-03-21 17:47:18,471 [INFO] The folder './data/txt_papers/paper_s41380-022-01661-0.txt' does not exist.
+2024-03-21 17:47:18,598 [INFO] The folder './data/txt_papers/paper_fpsyt-12-705749.txt' does not exist.
+2024-03-21 17:47:18,694 [INFO] The folder './data/txt_papers/paper_10.1002@rmv.2278.txt' does not exist.
+2024-03-21 17:47:18,923 [INFO] The folder './data/txt_papers/paper_Combinations-of-physical-activity--screen-time-and-_2023_Complementary-Thera.txt' does not exist.
+2024-03-21 17:47:18,987 [INFO] The folder './data/txt_papers/paper_wishart2003.txt' does not exist.
+2024-03-21 17:47:19,098 [INFO] The folder './data/txt_papers/paper_The-50-most-cited-review-papers-on-physical-acti_2023_Complementary-Therapie.txt' does not exist.
+2024-03-21 17:47:19,133 [INFO] The folder './data/txt_papers/paper_voon2006.txt' does not exist.
+2024-03-21 17:47:19,200 [INFO] The folder './data/txt_papers/paper_jamapsychiatry_pearce_2022_oi_220016_1654022528.74062.txt' does not exist.
+2024-03-21 17:47:19,387 [INFO] The folder './data/txt_papers/paper_Effect-of-progressive-muscle-relaxation-as-an-add-on-to_2023_Complementary-T.txt' does not exist.
+2024-03-21 17:47:19,427 [INFO] The folder './data/txt_papers/paper_prospective.txt' does not exist.
+2024-03-21 17:47:19,723 [INFO] The folder './data/txt_papers/paper_Additional-health-education-and-nutrition-management-_2023_Complementary-The.txt' does not exist.
+2024-03-21 17:47:19,798 [INFO] The folder './data/txt_papers/paper_karapinarsenturk2020.txt' does not exist.
+2024-03-21 17:47:19,834 [INFO] The folder './data/txt_papers/paper_weaver2005.txt' does not exist.
+2024-03-21 17:47:20,037 [INFO] The folder './data/txt_papers/paper_A-randomized-controlled-trial-on-the-seeds-of-Sophora-_2023_Complementary-Th.txt' does not exist.
+2024-03-21 17:47:20,037 [INFO] converted pdf to txt
+2024-03-21 17:47:20,038 [INFO] converted txt to parsed txt by chat gpt
+2024-03-21 17:51:32,571 [INFO] number of papers is 30
+2024-03-21 17:51:32,749 [INFO] The folder './data/txt_papers/paper_patients.txt' does not exist.
+2024-03-21 17:51:32,960 [INFO] The folder './data/txt_papers/paper_Adherence-to-24-h-movement-guidelines-and-cog_2023_Complementary-Therapies-i.txt' does not exist.
+2024-03-21 17:51:33,006 [INFO] The folder './data/txt_papers/paper_10.1002@mds.26723.txt' does not exist.
+2024-03-21 17:51:33,051 [INFO] The folder './data/txt_papers/paper_coley2009.txt' does not exist.
+2024-03-21 17:51:33,110 [INFO] The folder './data/txt_papers/paper_bhan-31-01-1.txt' does not exist.
+2024-03-21 17:51:33,180 [INFO] The folder './data/txt_papers/paper_innovations.txt' does not exist.
+2024-03-21 17:51:33,235 [INFO] The folder './data/txt_papers/paper_A systematic review of psychiatric indications for deep brain stimulation  with focus on major depressive and obsessive-compulsive disorder.txt' does not exist.
+2024-03-21 17:51:33,284 [INFO] The folder './data/txt_papers/paper_bibliometric.txt' does not exist.
+2024-03-21 17:51:33,919 [INFO] The folder './data/txt_papers/paper_Effects-of-somatic-acupoint-stimulation-on-anxiety-and_2023_Complementary-Th.txt' does not exist.
+2024-03-21 17:51:34,097 [INFO] The folder './data/txt_papers/paper_Effects-of-propolis-on-inflammation-markers-in-patien_2023_Complementary-The.txt' does not exist.
+2024-03-21 17:51:34,141 [INFO] The folder './data/txt_papers/paper_side.txt' does not exist.
+2024-03-21 17:51:34,180 [INFO] The folder './data/txt_papers/paper_luigjes2011.txt' does not exist.
+2024-03-21 17:51:34,227 [INFO] The folder './data/txt_papers/paper_robert2018.txt' does not exist.
+2024-03-21 17:51:34,392 [INFO] The folder './data/txt_papers/paper_The-effectiveness-and-safety-of-Jihwang-eumja--Dihuang-Y_2023_Complementary-.txt' does not exist.
+2024-03-21 17:51:34,516 [INFO] The folder './data/txt_papers/paper_The-association-between-vitamin-C-dietary-intake-and-_2023_Complementary-The.txt' does not exist.
+2024-03-21 17:51:34,582 [INFO] The folder './data/txt_papers/paper_10.1016@j.clineuro.2019.105442.txt' does not exist.
+2024-03-21 17:51:34,679 [INFO] The folder './data/txt_papers/paper_s41380-022-01661-0.txt' does not exist.
+2024-03-21 17:51:34,804 [INFO] The folder './data/txt_papers/paper_fpsyt-12-705749.txt' does not exist.
+2024-03-21 17:51:34,898 [INFO] The folder './data/txt_papers/paper_10.1002@rmv.2278.txt' does not exist.
+2024-03-21 17:51:35,131 [INFO] The folder './data/txt_papers/paper_Combinations-of-physical-activity--screen-time-and-_2023_Complementary-Thera.txt' does not exist.
+2024-03-21 17:51:35,197 [INFO] The folder './data/txt_papers/paper_wishart2003.txt' does not exist.
+2024-03-21 17:51:35,312 [INFO] The folder './data/txt_papers/paper_The-50-most-cited-review-papers-on-physical-acti_2023_Complementary-Therapie.txt' does not exist.
+2024-03-21 17:51:35,345 [INFO] The folder './data/txt_papers/paper_voon2006.txt' does not exist.
+2024-03-21 17:51:35,410 [INFO] The folder './data/txt_papers/paper_jamapsychiatry_pearce_2022_oi_220016_1654022528.74062.txt' does not exist.
+2024-03-21 17:51:35,610 [INFO] The folder './data/txt_papers/paper_Effect-of-progressive-muscle-relaxation-as-an-add-on-to_2023_Complementary-T.txt' does not exist.
+2024-03-21 17:51:35,650 [INFO] The folder './data/txt_papers/paper_prospective.txt' does not exist.
+2024-03-21 17:51:35,953 [INFO] The folder './data/txt_papers/paper_Additional-health-education-and-nutrition-management-_2023_Complementary-The.txt' does not exist.
+2024-03-21 17:51:36,030 [INFO] The folder './data/txt_papers/paper_karapinarsenturk2020.txt' does not exist.
+2024-03-21 17:51:36,066 [INFO] The folder './data/txt_papers/paper_weaver2005.txt' does not exist.
+2024-03-21 17:51:36,277 [INFO] The folder './data/txt_papers/paper_A-randomized-controlled-trial-on-the-seeds-of-Sophora-_2023_Complementary-Th.txt' does not exist.
+2024-03-21 17:51:36,277 [INFO] converted pdf to txt
+2024-03-21 17:51:36,278 [INFO] converted txt to parsed txt by chat gpt
+2024-03-21 17:52:42,876 [INFO] number of papers is 30
+2024-03-21 17:52:46,582 [INFO] converted pdf to txt
+2024-03-21 17:53:16,124 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:53:16,152 [INFO] paper paper_prospective.txt is parsed
+2024-03-21 17:53:36,713 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:53:36,724 [INFO] paper paper_The-effectiveness-and-safety-of-Jihwang-eumja--Dihuang-Y_2023_Complementary-.txt is parsed
+2024-03-21 17:53:56,163 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:53:56,174 [INFO] paper paper_s41380-022-01661-0.txt is parsed
+2024-03-21 17:54:16,462 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:54:16,469 [INFO] paper paper_Effects-of-somatic-acupoint-stimulation-on-anxiety-and_2023_Complementary-Th.txt is parsed
+2024-03-21 17:55:19,532 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:55:19,545 [INFO] paper paper_10.1002@mds.26723.txt is parsed
+2024-03-21 17:55:35,744 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:55:35,750 [INFO] paper paper_Effects-of-propolis-on-inflammation-markers-in-patien_2023_Complementary-The.txt is parsed
+2024-03-21 17:55:55,446 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:55:55,472 [INFO] paper paper_robert2018.txt is parsed
+2024-03-21 17:56:35,298 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:56:35,315 [INFO] paper paper_The-association-between-vitamin-C-dietary-intake-and-_2023_Complementary-The.txt is parsed
+2024-03-21 17:57:13,369 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:57:13,399 [INFO] paper paper_jamapsychiatry_pearce_2022_oi_220016_1654022528.74062.txt is parsed
+2024-03-21 17:58:06,262 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:58:06,281 [INFO] paper paper_voon2006.txt is parsed
+2024-03-21 17:58:39,098 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:58:39,109 [INFO] paper paper_wishart2003.txt is parsed
+2024-03-21 17:59:13,539 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:59:13,557 [INFO] paper paper_10.1016@j.clineuro.2019.105442.txt is parsed
+2024-03-21 17:59:43,486 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 17:59:43,499 [INFO] paper paper_Adherence-to-24-h-movement-guidelines-and-cog_2023_Complementary-Therapies-i.txt is parsed
+2024-03-21 18:00:26,165 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:00:26,184 [INFO] paper paper_luigjes2011.txt is parsed
+2024-03-21 18:00:54,075 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:00:54,084 [INFO] paper paper_Additional-health-education-and-nutrition-management-_2023_Complementary-The.txt is parsed
+2024-03-21 18:01:10,136 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:01:10,149 [INFO] paper paper_Effect-of-progressive-muscle-relaxation-as-an-add-on-to_2023_Complementary-T.txt is parsed
+2024-03-21 18:01:36,670 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:01:36,679 [INFO] paper paper_karapinarsenturk2020.txt is parsed
+2024-03-21 18:02:05,344 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:02:05,348 [INFO] paper paper_weaver2005.txt is parsed
+2024-03-21 18:02:26,132 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:02:26,141 [INFO] paper paper_10.1002@rmv.2278.txt is parsed
+2024-03-21 18:02:49,579 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:02:49,585 [INFO] paper paper_A-randomized-controlled-trial-on-the-seeds-of-Sophora-_2023_Complementary-Th.txt is parsed
+2024-03-21 18:03:29,952 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:03:29,959 [INFO] paper paper_fpsyt-12-705749.txt is parsed
+2024-03-21 18:04:20,921 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:04:20,925 [INFO] paper paper_bibliometric.txt is parsed
+2024-03-21 18:04:45,290 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:04:45,292 [INFO] paper paper_side.txt is parsed
+2024-03-21 18:05:52,372 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:05:52,382 [INFO] paper paper_The-50-most-cited-review-papers-on-physical-acti_2023_Complementary-Therapie.txt is parsed
+2024-03-21 18:06:17,001 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:06:17,007 [INFO] paper paper_Combinations-of-physical-activity--screen-time-and-_2023_Complementary-Thera.txt is parsed
+2024-03-21 18:06:54,283 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:06:54,295 [INFO] paper paper_bhan-31-01-1.txt is parsed
+2024-03-21 18:07:14,798 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:07:14,804 [INFO] paper paper_coley2009.txt is parsed
+2024-03-21 18:07:45,423 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:07:45,440 [INFO] paper paper_A systematic review of psychiatric indications for deep brain stimulation  with focus on major depressive and obsessive-compulsive disorder.txt is parsed
+2024-03-21 18:08:16,136 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:08:16,148 [INFO] paper paper_patients.txt is parsed
+2024-03-21 18:08:37,948 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:08:37,959 [INFO] paper paper_innovations.txt is parsed
+2024-03-21 18:08:40,960 [INFO] converted txt to parsed txt by chat gpt
+2024-03-21 18:12:24,529 [INFO] Parsed txt to documents
+2024-03-21 18:12:34,667 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:13:17,219 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:13:41,256 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:14:03,727 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:14:24,887 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:14:42,594 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:15:40,254 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:16:14,935 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:16:37,579 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:16:55,205 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:17:18,357 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:17:41,491 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:18:11,570 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:18:47,547 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:19:08,739 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:19:44,993 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:20:14,422 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:20:31,784 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:20:53,766 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:21:19,203 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:21:58,494 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:22:23,404 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:22:54,785 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:23:20,115 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:23:48,133 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:24:34,645 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:24:46,761 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:25:07,239 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:25:26,723 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-21 18:26:00,912 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"

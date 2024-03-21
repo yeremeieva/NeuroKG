@@ -47,10 +47,12 @@ def extract_and_store_graph(document: Document) -> None:
 if __name__ == '__main__':
     input_papers = list_files('./data/txt_parsed_papers', ending='.txt')
     documents = [txt_to_doc(f'./data/txt_parsed_papers/{paper}') for paper in input_papers]
-    logger.info('Parsed txt to documents')
+    logger.info('Good News!!!! Parsed txt to documents')
 
-    extract_and_store_graph(documents[3])
+    # extract_and_store_graph(documents[3])
 
-    # for i, d in tqdm(enumerate(documents), total=(len(documents) - 1)):
-    #     print(d.metadata['title'])
-    #     extract_and_store_graph(d)
+    for i, d in tqdm(enumerate(documents), total=(len(documents))):
+        print(d.metadata['title'])
+        extract_and_store_graph(d)
+
+    logger.info('Exciting News!!!! All papers were written to the graph!!!!!!!!!')

@@ -50,9 +50,6 @@ def read_txt(file_path: str) -> Optional[str]:
 
 
 def write_txt(file_path: str, text: str) -> None:
-    if not os.path.exists(file_path):
-        logger.info(f"The folder '{file_path}' does not exist.")
-        return
     try:
         with open(file_path, 'w') as file:
             file.writelines(text)

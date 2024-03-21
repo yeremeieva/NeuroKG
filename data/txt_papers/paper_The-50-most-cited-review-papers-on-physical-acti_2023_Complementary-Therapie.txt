@@ -1,0 +1,323 @@
+Complementary Therapies in Clinical Practice 51 (2023) 101745
+Available online 7 March 2023
+1744-3881/© 2023 Published by Elsevier Ltd.The 50 most-cited review papers on physical activity and depression: A 
+bibliometric analysis 
+Lubo Zhaia, Min Xub,* 
+aSchool of Physical Education and Health, Shanghai Lixin University of Accounting and Finance, Shanghai, China 
+bPhysical Education Department, Shanghai University of Finance and Economics, Shanghai, China   
+ARTICLE INFO  
+Keywords: 
+Literature analysis 
+Exercise 
+Sport 
+Depression 
+Review research ABSTRACT  
+Abstract: A growing body of literature has demonstrated the preventive role of physical activity in depression, 
+and relevant research is rapidly on the rise. The aim of this study was to conduct a bibliometric analysis of the 50 
+most-cited review papers on physical activity and depression, thus identifying important research topics and 
+future research directions. 
+Methods: The 50 most-cited review articles were identified and extracted from the Web of Science Core Collection 
+database (on 31st October 2022), and a bibliometric citation analysis was performed using the Microsoft Excel 
+and VOSviewer software (Version 1.6.18). Information on the country, authors of publications, publishing 
+journals, citations (i.e., total or annual), keywords, and other meaningful data was analysed comprehensively. 
+Results: The 50 most-cited review articles received, on average, 247.5 citations per article. Most review articles 
+were from England, with contributions from some highly cited researchers and research teams. Western coun-
+tries/regions, such as England, Australia, and the USA were the most influential in publishing review articles on 
+physical activity and depression. The Journal of Affective Disorders and Cochrane Database of Systematic Reviews 
+were the journals that published the most highly cited review articles on physical activity and depression. 
+Important research topics on the literature on physical activity and depression focused on (1) different types of 
+physical activity and depression; (2) intervention studies related to physical activity and depression; (3) fitness 
+and physical activity levels in people with depression; (4) methodological analyses in physical activity and 
+depression studies; and (5) the impact of physical activity on depression in different populations. 
+Conclusion: This study reveals that review studies on physical activity and depression have great potential to 
+develop further knowledge. This study also highlights some future research directions, which can serve to 
+effectively advance the knowledge base.   
+1.Introduction 
+An individual with depression may experience symptoms such as 
+mood issues, loss of interest or pleasure, a lack of energy, feelings of guilt 
+or low self-esteem, disturbed sleep or appetite, and difficulty concen -
+trating [1]. There is a higher risk of disease associated with depression, 
+which adversely affects human health and well-being [1]. It has been 
+well-documented that depressive symptoms have a detrimental impact 
+on psychological and physical health from infancy through to old age [2, 
+3]. For example, depression in childhood has a long lasting negative 
+effect on mental health later in life [4], and can lead to neurological 
+abnormalities in the aging population [3]. Specifically, the detrimental 
+health outcomes of high levels of depression include diabetes [5], cardiovascular disease [6], cancer [7], and other health problems [8]. 
+Furthermore, depression is an important predictor of cardiac mortality 
+and morbidity, such as cardiac functioning and coronary heart disease 
+[9]. Depression also affects biological factors and, consequently, con-
+tributes to physical disability [10]. 
+The high prevalence of depression has been established in the 
+existing evidence. According to the World Health Organisation, the 
+prevalence of depression is increasing globally, and 4.4% of the world ’s 
+population was predicted to suffer from depression in 2015 [11]. A 
+systematic review synthesised 14,866 non-duplicate articles, and an 
+estimated 19.1% pooled prevalence of depression was observed in 
+children, adolescents, and young adults [12]. Further, the weighted 
+mean prevalence of depression was 30.6% in university students [13], 
+*Corresponding author. 
+E-mail address: minxu@mail.shufe.edu.cn (M. Xu).  
+Contents lists available at ScienceDirect 
+Complementary Therapies in Clinical Practice 
+u{�~zkw! s{yo| kro>! ÐÐÐ1ow�o�t o~1m{y2w{m k�o2m�m|!
+https://doi.org/10.1016/j.ctcp.2023.101745 
+Received 21 November 2022; Received in revised form 20 February 2023; Accepted 2 March 2023   Complementary Therapies in Clinical Practice 51 (2023) 101745
+2while the prevalence ranged from 0.9% to 49% in the aging population 
+[14]. Notably, evidence from a scoping review has shown that 20% of 
+the participants suffered from depression during the COVID-19 
+pandemic [15]. The potential factors leading to the increasing preva -
+lence of depression are mainly due to the environmental changes, 
+including high prevalence of obesity, unhealthy diet, insufficient phys-
+ical activity, and inappropriate light and lack of sleep [16]. To reverse 
+the situation on the large number of patients suffering from depression 
+or a group of people at the risk of developing depression, clinical prac-
+tice or evidence-based recommendations strongly suggest that doing 
+more physical activity (PA) can provide a feasible and effective 
+approach against depression [17–21]. There has been a great amount of 
+literature examining the relationship between PA and depression [17, 
+18,22,23], especially review studies [24–26]. This is because review 
+studies can not only summarise in-depth research knowledge, but also 
+allow for the determination of future research directions. This type of 
+study design has, thus, become increasingly popular, and more re-
+searchers have studied PA and depression using reviews [27–31]. 
+Additionally, considering some unknown research issues in the context 
+of PA and depression, more research in this field is required. The use of 
+the bibliometric analyses serves as a useful analytical approach to 
+comprehensively summarise the current state of review studies on PA 
+and depression is [32]. 
+Bibliometric analysis is centred on the citations of publications [32]; 
+referring to the number of research articles that cite a given published 
+article [33,34]. The total number of citations not only establishes the 
+academic impact of a specific article in the field, but also serves as a basis 
+for determining a journal ’s impact factor, which can then be used as an 
+indicator for assessing its quality [33,35,36]. Across the vast majority of 
+research fields, a research article with more than 100 citations can be 
+considered a high-quality paper [37,38]. On the basis of citation ana-
+lyses, many studies have attempted to conduct bibliometric analyses to 
+better understand recent scientific progress and research trends in a 
+particular subject area [32,39,40]. 
+Given that the publications concerning PA and depression in the 
+literature are evolving rapidly, the relevant research scope and charac -
+teristics are worth studying. Therefore, the main objective of this study 
+was to identify the 50 most-cited review articles focusing on PA and 
+depression, using a citation analysis. The second aim of this study was to 
+visualise the most active countries/nations, author groups, and most 
+frequent keywords using the VOSviewer software. This kind of analysis 
+can help to deepen our understanding of the current state of research on 
+PA and depression and is expected to offer novel insights into future 
+research. 
+2.Methods 
+2.1. Search strategy 
+The Web of Science Core Collection database was selected as our 
+literature search source, as this database consists of more than 20,000 
+peer-reviewed, high-quality journals, due to which it has been widely 
+utilized for bibliometric analyses. The Web of Science Core Collection 
+database provides information on author(s), countries, and keyword on 
+each publication, which served as the foundation for current biblio -
+metric analysis. This kind of literature search approach has been rec-
+ommended by other similar studies. The search strategy was as follows: 
+“physical activity ” OR “sport ” OR “exercise ” AND (depressi*). The data 
+extracted from the database were exported as a “Tab-delimited ” file. 
+Language limitation and publication type were specified as English and 
+review, respectively. The flow chart of the study selection process is 
+displayed in Fig. 1. 
+2.2. Publication selection and data extraction 
+All the publications (n 2310) retrieved from literature search were screened for study selection. First, the document type was restricted to 
+“article ” from the 2310 publications initially retrieved, and then the 
+titles and abstracts of each article were independently reviewed by two 
+authors, in order to ensure that they were relevant to physical activity. 
+Then, the 50 most-cited articles were selected for bibliometric analysis, 
+based on the citation number, sorting with 50 as the cut-off value. The 
+50 most-cited review articles were analysed by extracting the following 
+information systematically: (1) publication author(s); (2) publication 
+year; (3) journal; (4) total citations per review article; and (5) journal 
+impact factor. 
+2.3. Visualization 
+The Microsoft Excel and VOSviewer (version 1.6.15) software were 
+used to analyze the information from the included review articles. 
+General information processing was performed using Microsoft Excel. A 
+unimodal network with a focus on the visualization of academic 
+knowledge was constructed using VOSviewer — a software specifically 
+designed for performing bibliometric analyses on data imported from 
+bibliographic databases. Author and country collaborations were visu-
+alized through co-authorship analysis, while detecting research hotspots 
+required analyzing co-occurrence of keywords. 
+2.4. Statistical analysis 
+All the statistical procedures for this study were performed using the 
+Microsoft Excel, and descriptive results were presented as mean or 
+range. 
+3.Results 
+Table 1 lists the information on the review articles included in the 
+bibliometric analysis. As for the citations of included review articles, the 
+range was from 89 to 756 (until the date of literature search). The 
+publication year ranged between 1989 and 2019. The mean number of 
+citations for all the included review articles was 247.5 citations per 
+paper. More details are provided in Table 1. 
+Fig. 2 depicts the network map for research collaborations between 
+the countries/regions that published the 50 most-cited review articles, 
+of which five clusters of countries/regions can be found. The figure in-
+dicates that some western countries/regions, such as the USA, England, 
+and Australia were predominant over other countries. England, 
+Australia, and Brazil were the top three countries/regions that published 
+top-cited review articles in the research field of PA and depression. In 
+Fig. 1.Flow chart of study selection.  L. Zhai and M. Xu                                                                                                                                                                                                                              Complementary Therapies in Clinical Practice 51 (2023) 101745
+3Table 1 
+List of the top-50 cited review articles in this bibliometric analysis.  
+1Authors Article Title Total 
+Citations Journal Publication 
+Year 
+Salmon [44] Effects of physical exercise on anxiety, depression, and sensitivity to 
+stress: A unifying theory 756 CLINICAL PSYCHOLOGY REVIEW 2001 
+Strohle [45] Physical activity, exercise, depression and anxiety disorders 685 JOURNAL OF NEURAL TRANSMISSION 2009 
+Cooney et al. 
+[46]. Exercise for depression 675 COCHRANE DATABASE OF SYSTEMATIC REVIEWS 2013 
+GIANROSSI et al. 
+[47]. EXERCISE-INDUCED ST DEPRESSION IN THE DIAGNOSIS OF 
+CORONARY-ARTERY DISEASE - A META-ANALYSIS 609 CIRCULATION 1989 
+Mammen et al. 
+[48]. Physical Activity and the Prevention of Depression A Systematic Review 
+of Prospective Studies 601 AMERICAN JOURNAL OF PREVENTIVE MEDICINE 2013 
+Lawlor et al. 
+[49]. The effectiveness of exercise as an intervention in the management of 
+depression: systematic review and meta-regression analysis of 
+randomized controlled trials 518 BMJ-BRITISH MEDICAL JOURNAL 2001 
+Teychenne et al. 
+[50]. Physical activity and likelihood of depression in adults: A review 426 PREVENTIVE MEDICINE 2008 
+Vancampfort 
+et al. [51]. Sedentary behavior and physical activity levels in people with 
+schizophrenia, bipolar disorder and major depressive disorder: a global 
+systematic review and meta-analysis 371 WORLD PSYCHIATRY 2017 
+Kvam et al. [52]. Exercise as a treatment for depression: A meta-analysis 356 JOURNAL OF AFFECTIVE DISORDERS 2016 
+Lucassen et al. 
+[53]. Regulation of adult neurogenesis by stress, sleep disruption, exercise 
+and inflammation: Implications for depression and antidepressant 
+action 336 EUROPEAN NEUROPSYCHOPHARMACOLOGY 2010 
+Lopresti et al. 
+[54]. A review of lifestyle factors that contribute to important pathways 
+associated with major depression: Diet, sleep and exercise 335 JOURNAL OF AFFECTIVE DISORDERS 2013 
+Erickson et al. 
+[55]. The Aging Hippocampus: Interactions between Exercise, Depression, 
+and BDNF 306 NEUROSCIENTIST 2012 
+BYRNE et al. 
+[56]. THE EFFECT OF EXERCISE ON DEPRESSION, ANXIETY AND OTHER 
+MOOD STATES - A REVIEW 305 JOURNAL OF PSYCHOSOMATIC RESEARCH 1993 
+Brosse et al. 
+[57]. Exercise and the treatment of clinical depression in adults - Recent 
+findings and future directions 297 SPORTS MEDICINE 2002 
+Mead et al. [58]. Exercise for depression 289 COCHRANE DATABASE OF SYSTEMATIC REVIEWS 2009 
+Schuch et al. 
+[59]. Physical activity and sedentary behavior in people with major 
+depressive disorder: A systematic review and meta-analysis 287 JOURNAL OF AFFECTIVE DISORDERS 2017 
+Josefsson et al. 
+[60]. Physical exercise intervention in depressive disorders: Meta- analysis 
+and systematic review 264 SCANDINAVIAN JOURNAL OF MEDICINE & 
+SCIENCE IN SPORTS 2014 
+Rimer et al. [61]. Exercise for depression 249 COCHRANE DATABASE OF SYSTEMATIC REVIEWS 2012 
+Bridle et al. [62]. Effect of exercise on depression severity in older people systematic 
+review and meta-analysis of randomized controlled trials 231 BRITISH JOURNAL OF PSYCHIATRY 2012 
+Stanton et al. 
+[63]. Exercise and the treatment of depression: A review of the exercise 
+program variables 226 JOURNAL OF SCIENCE AND MEDICINE IN SPORT 2014 
+Kandola et al. 
+[64]. Physical activity and depression: Towards understanding the 
+antidepressant mechanisms of physical activity 221 NEUROSCIENCE AND BIOBEHAVIORAL REVIEWS 2019 
+Mead et al. [65]. Exercise for depression 221 COCHRANE DATABASE OF SYSTEMATIC REVIEWS 2008 
+Larun et al. [66]. Exercise in prevention and treatment of anxiety and depression among 
+children and young people 212 COCHRANE DATABASE OF SYSTEMATIC REVIEWS 2006 
+Herring et al. 
+[67]. Effect of Exercise Training on Depressive Symptoms Among Patients 
+with a Chronic Illness A Systematic Review and Meta-analysis of 
+Randomized Controlled Trials 208 ARCHIVES OF INTERNAL MEDICINE 2012 
+Blake et al. [68]. How effective are physical activity interventions for alleviating 
+depressive symptoms in older people? A systematic review 198 CLINICAL REHABILITATION 2009 
+Phillips [69] Brain-Derived Neurotrophic Factor, Depression, and Physical Activity: 
+Making the Neuroplastic Connection 193 NEURAL PLASTICITY 2017 
+Dauwan et al. 
+[70]. Exercise Improves Clinical Symptoms, Quality of Life, Global 
+Functioning, and Depression in Schizophrenia: A Systematic Review 
+and Meta-analysis 192 SCHIZOPHRENIA BULLETIN 2016 
+Brown et al. 
+[71]. Physical Activity Interventions and Depression in Children and 
+Adolescents A Systematic Review and Meta-Analysis 187 SPORTS MEDICINE 2013 
+Dinas et al. [72]. Effects of exercise and physical activity on depression 185 IRISH JOURNAL OF MEDICAL SCIENCE 2011 
+Sjosten et al. 
+[73]. The effects of physical exercise on depressive symptoms among the 
+aged: a systematic review 160 INTERNATIONAL JOURNAL OF GERIATRIC 
+PSYCHIATRY 2006 
+Craft et al. [74]. Exercise Effects on Depressive Symptoms in Cancer Survivors: A 
+Systematic Review and Meta-analysis 152 CANCER EPIDEMIOLOGY BIOMARKERS & 
+PREVENTION 2012 
+Schuch et al. 
+[75]. Neurobiological effects of exercise on major depressive disorder: A 
+systematic review 144 NEUROSCIENCE AND BIOBEHAVIORAL REVIEWS 2016 
+Stubbs et al. 
+[76]. Dropout from exercise randomized controlled trials among people with 
+depression: A meta-analysis and meta regression 144 JOURNAL OF AFFECTIVE DISORDERS 2016 
+Bailey et al. [77]. Treating depression with physical activity in adolescents and young 
+adults: a systematic review and meta-analysis of randomized controlled 
+trials 137 PSYCHOLOGICAL MEDICINE 2018 
+Micheli et al. 
+[78]. Depression and adult neurogenesis: Positive effects of the 
+antidepressant fluoxetine and of physical exercise 127 BRAIN RESEARCH BULLETIN 2018 
+Potter et al. [79]. A systematic review of the effects of physical activity on physical 
+functioning, quality of life and depression in older people with 
+dementia 127 INTERNATIONAL JOURNAL OF GERIATRIC 
+PSYCHIATRY 2011 
+(continued on next page) L. Zhai and M. Xu                                                                                                                                                                                                                              Complementary Therapies in Clinical Practice 51 (2023) 101745
+4addition, two close collaboration groups i.e., Australia and Brazil, and 
+Sweden and Germany were observed. Meanwhile, other collaborations 
+that were not as close and strong existed, such as that between the USA 
+and Chinese Taiwan. 
+In terms of author collaboration, the visualization analysis demonstrated that the authors of the included review articles could be 
+divided into three clusters, marking a group of certain research in-
+vestigators and their collaborating researchers (see Fig. 3), such as 
+Brendon Stubbs and Simon Rosenbaum. A strong and close collaboration 
+was found among various authors, including those of Simon Rosenbaum, Table 1 (continued ) 
+1Authors Article Title Total 
+Citations Journal Publication 
+Year 
+Barbour et al. 
+[80]. Exercise as a treatment for depression and other psychiatric disorders 114 JOURNAL OF CARDIOPULMONARY 
+REHABILITATION AND PREVENTION 2007 
+Schuch et al. 
+[81]. Exercise for depression in older adults: a meta-analysis of randomized 
+controlled trials adjusting for publication bias 113 REVISTA BRASILEIRA DE PSIQUIATRIA 2016 
+Eyre et al. [82]. Neuroimmunological effects of physical exercise in depression 112 BRAIN BEHAVIOR AND IMMUNITY 2012 
+Davenport et al. 
+[83]. Impact of prenatal exercise on both prenatal and postnatal anxiety and 
+depressive symptoms: a systematic review and meta-analysis 108 BRITISH JOURNAL OF SPORTS MEDICINE 2018 
+MARTINSEN 
+et al. [84]. BENEFITS OF EXERCISE FOR THE TREATMENT OF DEPRESSION 106 SPORTS MEDICINE 1990 
+Gujral et al. [85]. Exercise effects on depression: Possible neural mechanisms 105 GENERAL HOSPITAL PSYCHIATRY 2017 
+Stubbs et al. 
+[86]. Exercise improves cardiorespiratory fitness in people with depression: A 
+meta-analysis of randomized control trials 105 JOURNAL OF AFFECTIVE DISORDERS 2016 
+Morres et al. 
+[87]. Aerobic exercise for adult patients with major depressive disorder in 
+mental health services: A systematic review and meta-analysis 104 DEPRESSION AND ANXIETY 2019 
+Korczak et al. 
+[88]. Children ’s Physical Activity and Depression: A Meta-analysis 101 PEDIATRICS 2017 
+Carter et al. [89]. The Effect of Exercise on Depressive Symptoms in Adolescents: A 
+Systematic Review and Meta-Analysis 100 JOURNAL OF THE AMERICAN ACADEMY OF CHILD 
+AND ADOLESCENT PSYCHIATRY 2016 
+Dale et al. [90]. Physical activity and depression, anxiety, and self-esteem in children 
+and youth: An umbrella systematic review 99 MENTAL HEALTH AND PHYSICAL ACTIVITY 2019 
+Wu et al. [91]. Effectiveness of physical activity on patients with depression and 
+Parkinson ’s disease: A systematic review 96 PLOS ONE 2017 
+Zeng et al. [92]. Virtual Reality Exercise for Anxiety and Depression: A Preliminary 
+Review of Current Research in an Emerging Field 91 JOURNAL OF CLINICAL MEDICINE 2018 
+Schuch et al. 
+[93]. Exercise improves physical and psychological quality of life in people 
+with depression: A meta-analysis including the evaluation of control 
+group response 89 PSYCHIATRY RESEARCH 2016  
+Fig. 2.Countries/regions collaboration networking map.  L. Zhai and M. Xu                                                                                                                                                                                                                              Complementary Therapies in Clinical Practice 51 (2023) 101745
+5Felipe B Schuch, and Philip Ward. Other author clusters, unlike the 
+author clusters led by those mentioned above, were weaker in terms of 
+research collaboration. 
+When looking at the keyword co-occurrence analysis for the review articles included in this study (see Fig. 4), it was observed that, in the 
+research on PA and depression, important research areas include the 
+types of PA (e.g., overall physical activity, exercise, aerobic physical 
+activity), health outcomes (e.g., fitness), study design (e.g., randomized 
+Fig. 3.Co-authors collaboration networking map.  
+Fig. 4.Keyword cooccurrence analysis for the included review articles.  L. Zhai and M. Xu                                                                                                                                                                                                                              
