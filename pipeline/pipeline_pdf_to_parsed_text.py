@@ -1,5 +1,5 @@
 from utils.reader import list_files, read_pdf, write_txt, read_txt
-from chat.raw_text_parser import parse_raw_text_gpt
+from chat.openai_parser import txt_to_parsed_txt_openai
 from utils.debugger import logger
 
 import time
@@ -16,7 +16,7 @@ def txt_to_parsed_txt(input_papers):
     for paper in input_papers:
         try:
             text = read_txt(f'./data/txt_papers/{paper}')
-            result = parse_raw_text_gpt(str(text))
+            result = txt_to_parsed_txt_openai(str(text))
             try:
                 write_txt(f'./data/txt_parsed_papers/parsed_{paper}', result)
                 logger.info(f'paper {paper} is parsed')
@@ -40,5 +40,5 @@ if __name__ == "__main__":
 
     end_time = time.time()
     time = end_time - start_time
-    print(f"Time taken: {time:.2f} seconds")
+    print(f"Time taken: {time:.2f / 60} seconds")
 

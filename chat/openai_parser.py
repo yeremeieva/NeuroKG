@@ -1,18 +1,41 @@
-import os
-from langchain.chains.openai_functions import (
-    create_openai_fn_chain,
-    create_structured_output_chain,
-)
-from langchain_openai import ChatOpenAI
+from openai import OpenAI
+from langchain.chains.openai_functions import create_structured_output_chain
+import langchain_openai
 from langchain.prompts import ChatPromptTemplate
-from typing import List, Optional
+from dotenv import load_dotenv
+import os
 
 from database.neo4j_database import KnowledgeGraph
+from utils.debugger import logger
+
+load_dotenv()
+client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
+
+def txt_to_parsed_txt_openai(text_to_parse: str,  temperature=0.7) -> str:
+    try:
+        response = client.chat.completions.create(model="gpt-4-turbo-preview",
+        messages=[
+            {"role": "system", "content": "You: rewrite text but do not include information about author, journal, year and do not use abbreviations or acronyms, only full names" + text_to_parse},
+        ],
+        temperature=temperature)
+        return response.choices[0].message.content
+    except Exception as e:
+        logger.exception(f'not successfully parsing text with fucking chat gpt, exception "{e}"')
 
 
-def get_extraction_chain(allowed_nodes: Optional[List[str]] = None, allowed_rels: Optional[List[str]] = None):
-    os.environ["OPENAI_API_KEY"] = ""
-    llm = ChatOpenAI(model="gpt-4-turbo-preview", temperature=0)
+def create_node_label_openai(node_name: str,  temperature=0.7) -> str:
+    try:
+        response = client.chat.completions.create(model="gpt-4-turbo-preview",
+        messages=[
+            {"role": "system", "content": f"You: Label with one word this node {node_name} for neuroscientific knowledge graph"},
+        ],
+        temperature=temperature)
+        return response.choices[0].message.content
+    except Exception as e:
+        logger.exception(f'not successfully parsing text with fucking chat gpt, exception "{e}"')
+
+def prompt_to_create_knowledge_openai():
+    llm = langchain_openai.ChatOpenAI(model="gpt-4-turbo-preview", temperature=0)
     prompt = ChatPromptTemplate.from_messages(
         [("system",
           f"""# Knowledge Graph Instructions for GPT-4
@@ -24,7 +47,6 @@ Node(id='Neurological and psychiatric side effects', type='Adverse Effect')] rel
   - For example, when you identify an entity representing a brain area, always label it as **"Brain Area"**. Avoid using more specific terms like "region" or "anatomy structure".
 - **Node IDs**: Never utilize integers as node IDs. Node IDs should be names or human-readable identifiers found
 {'- **Allowed Node Labels:**' + ", ".join(['Medical Condition', 'Medical Procedure', 'Symptom', 'Innovation', 'Condition', 'Brain area', 'Disease', 'Treatment', 'Psychiatric Disorder'])}
-{'- **Allowed Relationship Types**:' + ", ".join(allowed_rels) if allowed_rels else ""}
 ## 3. Handling Numerical Data and Dates
 - Numerical data, like age or other related information, should be incorporated as attributes or properties of the respective nodes.
 - **No Separate Nodes for Dates/Numbers**: Do not create separate nodes for dates or numerical values. Always attach them as attributes or properties of nodes.

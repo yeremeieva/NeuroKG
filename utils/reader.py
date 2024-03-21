@@ -1,11 +1,15 @@
 import PyPDF2
 import os
 from langchain.docstore.document import Document
+from typing import Optional
 
 from utils.debugger import logger
 
 
-def list_files(folder_path, ending):
+def list_files(folder_path: str, ending: str) -> Optional[list[str]]:
+    if not os.path.exists(folder_path):
+        logger.info(f"The folder '{folder_path}' does not exist.")
+        return
     try:
         files = os.listdir(folder_path)
         files_names = []
@@ -17,13 +21,13 @@ def list_files(folder_path, ending):
         logger.exception(f'not successful list of files, exception "{e}"')
 
 
-def read_pdf(path_pdf):
-    if not os.path.exists(path_pdf):
-        logger.info(f"The folder '{path_pdf}' does not exist.")
+def read_pdf(file_path: str) -> Optional[str]:
+    if not os.path.exists(file_path):
+        logger.info(f"The folder '{file_path}' does not exist.")
         return
     try:
         text = ""
-        with open(path_pdf, "rb") as file:
+        with open(file_path, "rb") as file:
             reader = PyPDF2.PdfReader(file)
             num_pages = len(reader.pages)
             for page_num in range(5):
@@ -34,31 +38,44 @@ def read_pdf(path_pdf):
         logger.exception(f'not successful read of pdf, exception "{e_read}"')
 
 
-def read_txt(path_pdf):
-    if not os.path.exists(path_pdf):
-        logger.info(f"The folder '{path_pdf}' does not exist.")
+def read_txt(file_path: str) -> Optional[str]:
+    if not os.path.exists(file_path):
+        logger.info(f"The folder '{file_path}' does not exist.")
         return
     try:
-        with open(path_pdf, "r") as file:
+        with open(file_path, "r") as file:
             return file.read()
     except Exception as e_read:
         logger.exception(f'not successful read of txt, exception "{e_read}"')
 
 
-def write_txt(path_txt, text):
-    with open(path_txt, 'w') as file:
-        file.writelines(text)
+def write_txt(file_path: str, text: str) -> None:
+    if not os.path.exists(file_path):
+        logger.info(f"The folder '{file_path}' does not exist.")
+        return
+    try:
+        with open(file_path, 'w') as file:
+            file.writelines(text)
+    except Exception as e_read:
+        logger.exception(f'not successful read of txt, exception "{e_read}"')
 
 
-def txt_to_doc(file_path):
-    text_content = read_txt(file_path)
-    metadata = {
-        'title': file_path[38:-4],
-        'summary': 'no',
-        'source': file_path,
-        'id': 1
-    }
-    return Document(text_content, metadata=metadata)
+def txt_to_doc(file_path: str) -> Optional[Document]:
+    if not os.path.exists(file_path):
+        logger.info(f"The folder '{file_path}' does not exist.")
+        return
+    try:
+        text_content = read_txt(file_path)
+        metadata = {
+            'title': file_path[38:-4],
+            'summary': 'no',
+            'source': file_path,
+            'id': 1
+        }
+        return Document(text_content, metadata=metadata)
+    except Exception as e:
+        logger.exception(f'not successfully read txt, exception "{e}"')
+
 
 # if __name__ == '__main__':
 #     doc = txt_to_doc('data/txt_parsed_papers/parsed_paper_innovations.txt')

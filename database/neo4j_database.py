@@ -1,11 +1,12 @@
-from langchain.graphs import Neo4jGraph
-from neo4j import GraphDatabase
+from langchain_community.graphs import Neo4jGraph
 import os
 from dotenv import load_dotenv
 from typing import List, Optional
 from langchain.pydantic_v1 import Field, BaseModel
+from langchain_community.graphs.graph_document import (Node as BaseNode, Relationship as BaseRelationship)
 
-def init_graph():
+
+def init_graph() -> Neo4jGraph:
     load_dotenv()
     url = os.getenv('DB_URL')
     username = os.getenv('DB_USER')
@@ -13,18 +14,6 @@ def init_graph():
 
     graph = Neo4jGraph(url=url, username=username, password=password)
     return graph
-
-# driver = GraphDatabase.driver(url, auth=(username, password))
-
-
-from langchain_community.graphs.graph_document import (
-    Node as BaseNode,
-    Relationship as BaseRelationship,
-    GraphDocument,
-)
-from langchain.docstore.document import Document
-
-
 
 class Property(BaseModel):
   """A single property consisting of key and value"""
@@ -45,8 +34,7 @@ class KnowledgeGraph(BaseModel):
     nodes: List[Node] = Field(
         ..., description="List of nodes in the knowledge graph")
     rels: List[Relationship] = Field(
-        ..., description="List of relationships in the knowledge graph"
-    )
+        ..., description="List of relationships in the knowledge graph")
 
 def format_property_key(s: str) -> str:
     words = s.split()
@@ -74,7 +62,6 @@ def map_to_base_node(node: Node) -> BaseNode:
         id=node.id.title(), type=node.type.capitalize(), properties=properties
     )
 
-
 def map_to_base_relationship(rel: Relationship) -> BaseRelationship:
     """Map the KnowledgeGraph Relationship to the base Relationship."""
     source = map_to_base_node(rel.source)
@@ -83,3 +70,4 @@ def map_to_base_relationship(rel: Relationship) -> BaseRelationship:
     return BaseRelationship(
         source=source, target=target, type=rel.type, properties=properties
     )
+
