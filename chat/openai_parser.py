@@ -5,7 +5,7 @@ from langchain.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 import os
 
-from database.neo4j_database import KnowledgeGraph
+from database.init_database import KnowledgeGraph
 from utils.debugger import logger
 
 load_dotenv()
@@ -35,6 +35,7 @@ def create_node_label_openai(node_name: str,  temperature=0.7) -> str:
         logger.exception(f'not successfully created new label with fucking chat gpt, exception "{e}"')
 
 def prompt_to_create_knowledge_openai():
+    os.getenv('OPENAI_API_KEY')
     llm = langchain_openai.ChatOpenAI(model="gpt-4-turbo-preview", temperature=0)
     prompt = ChatPromptTemplate.from_messages(
         [("system",
@@ -46,13 +47,13 @@ Node(id='Neurological and psychiatric side effects', type='Adverse Effect')] rel
 - **Consistency**: Ensure you use basic or elementary types for node labels.
   - For example, when you identify an entity representing a brain area, always label it as **"Brain Area"**. Avoid using more specific terms like "region" or "anatomy structure".
 - **Node IDs**: Never utilize integers as node IDs. Node IDs should be names or human-readable identifiers found
-{'- **Allowed Node Labels:**' + ", ".join(['Medical Condition', 'Medical Procedure', 'Symptom', 'Innovation', 'Condition', 'Brain area', 'Disease', 'Treatment', 'Psychiatric Disorder'])}
+
 ## 3. Handling Numerical Data and Dates
 - Numerical data, like age or other related information, should be incorporated as attributes or properties of the respective nodes.
 - **No Separate Nodes for Dates/Numbers**: Do not create separate nodes for dates or numerical values. Always attach them as attributes or properties of nodes.
 - **Property Format**: Properties must be in a key-value format.
 - **Quotation Marks**: Never use escaped single or double quotes within property values.
-- **Naming Convention**: Use space for property keys, e.g., `Birth Date`.
+- **Naming Convention**: Do not space for property keys and use title case, e.g., `BirthDate`.
 ## 4. Coreference Resolution
 - **Maintain Entity Consistency**: When extracting entities, it's vital to ensure consistency.
 If an entity, such as "John Doe", is mentioned multiple times in the text but is referred to by different names or pronouns (e.g., "Joe", "he"),

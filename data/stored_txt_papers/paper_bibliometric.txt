@@ -1,0 +1,270 @@
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ibjn20
+British Journal of Neurosurgery
+ISSN: 0268-8697 (Print) 1360-046X (Online) Journal homepage: www.tandfonline.com/journals/ibjn20
+Bibliometric profile of deep brain stimulation
+Kejia Hu, Ziev B. Moses, Wendong Xu & Ziv Williams
+To cite this article:  Kejia Hu, Ziev B. Moses, Wendong Xu & Ziv Williams (2017) Bibliometric
+profile of deep brain stimulation, British Journal of Neurosurgery, 31:5, 587-592, DOI:
+10.1080/02688697.2017.1324109
+To link to this article:  https://doi.org/10.1080/02688697.2017.1324109
+View supplementary material 
+Published online: 08 May 2017.
+Submit your article to this journal 
+Article views: 250
+View related articles 
+View Crossmark data
+Citing articles: 6 View citing articles 
+ORIGINAL ARTICLE
+Bibliometric profile of deep brain stimulation
+Kejia Hua,b,c, Ziev B. Mosesa,d, Wendong Xuband Ziv Williamsa,c
+aDepartment of Neurosurgery, Massachusetts General Hospital, Harvard Medical School, Boston, MA, USA;bDepartment of Hand Surgery,
+Huashan Hospital, Fudan University, Shanghai, China;cMGH-HMS Center for Nervous System Repair, Harvard Medical School, Boston, MA, USA;
+dDepartment of Neurosurgery, Brigham and Women's Hospital, Harvard Medical School, Boston, MA, USA
+ABSTRACT
+Objective: We aimed to identify and analyze the characteristics of the 100 most highly-cited papers in the
+research field of deep brain stimulation (DBS).Methods: The Web of Science was searched for highly-cited papers related to DBS research. The number
+of citations, countries, institutions of origin, year of publication, and research area were noted and
+analyzed.Results: The 100 most highly-cited articles had a mean of 304.15 citations. These accrued an average of
+25.39 citations a year. The most represented target by far was the subthalamic nucleus (STN). These articles
+were published in 46 high-impact journals, with Brain (n¼10) topping the list. These articles came from
+11 countries, with the USA contributing the most highly-cited articles ( n¼29); however, it was the
+University of Toronto ( n¼13) in Canada that was the institution with the most highly-cited studies.
+Conclusions: This study identified the 100 most highly-cited studies and highlighted a historical perspec-
+tive on the progress in the field of DBS. These findings allow for the recognition of the most influentialreports and provide useful information that can indicate areas requiring further investigation.ARTICLE HISTORY
+Received 21 October 2016
+Revised 13 March 2017Accepted 24 April 2017
+KEYWORDS
+Bibliometrics; citation;analysis; deep; brainstimulation; stimulationtargets; Parkinson's disease
+Deep brain stimulation (DBS) is a neurosurgical procedure that
+was first described in the 1950s1and over the next few decades
+neurosurgeons tried to explore the possible therapeutic value of
+electrode implantation with chronic recording and stimulation in
+a small number of patients for numerous indications.2The mod-
+ern era of therapeutic DBS, however, was heralded by the teamof Benabid, Pollak and their colleagues in a 1987 report.
+3Over
+the past several decades, with the approval of the United States
+Food and Drug Administration (FDA), DBS has become the
+major growth area for the treatment of severe Parkinson ’s dis-
+ease, essential tremor, dystonia and obsessive-compulsive dis-order.
+4,5Although these applications are not yet FDA-approved,
+recent interest has begun to focus on the clinical application of
+DBS to other psychiatric and affective disorders, particularly
+post-traumatic stress disorder and depression, as well as epi-lepsy.
+6–8The exact mechanism of action of DBS remains uncer-
+tain, but the use of this technique for an increasing number ofdisorders has brought dramatic and lasting benefits to patients.
+9
+The Institute for Scientific Information (ISI) initiated “Science
+Citations ”as a systematic approach to evaluate the impact of sci-
+entific journals or researchers according to the number of times
+the work has been cited.10This type of analysis has been applied
+to the literature of various specialties and research areas.11–15In
+addition, several journals publish their own journal citation clas-sics.
+16,17In the field of neurosurgery, an analysis of highly-cited
+papers dealing with functional and stereotactic neurosurgery,18
+traumatic brain injury,19aneurysmal subarachnoid hemorrhage,20
+and skull base procedure21have all been studied. Little is cur-
+rently known, however, about the most frequently cited articlesthat are specifically related to DBS research. Therefore, thepurpose of this study was to identify the 100 most highly-cited
+articles pertaining to DBS and related research, in an effort toreveal important contributions to the literature in this promisingfield.
+Materials and methods
+Thomson Reuter ’s Web of Science was queried through the
+Harvard Library Portal, on one specific day, June 30th, 2016, tominimize changes in citation number as much as possible, for allarticles relating to DBS. Different combination of the words“DBS ”,“deep brain stimulation ”,“intracranial ”,“subcortical ”,
+“electrostimulator ”,“neurostimulator ”,“neuropacemaker ”,“brain
+pacemaker ”,“depth lead implantation ”and “stimulator generator ”
+were used and results were ranked by the number of citations.The term “cortical lead implantation ”was also used as a search
+term in order to exclude papers dealing with implantation ofneurostimulators in the cortex. Whenever possible, the full textsof these reports were mainly obtained by PubMed, EMBASE, andMedline. When full-text articles were not available, onlineabstracts were relied upon.
+Data inclusion criteria were: (a) peer-reviewed articles on DBS
+research published and indexed in the Web of Science; (b) typeof article: original research articles and review articles. Exclusioncriteria were: (a) patents, books, manuals and non-biomedicalpublications, conference abstracts and case reports; (b) articlesfocusing on specific diseases, regardless of whether they men-tioned DBS as a potential treatment.
+The 100 most highly-cited articles were then identified
+based on the number of citations. Owing to differences in
+CONTACT Ziv Williams zwilliams@partners.org; Kejia Hu khu3@mgh.harvard.edu Department of Neurosurgery, Massachusetts General Hospital, Harvard
+Medical School, Boston, MA 02114, USA
+Supplemental data for this article can be accessed here.
+/C2232017 The Neurosurgical FoundationBRITISH JOURNAL OF NEUROSURGERY, 2017
+VOL. 31, NO. 5, 587 –592
+https://doi.org/10.1080/02688697.2017.1324109time since publication, annual citations rates were also defined.
+Articles were selected by reading the abstract to gauge whetherthey were related to DBS, and the following data were
+abstracted from each article that met our criteria: title, year of
+publication, last corresponding author and his/her first institu-tion, country of origin, journal name, number of citations,type of study, research topic and keywords of study. Statistical
+analysis was performed using R version 3.2.3 (Wooden
+Christmas-Tree). Mean and standard error (SE) were used forcitations comparison, significant differences were identified
+using a non-parametric ANOVA analysis with an alpha level
+of 0.05. CiteSpace v4.0 was used to visualize the trends andpatterns in DBS research.
+22–24
+Results
+The top 10 most highly-cited articles on DBS research are pre-
+sented ( Table 1 ), while the full list of the 100 most highly-cited
+articles are listed in Supplemental Materials (Table S1) in
+descending order by total number of citations. The 100 papers
+obtained a mean of 304.15 (SE 19.14) citations per article, withthe top one receiving 1408 citations (Mayberg et al., 2005)
+25
+and the least highly-cited article receiving 168 citations(Vidailhet et al., 2007).
+26Annually, the 100 highly-cited articles
+received an average of 25.39 (SE 1.62) citations per paper
+(range, 8.56 to 117.33).
+Years of publication
+The years of publication in our sample ranged from 1991 to
+2013 ( Figure 1 ), with 72 studies having been published between
+2000 and 2009, 17 studies before 1999, and 11 after 2010.There was a peak in the number of highly-cited studies after
+2002.Countries of origin and institutions
+While the 100 articles originated in 11 different countries
+(Figure 2 ), most ( n¼29) were from the USA, followed by France
+(n¼26), Canada ( n¼14), Germany ( n¼11), England ( n¼7),
+Netherlands ( n¼3) and Italy ( n¼3). Belgium, Spain, and
+Switzerland each had two highly-cited studies, whereas SouthKorea contributed one study. Even though we placed no language
+restrictions on our searches, we found that all 100 studies were
+published in English-language journals.
+These articles originated from 49 universities, hospitals, and
+clinics. Six institutions were responsible for three or more
+articles, led by the University of Toronto ( n¼13). The six
+research institutions with the most highly-cited articles are listed
+inFigure 3 .
+Journal distribution and study field
+The top 100 highly-cited articles were published in 46 journals,
+most appeared in Brain (n ¼10), followed by Neurology and
+Journal of Neurosurgery (n¼9, each). New England Journal of
+Medicine (n¼8) is the highest impact factor journal in the list
+(Table 2 ).
+Study fields
+Of the 100 articles, 19 were review articles, 81 were clinical
+human studies covering different stimulation sites. Originalarticles had more average citation numbers (310.52, SE 23.17)
+than review articles (277.0, SE 19.52), but the difference was not
+significant ( P¼0.495). Parkinson ’s disease (PD) received the
+most attention, while the subthalamic nucleus (STN) was the
+most preferred stimulation target ( Table 3 ).Table 1. The top 10 of 100 most highly-cited DBS articles.
+Rank TitleCorresponding
+Author Country Year JournalTotal
+citationAnnual
+citation
+1 Deep brain stimulation for treatment-
+resistant depressionMayberg HS &
+Lozano AMCanada 2005 NEURON 1408 117.33
+2 Five-year follow-up of bilateral stimu-
+lation of the subthalamic nucleusin advanced Parkinson ’s diseaseKrack P France 2003 NEW ENGLAND JOURNAL
+OF MEDICINE1061 75.79
+3 Long-term suppression of tremor by
+chronic stimulation of the ventralintermediate thalamic nucleusPollak P France 1991 THE LANCET 863 33.19
+4 A randomized trial of deep-brain
+stimulation for Parkinson ’s diseaseDeuschl G German 2006 NEW ENGLAND JOURNAL
+OF MEDICINE847 77
+5 Deep-brain stimulation of the subtha-
+lamic nucleus or the pars internaof the globus pallidus inParkinson ’s diseaseObeso JA Spain 2001 NEW ENGLAND JOURNAL
+OF MEDICINE813 50.81
+6 Chronic electrical stimulation of the
+ventralis intermedius nucleus of
+the thalamus as a treatment ofmovement disordersBenabid AL France 1996 JOURNAL OF
+NEUROSURGERY659 31.38
+7 Bilateral deep brain stimulation in
+Parkinson's disease: a multicentrestudy with 4 years follow-upObeso JA Spain 2005 BRAIN 497 41.42
+8 A comparison of continuous thalamic
+stimulation and thalamotomy forsuppression of severe tremorSpeelman JD Netherland 2000 NEW ENGLAND JOURNAL
+OF MEDICINE492 28.94
+9 Bilateral Deep Brain Stimulation vs
+Best Medical Therapy for PatientsWith Advanced Parkinson DiseaseA Randomized Controlled TrialWeaver FM USA 2009 JAMA-JOURNAL OF THE
+AMERICAN MEDICALASSOCIATION460 57.5
+10 Stimulation of the subthalamic
+nucleus changes the firing patternof pallidal neuronsVitek JL USA 2003 JOURNAL OF
+NEUROSCIENCE445 31.79588 K. HU ET AL.Keywords of DBS articles that closely cluster to “deep brain
+stimulation ”occur in categories including “subthalamic nucleus ”,
+“basal ganglia ”,“limbic system ”,“Parkinson disease ”,“epilepsy ”
+and “intracellular analysis ”(Figure 4 ).
+Discussion
+DBS is a neuromodulation technique that targets specific struc-
+tures in the brain. With both technological and conceptualadvances, the field of DBS has grown exponentially during thepast decade. In 2012, Lipsman and Lozano defined the top 100
+highly-cited studies in stereotactic and functional neurosurgery.
+18
+Of them, 13 studies were specific to DBS, with treatment of
+movement disorders representing the largest proportion of paperswith 31 total studies. In our study, we identified the 100 mosthighly-cited articles focusing specifically on DBS. Although older
+publications have more years to accumulate citations and are
+therefore often overrepresented in top 100 lists, our analysisshowed a peak in the number of studies after 2002. In that year,
+STN and GPi stimulation were approved by the FDA for PDtreatment. Apart from FDA approval of thalamic DBS for essen-
+tial tremor and PD-related tremor in 1997, this 2002 peak corre-
+lates well with a major trend in clinical movement disorderstreatment practice to refer patients for DBS. This likely accounts
+for why the 2000s was the most productive period for DBS
+research.
+The country of origin for the papers we identified is most fre-
+quently the USA; furthermore, half of the corresponding institu-tions are located in the USA. While this is similar to other fields
+of neurosurgery research,
+19–21the dominant position of the USA
+is less prominent in our list than in other studies. Our listincludes a larger proportion (71 %) of international articles,
+reflecting the diversity of countries contributing to DBS research.
+Brain, Neurology, and Journal of Neurosurgery, three high
+impact journals, published most of the highly-cited articles. The
+coverage of these journals spans across neuroscience, neurology,
+Figure 1. The 100 most highly-cited DBS articles appearing in journals per year.
+Figure 2. Distribution of country origin for the 100 most highly-cited DBS research articles.BRITISH JOURNAL OF NEUROSURGERY 589and neurosurgery, and they are also flagship journals in their
+own specialties, respectively. It is noteworthy that DBS hasbroad applicability and relevance to multiple disciplines, andneuroscientists, neurologists and neurosurgeons all madegreat contributions. Furthermore, highly-cited DBS studies tendedto cluster in broadly applicable, typically higher impact publica-tions, such as NEJM andLancet Neurology .
+Our co-word frequency cluster analysis revealed that the areas
+of most interest in the field of DBS are PD and its related stimu-lation targets including STN, basal ganglia, and the limbic system.As the primary clinical use of DBS has been PD, the work relatedto PD made up the vast majority of cited studies ( n¼45).
+Advanced PD has become the best studied and most commonindication for DBS and a variety of targets have been utilized. Ofthe 45 studies, 38 related to STN stimulation and 14 related toGPi, which confirms that these areas are the two most commontargets for DBS, both of which are components of the cortico-basal ganglia-thalamo-cortical loop.
+27Stimulation of these sites
+has been associated with significant improvements in the cardinalmotor signs of PD, including tremor, bradykinesia, and rigidity.
+4
+Five studies in our list disclosed stimulation of the ventral
+intermediate nucleus (Vim) of the thalamus is highly effective forthe treatment of tremor, especially in patients with PD-relatedtremor or in essential tremor patients. However, Vim stimulationlacks significant positive effect on the rigidity, bradykinesia, andgait and postural disturbances associated with PD.
+28This reason
+may explain why the majority of PD patients are treated withinterventions in the STN or GPi, as these targets allow forimprovement in all the cardinal features of PD. In contrast, VimDBS has unequivocal functional benefits in patients with essentialtremor.
+29
+DBS also offers the attractive potential to directly modulate
+the affective brain circuitry which may underly some neuro-psychiatric illnesses. Our study revealed reports proposing fourdifferent DBS targets for depression. For instance, on our list, themost highly-cited study of treatment-resistant depression, pub-lished in Neuron in 2006, with corresponding authors Dr.
+Mayberg and Dr. Lozano at the University of Toronto, describedthe application of chronic DBS to the subgenual cingulate whitematter and how it could effectively reverse symptoms in treat-ment-resistant depression. This article was also ranked first in theannual citations list, with 129.4 citations per year.
+As the field obtains a better and more thorough understand-
+ing of the pathophysiology of neurologic and psychiatric disor-ders, newer and more specific targets are being tested withvarying success, including those relating to obsessive-compulsivedisorder, Tourette ’s syndrome, epilepsy, cluster headaches, and
+Alzheimer ’s disease.
+30–34Nevertheless, while the results have
+largely been positive, unfortunately, no large scale randomizedcontrolled trials have been performed and evidence in this area islimited to small case series at best.
+35In addition, at present, the
+electric field generated by DBS is applied indiscriminately to allthe neural elements surrounding the electrode; this can some-times result in undesirable adverse effects. Furthermore, themechanism of action of DBS is not well understood and remainsa research priority, so a better understanding of basic conceptsshould be encouraged and development of new techniques thatpermeate into clinical practice are needed to make DBS a moreversatile and successful therapeutic option.
+Our study has several limitations common to all bibliometric
+analyses. First, as older studies have more time to accumulatecitations,
+36articles that were published more recently will have a
+shorter exposure to the medical community.37Thus, comparing
+raw citation counts for articles published from different timeperiods is problematic. We have attempted to adjust for thisthrough the use of annual citation rate analysis for each
+Figure 3. Corresponding institutions (including the affiliated hospitals) contributing the most highly-cited DBS research articles.
+Table 2. The journals in which the more than two highly-cited DBS articles
+were published. The journal impact factor was based on thomson reuters webof knowledge journal citation reports ranking (2015).
+Rank Journal Num. IF
+1 BRAIN 10 9.196
+2 JOURNAL OF NEUROSURGERY 9 3.737
+2 NEUROLOGY 9 8.286
+4 NEW ENGLAND JOURNAL OF MEDICINE 8 55.873
+4 LANCET NEUROLOGY 8 21.896
+6 ANNALS OF NEUROLOGY 5 9.977
+6 MOVEMENT DISORDERS 5 5.68
+8 BIOLOGICAL PSYCHIATRY 4 10.255
+8 JOURNAL OF NEUROLOGY NEUROSURGERY AND PSYCHIATRY 4 6.807
+10 EPILEPSIA 3 4.571
+10 NEUROSURGERY 3 3.62
+10 ARCHIVES OF NEUROLOGY 3 7.419
+IF: impact factor.590 K. HU ET AL.paper. Second, although we attempted to be as inclusive as
+possible, it is possible that other relevant highly-cited articleswere missed in the form of conference proceedings or other
+publication mechanisms. Third, the most cited articles were all
+published in English-language journals, and it is known that
+language barriers are known to create a bias in citation rates
+as authors are more likely to cite articles in their own lan-guage.
+38,39Fourth, factors potentially influencing citation rates,
+such as journal and author self-citation and how many years
+the journals have been in existence were not considered.40Last, it should be acknowledged that the citation number of
+an article does not directly reflect its quality41as evidenced by
+some papers that were remarkable and had cornerstone effects
+at the early stage of DBS history but due to a lack of cita-tions were not included in our list.
+Conclusions
+Our analysis provides a review of landmark papers published inthe field of DBS research. These 100 highly-cited articles reflectTable 3. Number of highly-cited DBS clinical articles by category and stimulation targets.
+Category No. Target No.
+Parkinson ’s Disease (PD) 45 Subthalamic Nucleus (STN) 25
+Globus Pallidus (GPi) 3STN OR Gpi 7
+STN VS Gpi 4
+Pedunculopontine nucleus (PPN) 3PPN AND STN 1
+Caudal Zona Incerta (cZI) vs STN 1Ventroposterolateral Pallidum 1
+Depression 6 Subgenual Cingulate Region 2
+Nucleus Accumbens (NAcc) 2
+Subcallosal Cingulate Gyrus (SCG) 1Ventral Internal Capsule (VC) OR Ventral Striatum (VS) 1
+Tremor (including PD, ET, dystonias, MS) 6 Thalamic Nucleus Ventralis Intermedius (Vim) 6Obsessive-Compulsive Disorder (OCD) 5 VC OR VS 3
+NAcc 1
+STN 1
+Generalized Dystonia 5 Globus Pallidus (GP) 5
+Epilepsy 4 Anterior Nucleus of Thalamus (ANT) 4Alzheimer ’s Disease 1 Fornix/Hypothalamus 1
+Chronic Cluster Headache 1 Ventroposterior Hypothalamus 1Tourette ’s Syndrome 1 Centromedian-Parafascicular Complex (Ce-Pf) of the thalamus AND/OR Gpi 1
+Intractable Pain 1 Periventricular gray matter(specific sensory thalamic nuclei) OR Internal Capsule 1
+Traumatic Brain Injury 1 Central Thalamus 1
+Figure 4. Visualization analysis of co-keywords burst terms in DBS research articles retrieved from the Web of Science using CiteSpace.BRITISH JOURNAL OF NEUROSURGERY 591

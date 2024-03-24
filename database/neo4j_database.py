@@ -1,46 +1,11 @@
-from langchain_community.graphs import Neo4jGraph
-import os
-from dotenv import load_dotenv
-from typing import List, Optional
-from langchain.pydantic_v1 import Field, BaseModel
+
 from langchain_community.graphs.graph_document import (Node as BaseNode, Relationship as BaseRelationship)
 
 from utils.debugger import logger
+from database.cypher_queries import get_nodes
+from database.init_database import Node, Relationship, Property
+from chat.openai_parser import create_node_label_openai
 
-
-def init_graph() -> Neo4jGraph:
-    try:
-        load_dotenv()
-        url = os.getenv('DB_URL')
-        username = os.getenv('DB_USER')
-        password = os.getenv('DB_PASS')
-
-        graph = Neo4jGraph(url=url, username=username, password=password)
-        return graph
-
-    except Exception as e:
-        logger.exception(f'not successfully initialised graph, probably awful credentials of neo4j, exception "{e}"')
-
-class Property(BaseModel):
-  """A single property consisting of key and value"""
-  key: str = Field(..., description="key")
-  value: str = Field(..., description="value")
-
-class Node(BaseNode):
-    properties: Optional[List[Property]] = Field(
-        None, description="List of node properties")
-
-class Relationship(BaseRelationship):
-    properties: Optional[List[Property]] = Field(
-        None, description="List of relationship properties"
-    )
-
-class KnowledgeGraph(BaseModel):
-    """Generate a knowledge graph with entities and relationships."""
-    nodes: List[Node] = Field(
-        ..., description="List of nodes in the knowledge graph")
-    rels: List[Relationship] = Field(
-        ..., description="List of relationships in the knowledge graph")
 
 def format_property_key(s: str) -> str:
     words = s.split()
@@ -59,11 +24,40 @@ def props_to_dict(props) -> dict:
         properties[format_property_key(p.key)] = p.value
     return properties
 
+
+def check_label(this_node_name: str, this_node_label: str, graph_node_label: str = None) -> str:
+    if this_node_label == graph_node_label:
+        return graph_node_label
+    elif this_node_label == 'Node':
+        return create_node_label_openai(this_node_name)
+    else:
+        return this_node_label
+
+
+def add_node_history(this_node: BaseNode, paper_name:str) -> Node:
+    # """Map the KnowledgeGraph Node to the base Node."""
+    graph_nodes = get_nodes()
+
+    if graph_nodes is {}:
+        for node in graph_nodes:
+            if node['name'].lower() == this_node.id.lower():
+                this_node.type = check_label(this_node.id ,this_node.type, node['label'])
+                this_node.properties.update(node.pop('label'))
+                this_node.properties['reference'].append(paper_name)
+    else:
+        check_label(this_node.id, this_node.type)
+        this_node.properties['name'] = this_node.id.title()
+        this_node.properties['reference'] = [paper_name]
+
+    return this_node
+
+
 def map_to_base_node(node: Node) -> BaseNode:
     """Map the KnowledgeGraph Node to the base Node."""
     properties = props_to_dict(node.properties) if node.properties else {}
-    # Add name property for better Cypher statement generation
+
     properties["name"] = node.id.title()
+
     return BaseNode(
         id=node.id.title(), type=node.type.capitalize(), properties=properties
     )
@@ -76,4 +70,3 @@ def map_to_base_relationship(rel: Relationship) -> BaseRelationship:
     return BaseRelationship(
         source=source, target=target, type=rel.type, properties=properties
     )
-

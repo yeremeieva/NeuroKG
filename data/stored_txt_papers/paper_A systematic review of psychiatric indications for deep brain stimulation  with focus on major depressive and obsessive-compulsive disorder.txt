@@ -1,0 +1,330 @@
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=ipsc20
+Nordic Journal of Psychiatry
+ISSN: 0803-9488 (Print) 1502-4725 (Online) Journal homepage: www.tandfonline.com/journals/ipsc20
+A systematic review of psychiatric indications
+for deep brain stimulation, with focus on major
+depressive and obsessive-compulsive disorder
+Matilda Naesstr öm, Patric Blomstedt & Owe Bodlund
+To cite this article:  Matilda Naesstr öm, Patric Blomstedt & Owe Bodlund (2016) A systematic
+review of psychiatric indications for deep brain stimulation, with focus on major depressive
+and obsessive-compulsive disorder, Nordic Journal of Psychiatry, 70:7, 483-491, DOI:
+10.3109/08039488.2016.1162846
+To link to this article:  https://doi.org/10.3109/08039488.2016.1162846
+© 2016 The Author(s). Published by Informa
+UK Limited, trading as Taylor & Francis
+Group
+Published online: 22 Apr 2016.
+Submit your article to this journal 
+Article views: 5163
+View related articles 
+View Crossmark data
+Citing articles: 8 View citing articles 
+REVIEW ARTICLE
+A systematic review of psychiatric indications for deep brain stimulation, with
+focus on major depressive and obsessive-compulsive disorder
+Matilda Naesstr €oma,Patric Blomstedtband Owe Bodlunda
+aDepartment of Clinical Sciences/Psychiatry, Umeå University, Umeå, Sweden;bDepartment of Pharmacology and Clinical Neuroscience, Umeå
+University, Umeå, Sweden
+ABSTRACT
+Background: Deep brain stimulation is a treatment under investigation for a range of psychiatric disor-
+ders. It has shown promising results for therapy-refractory obsessive–compulsive disorder (OCD) and
+major depressive disorder (MDD). Other indications under investigation include Tourette’s syndrome,anorexia nervosa and substance use disorders.Aims: To review current studies on psychiatric indications for deep brain stimulation (DBS), with focus
+on OCD and MDD.
+Method: A systematic search was carried out in MEDLINE, and the literature was searched to identify
+studies with DBS for psychiatric disorders. The identified studies were analysed based on patient charac-
+teristics, treatment results and adverse effects of DBS.
+Results: A total of 52 papers met the inclusion criteria and described a total of 286 unique patients
+treated with DBS for psychiatric indications; 18 studies described 112 patients treated with DBS for OCDin six different anatomical targets, while nine studies presented 100 patients with DBS for MDD in five
+different targets.
+Conclusion: DBS may show promise for treatment-resistant OCD and MDD but the results are limited
+by small sample size and insufficient randomized controlled data. Deep brain stimulation for OCD hasreceived United States Food and Drug Administration approval. Other psychiatric indications are cur-
+rently of a purely experimental nature.ARTICLE HISTORY
+Received 27 July 2015
+Revised 25 January 2016
+Accepted 22 February 2016
+KEYWORDS
+Systematic review; Deepbrain stimulation; Psychiatric
+indications; Obsessive–
+compulsive disorder; Majordepressive disorder
+Many patients suffering from a mental disorder can be success-
+fully treated with conventional non-invasive methods such aspharmacological treatments or psychotherapy. However, thereis still a remaining group of patients in whom these methodsgive little or no relief. With this background, stereotactic deepbrain stimulation (DBS) has emerged as a possibility.
+Stereotactic functional neurosurgery was first developed in
+1947 and is today an established treatment for movement
+disorders ( 1). New indications for DBS are under evaluation,
+such as headache, epilepsy and psychiatric conditions; mainlyOCD and MDD ( 2).
+The surgical procedure is initiated by mounting a stereotac-
+tic frame on the head of the patient and a magnetic reson-ance image (MRI) is performed. Using a computerizednavigational system the target structure is identified on the
+MRI and a trajectory chosen. In the operating theatre a burr
+hole is made on each side of the midline for the implantationof two electrodes. The electrodes are about 1.3 mm in diam-eter with several contacts at their distal end. An extensioncable is tunnelated under the skin, connecting the electrodeswith a neuropacemaker placed below the clavicle in a subcuta-neous pocket. The hospitalization time after surgery is depend-ent on the time needed for programming of the device, but
+the patients can usually return home within 3–5 days ( 3).The post-operative phase consists of programming to
+determine the stimulation parameters: electrode contactsused, voltage, pulse-width and frequency. The optimal param-eters are individual for the patient. The aim is to optimize theeffect on the psychiatric symptoms, while avoiding stimula-tion-induced side effects. The initial effects seen while pro-gramming in movement disorders are usually rapid and only
+a few programming sessions are normally necessary during
+the months after surgery. In psychiatric disorders the firsteffects are not as noticeable and the experience limited, thusmaking the programing more challenging.
+The major risk in the operative procedure consists of intra-
+cerebral haemorrhages. Large studies have estimated the riskto be 1–2% with minor intracerebral haemorrhages taken intoaccount ( 4). Implant-related complications may occur, but
+they do not normally pose a serious health risk. Stimulation-
+induced side effects in DBS vary depending on target areaand may include such symptoms as ocular disturbances, dys-arthria, paresthesia, sweating and hypomania. In favour ofDBS in comparison to lesional surgery, these side effects arereversible and can be removed by altering the stimulationparameters or turning off the neuropacemaker. The stimula-tion does not seem to result in any residual physiological
+changes when the treatment is discontinued.
+CONTACT Matilda Naesstr €om matilda.naesstrom@umu.se Department of Clinical Psychiatry, Medical University of Umeå, 90187 Umeå, Sweden
+/C2232016 The Author(s). Published by Informa UK Limited, trading as Taylor & Francis Group
+This is an Open Access article distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives License (http://crea tivecommons.org/licenses/by-nc-nd/4.0/),
+which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited, and is not altered , transformed, or built upon in any way.NORDIC JOURNAL OF PSYCHIATRY, 2016
+VOL. 70, NO. 7, 483–491http://dx.doi.org/10.3109/08039488.2016.1162846The exact mechanism of action of DBS in psychiatric con-
+ditions is not yet fully understood. Animal studies have dem-onstrated axonal activation and neuronal inhibition as an
+effect of DBS. Studies investigating the metabolic changes in
+depressive patients with DBS in the subcallosal gyrus (SCG)showed a significant decrease in activity ( 5,6). In addition, PET
+studies during stimulation in the nucleus accumbens (NA)demonstrated a decrease in metabolic activity of the SCG ( 7).
+This lends support to the current theories of pathology inmultiple limbic-cortical systems as a cause for MDD rather
+than dysfunction in specific ‘‘mood areas’’ ( 5,8). Hence the
+explorations of different target areas.
+New indications for DBS are emerging and among these are
+a number of various psychiatric disorders. The aim of thisreview is to briefly describe the technique of DBS and to reporton studies published concerning DBS in the treatment of psy-chiatric disorders, with focus on major depressive disorder
+(MDD) and OCD. We sought to identify current differences in
+target areas, results and complications. Due to the novelty ofthe field and limited number of publications in regard to spe-cific targets, no limitations were made regarding study design,number of participants or primary outcome measurements.
+Material and methods
+A systematic literature search for publications regarding DBS inpsychiatric conditions was conducted in March 2014 inMEDLINE. The search algorithm included [deep brain stimula-tion] AND [psychiatric], [depression], [obsessive–compulsivedisorder] and [Tourette’s]. Reference lists from relevant studieswere also reviewed. Articles were restricted to English languagepublications and involving humans. No limitations were made
+regarding study design or numbers of participants. A total of
+54 articles were identified and reviewed in full text. For studiesusing duplicate data, only the study with the most recentresults was included. After this removal a total of 52 studieswere included for this review ( Figure 1 ). Available studies are
+shown in Tables 1–3 . The identified studies were analysed
+based on DBS target areas, patient characteristics, reported
+treatment results, complications and adverse effects of DBS.
+Results
+The studied target areas for DBS in depression include theSCG ( 6,9–11 ), the NA ( 7), the inferior thalamic peduncle (ITP)(12), the ventral internal capsule/ventral striatum (VC/VS) ( 13),
+the lateral habernula (LH) ( 14) and the supero-lateral branch
+of the medial forebrain bundle (MFB) ( 15). Targets with results
+for OCD include the NA, VC/VS, STN, IC, ITP and bed nucleusof stria terminalis (BNST) ( 8,46–64 ). An anatomic guide to the
+main targets can be found in Figure 2 .
+Patients in DBS studies for psychiatric disorders
+We identified a total of 286 unique patients in 52 studies
+treated with DBS for psychiatric indications ( Tables 1–3 ). Most
+of these patients were operated for MDD or OCD. Other vari-
+ous indications included Tourette’s syndrome ( 20–37 ), primary
+anxiety disorder ( 38), alcohol addiction ( 39), anorexia nervosa
+(40,41), heroin addiction ( 42,43) and autism with aggression
+and self-mutilation ( 44).
+Regarding MDD, nine unique studies have been published,
+describing a total of 100 patients ( Table 1 ). The NA was tar-
+geted in 10 patients ( 7), ITP in one ( 12), the SCG in 67 ( 6,
+9–11 ,45), VC/VS in 15 ( 13), the LH in one ( 14) and MFB in seven
+(15). There were no major differences regarding inclusion crite-
+ria in the seven studies that included more than one patient(6,7,9–11 ,13,15). The patients eligible for DBS treatment were
+diagnosed with chronic and therapy-resistant MDD. The dur-
+ation ranged from 12–23 years and the mean major depressiveepisode prior to surgery was 5–11 years in the studies where
+this was specified. All patients participating in the studies had
+tried extensive pharmacological and psychotherapy treatment,and with few exceptions electroconvulsive therapy.
+Regarding OCD, 18 unique studies have been published,
+describing a total of 112 patients. The VC/VS was targeted in 30
+patients ( 46,47), NA in 36 ( 48–53 ), STN in 25 ( 54,55), IC in 12
+(56–60 )a n dI T Pi nf i v ep a t i e n t s( 61). Lacking clinical data, add-
+itionally four patients received DBS in BNST ( 62). Three patients
+with OCD and concomitant Parkinson’s disease were alsoreported ( 63,64). (Table 4 ). Similar to DBS studies in MDD, the
+studies regarding OCD did not differ substantially regarding
+inclusion criteria. With slight variations patients eligible for DBShad suffered at least 5 years from severe OCD, defined by the
+Yale–Brown Obsessive Compulsive Scale (YBOCS) as a minimum
+score of 25–28. The presence of therapy-refractory symptomsafter three treatment attempts with selective serotonin-reuptakeinhibitors (SSRIs), of which one had to be clomipramine, additive
+therapy with a neuroleptic and/or a benzodiazepine and attend-
+ance to a minimum of 16–20 cognitive behavioural therapy(CBT) sessions. Generally in the studies these inclusion criteria
+were well surpassed with a mean YBOCS of 32–35 and a mean
+duration of disease of 22–29 years ( Table 5 ).
+Results for DBS in depression
+The studies vary in follow-up intervals and tools for evaluation,
+thus complicating the comparison. They all have in common
+the use of the Hamilton Depression Rating Scale (HDRS), with
+variations of the version (17, 21, 24 and 28 questions) ( Table
+4). Four out of the six studies with more than five participants
+used HDRS-17 for evaluation ( 6,9–11 ). The majority of the stud-
+ies defined response as a 50% reduction in HDRS from baseline
+ Figure 1. The paper selection process.484 M. NAESSTR €OM ET AL.and remission as scores ranging from <10–7 ( 6,7,9–11 ,13). One
+study used MADRS as their primary outcome measure, withresponse at 50% score reduction from baseline and remission
+at<10 points ( 15).
+The SCG was targeted in five publications with a total of
+67 patients ( 6,9–11 ,45). Response/remission was achieved in
+50/17% at 6 months, 58/17% at 12 months.
+VC/VS DBS in 15 patients by Malone et al. resulted in six
+responders and three remissions after 6 months and eightout of six at the last evaluation, after a mean time of 2 yearsafter surgery ( 13). A study of 10 patients with NA DBS by
+Bewernick et al. reported five responders and three remitters
+at 12 months evaluation ( 7). Schlaepfer et al. presented seven
+patients with MFB DBS with two responders and four remit-ters after 3–6 months ( 15). Two case reports described remis-
+sion after DBS in LH and ITP ( 12,14).
+Even though no results have been reported it must be
+mentioned that there have been two unpublished random-ized multicentre trials of DBS in SCG and VC/VS. The studies
+were, however, discontinued due to inefficacy based on futil-
+ity analysis ( 65).
+Complications in DBS for depression
+Complications related to surgery were few and with minor
+health impact. The most common of these adverse effectswere infection and hardware malfunction ( 6,7,9,10,13,15).
+Only one minor intracranial haemorrhage (ICH) was reported,with transient hemiparesis and dysarthria ( 15).
+Regarding stimulation-related adverse effects, the large
+group of patients treated in the SCG, appear to have experi-enced both the fewest and mildest, with nausea as the mostfrequent complaint ( 9,10). The group with the highest fre-
+quency of stimulation adverse effects was the 10 patients
+receiving DBS in the NA. They reported unwanted symptomssuch as hypomania, agitation and psychosis ( 7). The most
+noted adverse effect in MFB was oculomotor disturbanceswith strabismus and blurred vision ( 15). All these side effects
+were transient and could be abolished by adjusting thestimulation parameters, thus demonstrating the advantage ofreversibility in DBS.
+Two suicides and four attempts occurred during the stud-
+ies. However, the authors did not consider these events to berelated to the DBS treatment ( 7,9–11 ).
+Reports on neuropsychological effects were scarce. Two
+studies reported no significant decline in neuropsychologicalor cognitive functioning ( 9,15). Additionally, two studies that
+focused on such impacts of DBS in SCG noted no adverseneuropsychological effects at the final evaluation ( 66,67).
+The complete list of surgical- and stimulation-related com-
+plications of interest are presented in Table 1 .Table 1. Reports concerning deep brain stimulation for major depressive disorder. Additional publications using data from patients in the selected studies have
+not been included.
+Author Patients Target Complications of surgery/stimulation Comments
+Jimenez et al., 2005( 12) 1 Inferior thalamic peduncle None Suspicion of bipolar disorder. HDRS score
+decreased from 42 to 3 points after 24months
+Lozano et al., 2008( 6) 20 Subcallosal cingulate gyrus Adverse events of interest: 1 seizure, 4
+infections, 5 perioperative pain11 patients had a 50% reduction of their
+original HDRS-17 scores after 1 year; 7were 1 point or less from remission
+Malone et al., 2009( 13) 15 VC/VS 2 hardware complications. Stimulation
+induced reversible effects of hypo-mania in 1 bipolar patient1 patient with bipolar disorder; 6 patients
+in remission within 1 year
+Bewernick et al., 2010( 7) 10 NA Adverse events of interest: 3 pain, 2
+paresthesia, 1 lead dislodgement.Stimulation-induced reversible
+effects included hypomania, psych-
+otic symptoms and anxietyReduction of HDRS-28 with 50% after 1
+year in 5 patients; 3 patients achievedremission
+Holtzheimer et al., 2012( 9) 17 Subcallosal cingulate gyrus Adverse events of interest: 1 infection,
+3 hardware complications.Stimulation-induced reversibleeffects: anxiety, gait, hand/armweaknessOpen-label trial with an initial sham-
+stimulation phase, 7 patients withbipolar disorder; 10 patients were inremission after 2 years’ activestimulation
+Lozano et al., 2012( 10) 21 Subcallosal cingulate gyrus Adverse events of interest: 1 infection,
+2 hardware complicationsMulticentre open-label trial. Results with a
+50% reduction in 57% at 1 month,48% at 6 months and 29% at 12months
+Puigdemont et al., 2012( 11) 8 Subcallosal cingulate gyrus 3 pain at location of the subdermal
+cable, 2 headaches4 patients in remission after 1 year
+Schlaepfer et al., 2013( 15) 7 MFB Adverse events of interest: 1 ICH, 2
+infections, 1 hardware complication.Stimulation-induced reversibleeffects: increased sweating, vision/eye movement disorder anddizziness6 patients fulfilled the response criteria;
+MADRS of the whole sample wasreduced by >50% at day 7 after onset
+of stimulation. At last observation,from 3-6 months, 6 patients were res-ponders; of which 4 remitters
+Torres et al., 2013( 45) 1 Subcallosal cingulate gyrus None Major depressive episode with psychotic
+features in a patient with bipolar dis-
+order type I. HDRS reduced from 26 to7 at nine months. Disappearance ofthe psychotic features
+HDRS: Hamilton Depression Rating Scale; ICH: intracerebral haemorrhage; LH: lateral habenula; MADRS: Montgomery–Asberg Depression Rating Scale ; MFB: medial
+forebrain bundle; NA: nucleus accumbens; VC/VS: ventral internal capsule/ventral striatum.NORDIC JOURNAL OF PSYCHIATRY 485Table 2. Reports concerning deep brain stimulation for obsessive–compulsive disorder. Additional publications using data from patients in the selected st udies
+have not been included.
+Author Patients Target Complications of surgery/stimulation Comments
+Greenberg et al, 2010( 46) 26 Bilateral VC/VS 1 asymptomatic ICH, 1 ICH with transi-
+ent apathy, 1 seizure, 1 woundinfection, 2 hardware-related com-plications, stimulation inducedreversible effects, includinghypomaniaSeveral subgroups. Varying follow-up (Min
+3 months, mean 24 months). YBOCSreduced by 38% after 3 months andafter 3 years. Anxiety and depressivesymptoms reduced by half at last fol-low-up. Target changed during the
+study, which improved the results. In
+the last 17 patients YBOCS wasimproved by 54% at last follow-up(72%/C2135% improvement).
+Tsai et al, 2012( 47) 4 Bilateral VC/VS 1 allergic reaction to implanted pulse
+generator, 2 hypomania, 1 vertigoAt end of 15 months follow up mean
+33% decrease in YBOCS from 36.3 to
+24.3.
+Abelson et al., 2005( 56) 4 Bilateral anterior IC 1 electrode breakage. 1 suicide not
+considered to be caused by thetherapyDouble blind crossover. Follow-up 4-23
+months. Largest reduction of YBOCSduring the follow-up period was inmean 29.8%. 1 in 4 patients met crite-ria for response ( >35% decrease in
+YBOCS) under blinded conditions.
+Anderson et al., 2003( 57) 1 Bilateral anterior IC None YBOCS reduced by 81.1% after 3 months
+Goodman et al., 2010( 60) 6 Bilateral anterior IC Stimulation induced reversible hypo-
+mania in 4 patientsAt 12 months of stimulation, 4 of 6
+patients met criterion as ‘‘responders’’(reduction of >35% YBOCS). Patients
+did not improve during shamstimulation
+Chang et al., 2010( 59) 1 Bilateral anterior IC Stimulation induced reversible hypo-
+mania and increased libidoMinimal reduction in YBOCS (36 to 32)
+after 7 weeks
+Sturm et al., 2003( 48) 4 3 unilateral right NA,
+1 bilateral NANone ‘‘Nearly total recovery from both anxiety-
+and OCD-symptoms’’ in 3 patients. Noreport of YBOCS score post-surgery
+Guehl et al., 2008( 53) 3 Bilateral NA/NC None YBOCS reduced by 31–60% after 1 year
+Plewnia et al., 2008( 50) 1 unilateral right NA Wound infection OCD and residual schizophrenia. YBOCS
+reduction from 32 to 23 after 1 year.
+No effect on psychotic symptoms
+Denys et al., 2010( 52) 16 Bilateral NA Adverse events of interest: 1 wound
+infection, 8 stimulation-inducedmild reversible hypomania. 5 Mildforgetfulness, 3 mild word finding
+problems, 7 increased (normalized?)
+libidoDouble blind crossover. Mean YBOCS was
+reduced by 47% after 1 year, 52% after21 months (9 responders with a meanreduction of 72%). Anxiety and depres-
+sive symptoms reduced with half
+Franzini et al., 2010( 51) 2 Bilateral NA None YBOCS reduced in 2 patients from 38 to
+22 and 30 to 20 after about 2 years
+Huff et al., 2010( 49) 10 unilateral right NA Adverse events of interest: 4 stimula-
+tion-induced reversible agitation/
+anxiety, 1 affection of memory/con-
+centration, 2 hypomania. 1 tempor-ary suicidal thoughts not clearlyrelated to DBSDouble blind crossover. YBOCS reduced
+within mean 21% after 1 year (1
+responder with >35% improvement).
+Anxiety and depressive symptomsreduced by 29 and 23%, respectively.
+Jim/C19enez-Ponce et al., 2009( 61) 5 Inferior thalamic
+peduncleOnly stimulation-induced reversible
+confusion and anxiety3 patients with an addiction, 1 schizoid
+personality. YBOCS reduced by 49%after 12 months. No effect on co-
+morbidities
+Mallet et al., 2002( 64) 2 Bilateral STN Full remission of OCD symptoms of STN
+DBS in Parkinson’s disease reported in2 patients with concomitant OCD, withYBOCS reductions from 26 to 5 and 23to 4 respectively
+Fontaine et al., 2004( 63) 1 Bilateral STN Beneficial effect of STN DBS in Parkinson’s
+disease reported in 1 patient with con-comitant OCD. Full remission withYBOCS from 32 to 1
+Mallet et al, 2008( 54) 16 Bilateral STN Adverse events of interest: 1 ICH with
+permanent finger palsy, 2 infec-tions, 1 transient clumsiness and
+diplopia. Stimulation induced
+reversible hypomaniaDouble blind crossover. YBOCS reduced
+by 41% after 3 months of activestimulation
+Piallat et al., 2011( 55) 6 Bilateral STN Analysis of neuronal firing. No clinical
+data
+Nuttin et al., 2013( 62) 4 BNST (bed nucleus
+of stria terminalis)Analysis of targeting during electrode
+implantation. No clinical data yet on
+this new target
+DBS: deep brain stimulation; IC: internal capsule; ICH: intracranial haemorrhage; NA: nucleus accumbens; OCD: obsessive–compulsive disorder; ST N: subthalamic
+nucleus; VC/VS: ventral internal capsule/venctral sriatum; YBOCS: Yale–Brown Obsession Compulsion Scale.486 M. NAESSTR €OM ET AL.Table 3. Reports concerning deep brain stimulation for psychiatric indications. Additional publications using data from patients in the selected studies h ave not
+been included.
+Author Patients Indication Target Comments
+Visser-Vandewalle et al., 2003( 21) 3 Tourette’s syndrome CMPf, Voi Final follow-up 5 years, 1 year and 8 months, respectively,
+all major motor and vocal tics had disappeared. No ser-ious side effects. Slight sedative effect seen in all patients;2 had stimulation-induced changes in sexual behaviour
+Maciunas et al., 2007( 34) 5 Tourette’s syndrome CMPf, Voi Prospective randomized double-blind study. 3 responders
+Bajwa et al., 2007( 24) 1 Tourette’s syndrome CMPf, Voi DBS resulted in a substantial reduction of tics
+Servello et al., 2008( 22) 18 Tourette’s syndrome CMPf, Voi All patients responded to DBS, to differing degrees. Duration
+of follow-up assessments ranged from 3 to 18 months.Mean improvement in YGTSS score was from 40 to 12 at1-month follow-up
+Welter et al., 2008( 32) 3 Tourette’s syndrome CMPf, GPi Prospective randomized double blind sham controlled study.
+Pallidal stimulation had better effect than thalamic; both
+were better than sham. No adverse effects were seen
+Porta et al., 2009( 35) 15 Tourette’s syndrome CMPf, Voi Mean reduction in YGTSS score from 77 to 37 at 2-year fol-
+low up. Significant improvement also seen in symptomsof OCD, anxiety, depression and social function
+Diederich et al., 2005( 29) 1 Tourette’s syndrome GPi Tic frequency decreased by 73%. In particular vocal tics
+became less intense. Small symptomatic bleeding that ledto permanent bradykinesia of left hand
+Gallagher et al., 2006( 31) 1 Tourette’s syndrome GPi Disappearance of tics during stimulation, but returned when
+one stimulator was removed due to infection
+Ackermans et al., 2007( 37) 1 Tourette’s syndrome GPi Vertical gaze paralysis after DBS due to a small ICH
+Shahed et al., 2007( 30) 1 Tourette’s syndrome GPi VTRS improvement not as large as the YGTS, but co-morbid-
+ities and quality of life considerably improved
+Dehning et al., 2008( 36) 1 Tourette’s syndrome GPi Full remission of tic at 12 months. No adverse effects
+Kuhn et al., 2007( 27) 1 Tourette’s syndrome NA Patient with severe self-injurious tics. YGTSS score reduced
+by 41% and MRVR by 50% at 2.5 years. Self-injury ticsand coprolalia especially reduced
+Zabek et al., 2008( 28) 1 Tourette’s syndrome NA Alleviation of tics and disappearance of compulsive self-
+injurious behaviour.
+Neuner et al., 2009( 23) 1 Tourette’s syndrome NA YGTSS score reduced by 59% after 3 months. MRVRS
+decreased by 60% after 3 months and 58% after 36
+months
+Dueck et al., 2009( 25) 1 Tourette’s syndrome GPi Patient with concomitant mental retardation. Although sub-
+scores of YGTSS score improved, overall outcome showedno substantial therapeutic effect
+Burdik et al., 2010( 33) 1 Tourette’s syndrome ALIC/NAC Patient with co-morbid OCD. YGTSS and MRVRS scores wors-
+ened during first 6 months although subjectively the
+patient reported mild improvement of tics
+Flaherty et al., 2005( 26) 1 Tourette’s syndrome Anterior capsule Reduced tic frequency and severity at 18 months. Same
+patient was later re-operated on another target; Shieldset al., 2008
+Vernaleken et al., 2009( 20) 1 Tourette’s syndrome Thalamus doromedial
+nucleusYGTSS score reduction by 36%. Patient had previously been
+treated with GPi DBS with no effect
+Wu et al., 2013( 41) 4 Anorexia nervosa NA 3 patients had concomitant OCD and 1 generalized anxiety
+disorder. At final follow up after a mean of38 months allpatients exceeded 85% of expected body weight andthus no longer met the diagnostic criteria of anorexianervosa
+Lipsman et al., 2013( 40) 6 Anorexia nervosa SCG After 9 months, 3 patients had achieved BMI greater than
+their historical baselines. DBS associated with improve-
+ments in mood, anxiety, affective regulation, and anorexia
+nervosa-related obsessions and compulsions in 4 patientsand with improvements in quality of life in 3. 1 severeadverse event as seizure during programming
+Zhou et al., 2011( 43) 1 Heroin addiction NA Patient free from drugs during stimulation for 2.5 years and
+for 3.5 years even after stimulation discontinued
+Valencia -Alfonso et al., 2012( 42) 1 Heroin addiction NA Stimulation of the 2 dorsal contacts at the border of the
+internal capsule and nucleus accumbens generated signifi-cant reduction of drug use and craving
+M€uller et al., 2009( 39) 3 Alcohol addiction NA Craving behaviour disappeared immediately on stimulation
+in all 3 patients. 2 patients remained completely abstinent
+in the 1-year follow-up, and alcohol consumption wasreduced considerably in the third patient
+Kuhn et al., 2007( 38) 1 Agoraphobia with
+panic attacksNA No improvement in primary anxiety disorder, but remarkable
+alleviation of co-morbid alcohol dependency was noted
+Sturm et al., 2012( 44) 1 Kanner’s autism Amygdala Effective in improving self-injury behaviour and core symp-
+toms of autism spectrum in emotional, social, and evencognitive domains over follow up of 24 months. However,case reports empirical score relied on subjective, day-to-
+day impressions of parents who did not have medical,
+psychiatric, or psychological training
+ALIC/NAC: anterior limb of internal capsule/nucleus accumbens; BMI: bodymass index; CMPf: centre median parafascicular complex; DBS: deep brain s timulation;
+GPi: globus pallidus internus; MRVRS: Modified Rush Videotape Rating Scale; NA: nucleus accumbens; OCD: obsessive–compulsive disorder; SCG: subc allosal cingu-
+late gyrus; Voi: ventral oral internal thalamic nuclei; YGTSS: Yale Global Tic Severity Scale.NORDIC JOURNAL OF PSYCHIATRY 487

@@ -1,0 +1,607 @@
+The Nature of Clinical Depression:
+Symptoms, Syndromes, and Behavior Analysis
+Jonathan W. Kanter, Andrew M. Busch, Cristal E. Weeks, and
+Sara J. Landes
+University of Wisconsin–Milwaukee
+In this article we discuss the traditional behavioral models of depressio n and some of the
+challenges analyzing a phenomenon with such complex and varied features. We present the
+traditional model and suggest that it does not capture the complexity of th e phenomenon, nor
+do syndromal models of depression that dominate the mainstream conceptua lization of
+depression. Instead, we emphasize ideographic analysis and present depr ession as a maladaptive
+dysregulation of an ultimately adaptive elicited emotional response. We emphasize environ-
+mental factors, specifically aversive control and private verbal events , in terms of relational
+frame theory, that may transform an adaptive response into a maladaptive d isorder. We
+consider the role of negative thought processes and rumination, common an d debilitating
+aspects of depression that have traditionally been neglected by behavior analysts.
+Key words: clinical depression, clinical behavior analysis
+As the field of clinical behavior
+analysis grows, it will benefit from
+analyses of increasingly complex and
+common clinical phenomena, espe-
+cially those with significant public
+health implications. One such phe-
+nomenon is clinical depression, con-
+sidered to be the ‘‘common cold’’ of
+outpatient populations. Up to 25
+million people in the United States
+alone meet criteria for some type of
+depressive disorder in a given year
+(M. B. Keller, 1994). Depressive
+disorders also result in considerable
+financial expenditure including time
+spent away from the workplace and
+an increase in health care costs.
+Based on broad measures that in-
+clude work absenteeism, treatment
+costs, and other factors, the annual
+economic cost of depressive disorders
+in the United States may be over $40
+billion (Antonouccio, Thomas, &
+Danton, 1997). Suicide is the ultimate
+cost.
+Perhaps nowhere in clinical psy-
+chology is the medicalization ofbehavioral problems more complete
+than with depression. Depression is
+largely seen by the general public and
+mainstream media as a neuropsychi-
+atric illness (e.g., Wingert & Kantro-
+witz, 2002) with a fluctuating course
+that is best described in disease-state
+terms such as disorder, episodes,
+remission, recovery, relapse ,a n d re-
+currence (Frank et al., 1991). An
+additional assumption is that this
+disorder may be diagnosed and la-
+beled using the symptom checklists of
+the standard diagnostic system, the
+Diagnostic and Statistical Manual
+of Mental Disorders (DSM-IV-TR ;
+American Psychiatric Association,
+2000). The basic ontological assump-
+tion is that depression is an illness
+that occurs episodically and can be
+described adequately in medical
+terms. Thus, more depression is
+treated in primary care than in any
+other mental health or health care
+setting (Kessler, McGonagle, Swartz,
+Blazer, & Nelson, 2003; Shapiro,
+1984), and guidelines for treatment
+in these settings recommend antide-
+pressant treatment without specialty
+referral unless the patient has com-
+plicating factors such as comorbid
+substance use or suicide risk (Schul-
+berg, Katon, Simon, & Rush, 1998).Correspondence concerning this article
+should be addressed to Jonathan W. Kanter,
+P.O. Box 413, Department of Psychology,
+University of Wisconsin–Milwaukee, Milwau-
+kee, Wisconsin 53211 (e-mail: jkanter@uwm.
+edu).The Behavior Analyst 2008, 31, 1–21 No. 1 (Spring)
+1Even in these cases, specialty referral
+is first to psychiatry for medication
+management, and only a small num-
+ber of individuals diagnosed with
+depression will be seen by a clinical
+psychologist, much less a behavioral-
+ly oriented practitioner.
+A hallmark of behavior analysis
+has been its condemnation of the
+misappropriation of lay terms as
+scientific, technical terms (e.g., Skin-
+ner, 1945). The first task is precise
+specification of the behavioral phe-
+nomena invoked by the term. There
+are several obstacles to achieving this
+precision with the term depression,
+which have been excellently presented
+for the term anxiety by Friman,
+Hayes, and Wilson (1998). The case
+for depression is quite similar. First,
+the term depression was never meant
+as a technical term and actually has a
+metaphorical, idiomatic basis. Sec-
+ond, our psychiatric nomenclature
+and mainstream usage of the term
+suggest that depression is an empir-
+ical phenomenon with an essential
+composition. To a behavior analyst,
+the term depression is not a technical
+term, does not precisely map onto
+any empirical or behavioral phenom-
+ena, and has no essential composi-
+tion. Thus, given the exhaustive
+medicalization of the phenomenon
+of depression, there exists an im-
+mense gap between a behavioral
+analysis of depression and main-
+stream usage of it as a medical term
+with its various associations and
+meanings.
+Behavior-analytic writings on clin-
+ical depression (e.g., Dougher &
+Hackbert, 1994, 2000; Ferster, 1973;
+Lewinsohn, 1974; see Eifert, Beach,
+& Wilson, 1998, for an alternative,
+paradigmatic behavioral model) have
+been illuminative but sparse. Al-
+though research on depression has
+outpaced research on virtually every
+other disorder by psychiatric and
+cognitive-behavioral researchers, be-
+havior analysts have been alarmingly
+silent. There are undoubtedly many
+reasons for this silence (e.g., a lack oftraining programs that focus on
+behavior analysis and traditional
+psychopathology and more reinforce-
+ment for studying familiar topics).
+More relevant to the current paper is
+the possibility that the exhaustive
+medicalization of the term; the wealth
+of non-behavior-analytic research da-
+ta on biology and genetics, personal-
+ity, and cognitive factors; and the
+emphasis on private events in depres-
+sion—on how depression feels and on
+changing that feeling—may function
+to evoke avoidance in behavior ana-
+lysts.
+This is unfortunate, because be-
+havior analysis can not only provide
+an integrative view of depression,
+taking into consideration genetics,
+biology, enduring patterns of re-
+sponding labeled personality , verbal
+(‘‘cognitive’’) behavior, and private
+events, but it can do so with a
+theoretical consistency and pragmatic
+utility unmatched by other theoreti-
+cal systems. In this paper we attempt
+to start at the beginning, with a
+discussion of what depression is to a
+behavior analyst and how this con-
+trasts with mainstream usage of the
+term as a medical syndrome. We
+review the traditional operant model
+of depression that emphasized reduc-
+tions in behavior as a response to
+environmental events. We then tackle
+several areas of inquiry important to
+an understanding of depression that
+have traditionally been neglected by
+behavior analysts, including private
+events and the role of verbal behavior
+in depression. We see this not as
+completing a behavioral analysis but
+as a reminder of the importance of
+idiographic, functional analyses of
+specific individuals for this complex
+phenomenon.
+WHAT IS DEPRESSION?
+TACTING DEPRESSION
+AND ITS SYMPTOMS
+We describe depression in radical
+behavioral terms, emphasizing the
+occasions on which the term is used2 JONATHAN W. KANTER et al.and deemphasizing any underlying
+unitary disease, physiological, or
+emotional state to which the term
+refers. Depression comes from the late
+Latin word depressare and the classi-
+cal Latin word deprimere .Deprimere
+literally means ‘‘press down’’; de
+translates into ‘‘down’’ and premere
+translates into ‘‘to press.’’ In essence,
+the term appears to denote a feeling
+of heaviness, of being ‘‘pressed
+down,’’ that is also referred to as
+‘‘sad,’’ ‘‘blue,’’ or simply ‘‘down.’’
+Depression also refers to a depressed
+topography or the fact of being
+pressed down. Depression as a refer-
+ent to mood or emotional state
+appeared as early as 1665 and merely
+meant a lowering of mood or spirits
+(Simpson & Weiner, 1989). Thus, the
+core experience of depression appears
+to be a private event tacted as
+depressed or in psychiatric terms as
+dysphoric . However, a minority of
+individuals will meet criteria for
+depression and deny depressed mood
+or present with irritable mood in-
+stead. These individuals may have
+deficits in accurate tacting of private
+experience, or they may represent
+diagnostic Type II errors and should
+not be classified as depressed.
+It is important not to associate
+what is tacted as depression with a
+specific pattern of physiological re-
+sponding or reify it as a particular
+emotional state. The antecedent con-
+ditions and underlying physiologies
+associated with the experience of
+depression may vary widely, and no
+core composition can be assumed.
+Emotional states such as sadness are
+simply co-occurring behavioral re-
+sponses (elicited unconditioned re-
+flexes, conditioned reflexes, operant
+predispositions) that appear to be
+integrated because the behaviors are
+occasioned by common discrimi-
+nanda and are controlled by common
+consequences (Skinner, 1953). For
+example, a child with overbearing
+parents experiences an emotional
+state of sadness and a co-occurring
+behavioral response of crying whenher parents criticize her. The crying is
+negatively reinforced when her par-
+ents comfort her and stop criticizing
+her, which may also result in a
+change of her emotional state.
+The particular quality of an emo-
+tional state labeled depression should
+vary with the characteristics of the
+environmental triggers. For example,
+private events labeled as depressed
+may be associated with overworking
+and receiving little reinforcement for
+long stretches of time or with grieving
+the death of a loved partner. In each
+case the underlying physiology is
+presumably different, but the experi-
+enced phenomena may be sufficiently
+similar to prompt the tact. More
+specific discrimination training may
+be useful (e.g., the first situation may
+be better labeled as burned out and
+the second as grieving ) but given the
+problems associated with training the
+tacting of private events (Moore,
+1980) it is not clear that an individual
+will be able to make these discrimi-
+nations reliably.
+The psychiatric nomenclature em-
+phasizes this core experience and
+several additional symptoms. De-
+pressed mood or dysphoria is the
+primary feature of major depressive
+disorder (MDD), the most common
+depressive diagnosis. In addition to
+this core experience, there are several
+other symptoms of MDD, including
+loss of interest in activities, sleep and
+appetite changes, guilt and hopeless-
+ness, fatigue, restlessness, concentra-
+tion problems, and suicidal ideation.
+As discussed in detail below, the
+medical model holds that this con-
+stellation of symptoms represents a
+syndrome, but complexity is immedi-
+ately introduced because the presence
+and nature of these symptoms vary
+considerably across clients (Lı ´ndal &
+Stefa´nsson, 1991). For example, some
+clients experience vegetative symp-
+toms of depression (decreased appe-
+tite and insomnia) whereas, less
+commonly, others experience re-
+versed vegetative symptoms of in-
+creased appetite and hypersomnia.THE NATURE OF CLINICAL DEPRESSION 3Similarly, psychomotor retardation is
+more common and agitation is less
+common, and both may be demon-
+strated by the same individual at
+different times.
+To account for this complexity,
+DSM-IV-TR has parsed depression
+into various additional categories,
+each with similar and overlapping
+characteristics, and there are an
+increasing number of diagnostic cat-
+egories of depressive disorders or
+problems involving sad or irritable
+affect. In fact, Appendix B of DSM-
+IV-TR lists 17 proposed disorders for
+further study, six of which deal with
+disorders of mood. Although detailed
+review of these subcategories is out-
+side the purview of this paper, it
+should be noted that although there
+may indeed be different syndromes
+with different etiologies and treat-
+ment implications, a behavior-analyt-
+ic view holds that the current prolif-
+eration of depressive disorders is
+largely unnecessary. We see not
+several distinct disorders but a phe-
+nomenon of depression with great
+variability in time course, symptom
+severity, and correlated conditions.
+All the disorders share a depressed
+mood symptom that parallels the
+core experience of the problem, and
+all share several additional criteria
+with MDD, often differing only in
+duration or number of symptoms.
+From an idiographic behavior-ana-
+lytic perspective, there exists not one
+or three or several depressive disor-
+ders—there are as many depressive
+disorders as there are depressed
+individuals.
+The constellation of depressive
+disorders with shared characteristics
+suggests that the tact depression
+involves a variety of public and
+private antecedent stimulating events
+that vary from occasion to occasion
+but have sufficient overlapping prop-
+erties to occasion consistent usage of
+the term. We view the diversity of
+additional symptoms represented by
+these disorders as consistent with the
+diversity of environmental causes ofdepression, physiological states la-
+beled depression , and psychological
+responses to the environmental caus-
+es and physiological states. Thus, no
+overarching depressive syndromes
+are posited or assumed at this point.
+Nonetheless, commonalities in histo-
+ry, environmental antecedents, and
+symptom presentation exist and may
+guide treatment decisions.
+Thus, our understanding of depres-
+sion must allow for the great variety
+of stimulus conditions that occasion
+use of the term. We can discard
+several classes of use that we can
+simply label as incorrect. For exam-
+ple, an individual learning a foreign
+language may simply state the wrong
+word. Likewise, a person may be
+diagnosed with depression but later it
+is determined that the person has a
+large cancerous tumor that is causing
+the symptoms. Although a complete
+behavioral analysis must account for
+these usages, they are not interesting
+from a clinical standpoint. More
+important are instances in which the
+term is not used but could be. For
+example, a person visits a psycholo-
+gist and complains of several symp-
+toms of depression but not depressed
+mood. Another person would label
+the private experience as ‘‘de-
+pressed,’’ but the current client did
+not develop adequate private stimu-
+lus control over the experience. The
+psychologist performs a diagnostic
+interview, and the client falls one
+symptom short of the diagnosis of
+MDD. In this case it is advantageous
+to consider the person depressed even
+though it is possible that neither the
+psychologist nor the client will use
+the term.
+TRADITIONAL BEHAVIORAL
+MODELS OF DEPRESSION
+Skinner wrote very little on depres-
+sion; when he did, he emphasized
+overt behavior rather than the core
+affective experience, in line with an
+operant rather than respondent mod-
+el. For example, in 1953 he wrote,4 JONATHAN W. KANTER et al.If we remove a man from his characteristic
+surroundings, a large part of his social
+behavior cannot be emitted and may therefore
+become more and more probable: he will
+return to his old surroundings whenever
+possible and will be particularly ‘‘sociable’’
+when he does so. Other parts of his behavior
+become strong because they are automatically
+reinforced under the prevailing deprivation; he
+will talk to anyone who will listen about his
+old surroundings, his old friends, and what he
+used to do. This is all a result of deprivation.
+But nostalgia is also an emotional condition in
+which there is a general weakening of other
+forms of behavior—a ‘‘depression,’’ which
+may be quite profound. We cannot classify
+this as the result of deprivation because the
+behavior which is thus affected has not been
+specifically restrained. (p. 165)
+Three aspects of this passage are
+noteworthy. First, as Skinner typical-
+ly did, by placing the term depression
+in quotes he was careful to avoid
+giving it any special status other than
+that of a verbal description. As
+discussed above, this practice of
+placing such terms in quotes may be
+awkward and tiresome but serves as a
+reminder that certain assumptions
+are not to be made when using them.
+The quotes also serve as a reminder
+of an important verbal quality to the
+term, discussed below. Second, Skin-
+ner described the core experience as
+an ‘‘emotional condition,’’ suggesting
+an elicited component. Consistent
+with an operant model, he did not
+elaborate on this point and instead
+focused on overt behavioral reduc-
+tions. Third, Skinner highlighted the
+centrality of reduced positive rein-
+forcement in depression. Simply put,
+social behavior depends on a rein-
+forcing environment; change the en-
+vironment so that responses do not
+yield reinforcement and one reduces
+the behavior.
+This notion became the foundation
+of Lewinsohn’s (1974) theory and
+dominated the behavioral literature
+for several decades. Lewinsohn de-
+scribed depression as characterized
+primarily by a low rate of response-
+contingent positive reinforcement
+(RCPR). In a nutshell, Lewinsohn
+emphasized environmental events thatproduce losses of major sources of
+RCPR, such as a divorce or the loss of
+a job, and social skills deficits that
+limit an individual’s ability to reob-
+tain RCPR once it has been lost.
+Thus, his model focused on the
+behavioral reductions often seen in
+depression. Lewinsohn assumed the
+core experience to be an elicited by-
+product of these situations, but he did
+not detail this process. Other symp-
+toms of depression (e.g., fatigue, so-
+matic symptoms, and cognitive symp-
+toms) were assumed to be evoked or
+to be secondary elaborations of other
+symptoms.
+We hold that Lewinsohn’s (1974)
+characterization of the core affective
+experience of depression as an elicited
+by-product of losses of or reductions
+in positive reinforcement is funda-
+mental to understanding depression.
+Some cases of depression clearly are
+described best by Lewinsohn’s model,
+such as single, discrete episodes of
+depression with clear environmental
+precipitants and with symptom pro-
+files that emphasize behavioral re-
+ductions that resolve when the envi-
+ronments are reinstated. For exam-
+ple, a person may become depressed
+after a divorce or loss of job, and the
+depression resolves when the person
+finds a new relationship partner or
+a new job. With cases of chronic
+depression, Lewinsohn’s model em-
+phasizes persistently insufficient lev-
+els of reinforcement and social skills
+deficits that prevent the individual
+from changing the situation, and this
+model also seems to be adequate for
+some cases. For example, a person
+who becomes depressed after a di-
+vorce, resulting in a net reduction in
+positive reinforcement, and does not
+have adequate social skills for initi-
+ating new romantic relationships will
+likely become chronically depressed
+until the necessary social skills are
+learned.
+All of this is nothing new. Howev-
+er, Lewinsohn’s (1974) model vastly
+underestimated the variety and com-
+plexity of factors that can reduceTHE NATURE OF CLINICAL DEPRESSION 5behavior. Indeed, the field of behav-
+ior analysis, if nothing else, has
+demonstrated functional processes
+that can increase or decrease behav-
+ior. All functional processes that
+decrease behavior are potentially
+relevant, if the behavioral reductions
+produced are large and generalized
+and a dysphoric reaction occurs
+concomitant with the behavioral re-
+ductions. For example, extreme per-
+sistent and uncontrollable punish-
+ment may lead to substantial behav-
+ioral reductions, elicited negative
+affect, and depression as per Selig-
+man’s early learned helplessness
+model (Overmier & Seligman, 1967).
+Further consideration of this com-
+plexity is provided by Hopko, Lejuez,
+Ruggiero, and Eifert (2003) and
+Lejuez, Hopko, and Hopko (2001),
+who analyzed depression in terms of
+the matching law (Herrnstein, 1970).
+Briefly, this suggests that the behav-
+ioral reductions seen in depression are
+not accurately seen as the simple
+product of reductions in positive
+reinforcement but rather as the prod-
+uct of ratios of reinforcement for
+depressed relative to nondepressed
+(or healthy) behavior. In other words,
+the sum total of reinforcement avail-
+able in a person’s environment must
+be taken into consideration, not just
+reinforcement for target behaviors.
+As a simple example, a depressed
+person may not get out of bed due to
+loss of a job (loss of positive reinforc-
+er for getting out of bed), but positive
+reinforcers for staying in bed (e.g.,
+spouse who now takes care of the
+person or makes the person break-
+fast) must also be considered. The
+bottom line is that the situation is
+complicated, and nothing less than a
+complete functional analysis of the
+individual’s environment is required
+if one is to attempt a full functional
+analysis of depression.
+Aversive Control in Depression
+Skinner also suggested that depres-
+sion may be an emotional response toaversive controlling practices, espe-
+cially aversive social control (1953,
+pp. 360–363). Similarly, Ferster (1973)
+suggested that depression is charac-
+terized as much by increased escape
+and avoidance repertoires as by re-
+duced positive repertoires. In fact,
+research indicates that more cases of
+depression are characterized by the
+accrual of multiple chronic mild
+stressors, such as work-related stress,
+homemaking demands, and financial
+trouble than by major losses such as
+divorce or the loss of a job (Billings &
+Moos, 1984; Kessler, 1997; Mazure,
+1998; Monroe & Depue, 1991; Pay-
+kel, 1982). In these cases we suggest
+that the core elicited affective experi-
+ence of depression is as much a
+product of increased aversive control
+as it is reduced appetitive control.
+It is important to recognize, how-
+ever, that the two sources of control
+are often intimately related. Ferster
+(1973) suggested that the depressed
+escape and avoidance repertoire is
+largely passive, which also leads to a
+decrease in positive reinforcement
+relative to what an active repertoire
+would provide. For example, consid-
+er a client who stayed in bed all day
+and did not go to work, thereby
+avoiding a stressful meeting with his
+boss where he believed he was going
+to be reprimanded. Staying in bed
+successfully avoids this outcome, but
+it also prevents contact with other
+contingencies that might function to
+ameliorate depression—for example,
+if the client was wrong and no
+reprimand was forthcoming. Similar-
+ly, an individual with social phobia,
+which is highly comorbid with de-
+pression (Mineka, Watson, & Clark,
+1998), may be negatively reinforced
+by successfully avoiding situations
+that may result in social humiliation
+or embarrassment, but avoidance of
+such situations also reduces opportu-
+nities for contact with positive social
+reinforcement. In other words, an
+increase in aversive social control
+here almost guarantees a decrease in
+appetitive social control. These aver-6 JONATHAN W. KANTER et al.

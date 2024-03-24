@@ -1,0 +1,366 @@
+Nature Mental Health | Volume 2 | January 2024 | 76–87 76
+nature mental health
+Articlehttps://doi.org/10.1038/s44220-023-00168-z
+Brain texture as a marker of transdiagnostic 
+clinical profiles in patients with recent-onset 
+psychosis and depression
+The inter-relationships of voxels can be captured by the radiomics texture 
+features across multiple spatial scales. Prediction models of brain texture changes captured by the contrast texture feature in recent-onset psychosis (ROP) and recent-onset depression (ROD) have recently been proposed, although the validation of these m od els t ra ns  di ag no  st ically at the individual 
+level and the investigation of the variability in clinical profiles are lacking. Established prevention and treatment approaches focus on specific diagnoses and do not address the heterogeneity and manifold potential outcomes of patients. Here we aimed to investigate the cross-sectional utility of brain texture changes for (1) identification of the psychopat hological state (ROP and ROD) and (2) the association of individualized brain texture maps with clinical symptom severity and outcome profiles. We developed transdiagnostic models based on structural magnetic resonance imaging data for 116 patients with ROD, 122 patients with ROP and 197 healthy control participants from the PRONIA (Personalized pROgNostic tools for early psychosIs mAnagement) study by applying a set of tools and frameworks to explain the classification decisions of the deep-learning algorithm (named explainable artificial intelligence) and clustering analysis. We investigated the contrast texture feature as the key feature for the identification of a g  en er al p sy chopathological state. The discrimination 
+power of the trained prediction model was >72% and was validated in a 
+second independent age- and sex-matched sample of 137 ROP, 94 ROD and 159 healthy control participants. Clustering analysis was implemented to map the changes in texture brain produced from an explainable artificial intelligence algorithm, in a group fashion. The explained individualized brain contrast map grouped into eight homogeneous clusters. In the clinical group, we investigated the association between the explained brain contrast texture map and clinical symptom severity as well as outcome profiles. Different patterns in the explained brain contrast texture map showed unique associations of brain alterations with clinical symptom severity and clinical outcomes, that is, age, positive, negative and depressive symptoms, and functionality. In some clusters, the mean explained brain contrast Received: 24 March 2023
+Accepted: 17 October 2023
+Published online: 2 January 2024
+ Check for updates
+ e-mail: alexandra.korda@uksh.deA list of authors and their affiliations appears at the end of the paperNature Mental Health | Volume 2 | January 2024 | 76–87
+ 77
+Article https://doi.org/10.1038/s44220-023-00168-zand negative symptoms, depressive symptoms and functionality) 
+that are associated with distinct neuroimaging profiles across both 
+diagnoses25,37. In the present analysis, the contrast texture feature map 
+expresses the gray-level differences of non-segmented magnetic reso -
+nance images, capturing inter-relationships of the segments and the 
+cortical folding. Combining the captured information with an explain -
+able artificial intelligence algorithm, which explains the classification 
+decision, gives insights regarding the association of the pattern that the 
+algorithm uses for classification with the clinical profile and outcome, 
+grouped in homogeneous clusters of the symptom. The current study 
+seeks (1) to investigate whether or not a transdiagnostic set of structural 
+alterations can characterize ROP and ROD, and if any such alterations 
+may reflect markers of psychiatric illness, and (2) to investigate associa -
+tions between transdiagnostically individualized brain markers and 
+clinical symptom severity as well as outcome profiles. We used a large 
+training sample of ROP and ROD data and an independent validation 
+sample, both of which are from the Personalized pROgNostic tools for 
+early psychosIs mAnagement (PRONIA) study27. The measures of inter -
+est were radiomics texture features, based on previous findings by our 
+group, where the contrast texture feature map has been identified as 
+the key feature for psychosis14,37. Mathematically, the contrast feature 
+expresses the shape abnormalities in the brain cortex and the surface 
+relief of the cortical boundary. Finally, we performed explainable artifi -
+cial intelligence analysis, a set of tools which supports the explanation 
+of the classification decision, to highlight the brain regions that most 
+contributed to differences between the ROD and ROP patients. We 
+hypothesized that (1) ROP and ROD present shared contrast texture 
+feature abnormalities and (2) different contrast feature patterns are 
+associated with different transdiagnostic clinical profiles. The goal of our study was to investigate the usefulness of neuroimaging markers for the transdiagnostic prediction of outcome profiles. In this sense, our results serve mainly as a proof of concept that should be followed 
+up in larger samples. We believe that there is merit in our results as they 
+showcase the feasibility and potential relevance of transdiagnostic 
+approaches.
+Results
+Sample characteristics
+Sociodemographic and clinical characteristics of the three participant 
+groups (ROP, ROD and healthy control (HC)) for the training sample 
+are presented in Table 1. In the training sample, there were no statisti-
+cally significant differences between ROP, ROD and HC with respect to 
+age, sex and ethnicity. There were statistically significant differences 
+between ROP and ROD with respect to specific psychopathological 
+symptoms and psychosocial functioning (see Table 1 ). The power analy -
+sis on the training sample showed that 94 ROP + ROD and 78 HC is the 
+minimum sample size that results in a comparative fit index greater 
+than 0.9.
+In the validation baseline sample (age- and sex-matched with the 
+training sample—see ‘Training and validation samples’ in the Methods), 
+there were no statistically significant differences between ROP, ROD 
+and HC with respect to age, sex and ethnicity. There were statistically 
+significant differences between ROP and ROD with respect to spe -
+cific psychopathological symptoms and psychosocial functioning  
+(see Table 1).In mental health, diagnosis and treatment depend nearly entirely on a 
+syndromal classification that defines diagnostic categories based on 
+symptom clusters1–3. However, comorbidity has long been recognized 
+as the rule rather than the exception, with half of the patients that fulfill 
+the diagnostic criteria for one disease also meeting the criteria for at 
+least one other condition4,5.
+Common etiologies and symptoms are observed in psychotic 
+disorders and depression, which may indicate overarching, transdi -
+agnostic pathogenetic mechanisms6,7. Hence, a broader approach that 
+acknowledges the complexity of mental illnesses is essential to unravel 
+the determinants of specific psychopathologies8–10. Such transdiagnos -
+tic approaches may be helpful in advancing therapeutic discovery by 
+enabling symptoms to be investigated on multiple levels of analysis, 
+for example, manifest psychiatric syndromes versus latent psychopa -
+thology dimensions. Potential advantages include the ability to classify 
+and treat multiple psychological disorders using the same treatment protocol, as well as the capacity to better address comorbidities.
+The interconnection of psychotic disorders and depressive 
+syndromes showcases the above issue. Depressive symptoms can 
+be observed in the prodromal stage before the first manifestation of 
+psychotic symptoms, during the first or later psychotic episodes, after 
+the fading out of an acute episode and as a sign of relapse8. Depression 
+may result from the neurobiological processes of psychotic disorders9, 
+as a side effect of antipsychotic drugs, as an outward manifestation 
+of problematic symptoms or as a psychological response to psycho -
+sis as a significant life experience10. For an explanation of the con -
+nection between depression and psychosis, numerous models have 
+been presented11,12. Despite the growing emphasis on transdiagnostic 
+approaches to mental health, it is unclear if distinct diagnostic cat-
+egories share a common neuronal base and our knowledge is based on 
+meta-analyses of studies that were carried out on individual disorders 
+using different methodologies13.
+Structural magnetic resonance imaging (sMRI) studies have identi -
+fied common brain abnormalities in patients with schizophrenia and 
+depression (for example, in cerebral white matter14 or the cerebel -
+lum15,16). Volume deficits and structural brain abnormalities have been 
+linked to both schizophrenia17,18 and depression19,20. These changes have 
+also been observed in patients with recent-onset psychosis (ROP)17,21– 24 
+and recent-onset depression (ROD)25–28, and have a wide distribution, 
+affecting the frontal, temporal and parietal cortical regions as well as the subcortical, cerebellar, insula and callosal regions
+29–31. Moreover, 
+abnormalities in the white matter (WM) of the brain and cerebrospi -
+nal fluid (CSF) have been reported in both psychotic and depressive 
+disorders32–35. However, it is unclear how the observed brain changes 
+translate to clinical symptoms and how different brain-change profiles 
+correspond to different symptom profiles, that is, whether or not posi -
+tive and negative symptoms, depressive symptoms and functionality are associated with different brain topologies.
+Despite having information from structural brain imaging studies 
+on psychosis that date back more than 40 years, so far it has not been 
+possible to find a diagnostic or predictive biomarker for use in clinical 
+settings. Small sample sizes, ambiguous biomarker definitions and 
+a dearth of replications36 have been suggested to be responsible for 
+these shortcomings. On the basis of brain volumetric changes, cross-sectional studies have reported different symptom clusters (positive texture map values and/or brain contrast texture voxels that contributed 
+significantly to the classification decision predicted accurately the PANSS (positive and negative symptom scale) scores, functionality and change  in functionality over time. In conclusion, we created homogeneous  
+clusters which predict the clinical severity and outcome profile in ROP  and ROD patients.Nature Mental Health | Volume 2 | January 2024 | 76–87 78
+Article https://doi.org/10.1038/s44220-023-00168-zTable 1 | Clinical and demographic sample details for the training sample at baseline and the independent validation sample
+Group HC ROD ROP Merged ROP–ROD ANOVA between HC,  
+ROP and RODMerged ROP–ROD 
+at follow-up (after 
+one year)
+Training sample at the baseline
+Number, n 197 116 122 238 203
+Age (years), mean (s.d.) 26.8 (6.99) 27.5 (5.98) 26.5 (5.37) 25.63 (6.14) F(2,432) = 0.772 (P  = 0.463) 26.94 (5.84)
+Sex (n  for male (female)) 89 (108) 55 (61) 69 (53) 124 (114) F(2,432) = 4.59 (P  = 0.011) 111 (54.68%)
+Ethnicity (%) F(2,210) = 1.97 (P  = 0.142)
+ White 83.98 87.14 77.97 82.71 77.54
+ Black 2.14 — 2.77 1.33 —
+ Asian 10.54 2.66 10.12 6.21 11.04
+ Caribbean — 1.76 1.80 1.84 —
+ Other 3.34 8.44 7.34 7.91 11.42
+PANSS_positive (s.d.) — 8.23 (2.18) 11.9 (6.26) 10.0 (4.99) F(1,701.7) = 32.58, P = 0.001* 10.03 (4.99)
+PANSS_negative (s.d.) — 11.6 (5.61) 14.1 (7.91) 12.8 (6.93) F(1,322.1) = 6.91, P = 0.009* 12.78 (6.92)
+PANSS_excitement (s.d.) — 11.4 (2.63) 14.8 (6.84) 13.0 (5.41) F(1,616) = 23.36, P = 0.001* 10.30 (3.28)
+PANSS_distress (s.d.) — 9.68 (2.60) 11.0 (3.77) 10.3 (3.28) F(1,84.4) = 8.13, P = 0.005* 12.94 (5.32)
+PANSS_disorganization (s.d.) — 12.4 (4.59) 13.5 (5.95) 12.9 (5.32) F(1,65.3) = 2.33, P = 0.13 13.04 (5.41)
+GAF (s.d.) — 57.35 (14.8) 46.16 (11.93) 51.93 (14.58) F(1,218) = 39.2, P < 0.001* 65.98 (15.28)
+BDI-II (s.d.) — 11.008 (11.354) 9.718 (10.957) 10.3805 (11.074) F(1,171) = 0.287, P = 0.593 15.96 (13.65)
+SANS_blunted affect — 0.510 (0.765) 1.07 (1.17) 0.793 (1.03) F(1,252) = 23.99, P < 0.001* 0.509 (0.85)
+SANS_alogia — 0.528 (0.797) 1.15 (1.24) 0.840 (1.08) F(1,249) = 26.39, P < 0.001* 0.519 (0.872)
+SANS_avolition — 0.250 (0.514) 0.988 (1.22) 0.618 (1.01) F(1,195) = 45.28, P < 0.001* 0.317 (0.70)
+SANS_anhedonia — 1.88 (1.79) 2.76 (1.88) 2.32 (1.89) F(1,291) = 17.05, P < 0.001* 1.133 (1.612)
+SANS_asociality — 1.09 (1.08) 1.33 (1.21) 1.29 (1.16) F(1,288) = 8.91, P = 0.003* 0.669 (0.971)
+Independent validation sample
+Number, n 159 94 137 231 132
+Age (years), mean (s.d.) 25.0 (5.33) 26.04 (5.47) 25.8 (6.12) 26.07 (5.71) F(2,231) = 2.13 P = 0.121 26.24 (5.74)
+Sex (n  for male (female)) 70 (89) 46 (48) 75 (62) 123 (110) F(2,233) = 0.965 P = 0.382 123 (53.25%)
+Ethnicity (%) F(2,286) = 0.663 P = 0.516
+ White 84.83 87.82 77.82 82.33 82.31
+ Black 2.04 — 4.04 2.04 3.04
+ Asian 3.43 0.71 5.53 3.43 3.40
+ Caribbean 0.1 0.1 0.0 1.44 —
+ Other 9.60 11.37 12.61 10.76 11.25
+PANSS_positive (s.d.) — 10.28 (2.95) 15.19 (4.03) 12.11 (4.14) F(1,116) = 8107, P < 0.001* 11.29 (5.48)
+PANSS_negative (s.d.) — 16.23 (7.19) 14.47 (6.71) 15.58 (7.05) F(1,158) = 2.93, P = 0.089 13.38 (6.083)
+PANSS_excitement (s.d.) — 12.4 (3.96) 13 (4.26) 12.62 (4.08) F(1,140) = 0.9368, P = 0.335* 10.96 (3.64)
+PANSS_distress (s.d.) — 18.28 (6.27) 17.22 (5.48) 17.89 (5.99) F(1,165) = 1.15, P = 0.221 13.78 (5.38)
+PANSS_disorganization (s.d.) — 13.59 (3.61) 16.97 (6.18) 14.85 (4.99) F(1,100) = 17.85, P < 0.001* 13.59 (5.42)
+GAF (s.d.) — 52.22 (12.38) 45.5 (16.36) 47.66 (15.48) F(1,90.6) = 5.93, P < 0.002* 62.62 (16.25)
+BDI-II (s.d.) — 24.99 (14.76) 16.413 (15.09) 20.249 (15.521) F(1,230) = 14.36, P < 0.001* 14.49 (13.02)
+SANS_blunted affect — 0.481 (0.672) 1.109 (1.34) 0.867 (1.16) F(1,65.5) = 6.754, P = 0.012 0.917 (1.68)
+SANS_alogia — 0.593 (0.888) 1.27 (1.42) 1.01 (1.28) F(1,68) = 6.050, P = 0.016 0.695 (1.34)
+SANS_avolition — 0.324 (0.7) 0.890 (1.27) 0.671 (1.11) F(1,67.1) = 5.759, P = 0.019 0.404 (0.81)
+SANS_anhedonia — 2.59 (1.97) 2.23 (1.89) 2.37 (1.91) F(1,53.7) = 0.573, P = 0.452 0.443 (0.83)
+SANS_asociality — 1.16 (1.24) 1.35 (1.32) 1.28 (1.28) F(1,57.8) = 0.364, P = 0.548 1.057 (1.23)
+ANOVA, analysis of variance; PANSS, positive and negative symptom scale; GAF, global assessment of functioning; BDI-II, Beck Depression Inventory-II; SANS (scale for the assessment of 
+negative symptoms). *P  = 0.01.Nature Mental Health | Volume 2 | January 2024 | 76–87
+ 79
+Article https://doi.org/10.1038/s44220-023-00168-zClassification results and localization
+A repeated nested pooled cross-validation classifier of brain contrast 
+texture maps achieved a balanced accuracy of 72.43%, a sensitivity of 
+74.40% and a specificity of 74.45% for discrimination of patients (pooled 
+ROD and ROP) from the HC participants (Table 2 ). A total of 231 age- and 
+sex-matched participants was included in the independent validation 
+sample, with 139 participants classified correctly as ROD + ROP (bal -
+anced accuracy 60.27%, sensitivity 61.20% and specificity 58.65%). In 
+the independent validation follow-up sample, 137 participants were 
+included, where 77 participants were classified correctly and 60 of 
+them provided all the clinical variables.
+Implementation of the layer-wise relevance propagation (LRP) 
+algorithm for multilayer neural networks, as described in Bach et al.38, 
+showed that voxels with the highest contribution to the difference 
+between patients and HC participants (that is, those with the highest relevance for the classification decision) were located in the cerebel-
+lum, anterior and posterior midline areas, frontotemporal areas and 
+right insula (Fig. 1 and Supplementary Tables 5 and 6). In addition, we 
+investigated cortical biomarkers for the general psychopathology in 
+gray matter (GM), WM and CSF . The regions of interest were extracted 
+using the AAL-VOIs atlas (https://doi.org/10.1006/nimg.2001.0978). 
+We used the Johns Hopkins University ( JHU) WM tractography atlas39 
+to identify the WM tractography identified by the LRP.
+Brain relevance association with clinical outcome profile
+The association of the brain relevance with clinical symptoms and 
+outcome profiles was investigated in the validation sample. Clinical variables at the baseline were available for 131 patients from the vali -
+dation sample (out of 139 classified correctly) and 71 patients of the 
+follow-up sample. We support identifying patterns in the brain rel -
+evance heatmaps that were associated with the severity of clinical symptoms and outcome profiles. We applied the affinity propaga
+-
+tion (AP) algorithm40 to cluster the brain relevance heatmaps of the 
+validation sample blindly14,37, resulting in eight clusters. Inside each 
+cluster, we calculated (1) the SANS factor scores (for the avolition, aso -
+ciality, anhedonia, alogia and blunted affect subgroups), GAF and BDI 
+total scores as well as the PANSS factor scores (for the positive, nega-tive, distress, excitement and disorganization subgroups) at baseline  
+(Fig. 2) and (2) the change scores of these variables at the one-year 
+follow-up time (Fig. 3). The resulting clusters are presented in Figs. 2 
+and 3. We summarize the findings here on the basis of the symptom 
+sum scores, as described above, and the outcome profile (details in 
+Supplementary Table 7). Cluster 1 (number of subjects (N ), N = 9 at 
+baseline and N  = 6 at follow-up) presented high BDI and PANSS_negative 
+values, an improvement in PANSS_negative over time and a deteriora-
+tion in PANSS_disorganization and the SANS scores related to alogia and 
+blunted affect over time (Supplementary Fig. 3). In contrast to Cluster 
+1, Cluster 3 (N  = 21 at baseline and N  = 12 at follow-up) presented low BDI 
+values and improvement in PANSS_disorganization as well as a high 
+deterioration of the SANS_asociality and SANS_anhedonia scores and the BDI after 1 year. We speculate that the brain relevance in Cluster 3 
+has prognostic power for depression. Cluster 2 (N = 8 at baseline and 
+N = 5 at follow-up) presented a high value for the GAF and low values for 
+the PANSS_negative and SANS factor scores, with a marked improve -
+ment in the BDI and SANS_blunted affect and a deterioration in GAF , 
+SANS_anhedonia and SANS_avolition over time. In contrast to Cluster 2, 
+Cluster 4 (N  = 12 at baseline and N  = 6 at follow-up) presented low values 
+in total GAF and high values in the SANS factor scores, with marked 
+improvement in GAF , SANS_asociality and SANS_alogia over time and 
+marked deterioration of the PANSS scores over time. We speculate 
+that the negative symptoms in the baseline were a secondary effect of 
+the primary positive symptoms. Cluster 6 (N  = 31 at baseline and N  = 17 
+at follow-up) and Cluster 7 (N  = 6 at baseline and N  = 5 at follow-up) 
+captured older and younger ages, respectively. Cluster 7 presents a 
+high improvement in the SANS_avolition and SANS_anhedonia scores. 
+Finally, Cluster 5 (N  = 22 at baseline and N  = 9 at follow-up) presented low 
+a SANS_blunted affect score and deterioration in the PANSS scores over 
+time, and Cluster 8 (N  = 22 at baseline and N  = 11 at follow-up) showed a 
+strong improvement in the PANSS_positive scores over time.
+In clusters with a sufficient number of participants (Clusters 3, 5, 
+6 and 8), we repeated regression analyses to predict clinical outcomes 
+at baseline and changes in the scores between baseline and follow-up, 
+using the mean relevance of the brain heatmap as a predictor (in Table 
+1, the mean and standard deviation scores of the ROP and ROD partici -
+pants in the follow-up are presented). In Cluster 3, the mean relevance 
+map predicted an improvement of the PANSS score factors (positive, 
+disorganization, distress and excitement) and the SANS_anhedonia 
+score with negative coefficients (Supplementary Table 8.1). In Cluster 8, 
+the mean relevance map predicted an improvement of the PANSS_posi -
+tive score factor with a positive coefficient (Supplementary Table 8.2). 
+In addition, we tested the prediction values of the relevance of the 
+voxels that contributed most to the classification decision. There were 
+differential associations between voxel relevance and symptoms in 
+the different clusters, especially for Clusters 3, 5, 6 and 8. In Cluster 3, the voxels in specific brain areas that are associated with low depres-
+sive symptoms (that is, fusiform, temporal lobe and insula from the 
+left hemisphere; see Supplementary Table 7) predicted PANSS scores (for the excitement, disorganization and positive subgroups) and an 
+improvement of functionality. In Cluster 5, the brain relevance predicts 
+the improvement of functionality from the left temporal lobe and in 
+the right-hemisphere calcarine, lingual gyrus and precuneus regions. 
+In Cluster 6, the brain relevance associated with high age predicts the Table 2 | Classification results
+Balanced 
+accuracy 
+(%)Sensitivity 
+(%)Specificity (%)Follow-up ROP + ROD prediction  
+(%)
+Training sample 
+baseline72.43 74.40 74.45 83.25
+Independent validation 
+sample baseline60.27 61.20 58.65 56
+Brain relevance
+Fig. 1 | Voxels with the red color contribute more to the classification 
+decision. The relevance of the voxels calculated from the LRP are overlaid and rendered in a GM template using the MRIcron toolbox.Nature Mental Health | Volume 2 | January 2024 | 76–87 80
+Article https://doi.org/10.1038/s44220-023-00168-zfunctionality at baseline from the left occipital and temporal lobes 
+and the fusiform gyrus. In Cluster 8, the brain relevance predicts the 
+improvement of functionality from the left temporal lobe.
+Furthermore, we calculated the volumes of the regions with pre-
+dicted value to check if the contribution of the voxels to the classifica -
+tion decision was driven by the volumetric changes. In all clusters with 
+high numbers of participants (that is, Clusters 3, 5, 6 and 8), the brain 
+volume in the detected regions was uncorrelated with the classifica -
+tion relevance of the respective regions, with the exception of the 
+precentral and frontal lobe regions that are not contributing to the 
+statistical models (Fig. 4 ).
+Discussion
+In this study, across patients with ROD or ROP we identified eight 
+clusters of brain heatmap patterns that showed differential associa -
+tions with symptom clusters, functionality and age; that is, clinical 
+heterogeneity in transdiagnostic psychopathology was reflected in 
+homogeneous clusters of contrast texture brain changes. The brain 
+regions contributing most to the classifier decision overlap with those 
+implicated in psychotic and depressive disorders in studies that have 
+assessed changes in the GM and WM of patients37. This fact and the 
+proof-of-concept results of this study support our notion that neu -
+roimaging biomarkers are useful for the prediction of transdiagnos -
+tic outcome profiles. We used the contrast feature map and the LRP 
+method suggested by Bach et al.38 to train and explain a classifier for 
+identification of the transdiagnostic psychopathology. The model 
+showed good accuracy in classifying a combined group of ROD and 
+ROP patients against HC participants in the training sample, which 
+decreased in the external validation sample. However, the innovative finding of this study is the creation of homogeneous clusters that are 
+associated with clinical severity and outcome profiles. The current 
+analysis provides an example of how the proposed method can be 
+applied to link the transdiagnostic symptoms (rather than categorical 
+diagnoses) to brain structure. Our ultimate vision pertains to multi -
+dimensional prediction, investigating neuroanatomical markers of 
+longitudinal changes in symptoms and functionality across diagnoses.
+Changes in the hippocampus, insula and lateral prefrontal cortex 
+have been observed in patients with ROD (for example, a decrease in 
+volume in medial temporal regions)27 and ROP (for example, a volume 
+deficit in the anterior hippocampus)41, which emphasizes the implica -
+tion of brain alterations in the early stages of both illnesses. Using our method, GM analysis in transdiagnostic psychopathology showed 
+brain changes in regions that have been reported in other studies, for example, the cerebellum
+20, the frontal lobe42, temporal regions43, the 
+cingulum bundle44 and the precuneus45, rectus46, insula47, Heschl’s 
+gyrus48, lingual49 and putamen left50 regions. The explained classifi -
+cation results using the contrast feature maps indicate the posterior 
+cingulate cortex, gyrus rectus, third ventricle (consistent with our 
+previous results in patients with schizophrenia and major depressive 
+disorder14) and insular (consistent with previous study for clinical high 
+risk who transitioned to psychosis and first-episode psychosis37,51) as 
+key regions for the transdiagnostic classification of psychopathology 
+(see Table 3 for further details).
+In people with mental-health problems, there is mounting evi -
+dence of decreased WM function that results in problems of synchro -
+nization and connectivity52, with fractional anisotropy (FA) evaluated 
+via diffusion tensor imaging being the most extensively used meas -
+ure. Throughout the phases and progression of psychosis, neural 
+alterations, particularly changes in WM connectivity, could be seen53. 
+Consistent findings of significantly lower FA in the left genu of the 
+corpus callosum, the left anterior corona radiata and the right superior 
+longitudinal fasciculus have been reported in ROP patients relative to 
+HC participants33,54,55. Functional dysconnectivity in the dorsal anterior 
+cingulate cortex have been revealed in major depression56. Expansion of 
+the third ventricle has been reported in the recent onset of psychosis57. 
+Other studies have reported abnormalities in WM integrity as measured by FA in major depressive disorders
+34. The above findings are in line with 
+our results regarding the WM changes in the frontal gyrus, gyrus rectus, 
+dorsal anterior and corpus callosum. The third and fourth ventricles have been reported as regions that contribute to the identification of 
+the transdiagnostic psychopathology using the contrast texture map.
+The brain relevance calculated using the LRP algorithm resulted in 
+clusters that showed differential associations with age, positive, nega -
+tive and depressive symptom clusters as well as functionality. Previous 
+studies that performed sMRI-based prediction models determined 
+social functioning in the patients with ROD27. In some clusters, mean 
+relevance values and/or the relevance of voxels contributing signifi -
+cantly to the classification decision accurately predicted the PANSS and 
+SANS sum scores, functionality and change in functionality over time. 
+Significant contributing voxels were located in regions that have previ -
+ously been associated with these scores. In previous studies on schizo -
+phrenia and ROD, the FA of the temporal part and the temporolimbic –3–2–1012Age_T0
+BDI
+PANSS_positive
+PANSS_negative
+PANSS_disorganization
+PANSS_excitement
+PANSS_distress GAFSANS_blunted aﬀectSANS_alogiaSANS_anhedoniaSANS_asocialitySANS_avolitionAverage of clinical symptoms
+Cluster 1 Cluster 2 Cluster 3 Cluster 4
+Cluster 5 Cluster 6 Cluster 7 Cluster 8
+Fig. 2 | The average values of the clinical variables at baseline calculated in 
+each cluster for the participants belonging to the independent validation sample. Different colors represent the different clusters.–3–2–10123BDI
+PANSS_positive
+PANSS_negative
+PANSS_disorganization
+PANSS_excitement
+PANSS_distress
+GAFSANS_blunted aﬀfectSANS_alogiaSANS_anhedoniaSANS_asocialitySANS_avolitionAverage of clinical symptoms
+Cluster 1 Cluster 2 Cluster 3 Cluster 4
+Cluster 5 Cluster 6 Cluster 7 Cluster 8
+Fig. 3 | The average values of the difference in symptoms in one year after the baseline calculated in each cluster. Different colors represent the different clusters.

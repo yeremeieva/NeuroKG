@@ -1,5 +1,6 @@
 from utils.reader import list_files, read_pdf, write_txt, read_txt
 from chat.openai_parser import txt_to_parsed_txt_openai
+from chat.gemini_parser import txt_to_parsed_txt_gemini
 from utils.debugger import logger
 
 import time
@@ -16,7 +17,8 @@ def txt_to_parsed_txt(input_papers):
     for paper in input_papers:
         try:
             text = read_txt(f'./data/txt_papers/{paper}')
-            result = txt_to_parsed_txt_openai(str(text))
+            # result = txt_to_parsed_txt_openai(str(text))
+            result = txt_to_parsed_txt_gemini(str(text))
             try:
                 write_txt(f'./data/txt_parsed_papers/parsed_{paper}', result)
                 logger.info(f'paper {paper} is parsed')

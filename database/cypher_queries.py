@@ -1,8 +1,11 @@
 from neo4j import GraphDatabase
 import os
 from dotenv import load_dotenv
+from langchain.chains import GraphCypherQAChain
+import langchain_openai
 
 from utils.debugger import logger
+from database.init_database import init_graph
 
 
 load_dotenv()
@@ -29,21 +32,58 @@ def get_nodes_and_labels() -> dict:
     except Exception as e:
         logger.exception(f'not successfully loaded dictionary of nodes and labels by cypher_query, exception "{e}"')
 
+def get_nodes() -> list[dict]:
+    cypher_query = "MATCH (n) RETURN properties(n) as n_properties, labels(n) as n_labels"
+    nodes = []
 
-if __name__ == '__main__':
-    print(get_nodes_and_labels())
+    try:
+        with driver.session() as session:
+            result = session.run(cypher_query)
+
+            for record in result:
+                dictionary = record['n_properties']
+                dictionary['label'] = record['n_labels'][0]
+                nodes.append(dictionary)
+            return nodes
+
+    except Exception as e:
+        logger.exception(f'not successfully loaded dictionary of nodes and labels by cypher_query, exception "{e}"')
 
 
-# from langchain.chains import GraphCypherQAChain
+def get_graph_diameter() -> int:
+    cypher_query = """MATCH (n)
+                      WITH collect(n) AS nodes
+                      UNWIND nodes AS a
+                      UNWIND nodes AS b
+                      WITH a, b
+                      WHERE id(a) < id(b)
+                      MATCH path=shortestPath((a)-[*]-(b))
+                      RETURN length(path) AS diameter
+                      ORDER BY diameter
+                      DESC LIMIT 1"""
+
+    try:
+        with driver.session() as session:
+            result = session.run(cypher_query)
+
+            return result.data('diameter')[0]
+
+    except Exception as e:
+        logger.exception(f'not successfully calculated diameter by cypher_query, exception "{e}"')
+
+
+
+def language_query():
+    os.getenv('OPENAI_API_KEY')
+
+    graph = init_graph()
+    graph.refresh_schema()
+
+    chain = GraphCypherQAChain.from_llm(
+        langchain_openai.ChatOpenAI(temperature=0, model="gpt-4-turbo-preview"), graph=graph, verbose=True, validate_cypher=False
+    )
+
+    chain.run("What Deep Brain Stimulation (Medicalprocedure) treats?")
 #
-# graph.refresh_schema()
-#
-# cypher_chain = GraphCypherQAChain.from_llm(
-#     graph=graph,
-#     cypher_llm=ChatOpenAI(temperature=0, model="gpt-3.5-turbo"),
-#     qa_llm=ChatOpenAI(temperature=0, model="gpt-3.5-turbo"),
-#     validate_cypher=True,
-#     verbose=True
-# )
-#
-# cypher_chain.invoke({"query": "What Deep Brain Stimulation treats?"})
+# if __name__ == '__main__':
+    # print(get_nodes())

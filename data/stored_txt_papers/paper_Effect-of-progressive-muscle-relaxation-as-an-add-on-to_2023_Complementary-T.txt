@@ -1,0 +1,551 @@
+Complementary Therapies in Clinical Practice 51 (2023) 101730
+Available online 26 January 2023
+1744-3881/© 2023 Published by Elsevier Ltd.Effect of progressive muscle relaxation as an add-on to pulmonary 
+telerehabilitation in discharged patients with COVID-19: A randomised 
+controlled trial 
+Arghavan Hajibashia, Javad Sarrafzadeha,*, Ali Amiria, Reza Salehia,b, 
+Behnoosh Vasaghi-Gharamalekic 
+aIranian Center of Excellence in Physiotherapy, Rehabilitation Research Center, Department of Physiotherapy, School of Rehabilitation Sciences, Iran University of 
+Medical Sciences, Tehran, Iran 
+bGeriatric Mental Health Research Center, Iran University of Medical Sciences, Tehran, Iran 
+cRehabilitation Research Center, Department of Rehabilitation Basic Sciences, School of Rehabilitation Sciences, Iran University of Medical Sciences, Tehran, Iran   
+ARTICLE INFO  
+Keywords: 
+COVID-19 
+Progressive muscle relaxation 
+Pulmonary rehabilitation 
+Six-minute walk test 
+Telerehabilitation ABSTRACT  
+Background: and purpose: Most patients with coronavirus disease 2019 (COVID-19) experience persistent 
+physical and psychological symptoms. This study aimed to investigate the effects of pulmonary telerehabilitation 
+(PTR) combined with progressive muscle relaxation (PMR) on the physical and psychological outcomes of dis-
+charged patients with COVID-19. 
+Materials and methods: This randomised, assessor-blinded, parallel-group study was conducted in hospitals 
+affiliated with Qom University of Medical Sciences between May and October 2021. Discharged COVID-19 pa-
+tients aged 18–65 years were randomly assigned to two groups of 26 patients each. The experimental group 
+underwent PTR and PMR for six weeks, while the comparison group received PTR alone. Primary (functional 
+capacity) and secondary (dyspnoea, anxiety, depression, fatigue, sleep quality, and quality of life) outcomes were 
+evaluated at baseline and after six weeks. 
+Results: The experimental group showed significantly higher sleep quality (P 0.001, 95% confidence interval 
+[CI]: 1.20 –4.09) and significantly lower fatigue (P 0.041, 95% CI: 4.79 –5.25) and anxiety (P 0.001, 95% CI: 
+1.21 –4.47) than the comparison group. No between-group differences were observed in terms of other outcomes 
+(P F0.05). 
+Conclusion: PTR coupled with PMR was more effective for promoting sleep quality and alleviating anxiety and 
+fatigue than PTR alone.   
+1.Introduction 
+Coronavirus disease 2019 (COVID-19) was initially reported in 
+Wuhan, China, but quickly spread worldwide, triggering a global 
+pandemic [1]. Patients with COVID-19 show great diversity in symptom 
+severity; while the majority of patients are asymptomatic or develop 
+only mild influenza-like symptoms, hospitalisation is required in cases 
+with severe symptoms [2,3]. The majority of discharged patients with 
+COVID-19 experience persistent physical and psychological symptoms, 
+including dyspnoea, fatigue, anxiety, depression, decreased functional 
+capacity, and poor sleep quality [4–6], which can cause deconditioning 
+and a lower quality of life [7]. Therefore, providing appropriate interventions to treat persistent symptoms and prevent complications in 
+these patients after discharge is crucial [8]. 
+Pulmonary rehabilitation is an effective intervention for preventing 
+deterioration of pulmonary and physical functions [9,10]. Social 
+distancing policies adopted during the COVID-19 pandemic to reduce 
+the spread of the infection have restricted access to outpatient rehabil -
+itation programs for patients with COVID-19. Therefore, tele-
+rehabilitation was recommended for patients with COVID-19 [11,12]. A 
+recent randomised controlled trial showed that pulmonary rehabilita -
+tion is effective for improving respiratory function, quality of life, and 
+anxiety in patients with COVID-19 [13]; nevertheless, given older adults 
+as the target population, the results cannot be generalized to all age 
+*Corresponding author. 
+E-mail address: sarrafzadeh.j@iums.ac.ir (J. Sarrafzadeh).  
+Contents lists available at ScienceDirect 
+Complementary Therapies in Clinical Practice 
+u{�~zkw! s{yo| kro>! ÐÐÐ1ow�o�t o~1m{y2w{m k�o2m�m|!
+https://doi.org/10.1016/j.ctcp.2023.101730 
+Received 10 February 2022; Received in revised form 21 January 2023; Accepted 24 January 2023   Complementary Therapies in Clinical Practice 51 (2023) 101730
+2groups. The effects of pulmonary rehabilitation on sleep quality and 
+fatigue, the most prevalent symptoms in patients with COVID-19, have 
+not been investigated. 
+Recent studies have shown that including complementary interven -
+tion to conventional care can improve psychological symptoms in pa-
+tients with COVID-19 [14,15]. Liu et al. [16] found that progressive 
+muscle relaxation (PMR) reduced anxiety and improved sleep quality in 
+patients hospitalised with COVID-19. The PMR is a simple 
+self-management and systematic relaxation technique that can achieve 
+deep relaxation. Research has shown that PMR reduces fatigue and 
+depression and improves sleep quality in chronic obstructive pulmonary 
+disease (COPD) [17–19]. Indeed, a previous prospective cohort study 
+recommended the use of interventions to alleviate both physical and 
+psychological symptoms of COVID-19 [20], which can be achieved using 
+PMR coupled with pulmonary telerehabilitation (PTR). 
+Given the limited data on the effects of interventions on persistent 
+post-discharge symptoms in COVID-19, further studies are required to 
+evaluate the efficacy of complementary interventions on symptoms 
+[21]. To the best of our knowledge, the effects of PTR coupled with PMR 
+on post-discharge outcomes have not yet been investigated in patients 
+with COVID-19. This study was therefore conducted to investigate the 
+effects of PMR coupled with PTR on functional capacity, anxiety, 
+depression, fatigue, dyspnoea, quality of life and sleep quality compared 
+to PTR alone, in discharged patients with COVID-19. 
+2.Materials and methods 
+2.1. Trial design and setting 
+This study was an assessor-blinded randomised controlled trial with 
+two parallel treatment arms, conducted in hospitals affiliated with the 
+Qom University of Medical Sciences, Qom, Iran, between May 2021 and 
+October 2021. The study was performed in accordance with the 
+Consolidated Standards of Reporting Trials (CONSORT 2010) guidelines 
+[22]. 
+2.2. Participants 
+Participants were selected from hospitals affiliated with Qom Uni-
+versity of Medical Sciences by screening the hospital database. The in-
+clusion criteria were age 18–65 years, COVID-19 confirmed by 
+polymerase chain reaction (PCR) test, one day after discharge from the 
+hospital and access to the Internet and video call. The exclusion criteria 
+were pregnancy, re-hospitalisation, history of stroke, multiple sclerosis, 
+chronic pulmonary and kidney conditions, uncontrolled diabetes or 
+hypertension, cardiovascular diseases including uncontrolled arrhyth -
+mias, and severe neurological disorders such as Guillain-Barre 
+syndrome. 
+2.3. Randomisation 
+Permuted-block randomisation with a block size of four was per-
+formed to randomly assign eligible participants to an experimental 
+group receiving both PTR and PMR, and a comparison group receiving 
+only PTR [23]. The blocks were randomly stacked using a Google 
+random number generator. Random allocation was performed by an 
+individual blinded to the grouping and the randomisation list was placed 
+in sealed envelopes. 
+2.4. Blinding 
+The outcome assessor was blinded, unaware of the study objectives, 
+and was not informed of the group assignment. 2.5. Intervention 
+The exercises were taught to the experimental and comparison 
+groups in one face-to-face session. The participants were advised to 
+perform the exercises at home for six weeks and received descriptions 
+and videos of each exercise through WhatsApp messenger. Two sessions 
+per week were conducted under the supervision of a physiotherapist via 
+video call [13,24]. Both groups performed PTR exercises once a day for 
+five days per week [25,26]. In the experimental group, PMR exercises 
+were performed twice a day (morning and night) for five days a week 
+[16,17,27]. In both groups, patient adherence was assessed using daily 
+text messages. 
+2.5.1. Comparison group 
+The six-week training program in the comparison group comprised 
+breathing exercises, such as diaphragmatic breathing, pursed lip 
+breathing, chest expansion, and deep breathing with arm movement. 
+These exercises were performed in three sets of ten repetitions each. 
+Strength training for large muscles included squats, standing heel-rise, 
+shoulder abduction, shoulder flexion, shoulder horizontal adduction 
+and extension, and elbow flexion and extension. Three sets of strength 
+exercises were performed with a 2-min rest between sets of ten repeti -
+tions. The upper limb exercises began with an external load. The 
+external load for each muscle group was ten repetitions maximum and 
+progressively increased by 5–10% per week [28]. Aerobic exercises 
+included walking and upper-limb exercises. The six-week daily aerobic 
+exercises with a rest interval, if needed, began at 10 min and increased to 
+30 min depending on the patient’s tolerance [29]. The intensity of these 
+exercises was determined based on the Borg scale (moderate-intensity 
+score: 3–4). Moreover, the speed of walking and upper limb aerobic 
+exercises increased according to this scale over six weeks [30,31]. 
+2.5.2. Experimental group 
+PMR and PTR were performed in the experimental group. PMR lasted 
+15–20 min based on the modified Jacobson’s method proposed by 
+Bernstein [27]. The techniques, including contraction and relaxation of 
+the 16 main muscle groups, were explained to the patients, who were 
+placed in a supine position and were asked to focus on a single muscle 
+group. Contraction of each muscle group was performed for 5–7 s and 
+the patients were asked to focus on the feeling of contraction, and on 
+muscle relaxation for 30–40 s. Each muscle group contracted during 
+deep inhalation, and relaxed during exhalation. All the muscle groups, i. 
+e., the right and left hands and forearms, right and left biceps, upper and 
+lower sections of the face, neck, back, abdomen, right and left thighs, 
+right and left ankles, and feet, were contracted and relaxed in all sessions 
+[18,19,27]. 
+2.6. Outcome measures 
+The primary outcome was functional capacity, while secondary 
+outcomes included dyspnoea, fatigue, sleep quality, depression, anxiety, 
+quality of life, and health status. Outcomes were evaluated before and 
+after the six-week intervention. Variables such as functional capacity, 
+dyspnoea, and fatigue were also evaluated at the end of two weeks. 
+The 6-min walk test (6 MWT) was performed face-to-face according 
+to the guidelines of the European Respiratory Society and the American 
+Thoracic Society to evaluate functional capacity. The test was conducted 
+at the Physiotherapy Department of the Qom University of Medical 
+Sciences hospitals in a straight corridor with a hard surface. The par-
+ticipants wore comfortable clothes, performed no exercise during the 2 h 
+preceding the test, and sat on a chair near the test site 10 min before 
+beginning the test [32]. The beginning and the end of the 15-m route 
+were marked. The patients were then asked to stand and assume a po-
+sition on the starting line. As the participants began to walk, an elec-
+tronic timer set at 6 min was started. In case of inability to continue for 6 
+min or severe dyspnoea, they were asked to sit on the chair and the timer A. Hajibashi et al.                                                                                                                                                                                                                              Complementary Therapies in Clinical Practice 51 (2023) 101730
+3was stopped. SpO 2 and heart rate were monitored before and after the 
+test using a fingertip pulse oximeter (Yimi Life, Model:YM101). The total 
+distance walked in meters was recorded [33]. Furthermore, dyspnoea 
+was measured at the end of the 6 MWT using the Borg scale (0–10) [34]. 
+The Persian version of the Fatigue Severity Scale (FSS) was used to 
+assess fatigue. The FSS is a nine-item scale. The items are scored on a 
+scale of 0–7, with a total score ranging from 9 to 63. The higher the 
+score, the higher the fatigue severity [35]. The validity of the fatigue 
+severity scale was confirmed in Iran, and its test-retest reliability coef-
+ficient was calculated as 0.78 –0.95 [36]. The Pittsburgh Sleep Quality 
+Index (PSQI) was used to assess sleep quality. The PSQI is a 19-item 
+index. The items are scored on a scale of 0–3, with a total score 
+ranging from 0 to 21; the higher the score, the more severe the sleep 
+disorder [37]. Moghadam et al. [38] evaluated the validity and reli-
+ability of this index and confirmed the psychometric properties of the 
+Persian version of the PSQI by calculating Cronbach ’s alpha of 0.77. The 
+Hospital Anxiety and Depression Scale (HADS) was used to evaluate 
+anxiety (seven items) and depression (seven items). The HADS is a 
+14-item scale. The items are scored on a four-point scale of 0–3, yielding 
+a total score of 0–21, with higher scores indicating worse depression and 
+anxiety [39]. The validity and internal consistency of the Persian version 
+of this self-reported rating scale were previously confirmed in an Iranian 
+population [40]. The 36-item Short-Form Health Survey (SF-36) was 
+used to evaluate the quality of life. SF-36 is a 36-item questionnaire with 
+eight subscales. The subscales include physical functioning, physical 
+role, bodily pain, general health, vitality, social functioning, emotional 
+role, and mental health. The total score of this questionnaire ranges from 
+0 to 100, with lower scores denoting lower quality of life [41]. Inves -
+tigating the internal consistency (reliability) of the Persian version of the 
+SF-36, Montazeri et al. [42] confirmed the reliability of all dimensions of 
+this questionnaire by calculating a Cronbach ’s alpha of 0.77 –0.90 except 
+for vitality, which had a Cronbach ’s alpha of 0.65. Health status was 
+evaluated using the 50-item St. George ’s Respiratory Questionnaire 
+(SGRQ), which comprises three components, including symptoms, ac-
+tivity, and impacts (on daily life). The possible score on this question -
+naire ranges from 0 to 100, with higher scores indicating greater 
+restrictions [43]. Fallah-Tafti et al. [44] previously measured the val-
+idity and reliability of the Persian version of this questionnaire in pa-
+tients with COPD and calculated a Cronbach ’s alpha of 0.93 for the 
+entire questionnaire. All self-reported assessment tools, i.e., FSS, PSQI, 
+HADS, SF-36, and SGRQ were sent as Google forms to the participants 
+via WhatsApp messenger at the assessment time points and completed 
+by the participants in online sessions under the supervision of an 
+evaluator. 
+2.7. Statistical analysis 
+2.7.1. Sample size calculation 
+A priori sample size per group was calculated as 26 based on the data 
+from a previously published RCT with 6 MWT as the primary outcome 
+[13], and a test power of 80%, alpha of 5%, and an effect size of 0.71 for 
+between-group differences using G*power software version 3.0.10. 
+Considering a dropout rate of 10%, the sample size was set to 58 (29 per 
+group). 
+2.7.2. Data analysis 
+Statistical analysis were performed using SPSS-19 with the signifi -
+cance level set at P D0.05. The Shapiro –Wilk test was used to investigate 
+normality, and Levene ’s test was used to assess variance homogeneity. 
+As the data were normally distributed, parametric measures were used. 
+The independent t-test was used to investigate between-group differ -
+ences at baseline and at the end of the 6th week, while the paired t-test 
+was used to examine within-group differences. In addition, repeated 
+measures analysis of variance (ANOVA) (two groups, three times) was 
+conducted to examine within- and between-group differences for the 
+variables that were assessed three times (fatigue, 6 MWT, and dyspnoea). The post-hoc Bonferroni test was used to investigate the 
+significant group ×time interactions. The between-group effect sizes 
+(ES) were calculated using Cohen ’s d. The ES was considered small (d 
+0.20), medium (d 0.50), or large (d 0.80) [45]. 
+2.8. Ethical considerations 
+This study was registered in the International Database of Clinical 
+Trials (clinicaltrials.gov ) (NCT04741282) and approved by the Research 
+Ethics Committee of the Iran University of Medical Sciences, Tehran, 
+Iran (IR.IUMS.REC.1399.1119). All participants were briefed on the 
+intervention, assured of their right to withdraw from the study at their 
+own discretion and of the confidentiality of their information through 
+coding the questionnaires, and then asked to sign consent forms. The 
+comparison group underwent PMR after the completion of the study. 
+3.Results 
+Patients were enrolled between May 2021 and August 2021; 107 
+discharged patients with COVID-19 were assessed for eligibility, of 
+whom 43 did not meet the inclusion criteria and six declined to 
+participate. In total, 58 patients with COVID-19 were included after 
+hospital discharge. Of these, 52 completed the intervention. Two pa-
+tients withdrew from each group before completing all sessions. One 
+patient was excluded from the comparison group due to re- 
+hospitalisation, and one in the experimental group due to relocation 
+to another city. This information is presented in the CONSORT flow 
+diagram (Fig. 1). 
+3.1. Baseline characteristics 
+Table 1 shows the demographic and clinical characteristics of the 
+patients at baseline, suggesting no differences in any variable between 
+the groups. 
+3.2. Functional capacity 
+The six-week intervention was found to significantly increase the 
+distance walked in the 6 MWT in the experimental and comparison 
+groups (P D0.001); nevertheless, statistically insignificant differences 
+were observed between the groups (P 0.96) (Table 2). The between- 
+group effect size was small after the intervention (ES D0.2). 
+3.3. Dyspnoea 
+Dyspnoea significantly decreased after the intervention in both 
+groups according to the Borg dyspnoea scale (P D0.001); however, 
+statistically insignificant differences were observed between the groups 
+(p 0.812) (Table 2). The between-group effect size was small after the 
+intervention (ES D0.2). 
+3.4. Fatigue 
+The fatigue severity scale showed significant reductions in fatigue in 
+both the groups (P D0.001). Post-intervention fatigue was less severe in 
+the experimental group than that in the comparison group (P 0.041). 
+The between-group effect sizes were medium to large at two weeks (ES 
+0.635) and six weeks (ES 0.792) after the baseline assessment. 
+Significant group ×time interactions were also observed for fatigue 
+severity (P 0.005) (Table 2). Repeated-measures ANOVA revealed 
+significant within-group differences in the experimental group between 
+baseline and two weeks (P 0.003), and between baseline and six weeks 
+(P D0.001). Despite the insignificant differences between baseline and 
+two weeks later in the comparison group (P 0.999), the baseline was 
+significantly different from six weeks later (P 0.043) (Fig. 2). Table 2 
+presents the within-group and between-group differences in the A. Hajibashi et al.                                                                                                                                                                                                                              Complementary Therapies in Clinical Practice 51 (2023) 101730
+4
+Fig. 1.CONSORT flow diagram of the study.  
+Table 1 
+Baseline characteristics of discharged patients with COVID-19 in the experi -
+mental and the comparison groups.  
+Characteristics Comparison group 
+(n 26) Experimental group 
+(n 26) P- 
+value 
+Sex (female) 13 (50%) 11 (42.3%) a0.578 
+Height (cm) 169.34 ±7.99 172.23 ±9.58 b0.244 
+Weight (kg) 75.76 ±9.75 78.53 ±12.23 b0.371 
+BMI (kg/cm2) 26.50 ±3.64 26.39 ±2.81 b0.796 
+Age (years) 44.19 ±8.4 46.00 ±11.26 b0.514 
+Duration of 
+hospitalisation (day) 8.80 ±4.11 9.15 ±3.62 b0.749 
+CT scan feature of lung 
+lesion   a0.532 
+Multiple lobes 18 (69%) 20 (76%) 
+Single lobe 8 (31%) 6 (24%) 
+Data are expressed as mean ±standard deviation, or numbers (%). 
+bIndependent t-test. 
+aChi-square test; BMI: body mass index; CT scan: computed tomography scan. 
+Table 2 
+Comparison of functional capacity, dyspnoea, and fatigue within and between the two groups of patients with COVID-19 before and after two and six weeks of 
+intervention using repeated measures ANOVA.  
+Outcomes Groups Time period P-value 95% CI 
+Baseline Second week Sixth week Group* time Time Group Lower limit Upper limit 
+6 MWT Comparison 290.96 ±137.76 467.96 ±122.21 520.69 ±96.35 0.335 D0.001* 0.960 394.89 456.62 
+Experimental 272.26 ±142.79 468.11 ±118.06 534.53 ±93.29 
+Dyspnoea Borg scale Comparison 4.23 ±1.96 1.98 ±1.11 0.84 ±1.02 0.523 D0.001* 0.812 2.06 2.71 
+Experimental 4.46 ±1.65 1.84 ±1.12 0.98 ±0.87 
+FSS Comparison 5.55 ±1.07 5.47 ±1.01 4.75 ±1.41 0.005* D0.001* 0.041* 4.70 5.25 
+Experimental 5.66 ±0.95 4.85 ±0.94 3.83 ±0.84 
+Data are expressed as mean ±standard deviation; 6 MWT: 6-min walk test; FSS: Fatigue Severity Scale; CI: confidence interval; * significant differences, P D0.05. 
+Fig. 2.Comparison of the fatigue severity scale score before the intervention, 
+and at two and six weeks after, between the experimental and comparison 
+groups using repeated measures ANOVA with the Bonferroni post-hoc test. A. Hajibashi et al.                                                                                                                                                                                                                              Complementary Therapies in Clinical Practice 51 (2023) 101730
+5variables assessed three times using repeated-measures ANOVA. 
+3.5. Sleep quality 
+Significant improvements were observed in the experimental (P D
+0.001) and comparison (P 0.007) groups. Moreover, these improve -
+ments were significantly greater in the experimental group than in the 
+comparison group (P 0.001) (Table 3). 
+3.6. Anxiety and depression 
+Significant reductions were found in the post-intervention HADS 
+scores in terms of anxiety (P D0.001) and depression in the experi -
+mental (P D0.001) and comparison (P 0.02) groups. Statistically 
+significant between-group differences were observed only in terms of 
+anxiety, with the experimental group receiving a significantly lower 
+score (P 0.001) (Table 3). 3.7. Quality of life 
+Statistically significant within-group differences were observed in 
+the SF-36 total score and the mental and physical subscales of the SF-36 
+in both groups (P D0.001). However, no between-group differences 
+were observed for these outcomes (Table 3). In addition, no between- 
+group differences were found in terms of physical functioning, phys-
+ical role, bodily pain, general health, vitality, social functioning, 
+emotional role, and mental health as the eight health domains of this 
+questionnaire (P F0.05). 
+3.8. Health status 
+The SGRQ suggested statistically significant post-intervention im-
+provements in health status in both the groups (P D0.001). No between- 
+group differences were observed in this regard (P 0.784). In addition, 
+significant improvements in symptoms, activity, and impacts as sub-
+scales of this questionnaire (P D0.001) were found in both groups 
+(Table 3). Table 3 presents the between-group differences in the 
+Table 3 
+Comparison of sleep quality, depression, anxiety, quality of life and health status between the two groups before and after the intervention using an independent 
+sample t-test.  
+Outcomes Groups Time period Between-group mean difference post- 
+intervention Independent-test (P- 
+value) Effect size 
+(Cohen ’s d) 95% CI 
+Baseline Sixth week Lower 
+limit Upper 
+limit 
+PSQI Comparison 7.92 ±4.04 6.76 ±
+3.19 2.653 0.001* 1.03 1.21 4.08 
+Experimental 7.19 ±3.04 4.11 ±
+1.75 
+HADS Comparison 14.61 ±
+6.99 11.53 ±
+7.14 3.653 0.033* 0.06 0.29 7.00 
+Experimental 13.76 ±
+4.65 7.88 ±
+4.63 
+Anxiety Comparison 7.50 ±3.48 5.80 ±
+3.54 2.846 0.001* 0.97 1.22 4.46 
+Experimental 6.80 ±3.00 2.96 ±
+2.08 
+Depression Comparison 7.15 ±3.98 5.73 ±
+3.74 0.961 0.327 0.28  0.99 2.91 
+Experimental 7.11 ±2.93 4.76 ±
+3.12 
+SGRQ Comparison 55.67 ±
+12.40 23.03 ±
+12.99  0.943 0.784 0.07  7.81 5.92 
+Experimental 60.11 ±
+11.16 23.97 ±
+11.64 
+Symptoms Comparison 59.59 ±
+19.69 23.70 ±
+16.13  1.939 0.656 0.12  10.63 6.75 
+Experimental 60.88 ±
+19.14 25.64 ±
+15.06 
+Activity Comparison 68.13 ±
+15.65 37.56 ±
+22.51  2.059 0.709 0.10  13.08 8.96 
+Experimental 75.09 ±
+11.62 39.62 ±
+16.63 
+Impacts Comparison 48.62 ±
+17.48 14.89 ±
+10.42  0.494 0.870 0.03  6.54 5.55 
+Experimental 51.51 ±
+15.93 14.39 ±
+14.89 
+SF-36 Comparison 33.11 ±
+11.32 64.92 ±
+15.03  0.153 0.969 0.04  8.09 7.78 
+Experimental 30.42 ±
+9.75 65.57 ±
+13.42 
+Mental status Comparison 35.61 ±
+11.59 61.92 ±
+16.11  1.50 0.717 0.10  9.78 6.78 
+Experimental 34.26 ±
+12.53 63.42 ±
+13.49 
+Physical 
+status Comparison 34.53 ±
+16.99 65.69 ±
+15.75  0.807 0.830 0.05  8.75 7.13 
+Experimental 30.15 ±
+11.70 66.50 ±
+12.59 
+Data are expressed as mean ±standard deviation; PSQI: Pittsburgh Sleep Quality Index; HADS: Hospital Anxiety and Depression Scale; SGRQ: St. George Respiratory 
+Questionnaire; SF-36: 36-item Short-Form Health Survey; * Significant differences, P D0.05. A. Hajibashi et al.                                                                                                                                                                                                                              Complementary Therapies in Clinical Practice 51 (2023) 101730
+6variables assessed using the independent t-test before and six weeks after 
+intervention. 
+4.Discussion 
+This randomised controlled trial investigated the effects of PTR 
+combined with PMR on post-discharge complications in patients with 
+COVID-19. The findings of this study showed that supplementing PTR 
+with PMR did not affect the functional capacity. However, compared 
+with PTR alone, this combination was found to significantly improve 
+sleep quality and decrease fatigue and anxiety in patients with COVID- 
+19 after their discharge. Despite the previously reported negative ef-
+fects of fatigue on functional capacity [46–48], the present study 
+showed no differences in functional capacity between the two groups. 
+This finding is consistent with the results obtained by Cortes-Telles et al. 
+[49], who reported insignificant differences in pulmonary function and 
+6 MWT between patients with COVID-19 with or without fatigue. It is 
+worth noting that the fatigue severity obtained in the present study was 
+lower in the experimental group than in the comparison group. 
+Although the aetiology remains unclear, it is known that fatigue is 
+complicated and multifactorial in terms of its mechanism [50]. No 
+distinct immunological findings associated with fatigue have been 
+observed in patients with COVID-19. Therefore, non-pharmacological 
+interventions are recommended to treat fatigue in these patients [51]. 
+Kentson et al. [52] showed that fatigue has a more significant rela-
+tionship with psychological factors than physiological factors in COPD. 
+Given that stress is a reported risk factor for fatigue after acute infections 
+[53], and that fatigue is correlated with sleep quality [54], we postulate 
+that PMR lowers fatigue by affecting anxiety and sleep quality. PMR can 
+trigger psychophysical relaxation by reducing sympathetic nervous 
+system activity and preventing the side effects of stress and anxiety [55]. 
+Park et al. [56] found that PMR decreased heart and respiratory rates, 
+systolic and diastolic blood pressure, and salivary cortisol levels, which 
+could explain the effect of PMR on anxiety in the present study. The 
+present findings are consistent with those reported by Liu et al. [16] and 
+Xiao et al. [57], who found that 5- and 7- day PMR reduced anxiety and 
+improved sleep quality compared to routine care in patients with 
+COVID-19. In these studies, the target population comprised hospital -
+ised patients with COVID-19. However, in the current study, the effect of 
+PMR was investigated in patients with COVID-19 who were discharged 
+from the hospital. Lolak et al. [58] found that adding PMR to 8-week 
+centre-based pulmonary rehabilitation did not yield additional bene-
+fits in terms of decreasing depression and anxiety in patients with COPD, 
+which is consistent with the present findings in terms of depression 
+symptoms. The discrepancy in the results of studies on anxiety could be 
+explained by the differences in telerehabilitation and centre-based pul-
+monary rehabilitation procedures. A recent review conducted on COPD 
+revealed that the HADS anxiety score showed a greater improvement in 
+telerehabilitation compared with centre-based pulmonary rehabilitation 
+[59]. The present results are consistent with a study by Chegeni et al. 
+[17], who found that an 8-week PMR decreased the FSS score and 
+certain subscale scores of the PSQI in patients with COPD. 
+The present study evaluated quality of life using the SF-36 and found 
+no significant differences between the groups in the total and individual 
+dimension scores of this questionnaire. Pulmonary rehabilitation ap-
+pears to have adequate effects on the quality of life [13,60,61]; hence, 
+PMR cannot reveal further statistical and clinical improvements. The 
+effectiveness of PTR on clinical improvement could not be elucidated 
+with the present findings, as PTR was performed in both groups; 
+nevertheless, statistically significant changes in all outcomes were 
+observed in both groups after the intervention, which is consistent with 
+the results of a randomised controlled trial, suggesting that respiratory 
+rehabilitation improves functional capacity and quality of life and re-
+lieves anxiety in patients with COVID-19 [13]. Retrospective and cohort 
+studies also suggest that comprehensive pulmonary rehabilitation im-
+proves functional capacity and alleviates respiratory symptoms and fatigue in these patients [20,24,62]. Functional limitations in COVID-19 
+are associated with deconditioning, loss of skeletal and respiratory 
+muscle strentgh, decreased respiratory capacity, increased breathing 
+effort and inadequate gas exchange [6,63,64]. Pulmonary rehabilitation 
+can improve respiratory function, gas exchange and muscle strentgh in 
+patients with COVID-19 [13,65,66]. 
+The present study’s limitations include failure to investigate factors 
+such as psychological conditions, diet, family support, and the home 
+environment. These factors may have affected the outcomes. Moreover, 
+this study did not determine the long-term effects by performing a 
+follow-up; therefore, follow-up data collection is recommended in future 
+studies. This study was conducted on patients with COVID-19 after 
+hospital discharge; thus the results cannot be generalized to a group of 
+non-hospitalised patients with persistent symptoms after COVID-19. 
+This study did not include a group that only received progressive mus-
+cle relaxation. Moreover, only patients with COVID-19 who had access 
+to the Internet were included in this study. 
+5.Conclusion 
+Compared with PTR alone, the combination of PTR and PMR more 
+effectively promoted sleep quality and alleviated anxiety and fatigue. 
+Considering that most patients with COVID-19 are not hospitalised, it is 
+recommended that future research be conducted to investigate the 
+treatment effects in non-hospitalised and symptomatic patients with 
+COVID-19. 
+Author statement 
+Arghavan Hajibashi: Conceptualization, Investigation, Data cura-
+tion, Writing-Original draft, Writing-Reviewing and Editing. Javad 
+Sarrafzadeh: Conceptualization, Supervision, Visualization, Validation, 
+Writing-Reviewing and Editing. Ali Amiri: Conceptualization, Super -
+vision, Validation, Data curation, Resources, Writing-Reviewing and 
+Editing. Reza Salehi: Conceptualization, Formal analysis, Methodology, 
+Writing-Reviewing and Editing. Behnoosh Vasaghi-Gharamaleki: 
+Conceptualization, Project administration, Writing-Reviewing and 
+Editing. All the authors approved the final version of the manuscript for 
+submission. 
+Funding 
+This research did not receive any specific grant from funding 
+agencies in the public, commercial, or not-for-profit sectors. 
+Declaration of competing interest 
+The authors declare that they have no competing interests. 
+Acknowledgements 
+We would like to express our gratitude to the Iran University of 
+Medical Sciences for supporting this project and all the patients with 
+COVID-19 who participated in this study. We would also like to thank 
+Qom University of Medical Sciences for providing facilities and space for 
+sampling and evaluating the study participants. 
+References 
+[1]T.P. Velavan, C.G. Meyer, The COVID-19 epidemic, Trop. Med. Int. Health 25 (3) 
+(2020) 278–280, https://doi.org/10.1111/tmi.13383. 
+[2]W.-j. Guan, Z.-y. Ni, Y. Hu, W.-h. Liang, C.-q. Ou, J.-x. He, et al., Clinical 
+characteristics of coronavirus disease 2019 in China, N. Engl. J. Med. 382 (18) 
+(2020) 1708–1720, https://doi.org/10.1056/NEJMoa2002032. 
+[3]Y.-R. Guo, Q.-D. Cao, Z.-S. Hong, Y.-Y. Tan, S.-D. Chen, H.-J. Jin, et al., The origin, 
+transmission and clinical therapies on coronavirus disease 2019 (COVID-19) 
+outbreak–an update on the status, Military Med. Res. 7 (1) (2020) 1–10, https:// 
+doi.org/10.1186/s40779-020-00240-0. A. Hajibashi et al.                                                                                                                                                                                                                              

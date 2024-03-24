@@ -1,0 +1,401 @@
+npj | parkinson ’sd i s e a s e Article
+Published in partnership with the Parkinson ’s Foundation
+https://doi.org/10.1038/s41531-024-00671-9
+Comprehensive blood metabolomics
+proﬁling of Parkinson ’sd i s e a s er e v e a l s
+coordinated alterations in xanthinemetabolism
+Check for updates
+Elisa Gómez de Lope1, Rebecca Ting Jiin Loo1, Armin Rauschenberger1,M u h a m m a dA l i1,
+Lukas Pavelka2,3, Tainá M. Marques3, Clarissa P. C. Gomes4, Rejko Krüger2,3,4&E n r i c oG l a a b1
+On behalf of the NCER-PD Consortium *
+Parkinson ’s disease (PD) is a highly heterogeneous disorder in ﬂuenced by several environmental and
+genetic factors. Effective disease-modifying therapies and robust early-stage biomarkers are stilllacking, and an improved understanding of the molecular changes in PD could help to reveal newdiagnostic markers and pharmaceutical targets. Here, we report results from a cohort-wide bloodplasma metabolic pro ﬁling of PD patients and controls in the Luxembourg Parkinson ’s Study to detect
+disease-associated alterations at the level of systemic cellular process and network alterations. Weidenti ﬁed statistically signi ﬁcant changes in both individual metabolite levels and global pathway
+activities in PD vs. controls and signi ﬁcant correlations with motor impairment scores. As a primary
+observation when investigating shared molecular sub-network alterations, we detect pronounced andcoordinated increased metabolite abundances in xanthine metabolism in de novo patients, which areconsistent with previous PD case/control transcriptomics data from an independent cohort in terms ofknown enzyme-metabolite network relationships. From the integrated metabolomics andtranscriptomics network analysis, the enzyme hypoxanthine phosphoribosyltransferase 1 (HPRT1) isdetermined as a potential key regulator controlling the shared changes in xanthine metabolism andlinking them to a mechanism that may contribute to pathological loss of cellular adenosinetriphosphate (ATP) in PD. Overall, the investigations revealed signi ﬁcant PD-associated metabolome
+alterations, including pronounced changes in xanthine metabolism that are mechanistically congruentwith alterations observed in independent transcriptomics data. The enzyme HPRT1 may merit furtherinvestigation as a main regulator of these network alterations and as a potential therapeutic target toaddress downstream molecular pathology in PD.
+The diagnosis of Parkinson ’s disease (PD) is typically based on clinical
+symptoms, such as tremors, rigidity, a nd bradykinesia, following standard
+guidelines for previously validated clinical assessments. While clinicaldiagnosis has improved continuously over the past decades and includes
+indicators for differential and early diagnosis, many of the covered symp-toms are nonspeci ﬁc. These may overlap with other neurological disorders
+1Biomedical Data Science, Luxembourg Centre for Systems Biomedicine (LCSB), University of Luxembourg, Esch-sur-Alzette, Luxembourg.2Parkinson ’s
+Research Clinic, Centre Hospitalier de Luxembourg (CHL), Luxembourg, Luxembourg.3Transversal Translational Medicine, Luxembourg Institute of Health (LIH),
+Strassen, Luxembourg.4Translational Neuroscience, Luxembourg Centre for Systems Biomedicine (LCSB)
+University of Luxembourg, Esch-sur-Alzette, Luxembourg. *A list of authors and their af ﬁliations appears at the end of the paper.
+e-mail: enrico.glaab@uni.lu
+npj Parkinson ’s Disease |           (2024) 10:68 11234567890():,;
+1234567890():,;or only show up in later stages of the disease, often resulting in a mis-
+diagnosis or delayed diagnosis1. One of the main challenges in the clinical
+diagnosis is a long pre-motor phase of the disease, during which many
+common symptoms may not yet be present or may be subclinical. Differ-
+entiating PD from other neurological disorders, such as atypical or sec-
+ondary parkinsonism, during this pre-motor phase can be challenging2.I n
+addition, PD phenotypes can vary subs tantially, highlighting a need for
+objective biological biomarker signatures rather than diagnosis based solelyon a subjective judgment.
+Molecular signatures have the potential to provide more speci ﬁc,
+accurate, and cost-effective indicators of a complex disorder such as PD.While clinical indicators mostly rely on assessing broad categories ofsymptomatic and disease-associated changes, molecular markers mayreveal more granular pathological changes occurring already in the pre-symptomatic disease stages. By facilitating an earlier, more reliable, and
+speciﬁc diagnosis, molecular signatures m ay enable more patient-tailored
+and effective treatments.
+In recent years, omics technologies have signi ﬁcantly contributed to
+discovering PD biomarkers. Numero us genetic, protein, and metabolic
+changes associated with PD have been identi ﬁed through these approaches,
+and new insights into the disease pathogenesis were gained
+3. For instance,
+several genetic variants have been link ed to an increased risk of developing
+PD4. Additionally, proteomic studies have revealed altered protein levels in
+PD brain tissue, including an increased abundance of alpha-synuclein,which plays a central role in Lewy body and Lewy neurites formation as ahallmark pathological feature of PD
+5. Finally, prior metabolomic studies in
+PD have identi ﬁed changes in disease-relevant cellular pathways, particu-
+larly in those related to energy metabolism6.
+Despite these advances, omics-b ased biomarker discovery for PD
+is still hampered by several limita tions and challenges. While high
+cross-validated accuracies for PD d iagnosis have been reported for
+some of the published omics signatures7,8, the training and test set
+sizes used to evaluate the corresponding machine learning (ML)models are often small. In addition, the signatures for the most pre-dictive models have often been derived from tissues or body ﬂuids
+with limited practical accessibility, e.g., cerebrospinal ﬂuid (CSF),
+which requires a lumbar puncture for sample collection. A further
+common limitation of the multidimensional patterns in PD mole-
+cular biomarker signatures is that they can emerge as black-boxmodels that are not fully intuitive to interpret
+9. Considering this and
+the limited sample sizes in many prior studies, more research isneeded to ﬁnd robust and interpretable PD-speci ﬁcm o l e c u l a r
+signatures.
+To contribute to the ongoing research efforts in this ﬁeld, we have
+conducted a cohort-wide blood plasma metabolic pro ﬁling of 549 PD
+patients and 590 controls in the Luxembourg Parkinson ’sS t u d y
+(LuxPARK
+10) combined with subsequent statistical and bioinformatics
+pathway and network analyses. As a distinctive characteristic of other stu-
+dies focusing on PD patients who have already received dopaminergic
+medication, we included biospecimens from all 56 untreated de novopatients available in the cohort. This subset of samples was used to distin-guish between treatment-associated an d treatment-independent metabolite
+changes.
+To mechanistically interpret PD-associated alterations in the context of
+cellular networks and exploit prior in formation from complementary omics
+data, we have mapped the metabolomics statistics onto a dedicated genome-scale enzyme-metabolite network together with transcriptomics data froman independent PD case/control study. Through the integrated analysis ofthese omics data, we identi ﬁed coordinated sub-network alterations, par-
+ticularly in xanthine metabolism, which displayed regulatory consistent
+changes between metabolite abunda nces and the expression of enzyme-
+encoding genes. These consistent sub-network changes may help to pave theway towards more robust blood-based biomarker signatures and providenew insights into coordinated, disease-associated cellular process altera-t i o n si nP D .Results
+When studying metabolite abundance changes in de novo PD patientscompared to controls and in all PD patients (including subjects who hadreceived dopaminergic treatments) vs. controls, we identi ﬁed several
+metabolites with a statistically signi ﬁcant alteration (adjusted pvalue <=
+0.05). Figure 1presents a volcano plot for the de novo PD vs. control
+comparison, highlighting the metabolites with both high statistical sig-niﬁcance and pronounced effect sizes. Table 1shows the top 25 most sig-
+niﬁcant metabolites in de novo PD vs. controls, and Table 2shows the
+metabolites with shared signi ﬁcance in de novo PD vs. controls and all PD
+vs. controls (complete ranking tables of all signi ﬁcant metabolites for the
+individual comparisons are provided in Supplementary Tables 5 and 6;rankings for treated patients only are provided in Supplementary Table 7).The metabolites with shared signi ﬁc a n c ea l s od i s p l a yt h es a m ed i r e c t i o no f
+the change, i.e., the signs of the log fol d-changes are identical. We grouped
+the signi ﬁcantly altered metabolites by shared functional categories to dis-
+cuss them in the context of the prior literature on molecular mechanismsin PD.
+Xanthine metabolites (inosine, xanthosine, xanthine,
+hypoxanthine)
+Among the signi ﬁcant abundance alteratio ns, xanthine metabolites
+stand out with a shared increased abundance in de novo PD vs.control for four representatives of this group: inosine, xanthosine,xanthine, and hypoxanthine (highlighted by the star symbol in theﬁrst column of Table 1). While these changes are highly signi ﬁcant in
+de novo patients, they are not obser ved when comparing only treated
+PD patients vs. controls after multip le hypothesis testing adjustments
+(see Supplementary Table 7). Since the effect of dopaminergic med-i c a t i o no nb l o o dm e t a b o l i t el e v e l si nt h eg r o u po ft r e a t e dp a t i e n t scannot be removed entirely by the conducted ﬁltering and statistical
+adjustments, a higher measurement variation in this group as com-pared to the de novo PD subgroup is in line with our expectations.However, the difference between treatment-naïve and treated
+Fig. 1 | Volcano plot for the differentially abundant metabolites. Volcano plot for
+the differentially abundant metabolites when comparing de novo PD vs. control
+blood plasma samples. Metabolites displaying abundance changes with high effectsize (absolute log. fold-change effect size (abs(logFC)) > 0.3) and high signi ﬁcance
+(adjusted pvalue <= 0.05) are highlighted in green, metabolites with only a high
+effect size are shown in orange, and metabolites with only a high signi ﬁcance in red.https://doi.org/10.1038/s41531-024-00671-9 Article
+npj Parkinson ’s Disease |           (2024) 10:68 2patients may also re ﬂect the later disease stage of the latter group (see
+Table 3).
+Interestingly, xanthine metabolites have already been implicated
+in PD through multiple mechanism s. One of the proposed functionall i n k st om o l e c u l a rh a l l m a r k so fP Di st h eg e n e r a t i o no fr e a c t i v e
+oxygen species by xanthine oxidase (also known as xanthine dehy-drogenase or XDH). When XDH catalyzes the conversion ofhypoxanthine to xanthine, the reactive oxygen species (ROS) O
+2-and
+H2O2are generated11. ROS can induce oxidative stress, which may
+damage cellular components such as mitochondria and dopaminergicneurons. In PD, this can contribu te to the loss of dopaminergic
+neurons in the substantia nigra as one of the main pathological
+characteristics of the disease. Indeed, increased levels of XDH in theblood of PD patients have previously been reported
+12,m a t c h i n go u r
+observed metabolite changes in th is pathway. Changes in oxidative
+stress signaling in PD are further evidenced by the signi ﬁcant PD-
+associated decreased abundance of gamma-glutamylalanine (see
+Table 2), which is involved in the metabolism of glutathione, an
+antioxidant that is essential for cellular protection against oxidative
+damage13.
+In addition to this association with ROS generation, xanthine and
+some of its derivatives, including paraxanthine, theophylline, and caffeine,have been linked to neuroprotective mechanisms in PD. In an MPTP (1-methyl-4-phenyl-1,2,3,6-tetrahydropyridine) mouse model of PD, Xu etal. demonstrated that the administration of paraxanthine, theophylline,and caffeine signi ﬁcantly attenuated MPTP-induced dopamine depletion,
+as reported in their study
+14. For caffeine in particular, several epidemio-
+logical studies have also consistently shown a signi ﬁcant negative corre-
+lation between its consumption and a PD diagnosis15, although this may
+be explained by inverse causation (e.g., reduced caffeine consumption due
+its effects as central nervous system stimulant, potentially worsening PD
+symptoms). Furthermore, the substituted xanthine molecule has beenused as a scaffold to synthesize new drug-like compounds as a non-dopaminergic strategy for neuroprotection
+16. The main proposed
+mechanisms for the protective actions of xanthines and caffeine in thiscontext include the antagonism of the adenosine A2A receptor(ADORA2A) and inhibition of monoamine oxidase type B (MAO-B).Indeed, A2A is targeted by the drug istradefylline, a xanthine derivativewith a particularly long half-life, which has been approved by the Food andDrug Administration (FDA) as an add-on treatment to levodopa (L-DOPA) for Parkinson ’s patients with motor ﬂuctuations
+17. For the second
+proposed xanthine target, MAO-B, pharmacological inhibitors belong to
+theﬁrst drugs developed for treating PD18.
+In summary, multiple different pathways have been proposed to link
+alterations in xanthine metabolis m with pathological or protective
+mechanisms in PD. To better understand the speci ﬁc processes involved in
+xanthine abundance alterations in PD and identify the potential enzymesinvolved, we have further investigated xanthine metabolism as part of a jointnetwork analysis of the metabolomics data and independent PD case/control transcriptomics data (see section on “Integrative network analysis of
+metabolomic and transcriptomic changes in PD ”).
+Table 2 | Shared signi ﬁcant blood plasma metabolites
+Metabolite LogFC (DPD) Pvalue (DPD) Adj. Pvalue (DPD) LogFC (APD) Pvalue (APD) Adj. Pvalue (APD)
+Inosine*1.79 4.44E-06 3.19E-03 0.63 3.57E-03 3.71E-02
+Hypoxanthine*0.85 2.00E-04 2.87E-02 0.45 2.26E-04 5.92E-03
+Gamma-glutamylalanine −0.29 0.000323 0.032301 −0.13 4.71E-03 4.44E-02
+Benzoylcarnitine −0.34 3.64E-04 3.23E-02 −0.25 9.15E-06 7.76E-04
+Retinal 0.30 3.73E-04 3.23E-02 0.13 3.30E-03 3.48E-02
+4-hydroxycoumarin −0.57 5.92E-04 4.48E-02 −0.30 1.10E-03 1.62E-02
+Tartronate (hydroxymalonate) −0.27 7.12E-04 4.89E-02 −0.18 3.45E-04 7.65E-03
+X-12812 −0.53 7.14E-04 4.89E-02 −0.28 1.28E-03 1.80E-02
+Shared signi ﬁcant blood plasma metabolites in the comparisons of de novo PD (DPD) patients vs. controls ( ﬁrst three columns) and all PD (APD) patients vs. controls (adjusted for dopaminergic treatment;
+last three columns). The columns show the metabolite names (Metabolite), the log fold-change between patients vs. controls (logFC), the nominal pvalue signi ﬁcance ( Pvalue) and the adjusted pvalue (adj.
+Pvalue). Metabolites involved in xanthine metabolism have been highlighted by the star symbol ( *). In addition to the column headers highlighted in bold, the log fold-changes are shown in bold for
+metabolites with increased abundance in PD, and in regular font for metabolites with decreased abundance.Table 1 | Top 25 most signi ﬁcantly differentially abundant
+blood plasma metabolites
+Metabolite LogFC Pvalue Adj. Pvalue
+Oxazepam (sedative, likely medication effect) 0.12 1.83E-07 2.63E-04
+Inosine*1.79 4.44E-06 3.19E-03
+X-15674 −0.54 3.12E-05 1.49E-02
+3-methylcytidine −0.37 4.49E-05 1.61E-02
+2-butenoylglycine 0.50 8.18E-05 2.14E-02
+Xanthosine*0.26 1.17E-04 2.14E-02
+Oxalate (ethanedioate) −0.22 1.19E-04 2.14E-02
+21-hydroxypregnenolone disulfate 0.32 1.19E-04 2.14E-02
+Butyrate/isobutyrate 0.43 1.86E-04 2.87E-02
+Hypoxanthine*0.85 2.00E-04 2.87E-02
+X-24494 0.43 2.23E-04 2.91E-02
+Gamma-glutamylalanine −0.29 3.23E-04 3.23E-02
+4-hydroxyphenylacetate 0.42 3.59E-04 3.23E-02
+Benzoylcarnitine −0.34 3.64E-04 3.23E-02
+Retinal 0.30 3.73E-04 3.23E-02
+Cysteine s-sulfate 0.16 3.79E-04 3.23E-02
+Xanthine*0.29 3.82E-04 3.23E-02
+2-hydroxy-4-(methylthio)butanoic acid 0.20 4.93E-04 3.94E-02
+4-hydroxycoumarin (anticoagulant
+medication)−0.57 5.92E-04 4.48E-02
+Tartronate (hydroxymalonate) −0.27 7.12E-04 4.89E-02
+X-12812 −0.53 7.14E-04 4.89E-02
+Heptanoate (7:0) 0.34 9.33E-04 5.86E-02
+3-carboxy-4-methyl-5-pentyl-2-fur-
+anpropionate (3-CMPFP)−0.18 9.41E-04 5.86E-02
+3-hydroxybutyroylglycine 0.30 9.79E-04 5.86E-02
+Gamma-glutamylcitrulline −0.22 1.02E-03 5.87E-02
+The top 25 most signi ﬁcantly differentially abundant blood plasma metabolites in the de novo PD vs.
+control comparison. Shown is the metabolite name (column 1), the log fold-change between denovo PD vs. control (column 2), the nominal pvalue signi ﬁcance ( Pvalue) and the adjusted pvalue
+(adj. Pvalue). Compounds re ﬂecting likely medication effects for PD comorbidities have been
+indicated in brackets behind the metabolite name. Metabolites involved in xanthine metabolismhave been highlighted by the star symbol ( *). In addition to the column headers highlighted in bold,
+the log fold-changes are shown in bold for metabolites with increased abundance in de novo PD,
+and in regular font for metabolites with decreased abundance.https://doi.org/10.1038/s41531-024-00671-9 Article
+npj Parkinson ’s Disease |           (2024) 10:68 3Catecholamine metabolism (retinal, ALDH1A1)
+Besides the xanthines, the carotenoid retinal was the only other
+metabolite exhibiting a signi ﬁcantly higher abundance in both de
+novo PD vs. controls and all PD patie nts vs. controls. Retinal is the
+oxidized form of retinol, most well-known as a constituent of visualpigments. Interestingly, the en zyme aldehyde dehydrogenase 1A1
+(ALDH1A1), responsible for converting retinal into retinoic acid, hasalready been implicated in the cat echolaldehyde hypothesis of PD
+19,20.
+This hypothesis proposes that long-term increased build-up ofDOPAL (3,4-Dihydroxyphenylacetal dehyde), a toxic catecholalde-
+hyde metabolite of dopamine which is converted by ALDH1A1 into
+its non-toxic form DOPAC (3,4-Dihy droxyphenylacetic acid), plays a
+pathogenic role in the development of the disease. It suggests that
+DOPAL contributes to the damage to neurons in the substantia nigra
+pars compacta , resulting in the typical motor symptoms associated
+with PD. Consistent with the increased levels of retinal in PD, wedetected a matching PD-associated decrease in the gene expression ofALDH1A1 in the studied PD case/control transcriptomics data
+(adjusted pvalue = 5.65E-04), which could result in reduced con-
+version of retinal to retinoic acid.
+Metabolites associated with nutrition and the microbiome (oxa-
+late, tartronate, 4-hydroxyphenylacetate, 3-CMPFP, 3-
+methylcytidine)
+The identi ﬁed metabolites with signi ﬁcant PD-associations include multiple
+compounds previously linked to microbiome composition or diet. Amongthese compounds, oxalate is a naturally occurring substance present in large
+quantities in many plants but only found in very low concentrations inanimal tissues
+21. It may therefore serve as an in dicator for a predominantly
+plant-based diet. It displayed a signi ﬁcantly decreased abundance in de novo
+PD vs. controls (adj. pvalue = 0.021), whereas in the all-PD patients vs.
+control comparison, the decrease was only close to the signi ﬁcance
+threshold (adj. pvalue = 0.051). As previous st udies suggested that adher-
+ence to plant-based diets, which are typically high in antioxidants and anti-inﬂammatory compounds, may be asso ciated with a reduced risk of
+developing PD
+22or improved motor performance23and slower disease
+progression24, oxalate may warrant further stu dy as marker for a plant-based
+diet and potential associated bene ﬁcial effects.
+A further metabolite with known dietary associations is tar-
+tronate, which displayed a signi ﬁcantly reduced abundance in both allPD patients vs. controls (adj. pvalue = 7.65E-03) and de novo PD vs.
+controls (adj. pvalue = 0.049). Tartronate is a monosaccharide that
+has been detected in several natural foods, including sourdough andground cherries, among others
+25, and linked with the presence of
+various bacterial species in the human microbiome26.W h i l ep o t e n t i a l
+mechanisms linking tartronate to PD are still unknown, signi ﬁcant
+decreased serological abundances in early-stage PD have already beenreported for an independent cohort for both tartronate and oxalate
+27,
+matching with the ﬁndings of our study.
+Among the diet-associated metabolites with increased abundance,
+4-hydroxyphenylacetate (4-HP) displayed signi ﬁcance speci ﬁco n l yt ot h e
+de novo PD vs. control comparison (adj. pvalue = 0.032). 4-HP can be
+found naturally in human tissues and bio ﬂuids and in several natural foods,
+and it is also produced by m ultiple microbial species25. However, since 4-HP
+does not provide a suf ﬁciently speci ﬁc marker for individual food items or
+bacterial species, further research is needed to link the observed increase inde novo PD to speci ﬁc mechanisms.
+Next, the metabolite 3-carboxy-4-me thyl-5-pentyl-2- furanpropionate
+(3-CMPFP), which showed a signi ﬁcantly decreased abundance in all PD
+patients compared to controls (adj. pvalue = 1.34E-04) and a nominally
+signiﬁcant decrease in de novo PD vs. control ( pvalue = 9.41E-04; adj. p
+value = 5.86E-02), is a furan fatty acid previously suggested as a marker forﬁsh oil intake
+28, which could indicate a diet with high levels of omega-3 fatty
+acids. The metabolite was also report ed to act as a protein-bound uremic
+toxin and interact with reactive oxygen species (ROS), resulting in cellular
+damage28. Thus, the decrease of 3-CMPFP in PD may be linked to disease-
+relevant processes through indirect di etary associations or direct mechan-
+istic pathways.
+Finally, the metabolite 3-methylcytidine (m3C), which was sig-
+niﬁcantly decreased in de novo PD vs. controls (adj. pvalue = 0.016;
+with a similar trend in the all PD vs. control comparison, but nostatistical signi ﬁcance, adj. pvalue = 0.18), is a pyrimidine nucleoside
+previously proposed as a urinary biomarker of whole grain intake
+29.I n
+tRNA molecules, m3C is a frequently observed epigenetic
+modi ﬁcation30and a lack of m3C32modi ﬁc a t i o n si nt R N A sh a sb e e n
+shown to impair cytoplasmic an d mitochondrial translation31. Fur-
+thermore, signi ﬁcant differences in m3Cm o d i ﬁcations have been
+reported in prefrontal lobe cortex samples of Alzheimer ’sd i s e a s e
+patients32, and further studies suggeste d functional links between
+defects in tRNA modi ﬁcations and neurological disease33.Table 3 | Tabular overview of baseline subject characteristics
+PD De novo PD Controls Pvalue (PD vs. controls) Pvalue (de novo PD vs.
+controls)
+N(female/male) 549 (189/360) 56 (14/42) 590 (206/384) 0.9 0.14
+Age at assessment 66.0 ± 10.7 67.2 ± 11.4 61.7 ± 11.7 2.2E-10 8.2E-4
+MDS-UPDRS III 32.8 ± 14.6 32.3 ± 14.2 3.69 ± 5.0 < 2.2E-16 < 2.2E-16
+H&Y scale 2.1 ± 0.7 1.8 ± 0.57 –– –
+Disease duration since initial symptom 12.3 ± 7.3 6.68 ± 5.4 –– –
+BMI (kg/m2) 27.5 ± 4.8 28.2 ± 4.8 27.6 ± 4.8 0.67 0.4
+MoCA 25.4 ± 3.2 24.9 ± 3.3 26.9 ± 2.6 < 2.2E-16 4.7E-7
+SCOPA-AUT 14.4 ± 8.0 8.9 ± 5.3 7.3 ± 5.6 < 2.2E-16 0.052
+Diabetes (yes/no) 46/503
+8.4%/91.6%4/52
+7.1%/92.9%48/542
+8.1%/91.9%0.91 1.0
+Hypercholesterol-emia (yes/no) 210/339
+38.3%/61.7%27/29
+48.2%/51.8%219/371
+37.1%/62.9%0.71 0.11
+History of cancer (yes/no) 60/489
+10.9%/89.1%4/52
+7.1%/92.9%49/541
+8.3%/91.7%0.16 1.0
+Tabular overview of baseline subject characteristics for Parkinson ’s disease (PD) patients and controls from the Luxembourg Parkinson ’s Study ( MDS-UPDRS Movement Disorder Society-Uni ﬁed
+Parkinson ’s Disease Rating Scale, H&Y scale Hoehn and Yahr scale, BMIbody mass index, MoCA Montreal Cognitive Assessment, SCOPA-AUT Scales for Outcomes in Parkinson ’s disease-Autonomic).
+The study groups (PD =all PD patients, de novo PD =PD patients who have not yet been treated with dopaminergic medication; Controls =healthy control subjects) and the compared characteristics are
+both highlighted in bold.https://doi.org/10.1038/s41531-024-00671-9 Article
+npj Parkinson ’s Disease |           (2024) 10:68 4Metabolites involved in fatty acid metabolism and β-oxidation
+(benzoylcarnitine, butyrate, 2-butenoylglycine)
+Among the signi ﬁcant metabolites, we identi ﬁed multiple compounds
+involved in fatty acid metabol ism, particularly in the β-oxidation pathway.
+One of the most pronounced changes was observed for an acylcarnitine,
+benzoylcarnitine, showing a shared decreased abundance in de novo PD vs.controls and all PD patients vs. controls (see Table 2) .A l t e r a t i o n si na c y l -
+carnitine metabolism have been associ ated with a dysregulation of mito-
+chondrial β-oxidation in PD
+34.β-oxidation breaks down fatty acids into acetyl
+CoA (coenzyme A), which can then enter the TCA (tricarboxylic acid) cycleto generate ATP, ful ﬁlling cellular energy needs. Acylcarnitines, such as
+benzoylcarnitine, are used as carriers to transport activated long-chain fattyacids into the mitochondria for β-oxidation. In PD, increased long-chain fatty
+acids and decreased long-chain acylcar nitines have been observed, suggesting
+an impairment of mitochondrial β-oxidation
+34. Interestingly, the drug zoni-
+samide, which has been used to treat resting tremor and motor ﬂuctuations in
+PD, was previously shown to increase the abundance of multiple long-chainacylcarnitines associat ed with improved fatty acid β-oxidation
+35.
+A further metabolite a ssociated with fatty acid β-oxidation is butyrate, a
+short-chain fatty acid formed by bacter ial fermentation of carbohydrates,
+e.g., from dietary ﬁber, in the intestine25. Butyrate is found ubiquitously in
+plant oils and animal fat and is contained in many dairy food products25.
+Here, a signi ﬁcant increase in butyrate, or, respectively, its isomer iso-
+butyrate, was observed in de novo PD vs. control but not when comparingtreated PD to controls. Differences in butyrate levels may result fromchanges in its production or utilization. For example, differences in diet or
+medicine intake can in ﬂuence gut bacterial butyrate production, and the gut
+microbiome in PD patients has been reported to have a reduced fraction ofbutyrate-producing bacteria in multiple studies
+36–42. Similar to the acylcar-
+nitines, butyrate is involved in fatty ac id ß-oxidation, where it serves as an
+intermediate metabolite. Its increased abundance may therefore indicatedysfunctional β-oxidation in PD. However, butyrate has also been proposed
+to inﬂuence PD symptoms through a variety of other mechanisms. For
+instance, sodium butyrate intake was r eported to reduce PD-related motor
+symptoms via mechanisms associat ed with gut microbial dysbiosis
+regulation
+43, intestinal barrier protection through the activation of G-
+protein-coupled receptor 109 A (GPR109A)44, and stimulation of glucagon-
+like peptide-145. In contrast to these proposed protective effects, a study in a
+mouse model of neurodegeneration u sing the toxin MPTP reported wor-
+sening effects of sodium butyrate administration on motor function, asso-ciated with upregulation of pro-in ﬂammatory cytokine expression and
+increased colonic in ﬂammation
+46. Overall, the potential effects of butyrate
+on gut dysfunction and in ﬂammation warrant further investigation.
+Finally, as a further change associated with fatty acid ß-oxidation,
+2-butenoylglycine was signi ﬁcantly increased in de novo PD vs. controls.
+This metabolite belongs to the class of acylglycines, which can be producedthrough glycine conjugation of acyl- CoA esters. Glycine conjugation in
+mammals is often used as a detoxi ﬁcation method to promote the excretion
+of carboxylic acids, and the increase of crotonylglycine may therefore re ﬂect
+the response to a pathological accumulation of crotonyl-CoA. Similar tobutyrate, crotonyl-CoA is an intermedi ate in fatty acid ß-oxidation, and the
+alterations in crotonylg lycine match with previously reported changes in
+fatty acid β-oxidation in PD
+47. Moreover, in anaerobic bacteria, crotonyl-
+C o As e r v e sa sa ni n t e r m e d i a t ef o rb u t y r a t ep r o d u c t i o n48, and the shared
+increase in crotonylglycine and butyrate may therefore re ﬂect the same
+pathway alteration.
+In summary, multiple observed metabolite abundance changes point
+to PD-associated alterations in fatty acid metabolism, speci ﬁcally in fatty
+acid β-oxidation, where a dominant increase of intermediate metabolites
+matches previous independent reports of incomplete β-oxidation in PD34,47.
+Metabolites associated with non-dopaminergic medication
+While the comparison of de novo patien ts vs. controls reveals PD-related
+metabolite changes that are independ ent of dopaminergic treatments, de
+novo patients may still take other non-dopaminergic medications that canbe detected in the metabolomics pro ﬁle. We therefore investigated the
+metabolite changes in de novo patients v s. controls for potential effects of
+non-dopaminergic drugs and identi ﬁed two signi ﬁcant drug-related
+metabolites: oxazepam and 4-hydroxycoumarin (see Table 1). Oxazepam
+is the active ingredient in many sedatives and is used to treat anxiety and
+depression, which commonly occurs in PD49.W h i l es u f ﬁciently detailed
+medication data for participants i n the cohort was not available to con ﬁrm
+the intake of corresponding drugs, tr eatment with sedatives is the most
+plausible explanation for the signi ﬁcantly increased oxazepam abundance
+observed in de novo PD. By contrast, 4-hydroxycoumarin was signi ﬁcantly
+reduced in de novo PD. This compound serves as an anticoagulant forconditions caused by a blood clot
+50. However, coumarins also have anti-
+inﬂammatory, antioxidant and neuroprotective actions51with potential
+relevance for PD. In particular, coumarins can inhibit monoamine oxidase(MAO) enzymes
+52, which are well-established PD drug targets (see the
+section above on the actions of xanthines on MAO-B). Thus, potential
+protective actions of 4-hydroxycoumarin resulting in a preferential detec-tion of this compound in contro ls may merit further study.
+Altered metabolites with unknown identity
+Among the top 25 most signi ﬁcant metabolites in the de novo PD vs.
+controls comparison, the chemical id entity could not be resolved for one
+metabolite with an increased abund ance in PD (metabolite ID: X-24494)
+and two metabolites with a decreased abundance (metabolite IDs: X-15674,X-12812; the latter also showed a signi ﬁcant decrease in all PD patients vs.
+controls). Possible reasons for this inc lude the lack of a reference standard
+for these molecules or the chemical interference of other metabolites. As the
+libraries and annotations by the meta bolomics service provider Metabolon
+and the reference databases are continuously updated, we will complementthe current annotations with every signi ﬁcant update in the future and
+publish relevant new ﬁndings on the GitLab repository associated with this
+study (see section “Data availability ”).
+Pathway enrichment analysis of metabolite changes in PD
+While the analysis of individual metabolites already revealed multiple sig-
+niﬁcant PD-associated changes in meta bolites with similar functions, we
+performed further complementary pat hway analyses to identify and inter-
+pret coordinated alterations in the data. For this purpose, we tested the over-
+representation of differentially ab undant metabolites in de novo PD vs.
+controls in pathways from the KEGG (Kyoto Encyclopedia of Genes andGenomes) database
+53(RRID:SCR_012773) and metabolite sets representing
+chemical structure classes in the software MetaboAnalyst54
+(RRID:SCR_015539), using the entire s et of named metabolites as back-
+ground reference (see Supplementary Table 8) and focusing on the meta-bolite sets with at least 5 metabolites.
+For both databases only nominally signi ﬁcant pathways were identi-
+ﬁed, including “Fatty Acids and Conjugates ”(pvalue = 1.9E-3, adj. p
+value = 0.25), and “Fatty Acyls ”(pvalue = 4.96E-02, adj. pvalue = 1) for the
+chemical structure classes (see Fig. 2and Supplementary Table 9), and
+“Ubiquinone and other terpenoid-quinone biosynthesis ”(pvalue = 2.26E-
+02, adj. pvalue = 1), “Retinol metabolism ”(pvalue = 2.26E-02, adj. p
+value = 1), and “Tyrosine metabolism ”(pvalue = 4.96E-02, adj. pvalue = 1)
+for the KEGG database (see Fig. 3and Supplementary Table 10).
+Changes in “Fatty Acids and Conjugates ”and “Fatty Acyls ”match with
+the statistically signi ﬁcant alterations in individual metabolites in fatty acid
+metabolism already discussed (see section “Fatty acid metabolism /
+β-oxidation ”). A suppression of mitochondrial fatty acid ß-oxidation in an
+early stage of PD (Hoehn and Yahr stage I) , characterized by decreased levels
+of long-chain acylcarnitine, has been described before and proposed as apotential diagnostic biomarker for PD
+34. While the mechanism behind this
+dysregulation is still unclear, an overexpression of a mutant form of the gene
+encoding alpha-synuclei n (A53T-SNCA) linked to familial cases of PD has
+been shown to increase triacylglycerol levels and associated with increasedactivity of acyl-CoA synthetase, which catalyzes fatty acyl-CoA formation asa substrate for β-oxidation
+47.https://doi.org/10.1038/s41531-024-00671-9 Article
+npj Parkinson ’s Disease |           (2024) 10:68 5

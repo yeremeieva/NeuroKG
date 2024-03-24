@@ -1,0 +1,717 @@
+Complementary Therapies in Clinical Practice 51 (2023) 101720
+Available online 7 January 2023
+1744-3881/© 2023 Published by Elsevier Ltd.Combinations of physical activity, screen time and sleep, and their 
+association with subjective wellbeing in children 
+Jiangang Suna, Xiaoran Jianga, Shanshan Weib,* 
+aWest Anhui University, Lu’an, China 
+bShandong First Medical University, Tai’an, China   
+ARTICLE INFO  
+Keywords: 
+Moderate to vigorous physical activity 
+Screen time 
+Sleep 
+Subjective wellbeing 
+Child ABSTRACT  
+Background: Subjective wellbeing is an important indicator of health outcomes in children. 24-hour movement 
+behaviours (i.e., physical activity, sedentary behaviour, sleep and their combination), a set of modifiable lifestyle 
+behaviours, have been demonstrated to be associated with subjective wellbeing. Thus, the aim of this study was 
+to investigate the relationship between the compliance of the 24-h movement guidelines and subjective well-
+being in a sample of Chinese children. 
+Methods: Cross-sectional data from primary and secondary school students in Anhui Province, China were used 
+for the analysis. A total of 1098 study participants (mean age: 11.6 years, body mass index: 19.7 ±2.9) were 
+included, of which 51.5% were boys. Physical activity, screen time, sleep, and subjective wellbeing were 
+measured using validated self-reported questionnaires. Multivariable logistic regression analysis was used to 
+assess the relationships between the compliance of different combinations of 24-h movement guidelines and 
+subjective wellbeing in participants. 
+Results: The compliance of (i.e., physical activity recommendations, screen time recommendations and sleep 
+recommendations) 24-h movement guidelines was associated with better subjective wellbeing (OR: 2.09; 95CI%: 
+1.01 –5.90) compared to the compliance of none of the guidelines. Furthermore, there was a dose –response 
+relationship between the number of guidelines met (3 F2 F1 F0) and improved subjective wellbeing (p D
+0.05). Despite some exceptions, there was a significant relationship between the compliance of different com-
+binations of the guidelines and better subjective wellbeing. 
+Conclusion: This study found that the compliance of 24-h movement guidelines was associated with greater 
+subjective wellbeing in Chinese children.   
+1.Introduction 
+Globally there are more than 1.3 billion children, representing 16% 
+of the whole world population [1,2]. Although childhood and adoles -
+cence are considered as critical stages of healthy development, 6.64 
+million children die every year due to transport, self-harm, interpersonal 
+violence and other factors [3], resulting into more children experiencing 
+a variety of diseases and injuries [4]. There has been a remarkable 
+improvement in the overall health of children in recent decades, but the 
+burden of nonfatal health losses has increased over the past decades [4]. 
+Therefore, mental health problems are a major global health burden in 
+children [5]. Substantial evidence illustrates that mental health prob-
+lems during childhood and adolescence can affect their future physical 
+and mental health [6–10]. Subjective wellbeing (SWB) reflects the positive aspects of mental health, and therefore SWB is an important 
+indicator of mental health research [11]. 
+Previous studies have demonstrated that higher levels of depression 
+and anxiety are associated with lower SWB [12–14]. Moreover, higher 
+SWB is associated with enhanced immune status, as well as reduced 
+inflammation, musculoskeletal pain, and risk of mortality [15–17]. 
+Therefore, SWB is an important element related to overall health. Pre-
+vious research has illustrated that healthy movement behaviours are 
+associated with SWB in children [18,19], and evidence on the associa -
+tion between movement behaviours and SWB in children is increasingly 
+accumulating [20–22]. Movement behaviour compositions, physical 
+activity (PA), sedentary behaviour (SB) and sleep, are independently 
+associated with SWB. Previous evidence demonstrates the benefits of 
+sufficient PA [23,24], limited SB [25,26], and adequate sleep [27] on 
+*Corresponding author. 
+E-mail addresses: sunjiangang0633@163.com (J. Sun), xiangranjiangdoc@126.com (X. Jiang), sjgsport@163.com (S. Wei).  
+Contents lists available at ScienceDirect 
+Complementary Therapies in Clinical Practice 
+u{�~zkw! s{yo| kro>! ÐÐÐ1ow�o�t o~1m{y2w{m k�o2m�m|!
+https://doi.org/10.1016/j.ctcp.2023.101720 
+Received 8 December 2022; Received in revised form 3 January 2023; Accepted 5 January 2023   Complementary Therapies in Clinical Practice 51 (2023) 101720
+2physical and mental health. Emerging evidence indicates that all 24-h 
+movement behaviours ’ compositions should be considered concur -
+rently [28], because studying one movement behaviour in isolation 
+would neglect the impact of other movement behaviours on health 
+outcomes [29]. Consequently, Canada launched the first evidence-based 
+24-h movement guidelines in 2016 [30], which was subsequently fol-
+lowed by Australia, South Africa, and other countries [31]. In these 
+guidelines, children are recommended to engage in at least 60 min of 
+moderate to vigorous PA per day, limit recreational screen time (ST) to 
+less than 2 h per day, and maintain a sleep duration of 9–11 h (5–13 
+years old) or 8–10 h (14–17 years old) [30]. However, previous studies 
+have reported a low prevalence of the compliance of 24-h movement 
+guidelines among children [32–34]. Meanwhile, due to the impact of the 
+COVD-19 pandemic, the prevalence of compliance of the guidelines is 
+now significantly lower than that before the outbreak [35–37]. 
+Recently, there has been a growing interest in the relationship be-
+tween the compliance of 24-h movement guidelines and SWB in chil-
+dren. A previous systematic review found that, in children, greater PA 
+was associated with higher SWB, while more SB was associated with 
+lower SWB [38]. Furthermore, a relationship between longer sleep 
+duration and higher SWB was reported in a systematic review [27]. 
+However, few studies have investigated the relationship between the 
+compliance of 24-h movement guidelines and SWB in children since the 
+COVID-19 pandemic. One study from Switzerland investigated the 
+relationship between the compliance of 24-h movement guidelines and 
+SWB in 2534 children aged 5–16 years, and found that participants who 
+met the 24-h movement guidelines had higher levels of SWB [42]. 
+Moreover, even meeting any one or a combination of any two recom -
+mendations of the guidelines was associated with higher SWB compared 
+to meeting none of the 24-h movement guidelines [42,43 ]. Furthermore, 
+there is also a lack of demographically representative studies investi -
+gating the relationship between the compliance of 24-h movement 
+guidelines and SWB. 
+Consequently, the present study aimed to explore the association 
+between the compliance of 24-h movement guidelines and SWB in a 
+sample of Chinese children. 
+2.Methods 
+2.1. Study design and study participants 
+This cross-sectional survey was conducted in Anhui Province, China 
+in 2021. This survey aimed to understand children ’s lifestyle behaviours 
+and health, where study participants were recruited via a convenience 
+sampling strategy. Participants completed an anonymous online ques-
+tionnaire in the computer rooms in their schools. More than 2000 stu-
+dents were invited to take part in this study. Finally, 1098 school-aged 
+students were included in this study after deleting invalid question -
+naires. This survey study was approved by the West Anhui University 
+and permission to conduct the study survey was obtained from the 
+teachers and principals of each participating schools. All participants 
+and their parents or guardians provided formal signed consent. 
+2.2. Measures 
+2.2.1. Dependent variables 
+SWB was measured using the Chinese version of the World Health 
+Organization Five-Item Well-being Index (WHO-5) [37]. Participants 
+reported the presence of positive feelings in the last 2 weeks on a six- 
+point scale (5 all the time, 0 never). The possible total score of 
+the WHO-5 ranges from 0 to 25, and a higher score indicates better 
+subjective wellbeing. Psychometric properties of the Chinese version of 
+WHO-5 have been validated among Chinese children [38, 39]. 
+2.2.2. Independent variables 
+Sleep duration was measured using the Pittsburgh sleep quality index (PSQI), the question is that “How many hours did you actually 
+sleep at night in the past month? ” The Chinese version of the PSQI has 
+been validated among Chinese children [44]. ST was measured using the 
+relevant items from the Health Behavior in School-aged Children (HBSC) 
+survey, including the time spent on various screen-based activities (i.e., 
+watching TV, playing games with computers, chatting online with 
+computers, etc.) in the past seven days. This questionnaire has been 
+applied by many previous studies to investigate screen time in Chinese 
+children [45,46], with acceptable reliability and validity. The average 
+daily ST was calculated using the following formula: ([sum of ST in 
+weekdays ×5] [sum of weekend ST ×2])/7 [47]. MVPA was also 
+measured using the relevant items from the HBSC survey, which asked 
+about the number of days that included at least 60 min of MVPA in the 
+past week. Items measuring ST and MVPA have been shown to have 
+satisfactory reliability in Chinese children [48]. According to the Ca-
+nadian 24-h movement guidelines [49], reporting 7 days with more than 
+60 min of MVPA was considered “meeting the PA guidelines ”; no more 
+than 2 h of ST per day was considered “meeting the ST guidelines ”; sleep 
+duration for 9–11 h and 8–10 h in children (5–12 years) and adolescents 
+(13–17 years), respectively, was considered “meeting the sleep guide -
+lines ”. Taken together, the combined cases of meeting the three guide -
+lines can be determined as either the number of guidelines met (i.e., 
+none, one, two, or all three) or specific combinations of 24-h movement 
+guidelines met (i.e., none, MVPA only, ST only, sleep only, MVPA ST, 
+MVPA sleep, ST sleep, MVPA ST sleep). 
+2.2.3. Covariables 
+The following information was also gathered: sex (male/female), 
+age, self-reported height (cm) and weight (kg), and family socioeco -
+nomic status (SES). Self-reported height and weight were also required 
+for body mass index assessment according to China ’s norm-referenced 
+data [50]. Family SES was measured using the adapted version of the 
+MacArthur Scale of Subjective Social Status with a range from 0–10 
+[51]. 
+2.3. Statistical analysis 
+Descriptive statistics were used to report sample characteristics. 
+Generalised linear model analyses were used to examine the associations 
+between SWB and meeting a general combination (the number of 
+guidelines met, ranging from one to three) or specific combinations 
+(none/sleep only/screen only/MVPA only/sleep screen/sleep 
+MVPA/screen MVPA/all) of 24-h movement guidelines after con-
+trolling for age, sex, body mass index and family socioeconomic status. A 
+p-value lower than 0.05 was considered as statistically significant. 
+3.Results 
+3.1. Sample characteristics 
+Table 1 shows sample characteristics of participants in this study. In 
+total, 1098 school-attending students were included for the final anal-
+ysis. The percentages of boys and girls were 51.5% and 48.5%, respec -
+tively. The mean age of study participants was 11.6 ±0.8 years, and the 
+average BMI was 19.7 ±2.9 kg/m2. In terms of results for the compli -
+ance of the guidelines, the proportion of study participants meeting the 
+sleep guidelines was 23.3%, and 8.7% of study participants met the 
+screen guidelines. Approximately 59% of study participants met the 
+MVPA guidelines. Regarding the 24-h movement guidelines, only 1.5% 
+of study participants met the entire guidelines, and 30.0% of study 
+participants met none of the guidelines. The proportion of participants 
+who met the guidelines for sleep guidelines only, screen time guidelines 
+only, and MVPA guidelines only was 9.3%, 39.8%, and 2.0%, respec -
+tively. In terms of the compliance of different combinations of the 
+guidelines, the percentage of participants: meeting the sleep screen 
+time guidelines was 12.3%, meeting the sleep MVPA guidelines in J. Sun et al.                                                                                                                                                                                                                                      Complementary Therapies in Clinical Practice 51 (2023) 101720
+3combination was 0.2%, and meeting the screen time MVPA guidelines 
+in combination was 4.9%. In terms of the number of guidelines adhered 
+to, only 1.5% and 17.4% of study participants met three and two 
+guidelines, respectively, but 51.1% of study participants met only one 
+guideline. The mean score of SWB was 16.9 with a standard deviation of 
+5. 
+3.2. Association between the compliance of 24-h movement guidelines 
+and subjective wellbeing 
+The association of the number of movement behaviour guidelines 
+met with SWB among Chinese children is presented in Table 2. After 
+adjustment for a set of covariates, there was a significant association 
+between the number of 24-h movement guidelines met by study par-
+ticipants and better SWB, suggesting the more guidelines met, the higher 
+the scores of SWB (p D0.05). 
+In Table 3, the association of the compliance of different combina -
+tions of 24-h movement guidelines and SWB among Chinese children is 
+presented. After adjustment for covariates, the compliance of 24-h 
+movement guidelines was associated with improved SWB (OR: 3.01; 95% CI: 1.49 –5.42) compared to meeting none of the guidelines. The 
+compliance of the screen time and sleep guidelines in combination was 
+not significantly associated with better SWB. Furthermore, compared to 
+meeting none of the three guidelines, compliance of sleep guidelines 
+only, ST guidelines only, and PA guidelines only was positively associ -
+ated with better SWB compared to meeting none of the 24-h movement 
+guidelines. 
+4.Discussion 
+This study is the first cross-sectional study to investigate the rela-
+tionship between SWB and the compliance of PA, ST and sleep guide -
+lines in a sample of Chinese children. In the present study, the 
+compliance of 24-h movement guidelines was associated with higher 
+scores of SWB, and there appeared a dose –response relationship be-
+tween the number of guidelines met and scores of SWB. The results of 
+this study indicated that, in general, better movement behaviours pat-
+terns were significantly associated with enhanced SWB in children. 
+4.1. Comparison with previous studies 
+In terms of the compliance of 24-h movement behaviour guidelines, 
+the prevalence of the compliance with screen time and sleep guidelines 
+in insolation was similar to previous studies [52,53]. However, the 
+prevalence of compliance of PA guidelines in this study was higher than 
+that of other previous studies [52,53]. One possible explanation is that 
+children tend to overestimate days for PA participations using 
+self-reported questionnaires [54]. Several studies have investigated the 
+relationships of PA, ST and sleep with SWB in children before and after 
+the COVID-19 pandemic [27,38–41]. However, the majority of these 
+studies have investigated these three movement behaviours indepen -
+dently rather than integrating them on a whole continuum. To the au-
+thors ’ best knowledge, only one study by Peralta et al. has investigated 
+the relationship between the compliance of 24-h movement guidelines 
+and SWB in children [42]. Peralta et al. examined changes in compliance 
+with PA, ST and sleep guidelines in 2534 children during the COVID-19 
+pandemic in Switzerland, and explored the relationship between the 
+compliance of 24-h movement guidelines and SWB [42]. 
+Results of the study by Peralta et al. [42] showed that participants 
+who met the three movement guidelines had greater SWB than those 
+who did not meet any of the guidelines, and that there was a dos-
+e–response relationship between the number of guidelines achieved and 
+better SWB, which supports the findings of the current study. Further 
+exploring the relationship between different combinations of movement 
+guidelines and SWB, we found that compared to the compliance of none 
+of the integrated guidelines, compliance of all the three guidelines, 
+compliance of the PA and sleep guidelines, compliance of the PA and ST 
+guidelines, and compliance of the sleep guidelines only, ST guidelines 
+only, and PA guidelines only was significantly associated with better Table 1 
+Sample characteristics of this study.   
+n/mean %/SD 
+Age (years) 11.6 0.8 
+Body mass index (kg/m2) 19.7 2.9 
+Socioeconomic status 4.7 1.7 
+Sex 
+Male 565 51.5 
+Female 533 48.5 
+Sleep guideline 
+Not met 842 76.7 
+Met 256 23.3 
+Screen guideline 
+Not met 455 41.4 
+Met 643 58.6 
+MVPA guideline 
+Not met 1003 91.3 
+Met 95 8.7 
+Combinations of 24-h movement behaviour guidelines 
+None 329 30.0 
+Sleep only 102 9.3 
+Screen time only 437 39.8 
+MVPA only 22 2.0 
+Sleep screen time 135 12.3 
+Sleep MVPA 2 0.2 
+Screen time MVPA 54 4.9 
+All 17 1.5 
+Number of guidelines met 
+0 329 30.0 
+1 561 51.1 
+2 191 17.4 
+3 17 1.5 
+Subjective wellbeing 16.9 5.0 
+n: number; SD: standard deviation; MVPA: moderate to vigorous physical 
+activity. 
+Table 2 
+Associations of number of 24-h movement behaviour guidelines met with sub-
+jective wellbeing.  
+Number of 24-h movement behaviour guidelines met Subjective Wellbeing 
+OR 95%CI 
+One 1.23 1.17 3.71 
+Two 1.58 1.04 4.55 
+Three 2.09 1.01 5.90 
+OR: odds ratio; CI: confidence interval; Bold font represents p-valueD0.05. 
+Reference group: meeting none of the 24-h movement guidelines. 
+Models controlled for age, sex, body mass index and family socioeconomic 
+status. Table 3 
+Association of compliance with different combinations of 24-h movement 
+behaviour guidelines and subjective wellbeing.  
+Compliance of different combinations of 24-h movement 
+behaviour guidelines Subjective Wellbeing 
+OR 95%CI 
+Physical activity, screen time and sleep 3.01 1.49 5.42 
+Screen time and sleep duration 1.40 0.36 5.45 
+Physical activity and sleep 4.38 3.77 7.52 
+Physical activity and screen time 3.02 2.16 5.27 
+Sleep duration only 2.72 1.89 5.22 
+Screen time only 3.03 1.47 6.24 
+Physical activity only 6.96 2.40 9.52 
+OR: odds ratio; CI: confidence interval. 
+Reference group: meeting none of the 24-h movement guidelines. 
+Models controlled for age, sex, body mass index and family socioeconomic 
+status. J. Sun et al.                                                                                                                                                                                                                                      Complementary Therapies in Clinical Practice 51 (2023) 101720
+4SWB. These results differ from the study by Peralta et al. [42]. One 
+possible explanation is that different sample characteristics may lead to 
+varying research findings [55]. Another potential reason is the differ -
+ence in the measurement apporach used to assess SWB. The Cantril 
+ladder was used in the Swiss study [42], whereas our study applied a 
+different measure. Although both measurements are subjective mea-
+sures for SWB, the Cartril ladder mainly focuses on life satisfaction [56], 
+while the measure we used targets SWB. Andrews et al. suggest that SWB 
+is composed of life satisfaction, positive affect, and negative affect [57]. 
+Previous studies have shown that life satisfaction is one key component 
+of SWB [58], while the global SWB is simply the sum of the three 
+components [59]. Therefore, the differences in findings may be due to 
+different components of SWB being measured. Nevertheless, our study 
+provides evidence from a representative sample of children in China and 
+demonstrates the relationships between SWB and PA, ST and sleep; thus, 
+supporting the need for further investigation into lifestyle movement 
+behaviours and SWB in this population. 
+4.2. Potential mechanisms 
+There are several mechanisms that may explain the current research 
+findings in children. First, there is a bidirectional association between 
+PA and SWB [60], wherein people with high SWB may be inclined to 
+participate more in PA [61]. Second, participation in PA can improve 
+physical and mental health, which can further increase life satisfaction 
+and SWB. PA can improve self-rated physical health and physical 
+function, which reduces the risk of cardiovascular disease, obesity and 
+musculoskeletal disease, thus improving SWB [62–66]. Moreover, PA 
+can improve SWB by improving body image, self-esteem, elf-efficacy, as 
+well as lowering depression, anxiety, etc. [62,63,67–69]. Internal and 
+external mechanisms may explain how PA improves SWB. The internal 
+mechanisms include the sensations of pleasure, fluency, and climax that 
+children experience through PA participation, which leads to more 
+enjoyment for improved SWB [70], while the external mechanism is 
+concerned with social communication with others through participation 
+in PA, which subsequently leads to higher SWB [71]. Moreover, PA may 
+activate mood-regulating neurotransmitters in the brain and accelerate 
+the production of endorphins, thereby reducing feelings of pain [72,73]. 
+Thus, PA could lead to higher SWB in children by reducing their 
+perception of pain. Previous research has demonstrated that ST is an 
+independent risk factor for both physical and mental health problems 
+[14,74,75]. A potential mechanism is that excessive ST can lead to 
+children ’s feeling of social isolation, and thus reporting lower SWB [76]. 
+Prolonged ST is an independent risk factor for mental disorders such as 
+depression and anxiety, and is associated with reduced life satisfaction, 
+happiness and self-esteem [38]. Therefore, children who are exposed to 
+longer ST may have poorer mental health, and are more likely to develop 
+mental disorders; thus, further internalising lower SWB. Furthermore, 
+social contact may also be inhibited based on the negative emotions, 
+thus making children get more dependent on screens [77]. In children 
+insufficient sleep time can lead to significant shifts in hypothal -
+amic –pituitary –adrenal axis reactivity, resulting in increased pressure, 
+and thus reducing SWB [78]. Moreover, emotional brain networks, rapid 
+eye movement sleep-related mechanisms, emotional information pro-
+cessing, and the cognitive-energy model may be potential mechanisms 
+by which sleep deprivation affects SWB [79]. There may also be a 
+bidirectional relationship between sleep duration and SWB [79,80]. 
+Taken together, it is reasonable to expect that 24-h movement behav -
+iours can affect SWB in children. 
+4.3. Limitations and further recommendations 
+There are some limitations of this study. First, this study was cross- 
+sectionally designed and was unable to identify causal relationships 
+between 24-h movement behaviours and SWB. Future research should 
+adopt a longitudinal design to better determine the direction of the associations. Second, SWB in this study was only assessed as a global 
+score, which may not gain deep insights into movement behaviours and 
+SWB. Therefore, future research needs to further investigate the re-
+lationships between the different components of SWB and 24-h move -
+ment behaviours to draw more specific practical implications. Third, 
+although a self-reported questionnaire that used to measure 24-h 
+movement behaviours in this study has good validity in children, it is 
+unable to avoid the effects of recall and respondent bias. Future studies 
+could use validated devices to objectively measure 24-h movement be-
+haviours, taking into account the economic feasibility. 
+5.Conclusion 
+As the first study focusing on the relationship between compliance of 
+24-h movement guidelines and SWB in a sample of Chinese children, this 
+study found that the compliance of PA, ST, sleep guidelines was asso-
+ciated with greater SWB. 
+Author contributions 
+JS summarized the findings and drafted the manuscript. JX and WS 
+contributed to the formal analysis and editing of the manuscript. JS and 
+WS developed the strategy of the manuscript and reviewed and edited 
+the final manuscript. All authors have read and agreed to the published 
+version of the manuscript. 
+Funding 
+This work was supported by the project “School level quality engi-
+neering project of West Anhui University (wxxy2021072) ”, “Humanities 
+and Social Sciences of Universities in Anhui Province (SK2021A0533) ”, 
+“High level talent research project of West Anhui University 
+(WGKQ2022035) ”, “Anhui Province university excellent top talent 
+training project (gxyq2022062) ”. 
+Declaration of competing interest 
+The authors declare that the research was conducted in the absence 
+of any commercial or financial relationships that could be construed as a 
+potential conflict of interest. 
+References 
+[1]United Nations Children ’s Fund, Adolescents, 2022, 13rd October. Available from: 
+https://data.unicef.org/topic/adolescents/overview/ . 
+[2]World Health Organization, Ageing and Health, 2022 [cited 2022 10th Nov]. 
+Available from: https://www.who.int/news-room/fact-sheets/detail/ageing-and-h 
+ealth . 
+[3]GBD 2019 adolescent transport and unintentional injuries collaborators. 
+Adolescent transport and unintentional injuries: a systematic analysis using the 
+global burden of disease study 2019, eng. Epub 2022/07/03, Lancet Public Health 
+7 (8) (2022 Aug) e657 –e669, https://doi.org/10.1016/s2468-2667(22)00134-7 . 
+Cited in: Pubmed; PMID 35779567. 
+[4]GBD 2017 child and adolescent health collaborators. Diseases, injuries, and risk 
+factors in child and adolescent health, 1990 to 2017: findings from the global 
+burden of diseases, injuries, and risk factors 2017 study, eng. Epub 2019/04/30, 
+JAMA Pediatr. 173 (6) (2019 Jun 1), e190337, https://doi.org/10.1001/ 
+jamapediatrics.2019.0337 . Cited in: Pubmed; PMID 31034019. 
+[5]World Health Organization, Adolescent Mental Health, 2021 [cited 2022 13rd 
+October]. Available from: https://www.who.int/news-room/fact-sheets/det 
+ail/adolescent-mental-health . 
+[6]G. Kolaitis, [Mood disorders in childhood and adolescence: continuities and 
+discontinuities to adulthood], Psychiatrike Psychiatriki 23 (Suppl 1) (2012 Jun) 
+94–100, gre. Epub 2012/06/01. Cited in: Pubmed; PMID 22796978 . 
+[7]R.M. Post, G.S. Leverich, R.W. Kupka, P.E. Keck Jr., S.L. McElroy, L.L. Altshuler, M. 
+A. Frye, D.A. Luckenbaugh, M. Rowe, H. Grunze, T. Suppes, W.A. Nolen, Early- 
+onset bipolar disorder and treatment delay are risk factors for poor outcome in 
+adulthood, eng. Epub 2010/07/30, J. Clin. Psychiatr. 71 (7) (2010 Jul) 864–872, 
+https://doi.org/10.4088/JCP.08m04994yel . Cited in: Pubmed; PMID 20667291. 
+[8]A. Caye, A.V. Spadini, R.G. Karam, E.H. Grevet, D.L. Rovaris, C.H. Bau, L.A. Rohde, 
+C. Kieling, Predictors of persistence of ADHD into adulthood: a systematic review 
+of the literature and meta-analysis, eng. Epub 2016/10/28, Eur. Child Adolesc. J. Sun et al.                                                                                                                                                                                                                                      Complementary Therapies in Clinical Practice 51 (2023) 101720
+5Psychiatr. 25 (11) (2016 Nov) 1151 –1159, https://doi.org/10.1007/s00787-016- 
+0831-8 . Cited in: Pubmed; PMID 27021056. 
+[9]E.T. Aronen, Soininen MjtcjoP, Childhood Depressive Symptoms Predict 
+Psychiatric Problems in Young Adults, vol. 45, 2000, pp. 465–470, 5. 
+[10] W.E. Copeland, D. Wolke, L. Shanahan, E.J. Costello, Adult functional outcomes of 
+common childhood psychiatric problems: a prospective, longitudinal study, JAMA 
+Psychiatr. 72 (9) (2015) 892–899, https://doi.org/10.1001/ 
+jamapsychiatry.2015.0730%JJAMAPsychiatry . 
+[11] A. Abdel-Khalek, D.J. Lester, Mental health, subjective well-being, and religiosity, 
+Significant associations in Kuwait and USA 7 (2) (2013) . 
+[12] A. Lagnado, K. Gilchrist, M.C. Smastuen, A. Memon, Is subjective wellbeing 
+associated with depression? A cross-sectional survey in southeast England: anjum 
+Memon, Eur. J. Publ. Health 27 (suppl_3) (2017), https://doi.org/10.1093/ 
+eurpub/ckx187.719 ckx187.719 %J European Journal of Public Health. 
+[13] C. Malone, A. Wachholtz, The relationship of anxiety and depression to subjective 
+well-being in a mainland Chinese sample, eng. Epub 2017/07/14, J. Relig. Health 
+57 (1) (2018 Feb) 266–278, https://doi.org/10.1007/s10943-017-0447-4 . Cited 
+in: Pubmed; PMID 28702737. 
+[14] Y. Zhang, S. Tian, D. Zou, H. Zhang, C.W. Pan, Screen time and health issues in 
+Chinese school-aged children and adolescents: a systematic review and meta- 
+analysis, eng. Epub 2022/04/24, BMC Publ. Health 22 (1) (2022 Apr 22) 810, 
+https://doi.org/10.1186/s12889-022-13155-3 . Cited in: Pubmed; PMID 
+35459156. 
+[15] J. Lasselin, E. Alvarez-Salas, J.-S. Grigoleit, Well-being and immune response: a 
+multi-system perspective, Curr. Opin. Pharmacol. 29 (2016) 34–41, https://doi. 
+org/10.1016/j.coph.2016.05.003 , 2016/08/01/. 
+[16] N. Martín-María, M. Miret, F.F. Caballero, L.A. Rico-Uribe, A. Steptoe, S. Chatterji, 
+J.L. Ayuso-Mateos, The impact of subjective well-being on mortality: a meta- 
+analysis of longitudinal studies in the general population, Psychosom. Med. 79 (5) 
+(2017) . 
+[17] D.C. Azevedo, L.A.C. Machado, L. Giatti, R.H. Griep, R.W. Telles, S.M. Barreto, 
+Different Components of Subjective Well-Being Are Associated with Chronic 
+Nondisabling and Disabling Knee Pain: ELSA-Brasil Musculoskeletal Cohort, vol. 
+27, 2021, pp. S301 –S307, 6S. 
+[18] S. Savahl, S. Adams, M. Florence, F. Casas, M. Mpilo, D. Isobell, D. Manuel, The 
+relation between children ’s participation in daily activities, their engagement with 
+family and friends, and subjective well-being, Child Indicators Research 13 (4) 
+(2020) 1283 –1312, https://doi.org/10.1007/s12187-019-09699-3 , 2020/08/01. 
+[19] B.J. Lee, M.S. Yoo, What accounts for the variations in children ’s subjective well- 
+being across nations?: a decomposition method study, Child. Youth Serv. Rev. 80 
+(2017) 15–21, https://doi.org/10.1016/j.childyouth.2017.06.065 , 2017/09/01/. 
+[20] K. Rask, P. Åstedt-Kurki, E. Paavilainen, Laippala Pjsjocs, Adolescent Subjective 
+Well-being and Family Dynamics, vol. 17, 2003, pp. 129–138, 2. 
+[21] A. Lampropoulou, Personality, school, and family: what is their role in adolescents ’ 
+subjective well-being, J. Adolesc. 67 (2018) 12–21, https://doi.org/10.1016/j. 
+adolescence.2018.05.013 , 2018/08/01/. 
+[22] J. Zuzanek, Adolescent time use and well-being from a comparative perspective, 
+Loisir Soc./Soc. Leis. 28 (2) (2005 2005/09/01) 379–423, https://doi.org/ 
+10.1080/07053436.2005.10707688 . 
+[23] D. Lubans, J. Richards, C. Hillman, G. Faulkner, M. Beauchamp, M. Nilsson, 
+P. Kelly, J. Smith, L. Raine, S. Biddle, Physical activity for cognitive and mental 
+health in youth: a systematic review of mechanisms, Pediatrics 138 (3) (2016) 
+e20161642 –e20162016, https://doi.org/10.1542/peds.2016-1642 . 
+[24] S.J.H. Biddle, M. Asare, Physical activity and mental health in children and 
+adolescents: a review of reviews, Br. J. Sports Med. 45 (11) (2011) 886–895, 
+https://doi.org/10.1136/bjsports-2011-090185 . 
+[25] L.F.M.D. Rezende, M. Rodrigues Lopes, J.P. Rey-L ˘opez, V.K.R. Matsudo, O.D. 
+C. Luiz, Sedentary behavior and health outcomes: an overview of systematic 
+reviews, PLoS One 9 (8) (2014), e105620, https://doi.org/10.1371/journal. 
+pone.0105620 . 
+[26] V. Suchert, R. Hanewinkel, B. Isensee, Sedentary behavior and indicators of mental 
+health in school-aged children and adolescents: a systematic review, Prev. Med. 76 
+(2015) 48–57. 
+[27] J.-P. Chaput, C.E. Gray, V.J. Poitras, V. Carson, R. Gruber, T. Olds, S.K. Weiss, 
+S. Connor Gorber, M.E. Kho, M. Sampson, K. Belanger, S. Eryuzlu, L. Callender, M. 
+S. Tremblay, Systematic review of the relationships between sleep duration and 
+health indicators in school-aged children and youth, Appl. Physiol. Nutr. Metabol. 
+41 (6) (2016) S266 –S282, https://doi.org/10.1139/apnm-2015-0627 (Suppl. 3)). 
+[28] J.-P. Chaput, V. Carson, C. Gray, M. Tremblay, Importance of all movement 
+behaviors in a 24 hour period for overall health, Int. J. Environ. Res. Publ. Health 
+11 (12) (2014) 12575 –12581, https://doi.org/10.3390/ijerph111212575 . 
+[29] ¯Z.J.K. Pedi¯si˘c, Measurement Issues and Poor Adjustments for Physical Activity and 
+Sleep Undermine Sedentary Behaviour Research —The Focus Should Shift to the 
+Balance between Sleep, Sedentary Behaviour, Standing and Activity., vol. 46, 
+2014, pp. 135–146, 1. 
+[30] M.S. Tremblay, V. Carson, J.-P. Chaput, S. Connor Gorber, T. Dinh, M. Duggan, 
+G. Faulkner, C.E. Gray, R. Gruber, K.J.A.P. Janson, Nutrition, Metabolism. 
+Canadian 24-hour movement guidelines for children and youth: an integration of 
+physical activity, sedentary behaviour, and sleep 41 (6) (2016) S311 –S327 . 
+[31] B.K.G. Loo, A.D. Okely, A. Pulungan, M.Y. Jalaludin, Asia-Pacific Consensus 
+Statement on integrated 24-hour activity guidelines for children and adolescents, 
+Br. J. Sports Med. 56 (10) (2021) 539–545. 
+[32] B. Roman-Vi ~nas, J.-P. Chaput, P.T. Katzmarzyk, M. Fogelholm, E.V. Lambert, 
+C. Maher, J. Maia, T. Olds, V. Onywera, O.L. Sarmiento, M. Standage, C. Tudor- 
+Locke, M.S. Tremblay, Proportion of children meeting recommendations for 24- 
+hour movement guidelines and associations with adiposity in a 12-country study, Int. J. Behav. Nutr. Phys. Activ. 13 (1) (2016), https://doi.org/10.1186/s12966- 
+016-0449-8 . 
+[33] M.A. Tapia-Serrano, J. Sevil-Serrano, P.A. S˘anchez-Miguel, Adherence to 24-hour 
+movement guidelines among Spanish adolescents: differences between boys and 
+girls, Children 8 (2) (2021) 95, https://doi.org/10.3390/children8020095 . 
+[34] B.G.G. Da Costa, J.-P. Chaput, M.V.V. Lopes, L.E.A. Malheiros, M.S. Tremblay, K. 
+S. Silva, Prevalence and sociodemographic factors associated with meeting the 24- 
+hour movement guidelines in a sample of Brazilian adolescents, PLoS One 15 (9) 
+(2020), e0239833, https://doi.org/10.1371/journal.pone.0239833 . 
+[35] M.A. Tapia-Serrano, D. S˘anchez-Oliva, J. Sevil-Serrano, A. Marques, P.A. S˘anchez- 
+Miguel, 24-h movement behaviours in Spanish youth before and after 1-year into 
+the covid-19 pandemic and its relationship to academic performance, eng. Epub 
+2022/10/06, Sci. Rep. 12 (1) (2022 Oct 5), 16660, https://doi.org/10.1038/ 
+s41598-022-21096-5 . Cited in: Pubmed; PMID 36198729. 
+[36] J.F. L˘opez-Gil, M.S. Tremblay, J. Brazo-Sayavera, Changes in healthy behaviors 
+and meeting 24-h movement guidelines in Spanish and Brazilian preschoolers, 
+children and adolescents during the COVID-19 lockdown, eng. Epub 2021/02/04, 
+Children (Basel, Switzerland) 8 (2) (2021 Jan 26), https://doi.org/10.3390/ 
+children8020083 . Cited in: Pubmed; PMID 33530315. 
+[37] Y.A. Alanazi, A.M. Parrish, A.D. Okely, Impact of the COVID-19 virus outbreak on 
+24-h movement behaviours among children in Saudi Arabia: a cross-sectional 
+survey, eng. Epub 2022/03/16, Child Care Health Dev. 48 (6) (2022 Nov) 
+1031 –1039, https://doi.org/10.1111/cch.12999 . Cited in: Pubmed; PMID 
+35288957. 
+[38] M. Rodriguez-Ayllon, C. Cadenas-S ˘anchez, F. Est˘evez-L ˘opez, N.E. Mu~noz, J. Mora- 
+Gonzalez, J.H. Migueles, P. Molina-García, H. Henriksson, A. Mena-Molina, 
+V. Martínez-Vizcaíno, A. Catena, M. Lof, K.I. Erickson, D.R. Lubans, F.B. Ortega, 
+I. Esteban-Cornejo, Role of physical activity and sedentary behavior in the mental 
+health of preschoolers, children and adolescents: a systematic review and meta- 
+analysis, Sports Med. 49 (9) (2019 2019/09/01) 1383 –1410, https://doi.org/ 
+10.1007/s40279-019-01099-5 . 
+[39] Y. Pigaiani, L. Zoccante, A. Zocca, A. Arzenton, M. Menegolli, S. Fadel, M. Ruggeri, 
+M. Colizzi, Adolescent lifestyle behaviors, coping strategies and subjective 
+wellbeing during the COVID-19 pandemic, An Online Student Survey 8 (4) (2020) 
+472, https://doi.org/10.3390/healthcare8040472 . Cited in: Pubmed; PMID. 
+[40] S.B. Jackson, K.T. Stevenson, L.R. Larson, M.N. Peterson, E. Seekamp, 5, Outdoor 
+Activity Participation Improves Adolescents ’ Mental Health and Well-Being during 
+the COVID-19 Pandemic, vol. 18, 2021, p. 2506, https://doi.org/10.3390/ 
+ijerph18052506 . Cited in: Pubmed; PMID. 
+[41] K. Wunsch, C. Nigg, C. Niessner, S.C.E. Schmidt, D. Oriwol, A. Hanssen-Doose, 
+A. Burchartz, A. Eichsteller, S. Kolb, A. Worth, A. Woll, The impact of COVID-19 on 
+the interrelation of physical activity, screen time and health-related quality of life 
+in children and adolescents in Germany: results of the, Motorik-Modul Study 8 (2) 
+(2021) 98, https://doi.org/10.3390/children8020098 . Cited in: Pubmed; PMID 
+doi. 
+[42] G.P. Peralta, A.-L. Camerini, S.R. Haile, C.R. Kahlert, E. Lorthe, L. Marciano, 
+A. Nussbaumer, T. Radtke, A. Ulyte, M.A. Puhan, S. Kriemler, Lifestyle Behaviours 
+of Children and Adolescents during the First Two Waves of the COVID-19 
+Pandemic in Switzerland and Their Relation to Well-Being: an Observational Study 
+[Original Article], 2022, https://doi.org/10.3389/ijph.2022.1604978 , 2022- 
+September-08;67. English. 
+[43] A. Khan, E.Y. Lee, S. Rosenbaum, S.R. Khan, M.S. Tremblay, Dose-dependent and 
+joint associations between screen time, physical activity, and mental wellbeing in 
+adolescents: an international observational study, eng. Epub 2021/08/14, The 
+Lancet Child & adolescent health 5 (10) (2021 Oct) 729–738, https://doi.org/ 
+10.1016/s2352-4642(21)00200-5 . Cited in: Pubmed; PMID 34384543. 
+[44] K.Y. Ho, K.K.W. Lam, W. Xia, J.O.K. Chung, A.T. Cheung, L.L.K. Ho, S.Y. Chiu, G.C. 
+F. Chan, W.H.C. Li, Psychometric properties of the Chinese version of the 
+Pittsburgh Sleep Quality Index (PSQI) among Hong Kong Chinese childhood cancer 
+survivors, Health Qual. Life Outcome 19 (1) (2021 2021/07/06) 176, https://doi. 
+org/10.1186/s12955-021-01803-y . 
+[45] M. Dierckens, M. Richter, I. Moor, F.J. Elgar, E. Clays, B. Deforche, B. De Clercq, 
+Trends in material and non-material inequalities in adolescent health and health 
+behaviours: a 12-year study in 23 European countries, Prev. Med. 157 (2022), 
+107018, https://doi.org/10.1016/j.ypmed.2022.107018 , 2022/04/01/. 
+[46] C.S. dos Santos, J. Picoito, I. Loureiro, C. Nunes, Clustering of health-related 
+behaviours and its relationship with individual and contextual factors in 
+Portuguese adolescents: results from a cross-sectional study, BMC Pediatr. 20 (1) 
+(2020) 247, https://doi.org/10.1186/s12887-020-02057-1 , 2020/05/25. 
+[47] V. Carson, IJIjobn Janssen, Activity P. Neighborhood Disorder and Screen Time 
+Among 10-16 Year Old Canadian Youth: a Cross-Sectional Study, vol. 9, 2012, 
+pp. 1–11, 1. 
+[48] Y. Liu, M. Wang, J. Tynjala, Y. Lv, J. Villberg, Z. Zhang, L. Kannas, Test-retest 
+reliability of selected items of health behaviour in school-aged children (HBSC) 
+survey questionnaire in beijing, China, BMC Med. Res. Methodol. 10 (1) (2010) 73, 
+https://doi.org/10.1186/1471-2288-10-73 , 2010/08/10. 
+[49] M.S. Tremblay, V. Carson, J.P. Chaput, S. Connor Gorber, T. Dinh, M. Duggan, 
+G. Faulkner, C.E. Gray, R. Gruber, K. Janson, I. Janssen, P.T. Katzmarzyk, M. 
+E. Kho, A.E. Latimer-Cheung, C. LeBlanc, A.D. Okely, T. Olds, R.R. Pate, A. Phillips, 
+V.J. Poitras, S. Rodenburg, M. Sampson, T.J. Saunders, J.A. Stone, G. Stratton, S. 
+K. Weiss, L. Zehr, Canadian 24-hour movement guidelines for children and youth: 
+an integration of physical activity, sedentary behaviour, and sleep, Appl. Physiol. 
+Nutr. Metabol. 41 (6 Suppl 3) (2016 Jun) S311 –S327, https://doi.org/10.1139/ 
+apnm-2016-0151 . Cited in: Pubmed; PMID 27306437. 
+[50] Z. Zhu, Y. Tang, J. Zhuang, Y. Liu, X. Wu, Y. Cai, L. Wang, Z.-B. Cao, P. Chen, 
+Physical activity, screen viewing time, and overweight/obesity among Chinese J. Sun et al.                                                                                                                                                                                                                                      Complementary Therapies in Clinical Practice 51 (2023) 101720
+6children and adolescents: an update from the 2017 physical activity and fitness in 
+China—the youth study, BMC Publ. Health 19 (1) (2019) 197, https://doi.org/ 
+10.1186/s12889-019-6515-9, 2019/02/15. 
+[51] J.M. Cundiff, T.W. Smith, B.N. Uchino, C.A. Berg, Subjective social status: 
+construct validity and associations with psychosocial vulnerability and self-rated 
+health, Int. J. Behav. Med. 20 (1) (2013) 148–158, https://doi.org/10.1007/ 
+s12529-011-9206-1, 2013/03/01. 
+[52] X. Zeng, L. Cai, W. Yang, W. Tan, W. Huang, Y. Chen, Association between the 24- 
+hour movement guidelines and executive function among Chinese children, BMC 
+Publ. Health 22 (1) (2022) 1017, https://doi.org/10.1186/s12889-022-13420-5, 
+2022/05/20. 
+[53] L. Zhou, W. Liang, Y. He, Y. Duan, R.E. Rhodes, H. Liu, H. Liang, X. Shi, J. Zhang, 
+Y. Cheng, Relationship of 24-hour movement behaviors with weight status and 
+body composition in Chinese primary school children, A Cross-Sectional Study 19 
+(14) (2022) 8586, https://doi.org/10.3390/ijerph19148586. Cited in: Pubmed; 
+PMID doi. 
+[54] N.D. Ridgers, A. Timperio, D. Crawford, J. Salmon, Validity of a brief self-report 
+instrument for assessing compliance with physical activity guidelines amongst 
+adolescents, J. Sci. Med. Sport 15 (2) (2012) 136–141, https://doi.org/10.1016/j. 
+jsams.2011.09.003, 2012/03/01/. 
+[55] P.C. Cozby, S. Bates, C. Krageloh, P. Lacherez, D. Van Rooy, Methods in Behavioral 
+Research, Mayfield publishing company, Houston, TX, 1977. 
+[56] J. Mazur, M. Szkultecka-Dębek, A. Dzielska, M. Drozd, A. Małkowska-Szkutnik, 
+What does the Cantril Ladder measure in adolescence?, eng. Epub 2018/01/31, 
+Arch. Med. Sci. : AMS 14 (1) (2018 Jan) 182–189, https://doi.org/10.5114/ 
+aoms.2016.60718. Cited in: Pubmed; PMID 29379549. 
+[57] F.M. Andrews, S.B. Withey, Social Indicators of Well-Being: Americans’ 
+Perceptions of Life Quality, Springer Science & Business Media, 2012, ISBN 
+1468422537. 
+[58] M. Eid, E. Diener, Global judgments of subjective well-being: situational variability 
+and long-term stability, Soc. Indicat. Res. 65 (3) (2004) 245–277, https://doi.org/ 
+10.1023/B:SOCI.0000003801.89195.bc, 2004/02/01. 
+[59] E. Diener, C.K. Napa-Scollon, S. Oishi, V. Dzokoto, E.M. Suh, Positivity and the 
+construction of life satisfaction judgments: global happiness is not the sum of its 
+parts, J. Happiness Stud. 1 (2) (2000) 159–176, https://doi.org/10.1023/A: 
+1010031813405, 2000/06/01. 
+[60] A. Steptoe, Happiness and health, eng. Epub 2019/01/03, Annu. Rev. Publ. Health 
+40 (2019 Apr 1) 339–359, https://doi.org/10.1146/annurev-publhealth-040218- 
+044150. Cited in: Pubmed; PMID 30601719. 
+[61] E.S. Kim, L.D. Kubzansky, J. Soo, J.K. Boehm, Maintaining healthy behavior: a 
+prospective study of psychological well-being and physical activity, eng. Epub 
+2016/11/09, Ann. Behav. Med. : a publication of the Society of Behavioral 
+Medicine 51 (3) (2017 Jun) 337–347, https://doi.org/10.1007/s12160-016-9856- 
+y. Cited in: Pubmed; PMID 27822613. 
+[62] J. Minahan, K.L. Siedlecki, Physical health mediates the relationship between 
+psychological well-being and engagement in exercise across age in a German 
+sample, eng. Epub 2018/07/03, Journal of functional morphology and kinesiology 
+3 (3) (2018 Jul 3), https://doi.org/10.3390/jfmk3030039. Cited in: Pubmed; 
+PMID 33466968. 
+[63] W.J. Rejeski, B. Shelton, M. Miller, A.L. Dunn, A.C. King, J.F. Sallis, Mediators of 
+increased physical activity and change in subjective well-being: results from the 
+activity counseling trial (ACT), eng. Epub 2001/03/01, J. Health Psychol. 6 (2) 
+(2001 Mar) 159–168, https://doi.org/10.1177/135910530100600206. Pubmed; 
+PMID 22049319. 
+[64] W.E. Kraus, K.E. Powell, W.L. Haskell, K.F. Janz, W.W. Campbell, J.M. Jakicic, R. 
+P. Troiano, K. Sprow, A. Torres, K.L. Piercy, Physical activity, all-cause and 
+cardiovascular mortality, and cardiovascular disease, eng. Epub 2019/05/17, Med. Sci. Sports Exerc. 51 (6) (2019 Jun) 1270–1281, https://doi.org/10.1249/ 
+mss.0000000000001939. Cited in: Pubmed; PMID 31095084. 
+[65] A. Martin, J.N. Booth, Y. Laird, J. Sproule, J.J. Reilly, D.H. Saunders, Physical 
+activity, diet and other behavioural interventions for improving cognition and 
+school achievement in children and adolescents with obesity or overweight, eng. 
+Epub 2018/01/30, Cochrane Database Syst. Rev. 1 (1) (2018 Jan 29), Cd009728, 
+https://doi.org/10.1002/14651858.CD009728.pub3. Cited in: Pubmed; PMID 
+29376563. 
+[66] L.J. Geneen, R.A. Moore, C. Clarke, D. Martin, L.A. Colvin, B.H. Smith, Physical 
+activity and exercise for chronic pain in adults: an overview of Cochrane Reviews, 
+eng. Epub 2017/01/15, Cochrane Database Syst. Rev. 1 (1) (2017 Jan 14) 
+Cd011279, https://doi.org/10.1002/14651858.CD011279.pub2. Cited in: 
+Pubmed; PMID 28087891. 
+[67] Y. Shang, H.D. Xie, S.Y. Yang, The relationship between physical exercise and 
+subjective well-being in college students: the mediating effect of body image and 
+self-esteem, eng. Epub 2021/06/15, Front. Psychol. 12 (2021), 658935, https:// 
+doi.org/10.3389/fpsyg.2021.658935. Cited in: Pubmed; PMID 34122243. 
+[68] M. Pearce, L. Garcia, A. Abbas, T. Strain, F.B. Schuch, R. Golubic, P. Kelly, S. Khan, 
+M. Utukuri, Y. Laird, A. Mok, A. Smith, M. Tainio, S. Brage, J. Woodcock, 
+Association between physical activity and risk of depression: a systematic review 
+and meta-analysis, eng. Epub 2022/04/14, JAMA Psychiatr. 79 (6) (2022 Jun 1) 
+550–559, https://doi.org/10.1001/jamapsychiatry.2022.0609. Cited in: Pubmed; 
+PMID 35416941. 
+[69] S. Wolf, B. Seiffer, J.M. Zeibig, J. Welkerling, L. Brokmeier, B. Atrott, T. Ehring, F. 
+B. Schuch, Is physical activity associated with less depression and anxiety during 
+the COVID-19 pandemic? A rapid systematic review, eng. Epub 2021/04/23, 
+Sports Med. 51 (8) (2021 Aug) 1771–1783, https://doi.org/10.1007/s40279-021- 
+01468-z. Cited in: Pubmed; PMID 33886101. 
+[70] M.J.S.S. Liu, How Sports Affects Subjective Well-Being: Study on the Effect of 
+Sports Participation on Subjective Well-Being and its Mechanism, vol. 37, 2016, 
+pp. 27–39. 
+[71] P. Downward, Rasciute Sjiroae, Does Sport Make You Happy? an Analysis of the 
+Well-being Derived from Sports Participation, vol. 25, 2011, pp. 331–348, 3. 
+[72] W.C. Compton, E. Hoffman, Positive Psychology: the Science of Happiness and 
+Flourishing, Sage Publications, 2019, ISBN 1544322933. 
+[73] S. Heijnen, B. Hommel, A. Kibele, Colzato Lsjfip, Neuromodulation of aerobic 
+exercise—a review 6 (2016) 1890. 
+[74] E. Hoare, K. Milton, C. Foster, S. Allender, The associations between sedentary 
+behaviour and mental health among adolescents: a systematic review, eng. Epub 
+2016/10/09, Int. J. Behav. Nutr. Phys. Activ. 13 (1) (2016 Oct 8) 108, https://doi. 
+org/10.1186/s12966-016-0432-4. Cited in: Pubmed; PMID 27717387. 
+[75] K. Fang, M. Mu, K. Liu, Y. He, Screen time and childhood overweight/obesity: a 
+systematic review and meta-analysis, eng. Epub 2019/07/05, Child Care Health 
+Dev. 45 (5) (2019 Sep) 744–753, https://doi.org/10.1111/cch.12701. Cited in: 
+Pubmed; PMID 31270831. 
+[76] V. Suchert, R. Hanewinkel, BJPm Isensee, Sedentary behavior and indicators of 
+mental health in school-aged children and adolescents, A systematic review 76 
+(2015) 48–57. 
+[77] C.G. Fairburn, Z. Cooper, Shafran Rjbr, therapy. Cognitive behaviour therapy for 
+eating disorders, A “transdiagnostic” theory and treatment 41 (5) (2003) 509–528. 
+[78] R.D. Romeo, 2, The Teenage Brain:The Stress Response and the Adolescent Brain, 
+vol. 22, 2013, pp. 140–145, https://doi.org/10.1177/0963721413475445. in: 
+Pubmed; PMID 25541572. 
+[79] M. Kahn, G. Sheppes, A. Sadeh, Sleep and emotions: bidirectional links and 
+underlying mechanisms, Int. J. Psychophysiol. 89 (2) (2013) 218–228, https://doi. 
+org/10.1016/j.ijpsycho.2013.05.010, 2013/08/01/. 
+[80] A. Steptoe, K. O’Donnell, M. Marmot, Wardle Jjjopr, Positive Affect, Psychological 
+Well-Being, and Good Sleep, vol. 64, 2008, pp. 409–415, 4. J. Sun et al.                                                                                                                                                                                                                                      
