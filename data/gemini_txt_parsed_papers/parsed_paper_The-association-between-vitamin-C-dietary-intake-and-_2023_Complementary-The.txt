@@ -1,0 +1,26 @@
+**Summary of the Scientific Paper**
+
+**Background:**
+Obesity and overweight have become prevalent worldwide, and they are linked to various non-communicable diseases. Vitamin C, an antioxidant, may be associated with weight disorders.
+
+**Objective:**
+This systematic review and meta-analysis aims to investigate the relationship between vitamin C dietary intake and serum levels with anthropometric indices, specifically body mass index (BMI) and waist circumference (WC).
+
+**Methods:**
+A comprehensive literature search was conducted in Medline, Scopus, Embase, Web of Science, and Google Scholar up to August 2021. Observational studies assessing the association between vitamin C levels and BMI or WC in adults were included. The quality of studies was assessed using the National Institute of Health quality assessment tool.
+
+**Results:**
+**Dietary Vitamin C Intake:**
+Among 11 eligible studies, higher vitamin C consumption was significantly associated with lower BMI. However, there were no significant differences in serum vitamin C levels between normal-weight and overweight subjects.
+
+**Serum Vitamin C Levels:**
+From 37 studies included in the meta-analysis, there was an inverse significant correlation between WC and serum vitamin C levels (r = -0.28, 95% CI: -0.35, -0.21) and between BMI and serum vitamin C levels (r = -0.17, 95% CI: -0.25, -0.09).
+
+**Subgroup Analysis:**
+Subgroup analyses showed no significant differences in the associations between vitamin C and anthropometric indices based on gender.
+
+**Meta-Analysis:**
+The meta-analysis found significant mean differences (MDs) in BMI and WC between low and high vitamin C levels.
+
+**Conclusion:**
+The results suggest that both dietary and serum vitamin C levels are inversely associated with BMI and WC. More well-designed clinical trials are needed to evaluate the effect of vitamin C supplementation in preventing and treating obesity.

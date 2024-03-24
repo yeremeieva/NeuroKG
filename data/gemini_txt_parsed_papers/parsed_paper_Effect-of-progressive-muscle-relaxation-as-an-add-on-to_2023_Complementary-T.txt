@@ -1,0 +1,7 @@
+This study investigated the effects of pulmonary telerehabilitation (PTR) combined with progressive muscle relaxation (PMR) on the physical and psychological outcomes of discharged patients with COVID-19. 
+Discharged COVID-19 patients (n=58) were randomly assigned to two groups: PTR with PMR (experimental group) and PTR alone (comparison group). The experimental group underwent a six-week intervention of PTR and PMR, while the comparison group received only PTR. 
+The primary outcome was functional capacity, assessed by the 6-minute walk test (6MWT). Secondary outcomes included dyspnea, fatigue, sleep quality, depression, anxiety, quality of life, and health status. 
+Results showed no significant difference between the groups in functional capacity. 
+However, the experimental group experienced significantly lower fatigue (p=0.041) and anxiety (p=0.001), and significantly improved sleep quality (p=0.001) compared to the comparison group. 
+PTR combined with PMR effectively reduced fatigue and anxiety and improved sleep quality in discharged COVID-19 patients compared to PTR alone. This combination can be considered as an effective intervention for these patients. 
+Limitations include the lack of a group that only received PMR, failure to investigate factors such as psychological conditions, diet, family support, and the home environment, and عدم پیگیری بیماران برای تعیین اثرات طولانی مدت.

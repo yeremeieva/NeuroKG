@@ -1,0 +1,23 @@
+**Depression Research from 2004 to 2019: A Literature Visualization Analysis**
+
+**Abstract:**
+
+This study examined depression research from 2004 to 2019 using bibliometric and data visualization methods. The analysis revealed patterns and trends in the field, including the most productive countries, journals, categories, authors, and institutions in depression research. The study also identified research hotspots, frontiers, and shortcomings in depression research, providing valuable information for researchers and institutions to determine meaningful research directions.
+
+**Summary:**
+
+* **Global Distribution:** The United States has the highest number of publications in depression research, followed by the United Kingdom, China, Australia, and Germany.
+
+* **Journal Impact:** The top three most cited journals in depression research are ARCH GEN PSYCHIAT, J AFFECT DISORDERS, and AM J PSYCHIAT.
+
+* **Research Categories:** Psychiatry is the most researched category, followed by Neuroscience, Clinical Neurology, and Public, Environmental, and Occupational Health.
+
+* **Author Productivity:** Maurizio Fava, Brenda W. J. H. Penninx, and Madhukar H. Trivedi are the most productive authors in depression research.
+
+* **Hotspots and Frontiers:** Research hotspots include treatment modalities, neuroimaging studies, and genetic factors. Emerging frontiers include machine learning, personalized medicine, and precision medicine.
+
+* **Gaps and Future Directions:** There is a need for more research on the prevention and early detection of depression, as well as the development of more effective and personalized treatments.
+
+**Conclusion:**
+
+This analysis provides a comprehensive overview of the global depression research landscape, highlighting its strengths, weaknesses, and future research directions. The findings can guide researchers, institutions, and policymakers in making informed decisions to advance depression research and improve patient outcomes.

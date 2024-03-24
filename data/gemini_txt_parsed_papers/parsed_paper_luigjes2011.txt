@@ -1,0 +1,38 @@
+**Deep Brain Stimulation (DBS) in Addiction: Review of Potential Brain Targets**
+
+**Introduction**
+* DBS is a surgical intervention that uses implanted electrodes to deliver electrical pulses to brain areas.
+* DBS is being investigated as a treatment for addiction, as it has shown promising results in treating other psychiatric disorders.
+
+**Animal Studies**
+* Seven animal studies have investigated DBS effects on addiction-related behaviors, targeting six brain areas:
+    * Nucleus accumbens (NAc)
+    * Subthalamic nucleus (STN)
+    * Dorsal striatum
+    * Lateral habenula
+    * Medial prefrontal cortex (mPFC)
+    * Lateral hypothalamus
+* High-frequency DBS of the NAc and mPFC showed the most robust effects in reducing drug-seeking behavior and consumption.
+
+**Human Case Studies**
+* Eleven human case studies have reported DBS effects on addiction, targeting two areas:
+    * NAc (5 studies)
+    * STN (6 studies)
+* NAc DBS led to remission of addiction in several cases, while STN DBS results were mixed, with some cases showing improvement and others worsening.
+
+**Most Promising Target Area: NAc**
+* The NAc is the most frequently studied target area and has consistently shown promising results in both animal research and human case studies.
+* NAc DBS may normalize striatal dysfunction and/or modulate neuronal network activity to reduce craving and increase the salience of natural reinforcers.
+
+**Possible Mechanisms of Action**
+* DBS may:
+    * Normalize dysfunction in striatal areas, reducing craving and increasing the relative salience of natural reinforcers.
+    * Activate afferent and efferent pathways, modulating dysfunctional neuronal network activity.
+* DBS effects on monoamine neurotransmitters in the target area and other brain regions are still being investigated.
+
+**Conclusion**
+* NAc DBS is currently the most promising candidate target for therapy-refractory addiction.
+* Further research is needed to:
+    * Confirm the efficacy and safety of NAc DBS in clinical trials.
+    * Explore the mechanisms of action and identify the optimal stimulation parameters.
+* More research on other target areas, such as the mPFC, is also warranted.

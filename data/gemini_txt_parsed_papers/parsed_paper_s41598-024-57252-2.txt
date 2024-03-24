@@ -1,0 +1,13 @@
+**Summary**
+
+Patients with Parkinson's disease (PD) exhibit abnormal beta-gamma phase-amplitude coupling (PAC) in the subthalamic nucleus (STN) during gait. During quiet standing, compared to walking, PAC increases in the STN, indicating its role in regulating gait. Lower PAC and changes in PAC during walking are associated with increased time spent in the stance and double support phases of the gait cycle. Dopamine levels in the striatum positively correlate with PAC during walking, suggesting that dopamine promotes gait-related cross-frequency coupling in the STN.
+
+**Key Findings**
+
+* Increased beta-gamma PAC in the STN during walking compared to standing.
+* Patients with lower PAC during walking spend more time in the stance and double support phases of gait.
+* Striatal dopamine levels correlate with PAC during walking, suggesting dopamine's role in promoting gait-related cross-frequency coupling in the STN.
+
+**Significance**
+
+These findings provide insights into the role of the STN in human gait and suggest PAC as a potential tool to monitor motor control and gait performance in PD patients. Understanding the relationship between PAC and gait impairments could lead to personalized treatment strategies and improved rehabilitation outcomes for PD patients.

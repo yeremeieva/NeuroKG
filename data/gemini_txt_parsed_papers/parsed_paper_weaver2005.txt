@@ -1,0 +1,45 @@
+DBS is an efficacious treatment for advanced PD. Stimulation of either the STN or GPI by DBS resulted in immediate and significant motor function benefit and sustained improvement at least 12 months postsurgery in patients with PD. In either surgical site, improvement in motor function occurs without medication or with reduced medication use. 
+There is no well-established consensus regarding which stimulation site is superior. Various factors should be taken into consideration when tailoring treatment on a patient-to-patient basis. DBS of the STN has been more widely studied than DBS of the GPI and has generally been reported to produce greater and more sustained improvement in UPDRS scores. Nonetheless, the metaanalysis revealed that the differences between the two surgical sites were not statistically significant. A target effect could have been masked by other study-level characteristics, such as the smaller sample sizes in the GPI studies compared with STN studies, the younger age of patients in the STN studies compared with GPI studies, and the trend toward fewer GPI studies after 2000. Although the studies considered in our metaanalysis were not randomized, the results are consistent with those of the one randomized trial comparing STN and GPI DBS
+9
+and with several other nonrandomized studiescomparing the two surgical targets.
+27,28,35,51,58,82
+Although most studies have used the UPDRS for mea-
+suring motor function outcomes, the need for consistent re-
+porting, including more detailed documentation of indi-
+vidual items within these scales, has been noted.
+26In the
+present study, complete UPDRS scores were reported for
+the four motor examination sections in only 27% of the STN
+studies and 69% of the GPI studies. This level of reportingis considerably lower than the 92% of studies that reportedthe total UPDRS motor score. When our outcomes wereexpressed as changes in ADL functioning, the ESs were
+smaller than those for motor function symptoms, as wouldbe expected because of the greater likelihood of ceiling ef -
+fects for ADLs. The smaller ESs for ADL as an outcome
+measure were not unique to either the STN or GPI surgicaltarget and were more apparent for studies with smaller sam-
+ple sizes and those in which the mean age of the patientsexceeded 55 years.
+Authors of the STN studies had slightly lower mean
+scores at baseline for motor function symptoms (51.9for STN, 55 for GPI) and notably lower mean scores at base -
+line for ADL functioning (27.9 for STN, 28 for GPI) com-
+pared with those in the GPI studies. It is important to re-
+cognize that these baseline scores represent a mixture ofon- and off-medication scores and that the mean levodopaequivalents were slightly lower in the STN studies (250.7for STN, 300.5 for GPI) compared with the GPI studies. TheSTN studies also had a higher male representation (66%),which is of some import because prior research has demon-
+strated that women with PD have a higher rate of operation-related complications and less improvement comparedwith men,
+45,61,79
+suggesting that sex should be considered as astudy characteristic in future studies. It is also important to
+consider the fact that although the overall sample sizes in
+the GPI studies were smaller than those in the STN studies,of the 11 studies published after 2000, only two of the GPI
+studies were published after 2001 compared with nine STN
+studies. The concern is that the more recent STN studies
+appear to have larger effect sizes for motor function symp-
+toms and for ADL functioning compared with GPI studies.
+Finally, since the writing of this paper, one other randomizedtrial comparing STN with GPI DBS has been published.
+77
+Inthis study, 124 patients with PD were randomly assignedto STN or GPI stimulation and outcomes were assessed blindto the surgical target. Based on a composite outcome meas-
+ure that included the changes in the UPDRS motor scoreand the levodopa equivalent dose as well as the complications
+that developed within 6 months after surgery in the twostudy groups, there was no difference in the two groups.Our metaanalysis findings are consistent with this ran-domized trial.
+In summary, this metaanalysis confirms that both STN
+DBS and GPI DBS are ef fective in improving motor func-tion at least 6 months after surgery. In this analysis, the ef-
+fects for stimulation of either site were not statistically dif-
+ferent. Our findings generally underscore the need to focuson surgery-related outcomes such as improvement in motorfunction and ADL functioning, reduced medication use,and complications related to stimulation rather than on sur -gical parameters such as microelectrode recordings. We reit-
+erate the need for standardized reporting of both motor
+symptoms and ADL scores at dif ferent points in time across
+studies and for a randomized controlled trial comparing the
+two surgical sites with outcomes assessed in a blinded fash-
+ion.

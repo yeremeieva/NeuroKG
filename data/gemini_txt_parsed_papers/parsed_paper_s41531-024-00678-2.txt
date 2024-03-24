@@ -1,0 +1,24 @@
+**Summary of Scientific Paper**
+
+**Distinguishing features of Parkinson's disease fallers based on wireless insole-plantar pressure monitoring**
+
+**Background:**
+Postural instability is a common and disabling symptom of Parkinson's disease (PD), contributing to an increased risk of falls and loss of independence. Current clinical assessments of PD-related postural instability are subjective and limited in their ability to comprehensively evaluate postural control.
+
+**Objective:**
+This study aimed to develop objective, multi-dimensional assessments of postural instability in individuals with PD using wireless insole plantar pressure monitoring.
+
+**Methods:**
+Insole plantar pressure data were collected from 111 participants (44 with PD and 67 controls) while performing simulated static and active postural tasks. Machine-learning models were trained on these data to classify PD from controls, and PD fallers from PD non-fallers.
+
+**Results:**
+The machine-learning models accurately classified PD from young controls (AUC 0.99+/−0.00), PD from age-matched controls (AUC 0.99 +/−0.01), and PD fallers from PD non-fallers (AUC 0.91 +/−0.08). Utilizing features from both static and active postural tasks significantly improved classification performances. Tasks with higher postural threats were preferred for separating PD fallers from PD non-fallers.
+
+**Key Findings:**
+1. Insole plantar pressure monitoring can provide objective, multi-dimensional assessments of postural instability in individuals with PD.
+2. Combining static and active postural tasks improves the classification accuracy of machine-learning models for PD and PD faller identification.
+3. Tasks with higher postural threats, such as gait and functional reach, are more effective in differentiating PD fallers from PD non-fallers.
+4. Specific features derived from plantar pressure data, such as asymmetry in postural control and increased energy content in the medio-lateral direction, are associated with PD and PD fall risk.
+
+**Conclusion:**
+This study demonstrates the potential of insole plantar pressure monitoring as a valuable tool for assessing postural instability in PD, identifying individuals at risk of falling, and quantifying the effects of therapeutic interventions. The identified features provide insights into the underlying mechanisms of PD-related postural instability and may guide future research and clinical practice.

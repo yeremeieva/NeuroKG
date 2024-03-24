@@ -1,0 +1,16 @@
+**Summary of Scientific Paper**
+
+This study investigated the effects of sleep deprivation on cognitive function and daytime alertness. Participants were randomly assigned to either a sleep deprivation group or a control group. The sleep deprivation group was kept awake for 24 hours, while the control group slept for 8 hours.
+
+**Results**
+
+* **Cognitive Function:** Sleep deprivation significantly impaired cognitive function, including attention, memory, and executive function.
+* **Daytime Alertness:** Sleep deprivation caused significant daytime sleepiness and fatigue.
+* **Reaction Time:** Sleep-deprived participants had slower reaction times, indicating impaired speed of processing.
+* **Sustained Attention:** Sleep deprivation reduced the ability to maintain attention for prolonged periods.
+* **Working Memory:** Sleep deprivation impaired the ability to hold information in working memory.
+* **Decision-Making:** Sleep-deprived participants made more impulsive decisions and were more likely to make errors.
+
+**Conclusions**
+
+Sleep deprivation has detrimental effects on cognitive function and daytime alertness. It impairs attention, memory, executive function, reaction time, sustained attention, working memory, and decision-making. The findings highlight the importance of adequate sleep for optimal cognitive performance and safety.

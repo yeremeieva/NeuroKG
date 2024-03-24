@@ -1,0 +1,41 @@
+**Summary of Scientific Paper: New Methods for the Assessment of Parkinson’s Disease (2005 to 2015): A Systematic Review**
+
+**Introduction:**
+* There has been a surge in the development of new technologies (NAM-PD) for assessing Parkinson's disease (PD).
+* This review aimed to evaluate the maturity, feasibility, and usefulness of these methods.
+
+**Methods:**
+* Systematic search of studies published from 2005 to 2015 in PubMed and Web of Science databases.
+* 588 original research articles were evaluated.
+* Parameters assessed: technology used, demographic characteristics, clinimetric properties (accuracy, agreement, responsiveness, repeatability), and technology readiness level (TRL).
+
+**Results:**
+
+**Technology Used:**
+* Inertial measurement units (IMUs), accelerometers, and gyroscopes were commonly used.
+* Wearable NAM-PD were increasingly prevalent.
+
+**Clinimetric Properties:**
+* Less than 50% of studies used standard validation methods.
+* Only 8% confirmed their results in different datasets.
+* The axial features domain was most frequently studied, followed by bradykinesia.
+* Accuracy and agreement measures were often reported, but responsiveness and repeatability were underrepresented.
+
+**TRL:**
+* 45% of studies used NAM-PD with TRL 1-3, indicating a need for further development.
+* Only 8% of NAM-PD reached TRL 9, indicating proven applicability in a clinical environment.
+
+**Discussion:**
+
+**Key Findings:**
+* NAM-PD have the potential to improve PD assessment, but many are still in early stages of development.
+* Standardized validation methods and collaborative studies are needed to confirm preliminary results and assess understudied domains.
+
+**Future Directions:**
+* Focus on validating existing and developing new NAM-PD for less-studied domains, such as non-motor symptoms and treatment complications.
+* Improve clinimetric properties of NAM-PD to ensure reliable and meaningful measurements.
+* Foster collaboration and data sharing to accelerate the translation of NAM-PD into clinical practice.
+
+**Conclusion:**
+* This systematic review provides a comprehensive overview of the current state of NAM-PD and highlights areas for future research and development.
+* Standardization, validation, and collaboration are crucial for advancing the field and improving the assessment and management of PD.

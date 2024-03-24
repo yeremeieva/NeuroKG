@@ -7482,3 +7482,463 @@ TypeError: 'NoneType' object is not iterable
 2024-03-24 12:15:58,622 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-03-24 12:16:19,677 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
 2024-03-24 12:16:20,201 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 13:33:54,170 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 13:33:58,797 [INFO] number of papers is 4
+2024-03-24 13:33:59,205 [INFO] Good News!!!! Converted pdf papers to txt papers
+2024-03-24 13:34:17,214 [INFO] paper paper_The-effectiveness-and-safety-of-Jihwang-eumja--Dihuang-Y_2023_Complementary-.txt is parsed
+2024-03-24 13:34:26,017 [INFO] paper paper_voon2006.txt is parsed
+2024-03-24 13:34:39,978 [INFO] paper paper_wishart2003.txt is parsed
+2024-03-24 13:34:59,025 [INFO] paper paper_weaver2005.txt is parsed
+2024-03-24 13:35:02,031 [INFO] Good News!!!! Converted txt to parsed txt by chat gpt
+2024-03-24 13:36:15,457 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 13:36:17,099 [INFO] number of papers is 4
+2024-03-24 13:36:17,790 [INFO] Good News!!!! Converted pdf papers to txt papers
+2024-03-24 13:36:34,642 [INFO] paper paper_The-effectiveness-and-safety-of-Jihwang-eumja--Dihuang-Y_2023_Complementary-.txt is parsed
+2024-03-24 13:37:06,362 [INFO] paper paper_voon2006.txt is parsed
+2024-03-24 13:37:25,814 [INFO] paper paper_wishart2003.txt is parsed
+2024-03-24 13:37:43,138 [ERROR] not successfully parsing text with this gemini ai, exception "Content has no parts."
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/chat/gemini_parser.py", line 18, in txt_to_parsed_txt_gemini
+    return model_response.text
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/vertexai/generative_models/_generative_models.py", line 1398, in text
+    return self.candidates[0].text
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/vertexai/generative_models/_generative_models.py", line 1455, in text
+    return self.content.text
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/vertexai/generative_models/_generative_models.py", line 1526, in text
+    raise AttributeError("Content has no parts.")
+AttributeError: Content has no parts.
+2024-03-24 13:37:43,148 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:37:43,149 [INFO] paper paper_weaver2005.txt is parsed
+2024-03-24 13:37:46,151 [INFO] Good News!!!! Converted txt to parsed txt by chat gpt
+2024-03-24 13:51:27,029 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 13:51:28,633 [INFO] number of papers is 39
+2024-03-24 13:51:29,199 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:29,200 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:29,317 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:29,317 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:30,757 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:30,757 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:31,107 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:31,107 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:32,277 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:32,278 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:32,476 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:32,477 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:33,807 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:33,810 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:35,210 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:35,211 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:36,263 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:36,264 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:37,870 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:37,871 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:37,947 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:37,947 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:38,288 [ERROR] not successful read of pdf, exception "sequence index out of range"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 34, in read_pdf
+    page = reader.pages[page_num]
+           ~~~~~~~~~~~~^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/PyPDF2/_page.py", line 2077, in __getitem__
+    raise IndexError("sequence index out of range")
+IndexError: sequence index out of range
+2024-03-24 13:51:38,288 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:51:38,289 [INFO] Good News!!!! Converted pdf papers to txt papers
+2024-03-24 13:51:58,157 [INFO] paper paper_prospective.txt is parsed
+2024-03-24 13:52:17,906 [INFO] paper paper_The-effectiveness-and-safety-of-Jihwang-eumja--Dihuang-Y_2023_Complementary-.txt is parsed
+2024-03-24 13:52:36,637 [INFO] paper paper_s41380-022-01661-0.txt is parsed
+2024-03-24 13:52:52,495 [INFO] paper paper_Effects-of-somatic-acupoint-stimulation-on-anxiety-and_2023_Complementary-Th.txt is parsed
+2024-03-24 13:53:15,438 [INFO] paper paper_10.1002@mds.26723.txt is parsed
+2024-03-24 13:53:30,922 [INFO] paper paper_s41531-024-00686-2.txt is parsed
+2024-03-24 13:53:40,080 [INFO] paper paper_Effects-of-propolis-on-inflammation-markers-in-patien_2023_Complementary-The.txt is parsed
+2024-03-24 13:53:55,909 [INFO] paper paper_s41531-024-00671-9.txt is parsed
+2024-03-24 13:54:03,217 [INFO] paper paper_robert2018.txt is parsed
+2024-03-24 13:54:09,534 [INFO] paper paper_s41420-024-01915-6.txt is parsed
+2024-03-24 13:54:31,323 [INFO] paper paper_The-association-between-vitamin-C-dietary-intake-and-_2023_Complementary-The.txt is parsed
+2024-03-24 13:54:50,843 [INFO] paper paper_s41467-023-39193-y.txt is parsed
+2024-03-24 13:55:08,358 [ERROR] not successfully parsing text with this gemini ai, exception "Content has no parts."
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/chat/gemini_parser.py", line 18, in txt_to_parsed_txt_gemini
+    return model_response.text
+           ^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/vertexai/generative_models/_generative_models.py", line 1398, in text
+    return self.candidates[0].text
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/vertexai/generative_models/_generative_models.py", line 1455, in text
+    return self.content.text
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/lib/python3.11/site-packages/vertexai/generative_models/_generative_models.py", line 1526, in text
+    raise AttributeError("Content has no parts.")
+AttributeError: Content has no parts.
+2024-03-24 13:55:08,372 [ERROR] not successful read of txt, exception "'NoneType' object is not iterable"
+Traceback (most recent call last):
+  File "/Users/sophiayeremeeva/Desktop/uni/ukma/thesis/diploma/code/NeuroKG/utils/reader.py", line 55, in write_txt
+    file.writelines(text)
+TypeError: 'NoneType' object is not iterable
+2024-03-24 13:55:08,373 [INFO] paper paper_jamapsychiatry_pearce_2022_oi_220016_1654022528.74062.txt is parsed
+2024-03-24 13:55:28,245 [INFO] paper paper_voon2006.txt is parsed
+2024-03-24 13:55:34,914 [INFO] paper paper_wishart2003.txt is parsed
+2024-03-24 13:55:54,712 [INFO] paper paper_s44220-023-00168-z.txt is parsed
+2024-03-24 13:56:14,342 [INFO] paper paper_s41531-024-00678-2.txt is parsed
+2024-03-24 13:56:21,088 [INFO] paper paper_10.1016@j.clineuro.2019.105442.txt is parsed
+2024-03-24 13:56:28,323 [INFO] paper paper_s41598-024-55093-7.txt is parsed
+2024-03-24 13:56:35,586 [INFO] paper paper_Adherence-to-24-h-movement-guidelines-and-cog_2023_Complementary-Therapies-i.txt is parsed
+2024-03-24 13:56:45,032 [INFO] paper paper_luigjes2011.txt is parsed
+2024-03-24 13:57:04,801 [INFO] paper paper_Additional-health-education-and-nutrition-management-_2023_Complementary-The.txt is parsed
+2024-03-24 13:57:21,137 [INFO] paper paper_Effect-of-progressive-muscle-relaxation-as-an-add-on-to_2023_Complementary-T.txt is parsed
+2024-03-24 13:57:27,879 [INFO] paper paper_karapinarsenturk2020.txt is parsed
+2024-03-24 13:57:59,521 [INFO] paper paper_weaver2005.txt is parsed
+2024-03-24 13:58:08,923 [INFO] paper paper_10.1002@rmv.2278.txt is parsed
+2024-03-24 13:58:16,055 [INFO] paper paper_A-randomized-controlled-trial-on-the-seeds-of-Sophora-_2023_Complementary-Th.txt is parsed
+2024-03-24 13:58:34,291 [INFO] paper paper_fpsyt-12-705749.txt is parsed
+2024-03-24 13:58:41,351 [INFO] paper paper_s41386-024-01841-2.txt is parsed
+2024-03-24 13:58:48,350 [INFO] paper paper_bibliometric.txt is parsed
+2024-03-24 13:59:00,900 [INFO] paper paper_side.txt is parsed
+2024-03-24 13:59:17,922 [INFO] paper paper_The-50-most-cited-review-papers-on-physical-acti_2023_Complementary-Therapie.txt is parsed
+2024-03-24 13:59:25,472 [INFO] paper paper_Combinations-of-physical-activity--screen-time-and-_2023_Complementary-Thera.txt is parsed
+2024-03-24 13:59:32,973 [INFO] paper paper_s41598-024-57252-2.txt is parsed
+2024-03-24 13:59:43,750 [INFO] paper paper_bhan-31-01-1.txt is parsed
+2024-03-24 13:59:50,670 [INFO] paper paper_coley2009.txt is parsed
+2024-03-24 14:00:05,749 [INFO] paper paper_A systematic review of psychiatric indications for deep brain stimulation  with focus on major depressive and obsessive-compulsive disorder.txt is parsed
+2024-03-24 14:00:22,098 [INFO] paper paper_patients.txt is parsed
+2024-03-24 14:00:50,913 [INFO] paper paper_innovations.txt is parsed
+2024-03-24 14:00:53,920 [INFO] Good News!!!! Converted txt to parsed txt by chat gpt
+2024-03-24 14:02:25,818 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:02:26,405 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:02:48,472 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:03:06,240 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:03:44,475 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:04:16,344 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:04:41,804 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:05:03,102 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:05:22,285 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:05:49,979 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:06:09,847 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:06:32,254 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:06:53,616 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:07:14,825 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:07:47,743 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:08:01,806 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:08:26,886 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:08:44,406 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:09:17,169 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:09:28,599 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:09:55,381 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:17:16,982 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:17:17,660 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:17:43,249 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:18:24,578 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:18:25,247 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:18:53,381 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:18:54,155 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:18:54,977 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:18:55,707 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:18:56,240 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:23:22,866 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:23:23,552 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:23:45,741 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:23:45,914 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:25:03,741 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:25:04,404 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:25:25,925 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:25:42,588 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:26:08,013 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:26:23,185 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:27:04,139 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:27:37,904 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:28:05,012 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:28:34,228 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:28:51,018 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:29:13,630 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:29:34,526 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:30:00,126 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:30:30,645 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:30:32,026 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:30:56,145 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:31:16,681 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:31:53,745 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:32:14,185 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:32:40,696 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:33:04,326 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:33:53,640 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:34:17,170 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:37:22,267 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:37:22,939 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:37:22,939 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:38:18,582 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:38:19,265 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:38:39,428 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:38:39,873 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:39:50,008 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:39:50,680 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:40:11,643 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:40:11,888 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:40:42,661 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:40:43,364 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:41:04,972 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:41:05,274 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:41:41,788 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:41:42,494 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:42:19,006 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:42:19,364 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:42:31,478 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:42:32,146 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:42:46,169 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:42:46,437 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:42:50,179 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:42:50,813 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:43:08,079 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:43:08,379 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:43:21,607 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:43:22,291 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:43:44,782 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:43:45,086 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:49:21,056 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:49:21,733 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:51:08,971 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:51:09,642 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:51:29,374 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:51:29,505 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 14:56:58,750 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 14:56:59,500 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 14:57:18,236 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 14:57:18,386 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 15:00:23,718 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:00:24,421 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:00:50,876 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:00:51,168 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 15:02:00,758 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:02:01,456 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:02:19,886 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:02:20,004 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 15:04:50,716 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:04:51,384 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:05:15,190 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:05:15,344 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 15:06:31,051 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:06:31,725 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:07:14,783 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:07:14,927 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!
+2024-03-24 15:10:22,636 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:10:23,337 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:10:41,195 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:11:05,818 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:14:38,263 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:14:38,955 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:14:56,982 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:15:31,471 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:17:57,033 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:17:57,702 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:18:21,721 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:20:13,682 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:20:14,390 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:20:38,743 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:21:02,416 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:23:12,707 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:23:13,371 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:23:35,824 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:24:09,063 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:24:39,053 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:24:57,968 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:25:51,842 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:26:15,364 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:26:39,462 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:27:02,805 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:27:18,236 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:27:34,222 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:28:20,045 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:29:02,532 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:29:35,828 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:29:43,078 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:30:02,846 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:30:21,284 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:30:40,738 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:30:58,416 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:31:32,193 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:31:55,437 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:32:31,363 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:32:55,093 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:33:12,805 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 502 Bad Gateway"
+2024-03-24 15:33:12,814 [INFO] Retrying request to /chat/completions in 0.873453 seconds
+2024-03-24 15:36:05,334 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:36:06,031 [INFO] The folder './data/openai_txt_parsed_papers' does not exist.
+2024-03-24 15:37:03,949 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:37:04,625 [INFO] The folder './data/openai_txt_parsed_papers' does not exist.
+2024-03-24 15:37:23,569 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:37:24,208 [INFO] The folder './data/openai_txt_parsed_papers' does not exist.
+2024-03-24 15:37:42,758 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:37:43,419 [INFO] The folder './data/openai_txt_parsed_papers' does not exist.
+2024-03-24 15:38:25,042 [INFO] NumExpr defaulting to 8 threads.
+2024-03-24 15:38:25,751 [INFO] Good News!!!! Parsed txt to documents
+2024-03-24 15:38:49,249 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:39:13,251 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:39:31,437 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:39:51,497 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:40:20,998 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:40:39,675 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:41:09,255 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:41:40,772 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:42:18,284 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:42:41,719 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:43:44,772 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:44:04,112 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:44:19,803 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:44:42,670 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:45:03,726 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:45:49,352 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:46:13,421 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:46:40,232 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:46:45,293 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:47:05,664 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:47:28,180 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:47:50,319 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:48:15,832 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:48:38,037 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:49:04,246 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:49:23,300 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:49:28,325 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:49:45,108 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:50:55,118 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:51:30,345 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:51:48,277 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:51:56,255 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:52:19,568 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:52:38,451 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:53:02,849 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:53:27,811 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:54:02,107 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:54:32,164 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:54:52,019 [INFO] HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-03-24 15:54:52,469 [INFO] Exciting News!!!! All papers were written to the graph!!!!!!!!!

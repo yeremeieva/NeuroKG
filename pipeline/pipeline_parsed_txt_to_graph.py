@@ -16,9 +16,13 @@ def extract_and_store_graph(document: Document) -> None:
 
     nodes = [map_to_base_node(node) for node in data.nodes]
     rels = [map_to_base_relationship(rel) for rel in data.rels]
+    print('doc name: '+ document.metadata['source'])
+    print(f'rels nodes: {len(nodes)}')
+    print(f'rels len: {len(rels)}')
 
-    # for node in nodes:
-    #     add_node_history(node, document.metadata['source'])
+
+    for node in nodes:
+        add_node_history(node)
 
     for node in nodes:
         for rel in rels:
@@ -38,8 +42,9 @@ def extract_and_store_graph(document: Document) -> None:
 
 if __name__ == '__main__':
     start_time = time.time()
-    input_papers = list_files('./data/txt_parsed_papers', ending='.txt')
-    documents = [txt_to_doc(f'./data/txt_parsed_papers/{paper}') for paper in input_papers]
+    model = 'openai'
+    input_papers = list_files(f'./data/{model}_txt_parsed_papers', ending='.txt')
+    documents = [txt_to_doc(f'./data/{model}_txt_parsed_papers/{paper}') for paper in input_papers]
     logger.info('Good News!!!! Parsed txt to documents')
 
     # extract_and_store_graph(documents[5])

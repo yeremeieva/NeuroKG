@@ -30,7 +30,7 @@ def read_pdf(file_path: str) -> Optional[str]:
         with open(file_path, "rb") as file:
             reader = PyPDF2.PdfReader(file)
             num_pages = len(reader.pages)
-            for page_num in range(6):
+            for page_num in range(8):
                 page = reader.pages[page_num]
                 text += page.extract_text()
         return text

@@ -1,0 +1,11 @@
+The scientific literature on Parkinson's disease (PD) has grown substantially in the past 35 years, mirroring the growing interest and progress in understanding this neurodegenerative disorder. Here are some key findings from a study that analyzed PD-related articles published from 1983 to 2017:
+
+* **Number of Publications:** The number of PD research papers increased significantly from 885 in 1983-1987 to 29,972 in 2013-2017.
+
+* **Geographical Distribution:** The United States consistently had the highest number of publications throughout the period, followed by European countries (UK, Germany, Italy, France) and English-speaking nations (Canada, Australia). Notably, China and India emerged as major contributors from 2003 onwards, with China ranking second globally by 2013-2017.
+
+* **Number of Journals:** The number of journals publishing PD-related research increased from 232 in 1983-1987 to 2,824 in 2013-2017.
+
+* **Top Journals:** In 2013-2017, three PD-focused journals (Parkinsonism & Related Disorders, Movement Disorders, Journal of Parkinson's Disease) accounted for 6.8% of all PD papers. The remaining 82.5% of journals published 10 or fewer papers on PD.
+
+This study offers valuable insights into the evolution of PD research, highlighting the geographical shift and the emergence of specialized PD journals. It complements qualitative reviews and provides a global perspective on PD research activities.

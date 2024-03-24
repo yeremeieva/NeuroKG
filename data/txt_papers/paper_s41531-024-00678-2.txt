@@ -1,0 +1,485 @@
+npj | parkinson ’sd i s e a s e Article
+Published in partnership with the Parkinson ’s Foundation
+https://doi.org/10.1038/s41531-024-00678-2
+Distinguishing features of Parkinson ’s
+disease fallers based on wireless insoleplantar pressure monitoring
+Check for updates
+Cara Herbers1, Raymond Zhang2,A r t h u rE r d m a n1,3& Matthew D. Johnson2,3
+Postural instability is one of the most disabling motor signs of Parkinson ’s disease (PD) and often underlies
+an increased likelihood of falling and loss of independ ence. Current clinical assessments of PD-related
+postural instability are based on a retropulsion t est, which introduces human error and only evaluates
+reactive balance. There is an unmet need for objectiv e, multi-dimensional assessments of postural
+instability that directly re ﬂect activities of daily living in which indivi duals may experience postural instability.
+In this study, we trained machine-learning models on in sole plantar pressure data from 111 participants (44
+with PD and 67 controls) as they performed simulated st atic and active postural tasks of activities that often
+occur during daily living. Models accurately classi ﬁed PD from young controls (area under the curve (AUC)
+0.99+/−0.00), PD from age-matched controls (AUC 0.99 +/−0.01), and PD fallers from PD non-fallers
+(AUC 0.91 +/−0.08). Utilizing features from both st atic and active postural tasks signi ﬁcantly improved
+classi ﬁcation performances, and all tasks were useful for separating PD from controls; however, tasks with
+higher postural threats were preferred for separating PD fallers from PD non-fallers.
+Postural instability is a cardin al motor symptom of Parkinson ’sd i s e a s e( P D )
+and is characterized by de ﬁcits in the control of static, reactive, and proactive
+posturing1–3. Postural instability leads to falls, loss of independence, physical
+injuries, and immobilization in severe cases4. The underlying pathophy-
+siology of PD-related postural i nstability is not well understood5,p o s t u r a l
+instability has little or no response to current PD treatments6,7,a n du pt o
+90% of people with PD will fall at some stage of the disease progression8,9.
+One of the factors contributing to these challenges is a lack of quantitative,objective, and accessible approaches to effectively characterize the multi-
+faceted nature of postural instability in individuals with PD.
+The clinical gold standard of postural instability assessments is the
+retropulsion test, which involves pulling back on an individual ’s shoulders
+and visually inspecting how many steps are necessary to regain balance
+10.
+While well-validated, the retropulsion test is subjective, requires a trainedclinician, and addresses only reactive balance, which is just one aspect ofpostural control
+11. Several studies have demonstrated that monitoring the
+center of pressure (COP) over a variety of balance tasks is a useful andobjective way to identify altered postural control in PD
+12,13, especially in
+individuals with PD who have a history of falls14,15. These COP measure-
+ments are especially valuable for asse ssing balance tasks involving heigh-
+tened postural threat, which is characterized by signi ﬁcant disturbances tothe postural control system, prompting individuals to adjust their posture to
+maintain an upright position16. An increase in postural threats can be due to
+things such as: (1) removing visual cues while maintaining an uprightstance, (2) changing the support surface from a hard ﬂat surface to a soft,
+tilted surface, or (3) removing a traditional base of support by requiring anindividual to stand upright with only one foot on the ground as opposed toboth feet. However, traditional methods to assess COP during a variety ofbalance tasks are not widely available outside of research settings andtherefore are not useful in many clinical or at-home settings.
+Monitoring insole plantar pressure
+17could be a simple, low-cost, and
+accessible way to frequently assess postural control through COP mea-
+surements in each foot. However, studies demonstrating that plantarpressure data can be used to identify PD-related postural instability arelimited. In a small feasibility study, plantar pressure was used to identify PD-speciﬁc balance patterns during quiet stance and gait
+18.O t h e rs t u d i e sh a v e
+shown that plantar pressure can predict gait dysfunction in PD19,20,b u tt h e s e
+studies did not assess PD-rel ated postural instability.
+In this study, we leveraged (1) previous ﬁndings showing features of
+COP are different in individuals with PD and in PD with a fall risk21,22,( 2 )t h e
+development of insole pressure sensors as a convenient way to collect COPoutside of the clinic, and (3) careful selection of balance tasks that engage
+1Department of Mechanical Engineering, University of Minnesota, 111 Church Street SE, Minneapolis 55455 MN, USA.2Department of
+Biomedical Engineering, University of Minnesota, 312 Church Street SE, Minneapolis 55455 MN, USA.3These authors contributed equally:
+Arthur Erdman, Matthew D. Johnson. e-mail: john5101@umn.edu
+npj Parkinson ’s Disease |           (2024) 10:67 11234567890():,;
+1234567890():,;different aspects of one ’s postural control system to train a series of
+machine-learning models for detection of PD and PD who have a history ofone or more falls. We hypothesized that utilizing both static and activebalance tasks would improve classi ﬁcation performance between control
+and PD subjects. Previous work has also demonstrated that tasks with higher
+postural threat help with identifying i ndividuals with PD who are at risk for
+falling
+14,23–25. We further hypothesized that models would put more weight
+on active balance task features to differentiate PD fallers from PD non-fallers.Results
+Insole plantar pressure was collected wh ile subjects performed three static
+balance tasks (quiet stance eyes open, q uiet stance eyes closed, quiet stance
+eyes open on one foot) and three active balance tasks (gait, functional reach,
+bending over) (Fig. 1). These data were collected across varying participant
+demographics and surface types (Supplementary Table 1). After collectionof insole plantar pressure data, COP-de rived features collected during these
+tasks served as input to train ﬁve machine-learning model architectures
+(SVM: support vector machine, RF: random forest, LR: logistic regression,
+COP Feature Generation
+for static and active tasks
+Positional
+Dynamic
+FrequencyActive StaticBalance Tasks COP Calculation
+Quiet Stance 
+Eyes Open
+Both Feet
+GaitQuiet Stance 
+Eyes Open
+One Foot
+Bend OverQuiet Stance 
+Eyes Closed
+Both Feet
+Functional ReachQuiet Stance 
+Eyes Open
+Both Feet
+GaitQuiet Stance 
+Eyes Open
+One Foot
+Bend OverQuiet Stance 
+Eyes Closed
+Both Feet
+Functional Reacha. Data aquisition and preprocessing
+Evaluate and Compare Models
+using five-fold cross-validation
+Accuracy:  correct predictions
+Precision:  correct positive identifications 
+Recall:  actual positives identified correctly
+F1: harmonic mean of precision and recall
+Kappa: agreement corrected for chanceDescriminability
+(AUC)
+fprtpr
+metricvaluechancePerformace
+MetricsImplement Model
+for each task feature set
+Classifier
+ModelClassificationParticipantsModel-Specific 
+Subset of 
+Features
+Participantsc. Model perfomance analysis
+SVM KNN LR RF GNB
+Common
+FeaturesCommon Feature Identification Top Shapley Feature Identification
+All
+Common 
+FeaturesAll Top
+Shapley
+Featues
+......Additional AnalysisKey Feature Intersection
+common and top Shapley features
+SVM KNN LR RF GNB
+Top Shapley
+Featuresd. Key feature identifiction*Highest F1 score = Optimal Feature Subset*.....Feature Set Pre-FilteringSequential Feature Selection
+using five-fold cross-validationModel Tuning
+using five-fold cross-validation
+Underfit Overfit
+Validation
+Error
+Training
+Error
+Model ParametersErrorClass
+Labels
+.....p<0.05Generate a 
+Feature SubsetTrain/Test 
+ModelEvaluate 
+F1 ScoresFeaturesPre-Filtered
+FeaturesParticipantsObtain Optimal Feature 
+Subset Per Model
+Participantsb. Feature selection and model tuning
+.....
+.....Average
+of the feature 
+across feet
+Asymmetry
+of the feature
+between feet
+Fig. 1 | Machine-learning models were developed to classify PD from young
+controls, PD from age-matched controls, and PD fallers from PD non-fallers,
+based on features derived from insole plantar pressure. a Plantar pressure was
+recorded and used to calculate COP per foot from three static balance tasks and threeactive balance tasks. Positional, dynamic, and frequency domain features were
+generated from the COP. The average of each feature and the asymmetry of each
+feature across feet were computed. The static task and active task features wereutilized separately and combined to develop the machine-learning classi ﬁer models.
+bF-statistic pre- ﬁltering and forward sequential feature selection were used to
+identify an optimal subset of features which maximized each model ’sﬁve-fold cross-validation F1 score. Once the subset of features per model was determined, hyper-
+parameter tuning over a ﬁve-fold cross-validation was completed. cFrom the tuned
+model, the model performance was assessed, and individuals who were misclassi ﬁed
+across models were identi ﬁed.dFeatures commonly chosen by feature selection
+methods were identi ﬁed, and Shapley analysis was performed for each model to
+identify features with the highest Shapley value. Features that appeared in the
+common feature set and top Shapley value feature set were analyzed to understand
+their underlying biomechanical implications related to PD and individuals with PDwho have a history of falls.https://doi.org/10.1038/s41531-024-00678-2 Article
+npj Parkinson ’s Disease |           (2024) 10:67 2KNN: K-nearest neighbors, and GNB: Gau ssian naive Bayes) to differentiate
+between PD subjects and controls (you ng and age-matched), and between
+individuals with PD who do and do not have a history of falls (PD fallers andPD non-fallers, respectively). COP-derived features from static and activetasks were used separately and then together. For each classi ﬁcation, the
+feature sets were ﬁrst pre- ﬁltered by way of F-statistic feature selection.
+Then, forward sequential feature selection with ﬁve distinct machine-
+learning model architectures was used to determine an optimal subset offeatures that maximized each model ’s classi ﬁcation performance, measured
+by the ﬁve-fold cross-validation F1 score. After determining the optimal
+feature subset, the hyperparameters of each model were tuned, and theperformance metrics of each model were determined using a ﬁve-fold cross-
+validation. Complete model performance results and all performancemetrics are shown in Supplementary Figs. 1 –6.
+COP-derived feature differences between PD and control
+subjects
+For comparisons of COP between PD subjects and young controls (Fig. 2a)
+and between PD subjects and age-matched controls (Fig. 2b), there was no
+effect signi ﬁcant effect of model type on classi ﬁcation. Additionally, models
+trained on only static or only active tasks performed similarly across allmetrics. In contrast, the models trained on static +active task features****
+****
+****
+Accuracy Precision Recall F1 KappaModel Performance Value***
+*
+***
+** ***
+***
+Accuracy Precision Recall F1 KappaModel Performance ValuePD vs. young controls
+PD vs. age-matched controls
+PD fallers vs. PD non-fallers
+Accuracy Precision Recall F1 KappaModel Performance Valueab
+True Positive Rate
+False Positive RateSVM    RF      LR    KNN   GNBAUC
+SVM    RF      LR    KNN   GNB
+SVM    RF      LR    KNN   GNBStatic
+ActiveStatic + Active1.0
+0.90.80.70.6
+1.00
+0.95
+0.900.85
+0.750.80
+1.0
+0.9
+0.7
+0.5
+0.20.30.8
+0.6
+0.41.0
+0.80.60.4
+00.2
+1.0 0.8 0.6 0.4 0 0.2
+0.99 0.97 0.99 0.99 0.991.00
+0.95
+0.90
+0.85
+0.750.80
+0.70True Positive Rate
+False Positive Rate1.0
+0.80.60.4
+00.2
+1.0 0.8 0.6 0.4 0 0.2True Positive Rate
+False Positive Rate1.0
+0.80.6
+0.4
+00.2
+1.0 0.8 0.6 0.4 0 0.2AUC
+0.98 0.99 0.98 0.99 0.991.00
+0.95
+0.90
+0.85
+0.750.80
+0.70
+AUC
+0.86 0.84 0.84 0.91 0.931.00
+0.95
+0.90
+0.85
+0.750.80
+0.70
+Fig. 2 | Model performance for all three binary classi ﬁcations. a Average model
+performance (with standard error mean) for models trained on static task features
+only, active task features only, and static +active task features. Models trained on
+static+active task features demonstrated the highest classi ﬁcation accuracies. bTheaverage ROC curves and associated AUC (with standard error mean) based on ﬁve-
+fold cross-validation are shown for all models trained on static +active task features.
+**p< 0.001, *p< 0.017. (SVM support vector machine, RF random forest, LR
+logistic regression, KNN K-nearest neighbors, GNB Gaussian naive Bayes).https://doi.org/10.1038/s41531-024-00678-2 Article
+npj Parkinson ’s Disease |           (2024) 10:67 3performed signi ﬁcantly better than the models that were trained on only
+static task features (young controls: accuracy p< 0.001, precision p= 0.0011,
+f1p< 0.001, kappa p< 0.001; age-matched controls: accuracy p= 0.008, f1
+p= 0.007, kappa p= 0.008) and models trained only on active task features
+(young controls: accuracy p< 0.001, precision p< 0.001, f1 p< 0.001, kappa
+p< 0.001; age-matched controls: accuracy p< 0.001, recall p< 0.001, f1
+p< 0.001, kappa p< 0.001). Models trained on features from the static
++active tasks that best classi ﬁed PD from young control groups, based on
+ﬁve-fold cross-validation performan ces, were the support vector machine,
+K-nearest neighbors, and Gaussian Naïve Bayes models (AUC of 0.99 +/−
+0.00 [standard error mean]; Fig. 2a and Supplementary Figs. 1 and 4). For
+classi ﬁcation between PD and age-matched control groups trained on static
++active task features, again based on ﬁve-fold cross-validation perfor-
+mances, the K-nearest neighbors model performed the best (AUC of 0.99 +/
+−0.01 standard error mean; Fig. 2b and Supplementary Figs. 2 and 5).
+COP-derived feature differences between PD fallers and non-
+fallers
+When comparing PD fallers with non-fallers, there was no signi ﬁcant effect
+on model type for any performance metrics. There was a marginalimprovement in classi ﬁcation performance with models trained on active
+task features compared to static task features but with no signi ﬁcantdifference. Similarly, there was a marginal improvement in classi ﬁcation
+performance for models trained on static +active task features compared to
+only static task features or only active task features, but no signi ﬁcant dif-
+ferences (Fig. 2c). The model that best classi ﬁed between PD faller and PD
+non-faller groups, based on ﬁve-fold cross-validation performances, was the
+Gaussian Naïve Bayes model. This model achieved an AUC of 0.93 +/−
+0.04 (standard error mean) (Fig. 2c and Supplementary Figs. 3 and 6).
+Common features
+When comparing data from individuals with PD and age-matched controls,
+models trained on the static task shared 35 common features, derived mostlyfrom the quiet stance with eyes open task and averaging foot COP data (Fig.3a and Supplementary Fig. 8a). For models trained on the active task, 26
+features were common with most from the bending-over task and an evensplit between average and asymmetric COP features. Combining static and
+active task features resulted in 88 common features, mostly from static
+balance tasks, and predominantly average features. Among the commonfeatures, 7 unique features also had top Shapley values.
+For data collected between PD fallers and PD non-fallers, models
+trained on the static task had nine com mon features, derived primarily from
+the quiet stance eyes closed task and from asymmetric COP foot metrics(Fig. 3b and Supplementary Fig. 8b). For models trained on active task
+features, there were 10 common features, derived mostly from the gait task.F o rm o d e l st r a i n e do ns t a t i c +active task features, there were 17 common
+features, again derived primarily from the gait task. Out of the commonfeatures for static, active, and static +active models, 9 unique top Shapley
+features were identi ﬁed.
+Key features
+For models comparing individuals with PD and age-matched controls, 7
+features that were common across static, active, and static +active tasks also
+appeared as top Shapley features in a model (Fig. 4aa n dT a b l e 1). Four were
+from static balance task features (3 e yes open, 1 one foot) and three were
+features from active balance tasks (2 bend over, 1 functional reach). Nofeatures appeared from gait tasks. Five were positional measures, one was adynamic measure, and one was a frequency measure (SupplementaryFig. 11a).
+Additionally, for models trained to differentiate PD fallers from non-
+fallers, 9 features that were common across static, active, and static +active
+tasks models also appeared as top Shapley features in a model (Fig. 4ba n d
+Table 1). Five were static balance task features (4 eyes closed, 1 one foot), and
+four were from active balance tasks (3 gaits, 1 bend over). No featuresappeared from a quiet stance eyes open or from functional reach. Further,ﬁve were dynamic features and four were frequency features. There were no
+positional features. Lastly, four of the features were average features and ﬁve
+were asymmetric features (Supplementary Fig. 11b).
+Discussion
+This study demonstrates the utility of insole plantar pressure recordingsduring simulated daily living activities to differentiate between individuals
+with PD and control subjects (young and age-matched), as well as betweenPD fallers and PD non-fallers. Feature selection and Shapley analysis of themachine-learning models fu rther enabled the identi ﬁcation of speci ﬁct a s k s
+(static and active), COP trajectories ( p o s i t i o n ,d y n a m i c ,a n df r e q u e n c y ) ,a n d
+consistency of COP between feet (average and asymmetry) that best dif-ferentiated between groups.
+This study investigated binary classi ﬁcation models leveraging insole
+pressure data from static and active tas ks to differentiate PD subjects from
+young and age-matched control groups. The classi ﬁcations assessed in this
+study achieved high performance (with F1 scores greater than 97% for all
+models trained on static +active features). Additionally, three models clas-
+sifying PD from young controls (sup port vector machine, K-nearest
+neighbors, and Gaussian Naïve Bay es) demonstrated perfect classi ﬁcation
+(100% accurate) over a ﬁve-fold cross-validation. Together, these data
+demonstrate clear decision boundaries from insole plantar pressure-derivedPositional
+Dynamic
+FrequencyFeature Type
+Static
+ActiveTask Type
+AverageAsymmetricCOP TypeaStatic Active Static + ActiveControl
+PD EO
+EC
+OF
+FRBO
+GAIT
+FR
+BOGAIT
+EO
+EC
+OF
+FRBO
+GAIT
+EOEC OFFRBOGAITOFFeatures
+ECOF
+FRGAIT
+FR
+BOGAIT
+ECOF
+EC
+OF
+FRBOGAITGAITPD non-faller
+PD fallerb
+ECPD vs. age-matched controls PD fallers vs. PD non-fallers
+*
+*
+*
+********
+**
+*
+** *
+**
+ShapleyFeatures
+FeaturesFeatures
+FeaturesFeatures
+*Top Shapley features
+Quiet Stance
+Eyes Open(EO)Quiet Stance
+Eyes Closed(EC)One Foot
+Eyes Open(OF)
+Gait (GAIT)Functional
+Reach(FR)Bend
+Over(BO)Static 
+Tasks
+Active
+Tasks
+Fig. 3 | Common features chosen by at least three of the ﬁve models during feature
+selection. a PD and age-matched controls, and bPD fallers and PD non-fallers.
+Common features were identi ﬁed for models trained on static task features only,
+active task features only and static +active task features. The z-score of each feature,
+per group, is shown in the polar plot. The inner black circle indicates a z-score of
+zero, with radius increments of 0.25. The surrounding rings indicate each feature ’s
+domain, task type, and COP type. Features that also had the single highest Shapleyvalue in a model are also indicated.https://doi.org/10.1038/s41531-024-00678-2 Article
+npj Parkinson ’s Disease |           (2024) 10:67 4features that separate PD and control subjects when utilizing multiple
+simulated tasks that are often performed as part of daily living.
+Previous studies that have levera ged machine-learning models to
+classify PD and control groups have focused primarily on one task,
+including quiet stance (86% accuracy)26or gait (95% accuracy)27.T h e
+improved performance achieved by static +a c t i v et a s k sm o d e l si nt h i ss t u d y
+likely stems from choosing tasks th at sample non-redundant aspects of
+postural control. This ﬁnding emphasizes the diff erences in the manifes-
+tation of postural control dysfuncti on amongst individuals with PD and
+demonstrates the clinical need to quantify a variety of balance assessments tofully capture the high dimensionality of PD-related postural instability.
+In conjunction with combining static +a c t i v et a s k si nt h em o d e l s ,t h e
+use of insole plantar pressure from each foot enabled assessment of COPasymmetry, which proved helpful in differentiating PD fallers from PD non-fallers. In this study, the KNN model t rained on insole plantar pressure
+features from both static and active tasks, achieved 91% accuracy, 93%
+precision, and 80% recall. A previous study using a force plate to capture
+COP metrics during static balance tasks and a decision tree model hadperformance results of 88% accura cy, 75% precision, and 57% recall
+24.O t h e r
+studies have investigated COP charac teristics to differentiate betweencontrols, PD non-fallers, and PD fallers, but did not use insole plantar
+pressure sensors, machine-learning algo rithms, or investigate the effect of
+b a l a n c et a s kt y p eo nc l a s s i ﬁcation23,25.
+This study also investigated the effect of task type on model classi ﬁ-
+cation performance between PD fallers and PD non-fallers. Models usingactive task features showed slightly better performance than those usingstatic task features, and models trained on both static +active features
+showed the highest performance. Abnormalities in postural control for PDfallers have been shown to be mor e evident during active tasks
+14and static
+tasks with induced postural threat28, explaining why models using active
+tasks performed better, and static +active task models had the best classi-
+ﬁcation performance. These ﬁndings highlight the importance of using a
+variety of balance assessments to fully capture the high dimensionality ofpostural instability, especially tasks w ith higher postural threat to assess fall
+risk in PD.
+Using common feature identi ﬁcation and Shapley analysis, the models
+identi ﬁed seven key features that had a high marginal contribution to
+classifying subjects with PD from age -matched controls. While these fea-
+tures were biomechanically relevant, classi ﬁcation performance was higher
+when additional features (beyond the seven) were methodically included inEOOF
+BO
+FR
+BO
+EOQuiet Stance
+Eyes Open
+(EO)Quiet Stance
+Eyes Closed
+(EC)Quiet Stance
+Eyes Open
+(OF)Static
+Gait
+(GAIT)Functional Reach
+(FR)Bend Over
+(BO)Active7 Key Features
+Average
+AsymmetricCOP TypePositional
+Dynamic
+FrequencyFeature Type
+Static
+ActiveTask TypePD
+Control 
+(age-matched)
+Pos. Dyn. Freq. Static Active Avg. Asym.34 4
+25
+2
+1
+Quiet Stance
+Eyes Open
+(EO)Quiet Stance
+Eyes Closed
+(EC)Quiet Stance
+One Foot
+(OF)Static ActiveGait
+(GAIT)Functional Reach
+(FR)Bend Over
+(BO)9 Key FeaturesECGAIT
+EC
+OF
+GAITBOPD faller
+PD non-faller
+Average
+AsymmetricCOP Type PositionalDynamic
+FrequencyFeature Type
+Static
+ActiveTask Type
+Pos. Dyn. Freq. Static Active Avg. Asym.545454a
+b
+# of features7
+6
+5
+4
+321
+0
+# of features7
+6
+5
+4
+3
+2
+1
+0
+# of features7
+6
+5
+4
+3
+2
+1
+0# of features8
+6
+4
+20
+# of features8
+64
+20
+# of features8
+6
+4
+2
+0
+Fig. 4 | Key features appearing as both common features and top Shapley features.
+COP throughout the duration of each task was used to generate a set of features,which were leveraged to train and test ﬁve machine-learning model architectures to
+classify between aindividuals with PD and age-matched controls, and between bPDfallers and PD non-fallers. Common features amongst the models during feature
+selection with the single highest Shapley value in at least one model are shown with z-
+score values for each feature, per group, in the polar plot. See the Fig. 3caption for
+more details. Feature numbers correspond to rows in Table 1.https://doi.org/10.1038/s41531-024-00678-2 Article
+npj Parkinson ’s Disease |           (2024) 10:67 5

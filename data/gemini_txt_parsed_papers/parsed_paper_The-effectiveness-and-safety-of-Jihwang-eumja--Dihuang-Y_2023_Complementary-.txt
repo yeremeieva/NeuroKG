@@ -1,0 +1,22 @@
+**Effectiveness and Safety of Jihwang-eumja for Alzheimer's Disease**
+
+**Summary**
+
+Jihwang-eumja, a traditional Korean herbal formula, has shown promise in treating Alzheimer's disease (AD). This systematic review and meta-analysis aimed to evaluate its effectiveness and safety compared to Western medications.
+
+**Methods**
+
+Databases including PubMed, Embase, and Cochrane Library were searched for randomized controlled trials (RCTs) comparing Jihwang-eumja with Western medications in AD patients. Outcomes included cognitive function, activities of daily living (ADL), and adverse events (AEs). Risk of bias and certainty of evidence were assessed using the Cochrane Risk-of-Bias Tool and GRADE system.
+
+**Results**
+
+Six RCTs with a total of 485 participants were included. Meta-analysis showed:
+
+* Jihwang-eumja significantly improved Mini-Mental State Examination (MMSE) scores compared to Western medications (MD = 3.19, 95% CI: 1.68–4.70).
+* Similar results were observed for Hasegawa Dementia Scale (HDS) scores (MD = 5.90, 95% CI: 5.44–6.37).
+* Jihwang-eumja also improved ADL scores (SMD = 1.13, 95% CI: 0.89–1.37).
+* The relative risk of AEs was lower in the Jihwang-eumja group compared to the Western medications group (RR = 0.39, 95% CI: 0.20–0.78).
+
+**Conclusion**
+
+Despite the small number of studies and heterogeneity, evidence from this systematic review suggests that Jihwang-eumja is effective in improving cognitive function and ADL in patients with AD. It is also well-tolerated with a low risk of AEs. Further high-quality RCTs are needed to confirm these findings.

@@ -1,0 +1,38 @@
+## Summary of Adverse Effects and Ethical Challenges Associated with Deep Brain Stimulation (DBS) of the Subthalamic Nucleus (STN)**
+
+**Introduction:**
+- DBS is an increasingly used therapy for psychiatric disorders and movement disorders such as Parkinson's disease.
+- Adverse effects (side effects) of DBS are a major ethical concern in evaluating the novel approach.
+- This study analyzes the discussion and ethical implications of side effects associated with STN-DBS, the primary target for DBS in Parkinson's disease.
+
+**Methods:**
+- Researchers reviewed 66 case reports, 69 review papers, and 347 outcome studies on STN-DBS published from 1993 to 2009.
+
+**Findings:**
+- **Increased Awareness of Side Effects:** Over time, the DBS community has become more aware of the complexity of STN-DBS side effects.
+
+- **Cognitive, Affective, and Behavioral Side Effects:** These types of side effects have been the dominant issue in the DBS literature since 2003.
+
+- **Study Quality and Measuring Side Effects:**
+    - The quality of outcome studies varied widely.
+    - The mean study quality has not increased significantly since 2000.
+    - The community shows a preference for studies with higher quality ratings.
+    - Most outcome studies focused on cognitive issues, with fewer assessing behavioral or quality-of-life effects.
+    - The perspective on side effects was heavily biased towards evaluator assessments, with a lack of patient self-assessment and caregiver input.
+
+- **Ethical Implications:**
+    - DBS introduces ethical issues related to harm-benefit assessments, as side effects must be weighed against therapeutic benefits.
+    - Measuring and evaluating side effects is crucial in defining what counts as an adverse event.
+    - The subjectivity of psychiatric symptoms and the different evaluations by stakeholders complicate ethical considerations.
+    - The expectation that DBS will enhance our understanding of psychiatric disorders may increase the spectrum of potential side effects.
+
+**Conclusions:**
+- The DBS community has made progress in recognizing the complexity of STN-DBS side effects.
+- There is a need to improve the quality of studies and expand the perspective on side effects to include patient and caregiver perspectives.
+- Ethicists have a vital role in safeguarding against negative effects, addressing measurement issues, and broadening the scope of considerations.
+
+**Recommendations:**
+- Promote the use of high-quality studies and encourage research on less well-studied side effects.
+- Incorporate patient and caregiver assessments to address the biased perspective on side effects.
+- Consider the varying evaluations of side effects by different stakeholders and the ethical implications of subjective psychiatric symptoms.
+- Recognize the potential for new side effects as DBS expands into psychiatric applications.

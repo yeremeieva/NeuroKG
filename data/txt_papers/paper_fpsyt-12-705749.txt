@@ -1,0 +1,483 @@
+ORIGINAL RESEARCH
+published: 29 October 2021
+doi: 10.3389/fpsyt.2021.705749
+Frontiers in Psychiatry | www.frontiersin.org 1 October 2021 | Volume 12 | Article 705749Editedby:
+AgorastosAgorastos,
+AristotleUniversityof
+Thessaloniki,Greece
+Reviewedby:
+JungGooLee,
+InjeUniversityHaeundaePaik
+Hospital,SouthKorea
+MariaHelenaDe
+AguiarPereiraE.Pestana,
+UniversityInstituteofLisbon,Portugal
+*Correspondence:
+YunWang
+wangyun@bucm.edu.cn
+Specialtysection:
+Thisarticlewassubmittedto
+MoodDisorders,
+asectionofthejournal
+FrontiersinPsychiatry
+Received: 06May2021
+Accepted: 05October2021
+Published: 29October2021
+Citation:
+WangH,TianX,WangXandWangY
+(2021)EvolutionandEmergingTrends
+inDepressionResearchFrom2004to
+2019:ALiteratureVisualization
+Analysis.Front.Psychiatry12:705749.
+doi:10.3389/fpsyt.2021.705749Evolution and Emerging Trends in
+Depression Research From 2004 to
+2019: A Literature Visualization
+Analysis
+HuiWang1,XuemeiTian2,XianruiWang1andYunWang1,2*
+1SchoolofTraditionalChineseMedicine,BeijingUniversit yofChineseMedicine,Beijing,China,2SchoolofLifeSciences,
+BeijingUniversityofChineseMedicine,Beijing,China
+Depression has become a major threat to human health, and res earchers around the
+world are actively engaged in research on depression. In ord er to promote closer
+research, the study of the global depression knowledge map i s signiﬁcant. This study
+aims to map the knowledge map of depression research and show the current research
+distribution, hotspots, frontiers, and trends in the ﬁeld o f depression research, providing
+researchers with worthwhile information and ideas. Based o n the Web of Science
+core collection of depression research from 2004 to 2019, th is study systematically
+analyzed the country, journal, category, author, institut ion, cited article, and keyword
+aspects using bibliometric and data visualization methods . A relationship network
+of depression research was established, highlighting the h ighly inﬂuential countries,
+journals, categories, authors, institutions, cited artic les, and keywords in this research
+ﬁeld. The study identiﬁes great research potential in the ﬁe ld of depression, provides
+scientiﬁc guidance for researchers to ﬁnd potential collab orations through collaboration
+networks and coexistence networks, and systematically and accurately presents the
+hotspots, frontiers, and shortcomings of depression resea rch through the knowledge
+map of global research on depression with the help of informa tion analysis and
+fusion methods, which provides valuable information for re searchers and institutions to
+determine meaningful research directions.
+Keywords: depression, major depressive disorder, bibliomet rics, visual analysis, knowledge graphs, CiteSpace
+INTRODUCTION
+Healthissuesarebecomingmoreandmoreimportanttopeopledue tothecontinuousdevelopment
+ofhealthcare.Thesocialpressuresonpeoplearebecomingmorea ndmorepronouncedinasocial
+environment that is developing at an increasing rate. Prolon ged exposure to stress can have a
+negative impact on brain development ( 1), and depression is one of the more typical disorders
+that accompany it. Stress will increase the incidence of depres sion (2), depression has become
+a common disease ( 3), endangering people’s physical health. Depression is a debilit ating mental
+illness with mood disorders, also known as major depression, clinical depression, or melancholia.
+Inhumanstudiesofthedisease,ithasbeenfoundthatdepress ionaccountsforalargeproportionof
+theaﬀectedpopulation.AccordingtothelatestdatafromtheWor ldHealthOrganization(WHO)
+statistics in 2019, there are more than 350 million people with d epression worldwide, with anWang et al. Development
+increaseofabout18%inthelastdecadeandanestimatedlife time
+prevalence of 15% ( 4), it is a major cause of global disability and
+disease burden ( 5), and depression has quietly become a disease
+thatthreatenshundredsofmillionsofpeopleworldwide.
+Along with the rise of science communication research, the
+quantiﬁcation of science is also ﬂourishing. As a combinati on
+of “data science” and modern science, bibliometrics takes
+advantage of the explosive growth of research output in
+the era of big data, and uses topics, authors, publications,
+keywords, references, citations, etc. as research targets to
+reveal the current status and impact of the discipline more
+accurately and scientiﬁcally. Whereas, there is not a wealt h of
+bibliometric studies related to depression. Fusar-Poli et al . (6)
+used bibliometrics to systematically evaluate cross-diag nostic
+psychiatry.Hammarströmetal.( 7)usedbibliometricstoanalyze
+the scientiﬁc quality of gender-related explanatory models o f
+depression in the medical database PubMed. Tran et al. ( 8)
+used the bibliometric analysis of research progress and eﬀect ive
+interventions for depression in AIDS patients. Wang et al.
+(9) used bibliometric methods to analyze scientiﬁc studies
+on the comorbidity of pain and depression. Shi et al. ( 10)
+performed a bibliometric analysis of the top 100 cited articl es
+on biomarkers in the ﬁeld of depression. Dongping et al. ( 11)
+used bibliometric analysis of studies on the association be tween
+depression and gut ﬂora. An Chunping et al. ( 12) analyzed the
+literature on acupuncture for depression included in PubMed
+based on bibliometrics. Yi and Xiaoli ( 13) used a bibliometric
+method to analyze the characteristics of the literature on t he
+treatment of depression by Chinese medicine in the last 10
+years. Zhou and Yan ( 14) used bibliometric method to analyze
+the distribution of scientiﬁc and technological achieveme nts
+on depression in Peoples R China. Guaijuan ( 15) performed a
+bibliometric analysis of the interrelationship between pso riasis
+anddepression.Econometricanalysisoftherelationshipbe tween
+vitamin D deﬁciency and depression was performed by Yunzhi
+etal.(16)andShaunietal.( 17)performedabibliometricanalysis
+of domestic and international research papers on depression-
+relatedgenesfrom2003to2007.Apreviousreviewofdepressio n-
+relatedbibliometricstudiesrevealedthatthereisnobibl iometric
+analysis of global studies in the ﬁeld of depression, includi ng
+country network analysis, journal network analysis, catego ry
+network analysis, author network analysis, institutional network
+analysis, literature co-citation analysis, keyword co-pre sentation
+analysis,andclusteranalysis.
+The aim of this study was to conduct a comprehensive and
+systematic literature-based data mining and metrics analys is
+of depression-related research. More speciﬁcally, this analys is
+focuses on cooperative network and co-presentation analysis,
+based on the 36,477 papers included in the Web of Science
+Core Collection database from 2004 to 2019, and provides
+an in-depth analysis of cooperative network, co-presentation
+network, and co-citation through modern metrics and data
+visualizationmethods. Through themining of keydata,the d ata
+correlation is further explored, and the results obtained ca n
+be used to scientiﬁcally and reasonably predict the depressio n-
+related information. This study aims to show the spatial and
+temporal distribution of research countries, journals, aut hors,and institutions in the ﬁeld of depression in a more concise
+manner through a relational network. A deeper understanding
+of the internal structure of the research community will hel p
+researchers and institutions to establish more accurate an d
+eﬀective global collaborations, in line with the trend of huma n
+destinyandglobalization.Inaddition,thestudywillallo wforthe
+timelyidentiﬁcationofgapsincurrentresearch.Amoretarg eted
+research direction will be established, a more complete pictur e
+of the new developments in the ﬁeld of depression today will be
+obtained, and the research protocol will be informed for furt her
+adjustments. The results of these analyses will help resear chers
+understandtheevolutionofthisﬁeldofstudy.Overall,thi spaper
+uses literature data analysis to ﬁnd research hotspots in the ﬁ eld
+of depression, analyze the knowledge structure within diﬀeren t
+studies, and provide a basis for predicting research frontier s.
+This study analyzed the literature in the ﬁeld of depression
+usingCiteSpace5.8.R2(64-bit)toanalyzecollaborativenet works,
+including country network analysis, journal network analy sis,
+category network analysis, researcher network analysis, an d
+institutional network analysis using CiteSpace 5.8.R2 (64-bit ).
+In addition, literature co-citation, keyword co-presentat ion,
+and cluster analysis of depression research hotspots were
+also performed. Thus, exploring the knowledge dimensions of
+the ﬁeld, quantifying the research patterns in the ﬁeld, and
+uncovering emerging trends in the ﬁeld will help to obtain
+more accurate and complete information. The large amount of
+current research results related to depression will be presen ted
+moreintuitivelyandaccuratelywiththemediumofinformat ion
+technology, and the scientiﬁc evaluation of research theme s and
+trendpredictionwillbeprovidedfromanewperspective.
+METHODS
+Data Sources
+ThedatainthispapercomesfromtheWebofScience(WoS)core
+collection. The time years were selected as 2004–2019. Firs t, the
+literaturewasretrievedafterentering“depression”usingt hetitle
+searchmethod.Atotalof73,829articles,excluding“depress ion”
+as “suppression,” “decline,” “sunken,” “pothole,” “slump,” “l ow
+pressure,” “frustration.” The total number of articles with other
+meanings such as “depression” was 5,606, and the total number
+of valid articles related to depression was 68,223. Next, the title
+search method was used to search for studies related to “majo r
+depressivedisorder”not“depression,”andatotalof8,070ar ticles
+were retrieved. For the two search strategies, a total of 76, 293
+records were collected. The relevant literature retrieved under
+the two methods were combined and exported in “plain text”
+ﬁle format. The exported records included: “full records and
+references cited.” CiteSpace processed the data to obtain 41, 408
+validrecords,coveringalldepression-relatedresearchar ticlesfor
+theperiod2004–2019,andusedthisasthebasisforanalysis.
+Processing Tools
+CiteSpace ( 18), developed by Chao-Mei Chen, a professor
+in the School of Information Science and Technology at
+Drexel University, is a Java-based program with powerful data
+visualization capabilities and is one of the most widely used
+Frontiers in Psychiatry | www.frontiersin.org 2 October 2021 | Volume 12 | Article 705749Wang et al. Development
+knowledgemappingtools.Thesoftwareversionusedinthisstu dy
+isCiteSpace5.8.R2(64-bit).
+Methods of Analysis
+This study uses bibliometrics and data visualization as ana lytical
+methods. First, the application of bibliometrics to the ﬁeld of
+depression helped to identify established and emerging resea rch
+clusters,demonstratingthevalueofresearchinthisarea. Second,
+data visualization provides multiple perspectives on the data,
+presenting correlations in a clearer “knowledge graph” that
+can reveal underestimated and overlooked trends, patterns, and
+diﬀerences( 19).CiteSpaceismainlybasedonthe“co-occurrence
+clusteringidea,”whichextractstheinformationunits(ke ywords,
+authors, institutions, countries, journals, etc.) in the d ata by
+classiﬁcation, and then further reconstructs the data in th e
+informationunitstoformnetworksbasedondiﬀerenttypesand
+strengths of connections (e.g., keyword co-occurrence, au thor
+collaboration, etc.). The resulting networks include node s and
+links, where the nodes represent the information units of the
+literature and the links represent the existence of connecti ons
+(co-occurrence) between the nodes. Finally, the network is
+measured, statistically analyzed, and presented in a visual way.
+The analysis needs to focus on: the overall structure of the
+network, key nodes and paths. The key evaluation indicators i n
+this study are: betweenness centrality, year, keyword freq uency,
+andburststrength.Betweennesscentrality(BC)isthenumb erof
+timesanodeactsastheshortestbridgebetweentwoothernod es.
+Thehigherthenumberoftimesanodeactsasan“intermediary ,”
+the greater its betweenness centrality. Betweenness centr ality is
+a measure of the importance of articles found and measured
+by nodes in the network by labeling the category (or authors,
+journals, institutions, etc.) with purple circles. There may be
+many shortest paths between two nodes in the network, and by
+counting all the shortest paths of any two nodes in the network ,
+ifmanyoftheshortestpathspassthroughanode,thenthenode
+is considered to have high betweenness centrality. In CiteS pace,
+nodes with betweenness centrality over 0.1 are called criti cal
+nodes. Year, which represents the publication time of the arti cle.
+Frequency, which represents the number of occurrences. Burs t
+strength, an indicator used to measure articles with sudden rise
+or sudden decline in citations. Nodes with high burst streng th
+usually represent a shift in a certain research area and need t o
+be focused on, and the burst article points are indicated in re d.
+The nodes and their sizes and colors are ﬁrst analyzed initial ly,
+and further analyzed by betweenness centrality indicators for
+evaluation. Each node represents an article, and the larger t he
+node, the greater the frequency of the keyword word and the
+greatertherelevancetothetopic.Similarly,thecolorofth enode
+represents time: the warmer the color, the more recent the tim e;
+the colder the color, the older the era; the node with a purple
+outerringisanodewithhighbetweennesscentrality;theco lorof
+each annual ring can determine the time distribution: the co lor
+of the annual ring represents the corresponding time, and the
+thickness of one annual ring is proportional to the number of
+articles within the corresponding time division; the domina nt
+colorcanreﬂecttherelativeconcentrationoftheemergenc etime;
+thenode Theappearanceofredannual rings intheannualringsmeanshotspots,andthefrequencyofcitationshasbeenoriss till
+increasingrapidly.
+LARGE-SCALE ASSESSMENT
+Country Analysis
+Duringtheperiod2004–2019,atotalof157countries/territ ories
+haveconductedresearchondepression,whichisabout67.38% of
+233 countries/territories worldwide. This shows that depre ssion
+is receiving attention from many countries/regions around the
+world.Figure1showsthegeographicaldistributionofpublished
+articles for 157 countries. The top 15 countries are ranked
+according to the number of articles published. Table1lists the
+top 15 countries with the highest number of publications in
+the ﬁeld of depression worldwide from 2004 to 2019. These
+15 countries include 4 Asian countries (Peoples R China,
+Japan, South Korea, Turkey), 2 North American countries
+(USA, Canada), 1 South American country (Brazil), 7 European
+countries (UK, Germany, Netherlands, Italy, France, Spain,
+Sweden),and1Oceaniacountry(Australia).
+Overall, the main distribution of these articles is in USA and
+some European countries, such as UK, Germany, Netherlands,
+Italy,France,Spain,andSweden.Thismeansthatthesecount ries
+are more interested and focused on research on depression
+compared to others. The total number of publications across
+all research areas in the Web of Science core collection is
+similar to the distribution of depression research areas, wi th
+the trend toward USA, UK, and Peoples R China as leading
+countries being unmistakable, and USA has been a leader
+in the ﬁeld of depression, with far more articles published
+than any other country. It can also be seen that USA is
+the country with the highest betweenness centrality in the
+network of national collaborations analyzed in this paper. USA
+research in the ﬁeld of depression is closely linked to global
+research, and is an important part of the global collaborative
+network for depression research. As of 2019, the total number
+ofarticlespublishedindepressionperformanceresearchinUSA
+represents 27.13% of the total number of articles published
+in depression worldwide, which is ∼4 times more than the
+second-placecountry,UK,whichisfaraheadofothercountrie s.
+Peoples R China, as the third most published country, has a
+dominant number of articles, but its betweenness centralit y is
+0.01,reﬂectingthefactthatPeoplesRChinahaslesscollabo rative
+research with other countries, so Peoples R China should
+strengthenitsforeigncollaborativeresearchandactivel yestablish
+global scientiﬁc research partnerships to seek development an d
+generate breakthroughs in cooperation. The average percenta ge
+of scientiﬁc research on depression in each country is about
+0.19%, also highlighting the urgent need to address depressio n
+as one of the global human health problems. The four Asian
+countries included in the top 15 countries are Peoples R China ,
+Japan, South Korea, and Turkey, with Peoples R China ranking
+third with 6.72% of the total number of all articles counted. The
+distributionmaybeexplainedbythefactthatPeoplesRChinai s
+the largest developing country with a rapid development rate as
+the largest. Along with the steady rise in the country’s econ omic
+power, people are creating economic beneﬁts and their health
+Frontiers in Psychiatry | www.frontiersin.org 3 October 2021 | Volume 12 | Article 705749Wang et al. Development
+FIGURE 1 | Geographical distributions of publications, 2004–2019.
+TABLE 1 | The top 15 productive countries.
+Rank Countries TP TP R (%) TPA (million) TPA R (%) BC Year
+1 USA 15,360 27.13 7.87 0.20 0.98 2004
+2 UK 3,852 6.80 1.84 0.21 0.20 2004
+3 Peoples R China 3,802 6.72 4.63 0.08 0.01 2005
+4 Australia 3,243 5.73 0.93 0.35 0.02 2004
+5 Germany 3,156 5.57 1.89 0.17 0.09 2006
+6 Canada 2,679 4.73 1.17 0.23 0.09 2004
+7 Netherlands 2,146 3.79 0.67 0.32 0.03 2006
+8 Japan 1,553 2.74 1.54 0.10 0.05 2007
+9 Italy 1,447 2.56 1.18 0.12 0.08 2007
+10 South Korea 1,304 2.30 0.84 0.16 0.03 2007
+11 France 1,223 2.16 1.29 0.09 0.10 2007
+12 Spain 1,165 2.06 0.95 0.12 0.01 2007
+13 Brazil 1,154 2.04 0.65 0.18 0.07 2007
+14 Turkey 1,112 1.96 0.45 0.25 0.00 2007
+15 Sweden 1,066 1.88 0.44 0.24 0.01 2005
+TP, total publications; TP R (%), the ratio of the amount of the publications i n the country to the publications in the word during 2004–2019; BC, betweenness central ity; TPA (million),
+totalpublicationsinallareas;TPAR(%),theratiooftheamountofpublica tionsindepressiontopublicationsinallareas.
+is becoming a consumable commodity. The lifetime prevalence
+and duration of depression varies by country and region ( 2),
+butthehighprevalenceandpersistenceofdepressionworldwideconﬁrms the increasing severity of the disease worldwide. Th e
+WHO estimates that more than 300 million people, or 4.4%
+of the world’s population, suﬀer from depression ( 20), with the
+Frontiers in Psychiatry | www.frontiersin.org 4 October 2021 | Volume 12 | Article 705749Wang et al. Development
+FIGURE 2 | The distribution of publications in top 10 productive count ries, 2004–2019. Source: author’s calculation. National d evelopment classiﬁcation criteria refer
+to “Human Development Report 2020” ( 21).
+number of people suﬀering from depression increasing at a
+patient rate of 18.4% between 2005 and 2015. Depression, one
+of the most prevalent mental illnesses of our time, has caused
+both physical and psychological harm to many people, and it
+has become the leading cause of disability worldwide today, a nd
+in this context, there is increased interest and focus on res earch
+into depression. It is expected that a more comprehensive
+understanding of depression and ﬁnding ways to prevent and
+cope with the occurrence of this disease can help people get
+rid of the pain and shadow brought by depression, obtain a
+healthy and comfortable physical and mental environment and
+physical health, and make Chinese contributions to the cause
+of human health. Undoubtedly, the occurrence of depressive
+illnessesinthecontextofirreversiblehumansocialdevel opment
+has stimulated a vigorous scientiﬁc research environment o n
+depression in Peoples R China and other developing countries
+and contributed to the improvement of research capacity in
+these countries. Moreover, from a diﬀerent perspective, the
+geographical distribution of articles in this ﬁeld also repres ents
+the fundamental position of the country in the overall scient iﬁc
+andacademicresearchﬁeld.
+Growth Trend Analysis
+Figure2depictsthedistributionof38,433articlesfromthetop10
+countriesintermsofthenumberofpublicationsandthetrend of
+growthduring2004–2019.
+First, the number of articles published per year for the top 10
+countriesintermsofproductivitywascountedandthenthewh ite
+barchartin Figure2wasplotted,withtheyearasthehorizontalcoordinate and total publications as the vertical coordinat e,
+showing the distribution of the productivity of articles in t he
+ﬁeld of depression per year. The total number of publications
+for the period 2004–2019 is 38,433. Based on the white bars
+and line graphs in Figure2, we can divide this time period
+into three growth periods. The number of publications in each
+growthperiodiscalculatedbasedonthenumberofpublication s
+per year. As can be seen from the ﬁgure, the period 2004–
+2019 can be divided into three main growth periods, namely
+2004–2009, 2010–2012, and 2013–2019, the ﬁrst growth period
+being from 2004 to 2009, the number of publications totaled
+6,749, accounting for 23.97% of all publications; from 2010 t o
+2012, the number of publications totaled 8,236, accounting f or
+17.56% of all publications; and from 2013 to 2019, the number
+of publications totaled 22,473, accounting for 58.47% of all
+publications. Of these, 2006 was the ﬁrst year of sharp growth
+with an annual growth rate of 19.97%, 2009 was the second year
+ofsharpgrowthwithanannualgrowthrateof17.64%,and2008
+wasthethirdyearofsharpgrowthwithanannualgrowthrateo f
+16.09%. In the last 5 years, 2019 has also shown a sharp growth
+trend with a growth rate of 14.34%. Notably, in 2010 and 2013,
+there was negative growth with the growth rate of −3.39 and
+−1.45%.Inthelast10years,depressionresearchhasbecomeone
+ofthemostvaluableareasofhumanresearch.Itcanalsobenot ed
+thatthenumberofpublicationsintheﬁeldofdepressioninthe se
+10countrieshasbeenincreasingyearafteryear.
+Second, the analysis is conducted from the perspective of
+national development, divided into developed and developing
+countries, as shown in the orange bar chart in Figure2, where
+Frontiers in Psychiatry | www.frontiersin.org 5 October 2021 | Volume 12 | Article 705749Wang et al. Development
+the horizontal coordinate is year and the vertical coordina te is
+total publications, comparing the article productivity varia bility
+between developed and developing countries. The top 10
+most productive countries in the ﬁeld of depression globally
+include nine developed countries and one developing country,
+respectively. During the period 2004–2019, 34,631 papers
+were published in developed countries and 3,802 papers were
+published in developing countries, with developed countries
+accounting for 90.11% of the 38,433 articles and developing
+countries accounting for 9.89%, and the total number of
+publications in developed countries was about 9 times higher
+than that in developing countries. During the period 2004–
+2019,thenumberofpublicationsindevelopedcountriesshowe d
+negative growth in 2 years (2010 and 2013) with growth rates
+of−3.39 and−1.45%, respectively. The rest of the years showed
+positive growth with growth rates of 1.52% (2005), 19.97 (200 6),
+8.11 (2007), 12.70 (2008), 17.64 (2009), 13.22 (2011), 10.1 7
+(2012), 16.09 (2014), 10.46 (2015), 4.10 (2016), 1.59 (2017 ),
+3.91 (2018), and 14.34 (2019), showing three periods of positi ve
+growth:2004–2009,2011–2012,and2014–2019,withthehigh est
+growth rate of 19.97% in 2006. Recent years have also shown
+a higher growth trend, with a growth rate of 14.34% in 2019.
+It is worth noting that developing countries have been showin g
+positive growth in the number of articles in the period 2004–
+2019, with annual growth rates of 81.25 (2005), 17.24 (2006) ,
+35.29 (2007), 19.57 (2008), 65.45 (2009), 13.19 (2010), 29. 13
+(2011), 54.89 (2012), 12.14 (2013), 36.36 (2014), 14.92 (20 15),
+16.02 (2016), 10.24 (2017), 21.17 (2018), and 31.37 (2019), with
+the highest growth rate of 81.25% in 2005. In the ﬁeld of
+depression research, developed countries are still the main f orce
+andoccupyanimportantposition.
+Further,10countrieswiththehighestproductivityintheﬁe ld
+of depression are compared, total publications in the vertical
+coordinate, and the colored scatter plot contains 10 colored
+dots, representing 10 diﬀerent countries. On the one hand, the
+variabilityofthecontributionsofdiﬀerentcountriesinth esame
+time frame can be compared horizontally. On the other hand,
+it is possible to compare vertically the variability of the gro wth
+of diﬀerent countries over time. Among them, USA, with about
+40.29% of the world’s publications in the ﬁeld of depression,
+has always been a leader in the ﬁeld of depression with its rich
+researchresults.PeoplesRChina,astheonlydevelopingcoun try,
+ranks3rdinthetop10countrieswithhighproductionofresea rch
+papers in the ﬁeld of depression, and Peoples R China’s research
+in the ﬁeld of depression has shown a rapid growth trend,
+and by 2016, it has jumped to become the 2nd largest country
+in the world, with the number of published papers increasing
+year by year, which has a broad prospect and great potential
+fordevelopment.
+Distribution of Periodicals
+Table2lists the top 15 journals in order of number of journal
+co-citations. In the ﬁeld of depression, the top 15 cited jour nals
+accounted for 19.06% of the total number of co-citations,
+nearly one in ﬁve of the total number of journal co-citations .
+In particular, the top 3 journals were ARCH GEN PSYCHIAT
+(ARCHIVES OF GENERAL PSYCHIATRY), J AFFECTTABLE 2 | The top 15 co-cited journals.
+Rank Journal TP TP R (%) BC
+1 ARCH GEN PSYCHIAT 20,499 2.09 0.02
+2 J AFFECT DISORDERS 20,302 2.07 0.07
+3 AM J PSYCHIAT 20,143 2.06 0.01
+4 BIOL PSYCHIAT 15,538 1.59 0.04
+5 BRIT J PSYCHIAT 15,109 1.54 0.01
+6 PSYCHOL MED 13,183 1.35 0
+7 J CLIN PSYCHIAT 12,778 1.30 0.01
+8 JAMA-J AM MED ASSOC 11,868 1.21 0.02
+9 ACTA PSYCHIAT SCAND 10,171 1.04 0
+10 LANCET 9,179 0.94 0
+11 PSYCHIAT RES 8,231 0.84 0
+12 PLOS ONE 7,704 0.79 0
+13 NEUROPSYCHOPHARMACOL 7,616 0.78 0.01
+14 DIAGN STAT MAN MENT 7,553 0.77 0
+15 PSYCHOSOM MED 6,920 0.71 0.01
+TP,totalpublications;TPR(%),theratiooftheamountofthejournal’spublication stothe
+totalpublications;BC,betweennesscentrality.
+DISORDERS (JOURNAL OF AFFECTIVE DISORDERS), and
+AM J PSYCHIAT (AMERICAN JOURNAL OF PSYCHIATRY),
+with co-citation counts of 20,499, 20,302, and 20,143, with
+co-citation rates of 2.09, 2.07, and 2.06%, respectively. The
+main research area of ARCH GEN PSYCHIAT is Psychiatry;
+the main research area of the journal J AFFECT DISORDERS
+is Neurosciences and Neurology, Psychiatry; AM J PSYCHIAT
+is the main research area of Psychiatry, and the three journa ls
+have“psychiatry”incommon,makingthemthemostfrequently
+co-citedjournalsintheﬁeldofdepression.
+Figure3 shows the network relationship graph of the cited
+journals from 2004 to 2019. The ﬁgure takes g-index as the
+selection criteria, the scale factor k=25 to include more
+nodes. Each node of the graph represents each journal, the
+node size represents the number of citation frequencies, the
+label size represents the size of the betweenness centrality of
+the journal in the network, and the links between journals
+represent the co-citation relationships. The journal co-cit ation
+map reﬂects the structure of the journals, indicating that th ere
+are links between journals and that the journals include sim ilar
+research topics. These journals included research topics rel ated
+to neuroscience, psychiatry, neurology, and psychology. The
+journal with betweenness centrality size in the top 1 was ARC H
+GEN PSYCHIAT, with betweenness centrality size of 0.07, and
+impact shadows of 14.48. ARCH GEN PSYCHIAT, has research
+themesofPsychiatry.Inall,thesejournalsin Figure3occupyan
+importantpositioninthejournal’sco-citationnetworkandh ave
+stronglinkswithotherjournals.
+Distribution of Categories
+Table3lists the 15 most popular categories in the ﬁeld of
+depression research during the period 2004–2019. In general,
+the main disciplines involved are neuroscience, psychology,
+pharmacy, medicine, and health care, which are closely relate d
+Frontiers in Psychiatry | www.frontiersin.org 6 October 2021 | Volume 12 | Article 705749

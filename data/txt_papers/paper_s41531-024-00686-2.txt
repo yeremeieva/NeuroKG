@@ -1,0 +1,343 @@
+npj | parkinson ’sd i s e a s e Article
+Published in partnership with the Parkinson ’s Foundation
+https://doi.org/10.1038/s41531-024-00686-2
+A multi-site study on sex differences in
+cortical thickness in non-dementedParkinson ’s disease
+Check for updates
+Javier Oltra1,2, Barbara Segura1,2,3, Antonio P. Strafella4,5, Thilo van Eimeren6,7,
+Naroa Ibarretxe-Bilbao8, Maria Diez-Cirarda9, Carsten Eggers7,10, Olaia Lucas-Jiménez8,
+Gemma C. Monté-Rubio11, Natalia Ojeda8,J a v i e rP e ñ a8,M a r i n aC .R u p p e r t10, Roser Sala-Llonch2,12,13,
+Hendrik Theis6,7, Carme Uribe4& Carme Junque1,2,3
+Clinical, cognitive, and atrophy characteristics depending on sex have been previously reported in
+Parkinson ’s disease (PD). However, though sex differences in cortical gray matter measures in early
+drug naïve patients have been described, little is known about differences in cortical thickness (CTh) asthe disease advances. Our multi-site sample comprised 211 non-demented PD patients (64.45%males; mean age 65.58 ± 8.44 years old; mean disease duration 6.42 ± 5.11 years) and 86 healthycontrols (50% males; mean age 65.49 ± 9.33 years old) with available T1-weighted 3 T MRI data fromfour international research centers. Sex differences in regional mean CTh estimations were analyzedusing generalized linear models. The relation of CTh in regions showing sex differences with age,
+disease duration, and age of onset was examined through multiple linear regression. PD males
+showed thinner cortex than PD females in six frontal (bilateral caudal middle frontal, bilateral superiorfrontal, left precentral and right pars orbitalis), three parietal (bilateral inferior parietal and leftsupramarginal), and one limbic region (right posterior cingulate). In PD males, lower CTh values in nineout of ten regions were associated with longer disease duration and older age, whereas in PD females,lower CTh was associated with older age but with longer disease duration only in one region. Overall,male patients show a more widespread pattern of reduced CTh compared with female patients.Disease duration seems more relevant to explain reduced CTh in male patients, suggesting worseprognostic over time. Further studies should explore sex-speci ﬁc cortical atrophy trajectories using
+large longitudinal multi-site data.
+There is a growing interest in the eff ect of sex in neurodegenerative
+diseases. In the precision medicine era, sex differences are relevant tothe development of further tailored prevention, diagnosis, and treat-ment strategies
+1,2. In this context, epidemiology studies report that
+Parkinson ’s disease (PD) is more common in males than females
+showing a 1.18 overall male/female prevalence ratio according to themost recent metanalysis
+3. Additionally, sex has been spotlighted, in the
+translational neuroscience ﬁeld, as a factor with potential in ﬂuence on
+different clinical and pathological characteristics of PD4.
+Regarding the clinical features of PD, the ﬁndings point to a dis-
+tinct pattern depending on sex: a male phenotype characterized byfreezing of gait, camptocormia, dr ooling, worse general cognitive
+abilities, greater de ﬁcits than female non-demented patients in execu-
+tive functions, and more rapid progression in the severe stage of thedisease; and a female phenotype characterized by postural tremor,frequent falls, dysphagia, gastrointestinal dysfunction, pain, andvisuospatial impairment
+4. In addition, a different pattern of progression
+o fs y m p t o m sb e t w e e ns e x e sh a sb e e nr e v e a l e db ye x p l o r i n g5 - y e a rlongitudinal data from 423 PD patients of the Parkinson ’sP r o g r e s s i o n
+Markers Initiative (PPMI) cohort
+5. The results showed that male
+patients had a higher decline in mot or and non-motor aspects of daily
+living, showed more progression of motor symptoms assessed in the
+A full list of af ﬁliations appears at the end of the paper. e-mail: bsegura@ub.edu
+npj Parkinson ’s Disease |           (2024) 10:69 11234567890():,;
+1234567890():,;ON-medication state, and required higher medication dosages
+over time5.
+Sex also has been considered a de ﬁning feature of neuroimaging
+phenotypes of several major brain disorders6. However, despite the rele-
+vance of the research topic, the data on sex differences in gray matter
+magnetic resonance imaging (MRI) cortical atrophy measures in PD islimited to a few previous studies. Fi rst, a single-site study from 2016 ana-
+lyzed a sample comprised of 43 PD males and 21 PD females with a diseaseduration of 3.7 years on average through a cortical thickness (CTh) vertex-wise approach
+7.T h er e s u l t ss h o w e dl o w e rC T hv a l u e si nm a l ep a t i e n t s
+compared with female patients in severa l cortical regions, revealing a mainly
+parieto-occipital regiona l pattern of sex differences. Subsequent studies have
+focused on multicentric MRI data from early drug naïve PD patients of thePPMI cohort
+8–10. In early drug naïve PD patients, deformation-based
+morphometry (DBM) analyses revealed gray matter atrophy in cortical
+regions in both directions (PD males > PD females, and vice versa)8.
+Moreover, the authors did not ﬁnd sex differences in CTh parcellations8.I na
+subsequent study, we found thinner cortex in PD males compared with PDfemales limited to paracentral and postcentral areas using a vertex-wiseprocedure
+9. Last, the most recent study using the PPMI cohort explored a
+l a r g es a m p l eo fe a r l yd r u gn a ï v eP Dp a t ients cross-sectionally and a smaller
+subsample with two-year follow-up s using vertex-wise CTh and voxel-
+based morphometry (VBM)10. The cross-sectional analyses revealed greater
+cortical gray matter atrophy mainly in frontal lobe, parietal lobe, andtemporal lobe regions in PD males compared with PD females. The long-itudinal analyses did not show any signi ﬁcant sex difference in changes over
+time in those regions that showed se x differences cross-sectionally
+10.
+One of the main gaps of the previous studies is that they did not explore
+the association between regions showing sex differences in gray mattermeasures and relevant variables that inform of the aging process and thedisease course. In this respect, while age contributes to sex differences inregional gray matter cortical reductions in the general population
+11,12,a n d
+disease duration13,14and the age of onset15have been associated with cortical
+gray matter atrophy in PD, their effects on regional sex differences in PDpatients have not been explored.
+The overall goal of the current stud y was to investigate sex differences
+in cortical gray matter atrophy in a large sample of non-demented PD with a
+wide disease duration range. In this regard, multi-site PD MRI datasets arefundamental to sex differences studi es, as a larger sample size protects
+against statistical power loss due to subgrouping. Our ﬁrst aim was to
+characterize sex differences in non-demented PD in CTh, using regionalmean CTh measures derived from T1-weighted 3 T MRI acquisitions. We
+hypothesized that male PD patients would show thinner cortex compared
+with female PD patients in several regions. Our second aim was to explorethe age, disease duration, and age of onset effects on CTh in those regionsshowing sex differences.
+Results
+Sociodemographic and clinical characteristics
+Parkinson ’s disease females were older than PD males, and PD males had
+more years of education than PD females (Table 1). Thus, both variables
+were included as covariates in further analyses.
+Concerning clinical variables, PD females had a statistically signi ﬁcant
+older age of onset than PD males (Table 1). Therefore, it was included as a
+covariate when comparing betw een sexes within the PD group.
+Regarding global cognitive scores, PD males had statistically sig-
+niﬁcantly lower scores than healthy co ntrol (HC) males in Mini-Mental
+State Examination (MMSE, Table 1).
+Regarding MRI variables, there were no signi ﬁcant differences in
+WMH-hypo volume nor in the presence of high Fazekas scores. Asexpected, the estimated total intracranial volume (eTIV) was higher in malesthan in females in both PD and HC groups (Table 1).
+Sex differences in cortical thickness in Parkinson ’sd i s e a s e
+patients
+First, the results of the GLM, includin g age and years of education as cov-
+ariates, revealed statistically signi ﬁcant group by sex interaction in the left
+and right hemisphere mean CTh estimations, as well as in mean CTh fromseven frontal, ﬁve temporal, nine parietal, six occipital, and two limbic
+cortical regions (Supplementary Tabl e 1). Subsequent comparisons were
+circumscribed to these regions.
+Between sex comparisons within the PD group, including age and
+education as covariates plus age of onset as an extra covariate, showed lowerCTh values in PD males compared with PD females in the right meanestimation, as well as in six f r o n t a l( b i l a t e r a lc a u d a lm i d d l ef r o n t a l ,b i l a t e r a l
+superior frontal, right precentral, and right pars orbitalis), three parietal
+Table 1 | Demographic and clinical characteristics of HC and PD males and females
+HC males n=43 PD males n=136 HC females n=43 PD females n=75 Group effect test stat
+(P-value)Sex effect test stat
+(P-value)
+Age, y 65.14 ± 8.38 (45 –81) 64.22 ± 9.41 (40 –85) 66.02 ± 8.36 (50 –80) 67.80 ± 8.78 (44 –86) 0.136 (0.712) 3.688 (0.056)a
+Education, y 12.93 ± 4.15 (6 –23) 11.86 ± 5.08 (0 –22) 11.42 ± 4.65 (0 –21) 10.52 ± 4.08 (2 –20) 2.660 (0.104) 5.583 (0.019)a
+Disease duration, y NA 7.19 ± 5.03 (1 –25) NA 6.94 ± 4.99 (0.7 –28) 0.340 (0.734)
+Age of onset, y NA 57.03 ± 10.21 (31 –78) NA 60.86 ± 8.87 (41 –81) −2.725 (0.007)a
+MMSE scoreb29.21 ± 1.29 (24 –30) 28.36 ± 1.86 (22 –30) 29.38 ± 0.70 (28 –30) 28.88 ± 1.10 (26 –30) 8.095 (0.005)c2.154 (0.144)
+MoCA scored27.11 ± 1.17 (26 –29) 25.80 ± 2.97 (17 –29) 27.88 ± 1.64 (25 –30) 26.25 ± 3.01 (21 –30) 193.00 (0.068) 207.00 (0.169)
+WMhypo volume, mL 2.53 ± 2.72 2.70 ± 2.53 2.57 ± 1.85 2.87 ± 2.32 0.580 (0.447) 0.115 (0.735)High Fazekas score pre-
+sence, n(%)5 (11.6%) 10 (13.2%) 5 (11.6%) 10 (13.3%) 0.148 (0.701) 0.001 (0.972)
+eTIV, mL 1536.73 ± 150.96 1574.14 ± 155.74 1374.68 ± 132.77 1377.26 ± 156.92 1.027 (0.312) 82.679 ( < 0.001)
+e,f
+Data are presented by groups as mean ± SD, followed by range as (minimum-maximum). For volumetric variables, WM-hypo volume and eTIV data are presente d by groups as mean ± SD. Two-way analysis
+of variance (ANOVA) followed by the LSD tests was used for all demographic variables, cognitive, and volumetric variables; except for MoCA score, for which Mann –Whitney Uwas used. Independent
+samples t-test was used for all clinical variables. Fazekas score, dichotomized as low or high score, was analyzed using chi-squared tests. eTIV estimated total intracranial volume; HChealthy controls;
+MMSE Mini-Mental State Examination; MoCA Montreal Cognitive Assessment; NAnot applicable; PDParkinson ’s disease; SDstandard deviation; statstatistic; WM-hypo white matter hypointensities; y
+years.
+aSex differences in the PD group ( P-value ≤0.05).
+bMMSE score was available for 29 HC males, 72 PD males, 26 HC females, and 50 PD females.
+cDifferences between HC males and PD males ( P-value < 0.01).
+dMoCA scores were available for 9 HC males, 25 PD males, 8 HC females, and 8 PD females.
+eSex differences in the HC group ( P-value < 0.001).
+fSex differences in the PD group ( P-value < 0.001).https://doi.org/10.1038/s41531-024-00686-2 Article
+npj Parkinson ’s Disease |           (2024) 10:69 2(bilateral inferior parietal and left supramarginal) and one limbic regions
+(right posterior cingulate) (Fig. 1, Supplementary Table 2). There were no
+statistically signi ﬁcant differences in the opposite direction. Comparisons
+between sexes within the HC group did not reveal any statistically signi ﬁcant
+difference.
+The supplementary analysis revealed that there were no statistically
+signiﬁcant differences between PD males and PD females in the brain
+parenchymal fraction (BPF; PD males, M= 0.717, SD= 0.041; PD females,
+M= 0.720, SD= 0.048; t= 0.472, P-value = 0.637) and all sex differences
+within the PD group (i.e., for the ri g h tm e a nC T ha n dt h et e nr e g i o n a l
+estimations) remained statistically signi ﬁcant after including the BPF as an
+extra covariate (Supplementary Table 3).
+When comparing PD patients with HC by sexes, including age and
+years of education as covariates, we found that PD females showed thinnercortex in one temporal (left inferior temporal), three parietal (right inferior
+parietal, right paracentral, and right precuneus), and four occipital regions
+(bilateral lateral occipital, left lingual, and right fusiform) compared withHC females (Fig. 2and Supplementary Table 1). On the other hand, PD
+males compared with HC males showed lower CTh values in the right meanestimation and ﬁve frontal (bilateral caudal mid dle frontal, bilateral superior
+frontal, and right precentral), four temporal (bilateral middle temporal, leftinferior temporal, and right entorhinal), six parietal (bilateral inferior par-ietal, bilateral superior parietal, left supramarginal, and right precuneus), sixoccipital (bilateral fusiform, bilateral l ateral occipital, and bilateral lingual),
+and two limbic regions (right isthmus and right posterior cingulate). Therewere no statistically signi ﬁcant differences in the opposite direction (Fig. 2
+and Supplementary Table 1).
+Age, disease duration, and age of onset as explanatory variables
+of regional cortical thickness
+In PD males, age and disease duration w ere negatively associated with CTh,
+for nine out of ten regions, except for one region in which only age wasassociated with CTh (Tables 2and3). Thus, older age together with longer
+disease duration was signi ﬁcantly associated with thinner cortex in PD
+males in almost all regions showing se x differences. On the other hand, in
+PD females, age was negatively associat ed with thinner cortex in eight out of
+ten regions, whereas longer disease du ration was associated with thinner
+cortex only in one region (Tables 2and3).
+Complementary, as expected, the analyses that included age of onset as
+an explanatory variable instead of disease duration showed congruentresults, revealing signi ﬁcant associations of older age and younger age of
+onset with thinner cortex in nine out of ten regions in male patients, but onlyin one region in female patients (Supplementary Tables 4 and 5).Altogether, older age, longer disease duration, and younger age of onset
+signiﬁcantly contributed to explaining reduced CTh in PD males in regions
+showing sex differences.
+Sex differences in subcortical gray matter volume in Parkinson ’s
+disease patients
+Our supplementary analyses showed higher gray matter volume in the
+brainstem, bilateral thalamus, and right amygdala in PD males comparedwith PD females (Supplementary Tabl e 6). After excluding three cases of
+male patients displaying extreme val ues for the brainstem and the thalamus
+(z-score ≥3), only sex differences for the right amygdala remained sig-
+niﬁcant in the PD group, which was observed in the HC group in the same
+direction.
+Discussion
+In this study, the main aim was to analyze sex differences in regionalmean CTh estimations in a large sample of non-demented PD using amulti-site approach. We found that male patients had thinner cortex in
+several regions compared with female patients. Furthermore, for those
+regions showing a signi ﬁcant group by sex interaction, the pattern of
+reduced CTh in patients compared with controls involved more areasin male patients than in female pa tients. Whereas the pattern of
+reduced CTh in female patients was more restricted to posterior
+regions, the male patients had a more extended pattern of thinnercortical regions, including frontal , parietal, and limbic regions. On the
+other hand, aging and disease course -related variables (disease dura-
+tion and age of onset) contributed to explaining reduced CTh
+Fig. 1 | Statistically signi ﬁcant thinner regions in PD males compared with PD
+females from comparisons including the age of onset as an extra covariate (FDR
+adjusted P-value ≤0.05). The color bar indicates the Cohen ’sdeffect size for each
+region. PD Parkinson ’s disease. Regions represented correspond to the 68 cortical
+brain regions of the Desikan –Killiany atlas34. The list of regions showing statistically
+signiﬁcant results is available in Supplementary Table 2.
+Fig. 2 | Statistically signi ﬁcant thinner regions in PD females compared with HC
+females and in PD males compared with HC males (FDR adjusted P-value ≤
+0.05). The color bars indicate the Cohen ’sdeffect size for each region. HC healthy
+controls; PD Parkinson ’s disease. Regions represented correspond to the 68 cortical
+brain regions of the Desikan-Killiany atlas34. The list of regions showing statistically
+signiﬁcant results is available in Supplementary Table 1.https://doi.org/10.1038/s41531-024-00686-2 Article
+npj Parkinson ’s Disease |           (2024) 10:69 3differently in male and female PD patients in regions showing sex
+differences.
+In the current study, the between-sex es comparisons revealed that male
+PD patients had thinner cortex compared with female PD patients in severalbrain regions, including six frontal (bilateral caudal middle frontal, bilateralsuperior frontal, right precentral, and right pars orbitalis), three parietal
+(bilateral inferior parietal and left supramarginal), and one limbic (rightposterior cingulate). These ﬁndings partially agree with a previous report
+that showed widespread reduced CTh in several areas in male PD patientscompared with female PD patients wi th a disease duration of 3.7 years onTable 2 | Resulting models from regression analyses including disease duration for prediction of mean cortical thickness in
+regions showing sex differences
+PD males PD females
+Variables t-stat ( P-value) Variables t-stat ( P-value)
+L caudal middle frontal Age −2.740 (0.007) Age −2.689 (0.009)
+Disease duration −2.678 (0.008)
+Education −1.949 (0.053)
+L superior frontal Age −3.174 (0.002) Age −3.103 (0.003)
+Disease duration −2.346 (0.020) Education −1.431 (0.156)
+R caudal middle frontal Age −2.494 (0.014) Non-signi ﬁcant model
+Disease duration −1.811 (0.072)
+R pars orbitalis Age −2.216 (0.028) Disease duration −2.495 (0.015)
+Disease duration −2.149 (0.034) Education −1.400 (0.166)
+Education −1.741 (0.084 )
+R precentral Age −5.417 ( <0.001) Age −2.493 (0.015)
+Disease duration −2.164 (0.032)
+R superior frontal Age −2.004 (0.047) Age −2.751 (0.008)
+Disease duration −2.242 (0.027) Education −2.291 (0.025)
+L inferior parietal Age −4.485 ( <0.001) Age −2.747 (0.008)
+Disease duration −3.486 ( <0.001) Disease duration −1.638 (0.106)
+Education −1.652 (0.103)
+L supramarginal Age −4.824 ( <0.001) Age −3.190 (0.002)
+Disease duration −2.678 (0.008)
+R inferior parietal Age −5.683 ( <0.001) Age −3.217 (0.002)
+Disease duration −3.659 ( <0.001) Disease duration −1.738 (0.087)
+R posterior cingulate Age −3.122 (0.002) Age −2.396 (0.019)
+Disease duration −2.214 (0.029) Disease duration −1.592 (0.116)
+Linear regression analyses with stepwise selection based on the Akaike information criterion (AIC) were applied separately in male and female patie nts for each region showing sex differences (response
+variable) with age, disease duration, and years of education introduced as explanatory variables. The selected variables for each model are shown, w ith statistically signi ﬁcant response variables in bold ( P-
+value ≤0.05). Lleft;PDParkinson ’s disease; Rright; stat statistic.
+The selected variables for each model are shown, with statistically signi ﬁcant response variables in bold ( P-value ≤0.05).
+Table 3 | Goodness of ﬁt of the resulting models from regression analyses, including disease duration for prediction of mean
+cortical thickness in regions showing sex differences
+PD males PD females
+Adjusted R2FP -value Adjusted R2FP -value
+L caudal middle frontal 0.088 5.345 0.002 0.078 7.233 0.009
+L superior frontal 0.102 8.639 ≤0.001 0.094 4.833 0.011
+R caudal middle frontal 0.059 5.269 0.006 Non-signi ﬁcant model
+R pars orbitalis 0.054 3.551 0.016 0.076 4.040 0.023R precentral 0.205 18.410 ≤0.001 0.066 6.213 0.015
+R superior frontal 0.056 5.033 0.008 0.089 4.617 0.013L inferior parietal 0.200 17.920 ≤0.001 0.131 4.715 0.005
+L supramarginal 0.189 16.720 ≤0.001 0.110 10.180 0.002
+R inferior parietal 0.264 25.230 ≤0.001 0.174 8.773 ≤0.001
+R posterior cingulate 0.095 8.117 ≤0.001 0.109 5.528 0.006
+Linear regression analyses with stepwise selection based on the Akaike information criterion (AIC) were applied separately in male and female patie nts for each region showing sex differences (response
+variable) with age, disease duration, and years of education introduced as explanatory variables. The goodness of ﬁt, statistics, and statistical signi ﬁcance for each resulting model are shown. Lleft;PD
+Parkinson ’s disease; Rright.https://doi.org/10.1038/s41531-024-00686-2 Article
+npj Parkinson ’s Disease |           (2024) 10:69 4average using a vertex-wise approach7. Of note, the results from the previous
+study also involved bilateral caudal midd le frontal, bilateral superior frontal,
+bilateral inferior parietal, and left supramarginal regions7. However, the
+authors analyzed single-site 1.5 T M RI data from 64 PD patients (43 males
+and 21 females) and 46 HC (12 males and 34 females). Thus, even though
+the effect sizes were not reported, the reduced sizes of the subgroups couldmitigate the statistical power, espe cially for PD females and HC males. It
+might partially explain the absence of signi ﬁcant differences in other
+comparisons; for example, betw een male patients and controls
+7.F u r t h e r -
+more, they did not explore the group by sex interaction, which also limits theinterpretation of the ﬁndings. In this respect, w e found that male patients
+had reduced CTh compared with male controls in almost all the regionsshowing sex differences within the PD group (nine out of ten). Moreover, wepreviously guaranteed that there were signi ﬁcant group by sex interactions
+for all regions in which sex differences were explored.
+Our results showed sex differences in CTh in PD, revealing several
+thinner regions in male patients co mpared with female patients. These
+ﬁndings contrast with previous results from early drug naïve PD patients
+from the PPMI cohort
+8–10.I nt h i sr e s p e c t ,a n a l y s e so nC T hp a r c e l l a t i o n sd i d
+not show differences in a previous study8. In a subsequent study, we
+explored sex differences by applying a CTh vertex-wise approach9.W e
+found that male patients showed thinner cortex in small clusters limited toleft postcentral and right precentral areas. However, the comparison
+between male patients and controls did not report differences in theseregions
+9. Finally, the most recent study exploring early drug naïve patients
+from this cohort found more widespread reduced CTh in PD males than PD
+females, including frontal, parietal, and temporal areas, using a vertex-wise
+approach10. In line with our results, the authors found thinner cortex in the
+right precentral and left cingulate areas in PD males compared with PDfemales
+10. As a matter of interest, the three early drug naïve PD samples
+came from the same time point of the PPMI cohort, and probably thesamples were partially overlapped. Altogether, previous and current ﬁnd-
+ings suggest that sex differences are pre sent in early drug naïve PD patients,
+showing mainly a more marked pattern of reduced CTh in male patients;this pattern might be more pronounced when the disease duration is longer.These ﬁndings might re ﬂect that the cortical gray matter atrophy trajectories
+differ between male and female patients. However, the only longitudinal
+exploration to date revealed no signi ﬁcant sex differences in the gray matter
+atrophy longitudinal changes in earl y drug naïve PD patients after 2-year
+follow-ups analyzing a subgroup of 66 PD males and 31 PD females from the
+PPMI cohort
+10. Further studies should address if there are sex-speci ﬁcg r a y
+matter atrophy trajectories using larger multi-site data and several timepoints, ideally from preclinical stages and with long-term follow-ups.
+Lower CTh estimations in PD males compared with PD females were
+concentrated mainly on right hemis phere regions in contrast with left
+hemisphere regions (i.e., six in the rig ht versus four in the left hemisphere;
+see Fig. 1a n dS u p p l e m e n t a r yT a b l e2 ) .I nt h es a m ed i r e c t i o n ,t h eg l o b a l
+measure of right mean CTh was lower in PD males than in PD females. One
+could argue the existence of a lateralization pattern of cortical atrophy
+depending on sex. Interestingly, previous studies have reported pre-dominant left-hemispheric ﬁndings in PD
+16–18.T h e n ,o n ec o u l dh y p o t h e s i z e
+that male and female patients have similar atrophy rates in some left-hemispheric regions, with a more prono unced right-hemispheric atrophy in
+male patients. However, the lower number of ﬁndings in the left hemisphere
+does not necessarily imply a right atro phy preponderance in male patients.
+In this regard, previous studies focused on sex differences in gray mattermeasures in PD did not support the existence of a lateralized pattern of sexdifferences. Moreover, healthy popu lation-based studies did not report
+lateralized sex differences in gray matter measures either
+11,19. Furthermore,
+the used approach (e.g., regional mean cortical thickness instead of vertex-
+wise) and speci ﬁc threshold established for statistical signi ﬁcance could
+contribute to a slight lateralization of results in our study.
+Next, we explored the relationship between CTh in regions showing
+sex differences in PD and aging and d isease course-related variables.
+Regarding PD males, older age and longer disease duration weresigniﬁcantly associated with thinner cortex in almost all the regions that
+previously showed sex differences. Instead, in PD female patients, older agebut no longer disease duration was associated with thinner cortex in theseregions. In accordance, the same eff ect was observed when introducing age
+of onset in the regression analyses. It could be hypothesized that female
+patients may show cortical thinning trajectories close to normal aging incertain areas. Whilst male patients show a stepper decline along diseaseduration in these areas. These ﬁndings reinforce the relevance of exploring
+longitudinal trajectories to reveal if P D patients display different cortical
+atrophy trajectories depending on sex.
+Our supplementary analyses showed lower gray matter volume in the
+right amygdala in PD females compared with PD males, also observed in theHC group. This pattern of sex differenc es in the amygdala has been reported
+previously in population-based studies in adults; however, metanalyticalresults show reduced size effects not supporting a sex dimorphism of this
+structure
+20. Therefore, this regional ﬁnding may not re ﬂect disease-
+dependent sex differences in our sample. The absence of sex differences insubcortical gray matter volumes showing lower estimations in PD malescontrasts with previous ﬁndings
+8,9,21. Notably, our study sample is hetero-
+geneous for disease duration, contra sting with the de novo PD samples used
+in the prior reports8,9,21. Moreover, a recent longitudinal study did not show a
+widespread pattern of lower subcortical gray matter volume in male patientsat follow-up, limiting the ﬁndings to the bilateral cerebellum crus (I and II
+lobules)
+10.
+The main strength of the current report was the use of cortical gray
+matter MRI data from a large multi-site sample from four international
+research centers applying a harmoni zation approach which guarantees
+better control of the site effect22. The sampling strategy is relevant since the
+female group size in PD samples is frequently smaller in single-site MRIstudies, which does not allow for performing sex differences analyses.Furthermore, prior explorations of sex differences using data from multiple
+centers did not control for the multi-site bias, even when combining 1.5 and3 Tesla acquisitions
+8,9. The main limitation of the study was that the data was
+limited to cross-sectional MRI acquisit ions. In this regard, future research
+should address sex differences in corti cal atrophy trajectories using long-
+itudinal MRI data from preclinical to advanced stages and with long-termfollow-ups. Moreover, clinical data, b iomarkers of co-pathology, and genetic
+variants were not systematically collected in the four research centers, which
+limited further analyses focused on t he association of sex with other vari-
+ables apart from those explored in this study (i.e., age, disease duration, andage of onset). Incorporating standa rdized protocols may enhance the
+characterization of multi-site sample s for research purposes. Future studies
+should cover if sex-dependent atrophy t rajectories correlate with clinical
+and cognitive outcomes. Besides, fur ther research should address whether
+patterns of neurodegeneration vary depending on sex within the previouslydescribed longitudinal clinical subty pes and cross-sectional atrophy sub-
+types of the disease
+23–27, considering also reported sex differences in genetic
+factors in PD28. Another limitation of our s tudy is the absence of a stan-
+dardized protocol for neuropsycho logical assessment. For a better char-
+acterization of cognitive pro ﬁle in PD multi-site studies, further initiatives
+are encouraged to use harmonized protocols29.
+Further studies should cover the im pact of cerebrovascular disease and
+Alzheimer ’s disease co-pathologies on sex differences in PD. For example,
+we have included WMH-hypo volume extracted using FreeSurfer as acontrol variable; however, further s tudies should address the impact of
+WMH-hypo/WMH-hyper on the effects of sex in PD using advanced lesion
+segmentation techniques (i.e., Bayesian models and deep learningapproaches).
+Evidence on sex differences in gray matter atrophy markers is relevant
+to developing diagnostic and prognostic approaches in the context of per-
+sonalized medicine. Parallel to these advances, the efforts need to focus on
+the mechanisms behind the observed di fferences, from the neuroprotective
+role of estrogens
+30to genetics28. In this sense, there is no established model
+about how sex impacts PD. From this perspective, in a recent review, Cerriet al. pointed out three levels in which sex in ﬂuences PD pathophysiologyhttps://doi.org/10.1038/s41531-024-00686-2 Article
+npj Parkinson ’s Disease |           (2024) 10:69 5

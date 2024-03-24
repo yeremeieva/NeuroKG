@@ -1,0 +1,29 @@
+**Impact of Parkinson's Disease on COVID-19 Outcomes**
+
+**Summary:**
+
+This systematic review and meta-analysis investigated the impact of Parkinson's disease (PD) on the prognosis of COVID-19 patients. The analysis included 13 studies with a total of 8649 PD patients and 88710 control subjects.
+
+**Key Findings:**
+
+* **Prevalence of COVID-19:** The pooled prevalence rate of COVID-19 in PD patients was 2.12%, with significant heterogeneity among studies.
+* **Symptoms:** Fever, cough, fatigue, and anorexia were the most common symptoms in PD patients with COVID-19.
+* **Hospitalization and ICU Admission:** The pooled rate of hospitalization was 39.89%, and the pooled rate of ICU admission was 4.7%.
+* **Mortality:** The pooled mortality rate was 25.1%, with significant heterogeneity among studies.
+* **Comparison with COVID-19 Patients without PD:** There were no significant differences in hospitalization or mortality rates between PD patients with COVID-19 and COVID-19 patients without PD.
+
+**Conclusions:**
+
+* The prevalence and prognosis of COVID-19 seem comparable in patients with PD and those without it.
+* The increased hospitalizations and mortality may be attributed to old age and comorbidities.
+
+**Limitations:**
+
+* The heterogeneity among studies may have influenced the results.
+* The included studies were observational, limiting the ability to establish causality.
+
+**Implications:**
+
+* PD patients should be aware of the potential risks of COVID-19 and take appropriate precautions.
+* Healthcare providers should be vigilant in monitoring PD patients for COVID-19 symptoms and providing timely treatment.
+* Further research is needed to investigate the mechanisms underlying the potential association between PD and COVID-19 severity.

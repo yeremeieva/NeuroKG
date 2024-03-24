@@ -1,0 +1,14 @@
+**Summary**
+
+This study investigated sex differences in cortical thickness in non-demented Parkinson's disease (PD) patients using multi-site data. Researchers found that male PD patients had thinner cortex in several frontal, parietal, and limbic regions compared to female PD patients, and disease duration was more relevant to explain decreased cortical thickness in male patients.
+
+**Key Findings:**
+
+* Male PD patients showed thinner cortex in six frontal, three parietal, and one limbic region compared to female PD patients.
+* In male PD patients, lower cortical thickness values in nine out of ten regions were associated with longer disease duration and older age, while in female PD patients, lower cortical thickness was associated with older age but only with longer disease duration in one region.
+* Overall, male patients have a more widespread pattern of reduced cortical thickness compared to female patients.
+* Disease duration seems to be more relevant to explain reduced cortical thickness in male patients, suggesting a worse prognosis over time.
+
+**Significance:**
+
+These findings highlight sex differences in cortical atrophy in PD and suggest that disease duration has a more significant impact on cortical thickness reduction in male patients. This information can contribute to the development of sex-specific prevention, diagnosis, and treatment strategies in PD.

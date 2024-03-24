@@ -1,0 +1,551 @@
+SYSTEMATIC REVIEW OPEN
+The serotonin theory of depression: a systematic umbrella
+review of the evidence
+Joanna Moncrieff1,2✉, Ruth E. Cooper3, Tom Stockmann4, Simone Amendola5, Michael P . Hengartner6and Mark A. Horowitz1,2
+© The Author(s) 2022
+The serotonin hypothesis of depression is still in ﬂuential. We aimed to synthesise and evaluate evidence on whether depression is
+associated with lowered serotonin concentration or activity in a systematic umbrella review of the principal relevant areas of
+research. PubMed, EMBASE and PsycINFO were searched using terms appropriate to each area of research, from their inception
+until December 2020. Systematic reviews, meta-analyses and large data-set analyses in the following areas were identi ﬁed:
+serotonin and serotonin metabolite, 5-HIAA, concentrations in body ﬂuids; serotonin 5-HT 1Areceptor binding; serotonin transporter
+(SERT) levels measured by imaging or at post-mortem; tryptophan depletion studies; SERT gene associations and SERT gene-
+environment interactions. Studies of depression associated with physical conditions and speci ﬁc subtypes of depression (e.g.
+bipolar depression) were excluded. Two independent reviewers extracted the data and assessed the quality of included studies
+using the AMSTAR-2, an adapted AMSTAR-2, or the STREGA for a large genetic study. The certainty of study results was assessed
+using a modi ﬁed version of the GRADE. We did not synthesise results of individual meta-analyses because they included
+overlapping studies. The review was registered with PROSPERO (CRD42020207203). 17 studies were included: 12 systematic reviewsand meta-analyses, 1 collaborative meta-analysis, 1 meta-analysis of large cohort studies, 1 systematic review and narrative
+synthesis, 1 genetic association study and 1 umbrella review. Quality of reviews was variable with some genetic studies of high
+quality. Two meta-analyses of overlapping studies examining the serotonin metabolite, 5-HIAA, showed no association withdepression (largest n=1002). One meta-analysis of cohort studies of plasma serotonin showed no relationship with depression,
+and evidence that lowered serotonin concentration was associated with antidepressant use ( n=1869). Two meta-analyses of
+overlapping studies examining the 5-HT
+1Areceptor (largest n=561), and three meta-analyses of overlapping studies examining
+SERT binding (largest n=1845) showed weak and inconsistent evidence of reduced binding in some areas, which would be
+consistent with increased synaptic availability of serotonin in people with depression, if this was the original, causal abnormaly.
+However, effects of prior antidepressant use were not reliably excluded. One meta-analysis of tryptophan depletion studies foundno effect in most healthy volunteers ( n=566), but weak evidence of an effect in those with a family history of depression ( n=75).
+Another systematic review ( n=342) and a sample of ten subsequent studies ( n=407) found no effect in volunteers. No systematic
+review of tryptophan depletion studies has been performed since 2007. The two largest and highest quality studies of the SERTgene, one genetic association study ( n=115,257) and one collaborative meta-analysis ( n=43,165), revealed no evidence of an
+association with depression, or of an interaction between genotype, stress and depression. The main areas of serotonin research
+provide no consistent evidence of there being an association between serotonin and depression, and no support for the hypothesis
+that depression is caused by lowered serotonin activity or concentrations. Some evidence was consistent with the possibility thatlong-term antidepressant use reduces serotonin concentration.
+Molecular Psychiatry (2023) 28:3243–3256; https://doi.org/10.1038/s41380-022-01661-0
+INTRODUCTION
+The idea that depression is the result of abnormalities in brain
+chemicals, particularly serotonin (5-hydroxytryptamine or 5-HT), hasbeen in ﬂuential for decades, and provides an important justi ﬁcation
+for the use of antidepressants. A link between lowered serotonin
+and depression was ﬁrst suggested in the 1960s [ 1], and widely
+publicised from the 1990s with the advent of the Selective SerotoninReuptake Inhibitor (SSRI) antidepressants [ 2–4]. Although it has beenquestioned more recently [ 5,6], the serotonin theory of depression
+remains in ﬂuential, with principal English language textbooks still
+giving it quali ﬁed support [ 7,8], leading researchers endorsing it
+[9–11], and much empirical research based on it [ 11–14]. Surveys
+suggest that 80% or more of the general public now believe it is
+established that depression is caused by a ‘chemical imbalance ’
+[15,16]. Many general practitioners also subscribe to this view [ 17]
+and popular websites commonly cite the theory [ 18].
+Received: 21 June 2021 Revised: 31 May 2022 Accepted: 7 June 2022
+Published online: 20 July 20221Division of Psychiatry, University College London, London, UK.2Research and Development Department, Goodmayes Hospital, North East London NHS Foundation Trust, Essex,
+UK.3Faculty of Education, Health and Human Sciences, University of Greenwich, London, UK.4Psychiatry-UK, Cornwall, UK.5Department of Dynamic and Clinical Psychology, and
+Health Studies, Faculty of Medicine and Psychology, Sapienza University of Rome, Rome, Italy.6Department of Applied Psychology, Zurich University of Applied Sciences, Zurich,
+Switzerland.✉email: j.moncrieff@ucl.ac.ukwww.nature.com/mp Molecular Psychiatry1234567890();,:It is often assumed that the effects of antidepressants
+demonstrate that depression must be at least partially caused
+by a brain-based chemical abnormality, and that the apparent
+efﬁcacy of SSRIs shows that serotonin is implicated. Other
+explanations for the effects of antidepressants have been putforward, however, including the idea that they work via an
+ampli ﬁed placebo effect or through their ability to restrict or blunt
+emotions in general [ 19,20].
+Despite the fact that the serotonin theory of depression has
+been so in ﬂuential, no comprehensive review has yet synthesised
+the relevant evidence. We conducted an ‘umbrella ’review of the
+principal areas of relevant research, following the model of asimilar review examining prospective biomarkers of majordepressive disorder [ 21]. We sought to establish whether the
+current evidence supports a role for serotonin in the aetiology of
+depression, and speci ﬁcally whether depression is associated with
+indications of lowered serotonin concentrations or activity.
+METHODS
+Search strategy and selection criteria
+The present umbrella review was reported in accordance with
+the 2009 PRISMA statement [ 22]. The protocol was registered
+with PROSPERO in December 2020 (registration numberCRD42020207203) ( https://www.crd.york.ac.uk/prospero/display_
+record.php?RecordID =207203 ). This was subsequently updated
+to re ﬂect our decision to modify the quality rating system for
+some studies to more appropriately appraise their quality, and to
+include a modi ﬁed GRADE to assess the overall certainty of the
+ﬁndings in each category of the umbrella review.
+In order to cover the different areas and to manage the large
+volume of research that has been conducted on the serotonin
+system, we conducted an ‘umbrella ’review. Umbrella reviews survey
+existing systematic reviews and meta-analyses relevant to a researchquestion and represent one of the highest levels of evidencesynthesis available [ 23]. Although they are traditionally restricted to
+systematic reviews and meta-analyses, we aimed to identify the best
+evidence available. Therefore, we also included some large studiesthat combined data from individual studies but did not employconventional systematic review methods, and one large genetic
+study. The latter used nationwide databases to capture more
+individuals than entire meta-analyses, so is likely to provide evenmore reliable evidence than syntheses of individual studies.
+We ﬁrst conducted a scoping review to identify areas of
+research consistently held to provide support for the serotoninhypothesis of depression. Six areas were identi ﬁed, addressing the
+following questions: (1) Serotonin and the serotonin metabolite 5-
+HIAA –whether there are lower levels of serotonin and 5-HIAA in
+body ﬂuids in depression; (2) Receptors - whether serotonin
+receptor levels are altered in people with depression; (3) Theserotonin transporter (SERT) - whether there are higher levels of
+the serotonin transporter in people with depression (which would
+lower synaptic levels of serotonin); (4) Depletion studies - whethertryptophan depletion (which lowers available serotonin) can
+induce depression; (5) SERT gene –whether there are higher
+levels of the serotonin transporter gene in people with depression;(6) Whether there is an interaction between the SERT gene andstress in depression.
+We searched for systematic reviews, meta-analyses, and large
+database studies in these six areas in PubMed, EMBASE andPsycINFO using the Healthcare Databases Advanced Search toolprovided by Health Education England and NICE (National
+Institute for Health and Care Excellence). Searches were con-
+ducted until December 2020.
+We used the following terms in all searches: (depress* OR
+affective OR mood) AND (systematic OR meta-analysis), and
+limited searches to title and abstract, since not doing so producednumerous irrelevant hits. In addition, we used terms speci ﬁct oeach area of research (full details are provided in Table S1,
+Supplement). We also searched citations and consulted with
+experts.
+Inclusion criteria were designed to identify the best available
+evidence in each research area and consisted of:
+1. Research synthesis including systematic reviews, meta-analysis,
+umbrella reviews, individual patient meta-analysis and large datasetanalysis.
+2. Studies that involve people with depressive disorders or, for
+experimental studies (tryptophan depletion), those in which mood
+symptoms are measured as an outcome.
+3. Studies of experimental procedures (tryptophan depletion) invol-
+ving a sham or control condition.
+4. Studies published in full in peer reviewed literature.5. Where more than ﬁve systematic reviews or large analyses exist, the
+most recent ﬁve are included.
+Exclusion criteria consisted of:
+1. Animal studies.
+2. Studies exclusively concerned with depression in physical conditions
+(e.g. post stroke or Parkinson ’s disease) or exclusively focusing on
+speci ﬁc subtypes of depression such as postpartum depression,
+depression in children, or depression in bipolar disorder.
+No language or date restrictions were applied. In areas in which
+no systematic review or meta-analysis had been done within the
+last 10 years, we also selected the ten most recent studies at the
+time of searching (December 2020) for illustration of more recentﬁndings. We performed this search using the same search string
+for this domain, without restricting it to systematic reviews and
+meta-analyses.
+Data analysis
+Each member of the team was allocated one to three domains ofserotonin research to search and screen for eligible studies using
+abstract and full text review. In case of uncertainty, the entire team
+discussed eligibility to reach consensus.
+For included studies, data were extracted by two reviewers
+working independently, and disagreement was resolved by
+consensus. Authors of papers were contacted for clari ﬁcation
+when data was missing or unclear.
+We extracted summary effects, con ﬁdence intervals and mea-
+sures of statistical signi ﬁcance where these were reported, and,
+where relevant, we extracted data on heterogeneity. For summaryeffects in the non-genetic studies, preference was given to theextraction and reporting of effect sizes. Mean differences were
+converted to effect sizes where appropriate data were available.
+We did not perform a meta-analysis of the individual meta-
+analyses in each area because they included overlapping studies[24]. All extracted data is presented in Table 1. Sensitivity analyses
+were reported where they had substantial bearing on interpreta-
+tion of ﬁndings.
+The quality rating of systematic reviews and meta-analyses was
+assessed using AMSTAR-2 (A MeaSurement Tool to Assess
+systematic Reviews) [ 25]. For two studies that did not employ
+conventional systematic review methods [ 26,27] we used a
+modi ﬁed version of the AMSTAR-2 (see Table S3). For the genetic
+association study based on a large database analysis we used the
+STREGA assessment (STrengthening the REporting of GeneticAssociation Studies) (Table S4) [ 28]. Each study was rated
+independently by at least two authors. We report ratings of
+individual items on the relevant measure, and the percentage of
+items that were adequately addressed by each study (Table 1, with
+further detail in Tables S3 and S4).
+Alongside quality ratings, two team members (JM, MAH)
+rated the certainty of the results of each study using a modi ﬁed
+version of the GRADE guidelines [ 29]. Following the approach ofJ. Moncrieff et al.
+3244
+Molecular Psychiatry (2023) 28:3243 – 3256Table 1. Study characteristics and results.
+Study Design Ntotal: studies,
+participants
+(cases; controlswhere relevant)Serotonin measure Medication status Summary effect (95% CI), pHeterogeneity- p,I
+2(95%
+CI), N for analysis (if different from total sample size)Quality rating
+(AMSTAR-2/
+*STREGA)% satisfactory (of
+applicable terms)
+Serotonin and 5HIAA: case (depression) vs. healthy control studies comparing concentration of serotonin in plasma and CSF
+Huang
+et al., 2020Meta-analysis of
+cohort studies3 studies, 663
+women with
+depression; 1806controls5-HT in plasma 18.3% of patients were taking
+antidepressants.β=−0.26 (−0.48 to −0.03), p> 0.05 after correction
+for multiple testing
+Heterogeneity not reportedSensitivity analysis:
+No difference in levels of 5-HT in women with
+depression not taking antidepressants compared to
+controls (women without depression not taking
+antidepressants) ( p=0.528)
+Lower levels of 5-HT in women with depression taking
+antidepressants compared to controls ( p< 0.0001) and
+in women taking antidepressants without depression
+compared to controls ( p< 0.0001)60%
+Ogawa
+et al., 2018Systematic
+review and meta-
+analysis11 studies, 435
+people with
+depression; 380
+controls5-HIAA in CSF All participants drug free –
+washout: 4 –57 days (mode
+14 days)g=0.042 ( −0.26 to 0.17), p=0.70, heterogeneity:
+I
+2=48.24 ( p=0.026)48%
+Pech et al., 2018 Systematic
+review and meta-
+analysis13 studies, 529
+people with
+depression; 473
+controls5-HIAA in CSF 10 studies: patients were drug
+free - washout: 4 days-6 weeks
+(mostly 2 –4 weeks).
+2 studies: some patients used
+occasional antidepressants.
+1 study: majority of patientstaking imipramine and
+chlorpromazineMean difference =−3.85 (−8.89 to 1.19) ( g=0.06),
+p=0.14, heterogeneity –not reported38%
+Receptors: case (depression) vs. healthy control studies comparing 5-HT
+1receptor binding
+Nikolaus
+et al., 2016Systematic
+review and meta-analysis14 studies, 245
+people withdepression; 316
+controls5-HT
+1Areceptor binding 2 studies conducted with drug
+naïve patients (total N=19).
+11 studies - prior treatment
+with antidepressants and/or
+other psychiatric drugs –
+washout: 1 –1825 days (mode
+14 days)
+1 study medication not
+speci ﬁedTrend for increased 5-HT 1in parahippocampal gyrus
+(+23%), p=0.096.
+Trend for reduced 5-HT 1in midbrain
+(−17%), p=0.076.
+Nand heterogeneity –not reported for any
+brain areas.19%
+Wang
+et al., 2016Systematic
+review and meta-
+analysis10 studies, 218
+people with
+depression; 261
+controls5-HT 1Areceptor binding 9 studies: drug-free –washout:
+2–26 weeks (mainly 2 –3 weeks).
+1 study: medication naïve.Reduced 5-HT 1Abinding mesiotemporal cortex
+SMD=−0.8 (−1.36,−0.24), p=0.005, heterogeneity:
+I2=87% ( P< 0.00001)
+218 patients, 261 controls**Reduced 5-HT
+1Abinding hippocampus SMD =−0.29
+(−0.51,−0.07), P=0.010,
+heterogeneity: I2=33%, p=0.18
+148 patients, 203 controls.
+Reduced 5-HT 1Abinding raphe nucleus
+SMD=−0.60 (−1.17,−0.04), p=0.04
+Heterogeneity: I2=88%, p< 0.00001
+218 patients, 261 controls
+Reduced 5-HT 1Abinding insular cortex
+SMD=−0.79 (−1.54, to −0.05), p=0.04.
+Heterogeneity: I2=91%, p< 0.00001
+180 patients, 225 controls.There was no signi ﬁcant difference in the occipital
+cortex and the anterior cingulate cortex.52%J. Moncrieff et al.
+3245
+Molecular Psychiatry (2023) 28:3243 – 3256Table 1. continued
+Study Design Ntotal: studies,
+participants
+(cases; controlswhere relevant)Serotonin measure Medication status Summary effect (95% CI), pHeterogeneity- p,I
+2(95%
+CI), N for analysis (if different from total sample size)Quality rating
+(AMSTAR-2/
+*STREGA)% satisfactory (of
+applicable terms)
+Serotonin transporter (SERT): case (depression) vs. healthy control studies comparing SERT binding
+Nikolaus
+et al., 2016Systematic
+review and meta-
+analysis35 studies, 694
+people with
+depression; 700
+controlsSERT binding 26 studies: drug-free - washout:
+3–900 days.
+5 studies: drug naive
+2 studies: patients medicated
+when scanned.2 studies: did not report
+medication.Reduced SERT in thalamus −12%, p=0.004
+Reduced SERT in amygdala −15%, p=0.04.
+Reduced SERT in midbrain/
+pons−8%,p=0.005
+Increased SERT in insula +9%,p=0.037
+N, CI and heterogeneity –not reported for any
+brain areas.19%
+Kambeitz &
+Howes., 2015Systematic
+review and meta-
+analysis25 in vivo imaging
+studies,
+25 post-mortem
+studies, 877people with
+depression; 968
+controlsSERT binding In vivo studies: three studies –
+antidepressant naïve patients.
+Post Mortem studies:
+medication status not reportedIn vivo
+Reduced SERT in brainstem
+g=−0.31 (−0.55 to −0.08), p=0.01, heterogeneity -
+I
+2=60.69% (95% CI: 34.39 to 83.35%), N=880
+Reduced SERT in midbrain
+g=−0.28 (−0.49 to −0.07), p=0.01, heterogeneity -
+I2=49.68% (95% CI: 14.34% to 78.72%), N=827
+Reduced SERT in amygdala g=−0.37***
+(−0.61 to −0.13), p<0.01, heterogeneity - I2=0%
+(95%-CI: 0% to 75.38%), N=318
+Reduced SERT in striatum g=−0.39 (−0.62 to −0.17),
+P<.001, heterogeneity - I2=6.7% (0% to 78.1%),
+N=370
+No difference: hippocampus, thalamus, cingulate
+cortex, frontal cortex.
+Post-mortem:Reduced SERT in hippocampus g=−0.63 (−1.12 to
+−0.15), p=0.01 heterogeneity - I
+2=43.97% (0% to
+93.34), N=141
+Non-signi ﬁcant after correction for publication bias;
+g=0.32, p=0.32
+No difference: brainstem, frontal lobe. Meta-analysis
+not possible for other areas48%
+Gryglewski
+et al., 2014Systematic
+review and meta-
+analysis18 studies, 364
+people with
+depression; 372
+controlsSERT binding 149/364 patients - drug naïve;
+others drug free: 5 days to > 1
+year (median 7 weeks)Reduced SERT in midbrain: g=−0.49
+(−0.84 to −0.14), heterogeneity - I2=68.7%, 313
+patients, 321 controls.
+Reduced SERT in amygdala g=−0.50 (−0.78 to
+−0.22), heterogeneity - I2=0%, 96 patients, 128
+controls.
+No difference: brainstem, thalamus, striatum, frontal
+cortex, cingulate cortex.48%
+Tryptophan depletion studies: effect of acute tryptophan depletion (ATD) on mood in healthy volunteers; healthy volunteers with family history of depression; drug-free patients with
+MDD in remission
+Ruhe ́et al., 2007 Systematic
+review and meta-
+analysisIncluded in meta-
+analysis:
+32 healthy
+volunteer studies,
+N=566; 19
+patient studiesN=322ATD 6 studies involved patients with
+prior use of antidepressants:
+1 study: <3 months;
+2 studies 1 –3 months
+3 studies >6 months
+7 studies involved patients withcurrent use of antidepressants.
+Remainder unspeci ﬁed.No effect of ATD in healthy volunteers in parallel
+group studies (negative for family history of
+depression): Pooled
+g=−0.63 (−1.95 to 0.70), N=151. Sensitivity analysis
+excluding an outlier study reduced Hedges gto 0.16
+(−0.43 to 0.76), N=125.
+No effect of ATD in cross-over studies with volunteers
+with no family history of depression, g=−0.19 (−0.43
+to 0.05), p=0.13, heterogeneity - I
+2=65.6%, p< 0.001,
+N=259#71%J. Moncrieff et al.
+3246
+Molecular Psychiatry (2023) 28:3243 – 3256Table 1. continued
+Study Design Ntotal: studies,
+participants
+(cases; controlswhere relevant)Serotonin measure Medication status Summary effect (95% CI), pHeterogeneity- p,I
+2(95%
+CI), N for analysis (if different from total sample size)Quality rating
+(AMSTAR-2/
+*STREGA)% satisfactory (of
+applicable terms)
+ATD lowered mood in cross-over studies with healthy
+controls with family history of depression: Hedge ’s
+g=−0.56 (−1.00 to −0.13), p=0.01, heterogeneity -
+I
+2=50.8%, p=0.06, N=75.
+ATD lowered mood in cross-over studies in drug-free
+people with remitted MDD: g=−1.90 (−3.02 to
+−0.78), p=0.0009, heterogeneity - I2=89.4%, P<
+0.00001, N=97.
+ATD lowered mood in cross-over studies with people
+with remitted MDD currently using antidepressants :
+g=−0.49 (−0.89 to −0.10), p=0.01, heterogeneity -
+I2=53.3%, P=0.04, N=83.
+Fusar-Poli
+et al., 2006Systematic
+review andnarrative
+synthesis22 studies (23
+cohorts), 64people with
+remitted
+depression; 278
+controlsATD A portion of the remitted
+depressed group were takingantidepressants but exact
+proportion not reportedResults reported narratively. 17/19 studies involving
+healthy volunteers showed no effect of tryptophandepletion on mood. 4 studies in patients with remitted
+depression, an unspeci ﬁed portion of whom were
+taking antidepressants, found a decrease in mood
+following tryptophan depletion. Effect sizes or
+statistical signi ﬁcance were not reported.22%
+SERT gene: association between SERT gene and depression
+Border
+et al., 2019Genetic
+association studyData from two
+genetic data
+banks,
+48,190 –115,257
+individualsAssociation between
+5-HTTLPR polymorphism
+and depressionN/A No relationship between 5-HTTLPR polymorphism and
+estimated lifetime MDD diagnosis OR =1.000,
+p=0.994 ( N=115,257)
+None of seven other depression outcomes (e.g.estimated lifetime diagnosis, current depression
+severity) showed an association with the 5-HTTLPR
+polymorphism. N=48,190 –115,25788%*
+Culverhouse
+et al., 2018Collaborative
+meta-analysis31 data-sets,
+43,165 Individuals5-HTTLPR polymorphism
+association with
+depressionN/A No signi ﬁcant effect of number of copies of s-allele of
+5HTTLPR on lifetime depression. OR 1.00 (0.95 to 1.05),
+p=0.95, N=21,135.
+Heterogeneity- not reported
+All other analyses with variations of stress exposure
+and depression evaluation were non-signi ﬁcant with
+OR 1.00 –1.08, p=0.36 –0.97, N=
+13,835 –28,252100%
+Oo et al., 2016 Systematic
+review and meta-analysis23 studies, 3392
+people withdepression;
+5093 controls5-HTTLPR polymorphism
+association withdepressionN/A 5-HTTLPR polymorphism associated with depression
+(per S allele): OR =1.16 (1.08 to 1.23), p-value.
+Heterogeneity- I
+2=29.3%, p=0.09
+Homozygote carriers of the S allele of 5HTTLPR
+polymorphism compared with heterozygote and non-
+carriers combined (SS vs SL +LL genotype): OR =1.33
+(1.19 to 1.48) for major depressive disorder.
+Heterogeneity- I2=0.1%, p=0.4662%
+Gatt et al., 2015 Umbrella review 11 meta-analyses
+included
+1014 –14,250
+participants7 meta-analyses of case
+control studies of
+5-HTTLPR polymorphism
+and depression.
+4 meta-analyses
+of GWASN/A Individual gene meta-analyses:
+3 studies found the S allele or SS genotype associated
+with depression in mixed and Caucasian samples
+(OR 1.11 (1.04 –1.19), N =9459
+OR 1.23 (1.01 –1.52), N=1014
+OR 1.40 (1.19 –1.65), N=6884)
+3 studies reported no effect of the S allele in mixedand Caucasian samples
+2 studies reported no effect of the SS genotype in
+Caucasian samples
+3 studies found that the S allele or SS genotype had no
+effect in Asian samples17%J. Moncrieff et al.
+3247
+Molecular Psychiatry (2023) 28:3243 – 3256Table 1. continued
+Study Design Ntotal: studies,
+participants
+(cases; controlswhere relevant)Serotonin measure Medication status Summary effect (95% CI), pHeterogeneity- p,I
+2(95%
+CI), N for analysis (if different from total sample size)Quality rating
+(AMSTAR-2/
+*STREGA)% satisfactory (of
+applicable terms)
+No evidence of association in all 4 GWAS meta-
+analyses ( n=6566 to n=12,664)
+Kiyohara &
+Yoshimasu, 2010Systematic
+review and meta-
+analysis22 studies, 2934
+people with
+depression; 4985
+controls5-HTTLPR polymorphism
+association with
+depressionN/A 5-HTTLPR polymorphism (SS vs LL) associated with
+depression in Caucasian samples (but not Asian
+samples): OR =1.41 (1.15 to 1.72),
+Heterogeneity p=0.23 ( N=5756)57%
+Gene-stress interaction
+Border
+et al., 2019See Border et al.,
+2019 (above)See Border et al.,
+2019 (above)5-HTTLPR Polymorphism
+x environmental
+interaction effect on
+depressionN/A No signi ﬁcant interaction between the 5-HTTLPR
+polymorphism and childhood trauma. Exp( β)=0.998,
+p=0.919, N=115,249. Heterogeneity not given as not
+a meta-analysis.
+31 other analyses using different measures of stress or
+depression found no signi ﬁcant interaction.See Border et al.,
+2019 (above)
+Bleys et al 2018 Systematic
+review and meta-
+analysis51 studies,
+N=51,449Interaction between
+stress and 5-HTTLPR
+polymorphism in
+depressionN/A OR =1.18 (1.09 to 1.28).
+Heterogeneity- I
+2=52.4%, p< 0.000133%
+Culverhouse
+et al., 2018See Culverhouse
+et al., 2018(above)See Culverhouse
+et al., 2018(above)Interaction between
+stressful life events and5-HTTLPR polymorphism
+for risk of depressionN/A No signi ﬁcant interaction between number of copies
+of the s-allele for 5-HTTLPR and stress on risk ofdepression. OR =1.05 (0.91 to 1.21), p=0.49, N=
+21,135
+I
+2=0.0,p=0.69
+All other analyses with variations of stress and
+depression evaluation (including continuous measures
+of stress) were non-signi ﬁcant, with ORs from 0.85 to
+1.06, p=0.17 –0.50, N=13,835-28,252
+I2=0–16.7, p=0.26-0.87See Culverhouse
+et al., 2018(above)
+Sharpley
+et al 2014Systematic
+review and meta-
+analysis81 studies,
+N=55,269Interaction between
+stress and 5-HTTLPR
+polymorphism in
+depressionN/A OR not reported - Liptak-Stouffer Z-score method was
+used which combined p-values across studies,
+p=9×1 0
+−7
+Heterogeneity- not reported
+(N=55,269)48%
+Karg et al 2011 Systematic
+review and meta-
+analysis54 studies,
+N=40,749Whether the 5-HTTLPR
+polymorphism
+moderates the
+relationship between
+stress and depressionN/A OR not reported - Liptak-Stouffer Z-score method was
+used which combined p-values across studies,
+p=0.00002.
+Heterogeneity- not reported
+(N=40,749)29%
+Extracted summary effects, con ﬁdence intervals and measures of statistical signi ﬁcance are reported. In reviews in which multiple meta-analyses were conducted, only summary effect sizes that were statistically
+signi ﬁcant are reported, with relevant negative ﬁndings that did not reach statistical signi ﬁcance listed. Where no relevant analysis was statistically signi ﬁcant, the results of the principal analysis (e.g., main gene
+effect) is reported. Data on heterogeneity is reported where relevant. Where sample size for a particular analysis was different from the total sampl e size, this is reported. For summary effects in the non-genetic
+studies, preference was given to the extraction and reporting of effect sizes. Mean differences were converted to effect sizes where appropriate dat a were available [25]. Where these data were not available the
+most relevant measure, such as the beta co-ef ﬁcient, or average percentage change in ligand binding was reported. For genetic association studies, and gene-stress interactions studies we odds r atios are
+reported.CSFCerebrospinal ﬂuid,gHedges g, GWAS Genome Wide Association Studies, MDD Major Depressive Disorder, N/Anot applicable, OROdds Ratio, SMD Standard Mean Difference.
+*STREGA rating; **where there were internal discrepancies between reported numbers in text or ﬁgures we obtained data from the original authors; ***where there were internal discrepancies between
+reported numbers in the text, and authors did not respond to queries, details from ﬁgures were prioritised, and statistics calculated from other data.
+#sample size has a different meaning in crossover studies since each participant contributes data twice.J. Moncrieff et al.
+3248
+Molecular Psychiatry (2023) 28:3243 – 3256

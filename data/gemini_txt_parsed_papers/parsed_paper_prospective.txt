@@ -1,0 +1,69 @@
+**Postoperative Management of Parkinson’s Disease After Deep Brain Stimulation**
+
+**General Management Aspects**
+
+**Early Postoperative Management**
+
+* Routine postoperative care is sufficient in most cases.
+* Start antiparkinsonian medication as soon as possible to reduce discomfort and prevent dopaminergic withdrawal.
+* Consider atypical antipsychotics for postoperative confusion or agitation.
+* Neuroimaging is recommended after surgery to confirm electrode position and rule out complications.
+
+**Initiation of Programming**
+
+* Timing varies depending on individual factors and center practices.
+* May be delayed until symptoms return and microlesioning effects wear off.
+* Assessments typically focus on rigidity, tremor, bradykinesia, and gait instability.
+
+**Optimization of Stimulation Parameters**
+
+* Use a screening session to determine the optimal contact and stimulation settings.
+* Consider the hierarchy of contacts and stimulation polarity.
+* Adjust parameters (amplitude, pulse width, frequency) to achieve symptom control and avoid side effects.
+
+**Follow-Up Care**
+
+* Patients should be trained to adjust stimulation parameters if possible.
+* Follow-up visits and telephone contacts should be scheduled according to patient needs and available resources.
+* Routine OFF stimulation assessments are not necessary, but may be considered in specific circumstances.
+
+**Management of Common Postoperative Problems**
+
+**Weight Gain**
+
+* A common occurrence, especially after STN DBS.
+* Provide nutritional counseling preoperatively.
+* Weight gain may normalize over time.
+
+**Dyskinesias**
+
+* STN DBS may initially trigger dyskinesias, which usually disappear with chronic stimulation.
+* GPi DBS exerts an antidyskinetic effect.
+* Reduce dopaminergic medication to minimize dyskinesias.
+
+**Axial Symptoms**
+
+* Deterioration of axial symptoms can occur after STN, GPi, and Vim DBS.
+* Optimize stimulation parameters and medication to improve axial symptoms.
+* Declines in axial symptoms with chronic stimulation are likely due to disease progression.
+
+**Speech Dysfunction**
+
+* Speech disorders are common after STN DBS and Vim DBS, but less so after GPi DBS.
+* Reduce stimulation amplitude or use bipolar configuration to alleviate speech difficulties.
+* Supportive measures may be necessary for patients with preoperative speech problems or disease-related deterioration.
+
+**Muscle Contractions**
+
+* Tonic muscle contractions can occur with suprathreshold stimulation parameters.
+* Reduce stimulation amplitude or focus the electrical field to minimize contractions.
+
+**Long-Term Complications**
+
+* Infections, erosions, loss of efficacy, intermittent stimulation, tolerance, and pain or discomfort can develop.
+* Monitor for and manage these complications promptly.
+
+**Other Considerations**
+
+* Social and job-related factors, dementia, general medical issues, and lifestyle changes should be addressed.
+* Collaboration between neurologists, neurosurgeons, neuropsychologists, neuropsychiatrists, and researchers is essential for optimal patient management.

@@ -34,29 +34,25 @@ def check_label(this_node_name: str, this_node_label: str, graph_node_label: str
         return this_node_label
 
 
-def add_node_history(this_node: BaseNode, paper_name:str) -> Node:
+def add_node_history(this_node: BaseNode):
     # """Map the KnowledgeGraph Node to the base Node."""
     graph_nodes = get_nodes()
 
-    if graph_nodes is {}:
+    if graph_nodes:
         for node in graph_nodes:
             if node['name'].lower() == this_node.id.lower():
-                this_node.type = check_label(this_node.id ,this_node.type, node['label'])
-                this_node.properties.update(node.pop('label'))
-                this_node.properties['reference'].append(paper_name)
+                this_node.type = check_label(this_node.id, this_node.type, node.get('label'))
+                this_node.properties.update(node)
+                # this_node.properties['reference'].append(paper_name)
+                break
     else:
-        check_label(this_node.id, this_node.type)
-        this_node.properties['name'] = this_node.id.title()
-        this_node.properties['reference'] = [paper_name]
-
-    return this_node
-
+        this_node.type = check_label(this_node.id, this_node.type)
+        # this_node.properties['reference'] = [paper_name]
+    this_node.properties['name'] = this_node.id.title()
 
 def map_to_base_node(node: Node) -> BaseNode:
     """Map the KnowledgeGraph Node to the base Node."""
     properties = props_to_dict(node.properties) if node.properties else {}
-
-    properties["name"] = node.id.title()
 
     return BaseNode(
         id=node.id.title(), type=node.type.capitalize(), properties=properties

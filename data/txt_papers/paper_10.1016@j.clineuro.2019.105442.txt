@@ -1,0 +1,533 @@
+Contents lists available at ScienceDirect
+Clinical Neurology and Neurosurgery
+journal homepage: www.elsevier.com/locate/clineuro
+Artiﬁcial intelligence for assisting diagnostics and assessment of Parkinson ’s
+disease —A review
+Minja Beli ća, Vladislava Bobi ća,b,⁎, Milica Badž aa,b, Nikola Šolajab, Milica Đurić-Jovi čića,
+Vladimir S. Kosti ćc
+aInnovation Center, School of Electrical Engineering, University of Belgrade, Belgrade, Serbia
+bSchool of Electrical Engineering, University of Belgrade, Belgrade, Serbia
+cClinic of Neurology, School of Medicine, University of Belgrade, Belgrade, Serbia
+ARTICLE INFO
+Keywords:
+Artiﬁcial intelligence
+Machine learningParkinson ’s disease
+Diagnostics
+Assessment
+KinematicsMotion analysisABSTRACT
+Artiﬁcial intelligence, speci ﬁcally machine learning, has found numerous applications in computer-aided di-
+agnostics, monitoring and management of neurodegenerative movement disorders of parkinsonian type. These
+tasks are not trivial due to high inter-subject variability and similarity of clinical presentations of di ﬀerent
+neurodegenerative disorders in the early stages. This paper aims to give a comprehensive, high-level overview ofapplications of arti ﬁcial intelligence through machine learning algorithms in kinematic analysis of movement
+disorders, speci ﬁcally Parkinson ’s disease (PD). We surveyed papers published between January 2007 and
+January 2019, within online databases, including PubMed and Science Direct, with a focus on the most recentlypublished studies. The search encompassed papers dealing with the implementation of machine learning algo-
+rithms for diagnosis and assessment of PD using data describing motion of upper and lower extremities. This
+systematic review presents an overview of 48 relevant studies published in the abovementioned period, whichinvestigate the use of arti ﬁcial intelligence for diagnostics, therapy assessment and progress prediction in PD
+based on body kinematics. Di ﬀerent machine learning algorithms showed promising results, particularly for
+early PD diagnostics. The investigated publications demonstrated the potentials of collecting data from af-fordable and globally available devices. However, to fully exploit artiﬁ cial intelligence technologies in the fu-
+ture, more widespread collaboration is advised among medical institutions, clinicians and researchers, to fa-
+cilitate aligning of data collection protocols, sharing and merging of data sets.
+1. Introduction
+Healthcare is one of the most prominent fertile ﬁelds for develop-
+ment and implementation of advanced and emerging technologies, in-
+cluding arti ﬁcial intelligence, wearable sensors, augmented and virtual
+reality, 3D printing and others [ 1–6]. Arti ﬁcial intelligence (AI) is a
+growing ﬁeld covering a wide range of technologies that aim to imitate
+cognitive functions and intelligent behaviour of humans [ 1]. AI is now
+ubiquitous, showing extraordinary abilities in countless areas, from
+autonomous vehicles to robot-assisted surgery. Although AI is a broad
+ﬁeld, its recent growth has been greatly brought by new advances and
+improvements in machine learning [ 4]. Machine learning (ML) re-
+presents a subset of AI and includes powerful algorithms that provide
+systems with the ability to explore and ﬁnd patterns within data,
+classify and predict outcomes by learning through experience [ 4]. MLhas also found its signi ﬁcant place in healthcare, contributing to diag-
+nostics, disease management, progression monitoring and outcome
+prediction [ 1]. This sort of approach has also penetrated neurology. ML
+algorithms coupled with wearable devices have addressed di ﬀerent
+challenges regarding neurodegenerative movement disorders, including
+Parkinson ’s disease (PD) [ 7].
+A study investigating the accuracy of traditional methods for clin-
+ical diagnosis, using post-mortem neuropathological examination,
+found a clinical diagnosis of PD to have sensitivity and speci ﬁcity of
+88% and 68%, respectively [ 8]. Early diagnosis was particularly un-
+reliable, correctly recognizing as PD only 26% of patients who were
+untreated or not clearly responsive, and 53% of those responsive to
+medication. The most important clinical features of PD are tremor,
+bradykinesia, rigidity, and postural instability [ 9]. These motor symp-
+toms a ﬀect upper and lower extremities and hinder patients ’
+https://doi.org/10.1016/j.clineuro.2019.105442
+Received 13 March 2019; Received in revised form 31 May 2019; Accepted 11 July 2019⁎Corresponding author at: Innovation Center, School of Electrical Engineering, University of Belgrade, 11120, Belgrade, Serbia.
+E-mail addresses: minja.n.belic@gmail.com (M. Beli ć),vladislava.bobic@ic.etf.bg.ac.rs (V. Bobi ć),milica.badza@ic.etf.bg.ac.rs (M. Bad ža),
+sn183153m@student.etf.bg.ac.rs (N.Šolaja), milica.djuric@etf.bg.ac.rs (M. Đuri ć-Jovi čić),vladimir.s.kostic@gmail.com (V.S. Kosti ć).Clinical Neurology and Neurosurgery 184 (2019) 105442
+Available online 16 July 2019
+0303-8467/ © 2019 Elsevier B.V. All rights reserved.
+Tperformance of everyday routine tasks, which can be visible from the
+earliest stages of the disease. Therefore, evaluation of these symptoms
+through analysis of body movements represents a very important part
+of the clinical assessment and diagnosis of PD.
+Since reliable diagnostics and early stage detection are one of the
+top priorities in medical practice [ 10], a lot of e ﬀort is being invested in
+the development of new methods for diagnostic support, which wouldincrease the accuracy and minimize required time and resources. In-
+formation on the patient ’s condition (ON/OFF states, the occurrence of
+dyskinesias, falls) and symptoms (tremor, bradykinesia, freezing ofgait) outside of clinical settings could provide physicians with deeper
+insight into patients ’disease severity and progress, setting the path
+towards fully personalized treatment. Support tools based on the use ofML have great potential for clinical practice increasing accuracy, re-
+liability and e ﬃciency of clinical decision making and assessment [ 11].
+Machine learning approaches are frequently used for outputting a di-agnostic suggestion, using data collected from various media [ 12]. In
+addition, ML has found its application in real-time, remote monitoringand detection of PD severity, symptoms and response to therapy.
+The aim of this paper is to give a comprehensive, high-level over-
+view of the bene ﬁts that AI and speci ﬁcally ML have brought to diag-
+nosis and management of PD, as well as instrumentation and technol-ogies which enabled it.
+2. Methods
+Selection criteria for presented publications were based on the im-
+plementation of machine learning algorithms for diagnosis and assess-
+ment of PD using data describing body motions, including movements
+of upper and lower extremities and whole-body movements. The search
+included both conventional machine learning and deep learning algo-
+rithms [ 13]. Most of the included studies applied conventional machine
+learning algorithms with supervised learning for ﬁnding desired pat-
+terns in the collected, labelled data. Those algorithms use hand-crafted
+features, extracted from the raw data by means of di ﬀerent signal
+processing techniques. In this paper, we included some of the mostcommonly used algorithms: Support Vector Machine - SVM (both linear
+and non-linear), Support Vector Regression - SVR, Naïve Bayes - NB,
+Logistic Regression –LR, Arti ﬁcial Neural Network –ANN (including
+Probabilistic Neural Network –PNN, Radial Basis Function Neural
+Network –RBF NN, Extreme Machine Learning –EML and Dynamic
+Neural Networks - DNN), k-Nearest Neighbours - kNN, Linear Dis-criminant Analysis - LDA, Tree-based algorithms - TREE (including
+Decision Trees –DT, Random Forest –RF, Random Trees –RT, Ada
+Boost DT, C4.5 DT, BAG DT), Hidden Markov Models –HMM, Evolu-
+tionary algorithms (EVOL), whereas some researchers applied en-
+sembles of di ﬀerent algorithms (ENS). Studies that are included are
+providing meaningful results, i.e. contributing to the challenges thatneed to be resolved in terms of detection and classi ﬁcation performance
+and providing promising results for remote monitoring of diseasesymptoms and response to therapy. The performance criteria were
+analysed together with dataset size and used instrumentation. We have
+selected the papers that included PD patients with speci ﬁed disease
+stage and scores, such as Hoehn and Yahr score (H&Y), Uniﬁ ed
+ Par-
+kinson ’s Disease Rating Scale (UPDRS), especially part III that covers
+examination scores for upper and lower extremity motions [ 14]. The
+diagnosis was considered as early if the recruited patients had a H&Y
+score of 2 or less, unless stated otherwise. The observed instrumenta-
+tion included systems providing arms and legs kinematic data, which
+included wearable systems and camera motion capture systems. Wesurveyed papers published between January 2007 and January 2019,
+within online databases including PubMed, Science Direct, and more,
+using combinations of the keywords given below. Articles were re-
+stricted to the English language. The initial query yielded 1100 papers
+and was ﬁltered to 488 by the scope/subjects/methodology, from
+which 48 articles were found to be relevant and match our criteria. Thefollowing keywords were used for searching the literature: Machine
+learning, deep learning, arti ﬁcial intelligence, intelligent devices, smart sys-
+tems, classi ﬁcation, pattern recognition, data mining. The above keywords
+have been combined with the following: neurodegenerative disorders,
+movement disorders, Parkinson ’s disease, wearables, diagnostics, freezing of
+gait, kinematic analysis, upper extremities, lower extremities, inertial sen-sors, motion capture, UPDRS, tremor, ﬁnger tapping, leg agility .
+3. Results
+Based on the search and stated selection criteria, 48 publications
+were found which matched the abovementioned criteria and success-fully applied ML to kinematic datasets acquired from patients with PD,
+20 of which analysed upper extremity kinematics, 15 papers considered
+lower extremity kinematics, and 13 analysed kinematics of full body
+(upper and lower extremities concurrently). The implementation of ML
+for PD is organized in two subgroups: 1) algorithms for diagnostic
+support and 2) algorithms for disease monitoring and kinematic as-
+sessment.
+3.1. Upper extremities
+Intelligent algorithms are often applied on kinematic signals ac-
+quired from upper extremities of patients with PD for provision of ad-
+ditional diagnostic support, assessment of therapeutic e ﬀects and
+monitoring and evaluation of motor symptoms, especially hand tremorand bradykinesia [ 15,16].
+Numerous research groups have investigated the implementation of
+diﬀerent algorithms and instrumentation, as well as tested various
+protocols in order to ﬁnd the optimal solution which would provide the
+best possible results in early-stage diagnostics, assessment of diseaseseverity and monitoring, as well as PD progress prediction [ 15].
+3.1.1. Assisting diagnostics with advanced hand motion analysis techniques
+A lot of e ﬀort has been put into the development of systems that use
+advanced algorithms for diagnosis and early diagnosis of PD based on
+the properties of hand movements. By using simple instrumentation,
+such as standard computer keyboards [ 17–19], smartphone integrated
+inertial sensors [ 20–22], electromagnetic sensors [ 23], wearable in-
+ertial sensors [ 24] and video camera [ 25], researchers have gathered
+motion data describing di ﬀerent tasks that are traditionally used for
+evaluation of PD in clinical settings. This primarily includes analysis of
+ﬁnger tapping and action/rest tremor tasks included in the standardized
+clinical UPDRS scale, part III [ 14].
+ Literature suggests that machine
+learning algorithms signi ﬁcantly improve di ﬀerentiation between PD
+patients and healthy participants compared to results achieved inclinical practice. Studies di ﬀer in the number of recruited subjects,
+disease stages, applied analysis and instrumentation, showing increasedaccuracy of classi ﬁcation between PD patients and healthy controls
+(HC) for more advanced disease stages and larger datasets. The im-plementation of ML algorithms for PD diagnosis and their results when
+applied to upper limb kinematic data are shown in Fig. 1 (upper panel).
+Each study is shown as an individual marker, coded with shape, sizeand colour, representing di ﬀerent instrumentation, number of patients
+and performance measures respectively. The performance is presentedin terms of sensitivity (Se), speci ﬁcity (Sp) and accuracy (Ac). The
+ﬁgure shows the most frequently used or the most successful supervised
+ML algorithms obtained as a representative subset of all reviewed
+publications. Columns are organized alphabetically according to the
+used algorithm: ANN, ENS, EVOL, kNN, LR, NB, SVM and TREE.
+Interesting observations can be made when comparing the sensi-
+tivity and speci ﬁcity of the results obtained by some algorithms.
+Diagnostics based on tremor recordings provided by smartphones and
+processed by NB, LR and SVM algorithms provided the Se:Sp ratio of
+56%:100%, 74%:100%, 56%:100%, respectively, proving these algo-
+rithms to have high credibility for identifying HC from PD, but leavingM. Beli ć, et al. Clinical Neurology and Neurosurgery 184 (2019) 105442
+2certain doubt as for whether all PD could be diagnosed [ 22]. BAG DT,
+AdaBoost, and C4.5 algorithms gave comparable results, and showed
+increased sensitivity and decreased speci ﬁcity compared to the previous
+three algorithms [ 22], concretely with Se:Sp ratios of 82%:90%,
+83%:85% and 83%:75%, respectively. When it comes to early diag-
+nostics, researchers reported Ac = 95% based on tremor analysis using
+smartphone and Arti ﬁcial Neural Networks [ 20], and Se = 96% paired
+with Sp = 97% based on keyboard typing analysis using an ensemble of8d iﬀerent ML models [ 18]. However, comparing algorithm perfor-
+mance is highly sensitive to the collected dataset and its pre-processing,as shown by Giancardo et al. [ 17] and Arroyo-Gallego et al. [ 19] who
+used a standard keyboard and SVR algorithms to detect early PD, andachieved Se:Sp of 71%:84%, and 77%:72%, respectively. It is particu-
+larly interesting that these results were achieved using recordings made
+by standard smartphones or computer keyboards which are nowadays
+globally present and a ﬀordable. This means there is a much greater
+potential for implementation of such standardized procedures in anysetting - clinical or home, city clinic or rural medical o ﬃce.
+3.1.2. Following disease progress and response to therapy
+Another approach to this topic includes the use of intelligent algo-
+rithms for objective assessment of motor symptoms and a more e ﬃcient
+evaluation of disease severity based on the standard clinical tests. Inclinical practice, those tests are visually observed and assessed by
+physicians, which may result in rough resolution and subjective eva-
+luation [ 26]. Researchers have therefore been working on the devel-
+opment of ML-based systems for objective and automated evaluation ofsymptoms severity based on the standardized motor tasks, including
+tremor [ 27,28] and ﬁnger tapping [ 25,29] or other repetitive motions
+[30]. As the input to those intelligent algorithms, researchers have
+provided features describing clinically important parameters, such as
+tremor frequency [ 27], rhythmicity, frequency and amplitude of re-
+petitive movements [ 30]. In Fig. 1, lower panel, we present results for
+most commonly used supervised ML algorithms for assessment of PD
+patients based on the upper extremity kinematic data. Results are
+presented in a similar manner as in Fig. 1, upper panel.
+Cloud-based mobile applications that use ML have also been de-
+veloped with the aim of increasing e ﬃciency of examination of pa-
+tients ’motor abilities and symptoms severity [ 31,32]. Stamate et al.
+[32] developed CloudUPDRS - a mobile application that allows remote
+recording of UPDRS tasks, such as tremor, ﬁnger tapping, and gait. It
+integrates a deep learning algorithm for discrimination between highand low-quality recordings. Machine learning is also applied for de-
+tection and classi ﬁcation
+of patients ’conditions and everyday activities[33,34] which can provide insight into medication e ﬃciency and pro-
+vide information that can be crucial for a patient-tailored treatmentplan. Fisher et al. [ 34] applied Arti ﬁcial Neural Networks on data de-
+rived from a wrist-worn accelerometer for automatic detection ofasleep, ON, OFF and dyskinesia states in home settings. The results
+showed that di ﬀerent ON/OFF states and dyskinesia can be detected
+with low Se and high Sp (above 80%). Comparable results were ob-tained using deep learning algorithms [ 33]. Both conventional machine
+learning [ 35,36] and deep learning algorithms [ 36] were used for the
+detection and classi ﬁcation of bradykinesia and dyskinesia with high
+accuracy (ranging from 84% up to 90%).
+3.2. Lower extremities
+Advanced algorithms have also been applied to the development of
+new diagnostic and assessment systems that are based on the motion of
+the lower extremities [ 15]. Diﬀerent approaches have been taken,
+covering a wide range of algorithms and instrumentation. In this paper,the focus is given on the use of ML algorithms for diagnostics, especially
+early-stage diagnostics, prediction and detection of motor symptoms
+inﬂuencing normal walking (such as freezing of gait, falls), prediction
+of disease severity and assessment of therapy response [ 15,16].
+3.2.1. Assisting diagnostics with advanced gait analysis techniques
+Research groups have been working on developing the optimal al-
+gorithm for accurate diagnostics of PD, implementing di ﬀerent machine
+learning algorithms to datasets collected from infrared cameras (Kinect
+or motion capture with optical markers) [ 37–40], force sensors placed
+in shoe insoles or integrated into sensor walkways, [ 41–44], and in-
+ertial sensors positioned on leg segments, waist, or integrated in smart
+shoes [ 45–51]. A signi ﬁcant contribution was provided by studies that
+focused on algorithms for early PD diagnostics, where the kNN algo-rithm reached Ac = 85.5% [ 51]. Using SVM provided 85% or higher
+accuracy, con ﬁrmed by di ﬀerent studies [ 42,43]. LDA algorithm ob-
+tained Se:Sp of 88%:86% for early-stage PD diagnostics (de ﬁned by
+UPDRS score below 15) using walking data, while both parameters formild stage PD (de ﬁned by UPDRS score above 20) were 100% using
+features extracted from data describing three di ﬀerent
+exercises [ 47].
+Using RBF NN provided Se, Sp and Ac of 96.77%, 95.89%, and 96.39%,respectively, when applied on a PhysioBank dataset which included 93
+PD patients with moderate or early disease stage [ 44]. In Fig. 2, upper
+panel, we present results for most commonly used supervised ML al-gorithms for assisting diagnosis of PD patients based on lower extremity
+kinematic data. Results are presented in a similar manner as in Fig. 1.
+Fig. 1. Implementation of machine learning on
+upper extremity kinematic data for diagnosis
+(upper panel) and assessment (lower panel),showing top ML algorithms (one in each
+column), their performance (the horizontal
+axis shows the presented measure, the verticalaxis shows its percentage value), used in-
+strumentation (indicated by marker shape),
+and number of patients (indicated by markersize). ANN –Artiﬁcial Neural Network; ENS –
+Ensemble of di ﬀerent algorithms; EVOL –
+Evolutionary algorithms; kNN –k-Nearest
+Neighbours; LR –Logistic Regression; NB –
+Naïve Bayes; SVM –Support Vector Machine;
+TREE –Tree-based algorithms; Ac –Accuracy;
+Se–Sensitivity; Sp –Speciﬁcity; EM tracking -
+Electromagnetic tracking; IMU –Inertial
+Measurement Unit.M. Beli ć, et al. Clinical Neurology and Neurosurgery 184 (2019) 105442
+33.2.2. Following disease progress and response to therapy
+Another major ﬁeld of application for machine learning algorithms
+is detection and prediction of freezing of gait (FoG) and falls. Wearable
+sensors have been particularly exploited [ 52], owing to their suitability
+for home use and recording along complicated paths with turns,doorways and narrow walkways. Sensors are typically mounted on the
+legs and waist [ 53–55], but sometimes also on the wrist and chest
+[56,57]. As smartphones have profoundly in ﬁltrated our daily lives,
+with integrated inertial sensors, they also found their role as un-
+obtrusive FoG detection equipment and gait-based diagnosis assistants
+[58]. Integration with a smart watch has also been suggested [ 59]. One
+of the most frequent approaches for FoG detection was using SVM al-gorithms. Polynomial kernel SVM provided Sp = 91% and Se = 89%
+for FoG detection, whereas these measures were Sp = 88% andSe = 75% for prediction of FoG events [ 55]. Other algorithms im-
+plemented for the same application were NB, RF, kNN, ANN, linearSVM and Extreme Gradient Boosting, but their performance was found
+to be lower compared to Polynomial kernel SVM [ 55]. Another study
+compared the performance of generalized and personalized FoG de-tection models based on SVM algorithms and showed that the gen-
+eralized model reached Sp = 79% and Se = 74.7%, compared to
+Sp = 80.1% and Se = 88.1% obtained for personalized algorithms
+[54]. Using non-linear SVM introduced lower performance compared to
+linear SVM, showing accuracy of Ac = 94.2% compared to Ac = 95.4%[53]. Prediction of incoming FoG would further improve its manage-
+ment. Mazilu et al. [ 60] worked on identifying patterns in motion data
+using unsupervised learning, but they found signi ﬁcant variations be-
+tween subjects. In Fig. 2, lower panel, we present summary results for
+the most commonly used ML algorithms for FoG detection in PD pa-
+tients based on lower extremity kinematic data. Results are presented in
+a similar fashion as in Fig. 1 .
+Studies estimated fall frequency as well as demographic and clinical
+factors related to falling in a cohort of Serbian patients with PD and
+showed that 60% of 300 observed patients had falls in the 6-month
+period prior to the study [ 61,62]. Therefore, ML algorithms and smart
+wearable technologies found a signi ﬁcant role in fall detection and
+prediction. Although threshold-based algorithms are easier to imple-
+ment and they are less computationally demanding, machine learning
+methods are prevalent due to much better prediction rates [ 63]. As for
+the type of systems used, wearable and camera-based systems arepredominant methods for fall detection, the former being favoured
+[63,64].
+Another implementation of ML for gait was shown by Jane et al.
+[41] who designed an automated scale for detecting the severity of gaitdisturbances according to the H&Y scale using a Q-backpropagated
+time-delay neural network on data collected by wearable sensors with
+the accuracy of about 90%. A SVM classi ﬁer was applied in one of the
+phases of the motor ﬂuctuation (ON/OFF) detection using gait data
+recorded by 3D accelerometer sensor, which resulted in both Se and Sp
+above 90% [ 65].
+Deep brain stimulation (DBS) e ﬀects on ground re-
+action force data were also assessed with machine learning algorithms:PNN, LR, and SVM, showing the positive e ﬀect of DBS on walking
+patterns, especially combined with medications [ 66].
+3.3. Upper and lower extremities
+Some research groups used data from both upper and lower ex-
+tremities to analyse motion and extract features for early or mild PD
+diagnostics [ 38,46,49], PD staging [ 49,50], detection of FoG and/or
+dyskinesia [ 56,67], tremor [ 67–69], bradykinesia [ 58,68], as well as to
+perform assessment of dose-responsive dyskinesia [ 67].
+A combination of inertial sensors on the dominant limbs with some
+other sensors (vibration, infrared, magnetic door, ambient light) on the
+dominant arm recorded data during daily activities for discerning be-
+tween HC, PD patients with and without cognitive impairments, and
+patients with cognitive impairment (but no PD) [ 38]. Di ﬀerent results
+were reported, showing that these four groups can be discriminatedwith accuracy of 86% using the AdaBoost DT algorithm. Comparison of
+HC and PD patients based on inertial data acquired from upper and
+lower body parts resulted with accuracy ranging from 79.62% to 84.1%
+for LDA, NB, kNN, SVM (linear), SVM (non-linear) and DT, and accu-
+racy above 90% for an ensemble of classi ﬁers [ 50]. The authors also
+used SVM for discrimination between HC and PD patients with H&Y I, H&Y II, H&Y III with the accuracy of 94.5%, 87.75%, 93.63%, respec-
+tively. Other studies compared results for diagnosing PD patients with
+three disease stages based on a combination of H&Y and UPDRS scores
+(mild, moderate and severe) using inertial motion data from legs and
+wrists, with the help of three classi ﬁers: EML, PNN, and kNN [ 49]. By
+using the kinematic data from upper and lower limbs, estimation oftremor severity was performed with HMM classi ﬁer achieving accuracy
+of 87% [ 69]. Tremor, bradykinesia, and dyskinesia can be assessed with
+performance above 90% using the SVM [ 68] and DNN [ 67]. Similar
+results were reported for FoG detection, reporting accuracy above 90%
+for NB, RF, DT and RT classi ﬁers. In Fig. 3, we present results for most
+commonly used or most successful ML algorithms for diagnosis andassessment of PD patients based on both upper and lower extremity
+kinematic data. Results are presented in a similar manner as in Figs. 1
+and 2 .
+Fig. 2. Implementation of machine learning on
+lower extremity kinematic data for diagnosis
+(upper panel) and FOG detection (lowerpanel), showing top ML algorithms (one in
+each column), their performance (the hor-
+izontal axis shows presented measure, thevertical shows its percentage value), used in-
+strumentation (indicated by marker shape),
+and number of patients (indicated by markersize). ANN –Artiﬁcial Neural Network; kNN –
+k-Nearest Neighbours; LDA –Linear
+Discriminant Analysis; LR –Linear Regression;
+NB–Naïve Bayes; SVM –Support Vector
+Machine; TREE –Tree-based algorithms; Ac –
+Accuracy; Se –Sensitivity; Sp –Speciﬁcity;
+IMU –Inertial Measurement Unit.M. Beli ć, et al. Clinical Neurology and Neurosurgery 184 (2019) 105442
+4The summarized results are presented in Table 1. The table com-
+prises selection of papers presented in the review which are providing
+promising results for diagnosis and assessment of PD patients, using
+diﬀerent algorithms, measurement protocols and instrumentations re-
+cording kinematic data from di ﬀerent body parts.
+4. Discussion
+In this paper, we presented some of the most prominent results from
+theﬁeld of arti ﬁcial intelligence, speci ﬁcally machine learning, applied
+with the goal of providing a more precise diagnosis and assessment of
+patients with PD. The paper focused on the implementation of com-
+mercial and o ﬀ-the-shelf instrumentation for capturing motor patterns
+of upper and lower extremities.
+The obtained results were found to be comparable for di ﬀerentsensor systems, which proves their equal potential for practical use interms of classi ﬁcation and detection accuracy. However, the applic-
+ability of camera and motion capture systems are limited because theyare more expensive and require dedicated space for recording. On the
+other hand, wearable sensor devices are a ﬀordable and allow mon-
+itoring in any environment. As shown, smartphones are also frequentlyused without any additional instrumentation, since they already haveintegrated inertial sensors, and they are globally available, enabling the
+easy realization of various assessment and assistive applications. They
+are an inexpensive option with simple wireless data transmission [ 71].
+Although the quality of the sensors di ﬀers for di ﬀerent models, and
+battery life can be a burning issue, the obtained high accuracy results
+paired with usability and a ﬀordability, make smart wearable devices an
+important part of the future development of the telemonitoring of PD.
+Machine learning applications in this ﬁeld can be divided into two
+Fig. 3. Implementation of machine learning on
+both upper and lower extremity kinematic data
+for diagnosis (upper panel) and assessment(lower panel), showing top ML algorithms (one
+in each column), their performance (the hor-
+izontal axis shows presented measure, thevertical shows its percentage value), used in-
+strumentation (indicated by marker shape),
+and number of patients (indicated by markersize). ANN –Artiﬁcial Neural Network; ENS –
+Ensemble of di ﬀerent algorithms; HMM –
+Hidden Markov Models; kNN –k-Nearest
+Neighbours; LDA –Linear Discriminant
+Analysis; NB –Naïve Bayes; SVM –Support
+Vector Machine; TREE –Tree-based algo-
+rithms; Ac –Accuracy; Se –Sensitivity; Sp –
+Speciﬁcity; IMU –Inertial Measurement Unit.
+Table 1A selection of papers providing promising results for di ﬀerent applications based on movements of di ﬀerent body parts, using di ﬀerent instrumentation, protocols
+and algorithms.
+Ref. Goal Type of observed motion Body part Instrumentation Subjects Algorithm Best performance [%]
+Sp Se Ac
+[29] Diagnosis Finger tapping Up EM tracking 107 PD, 49 HC EVOL 91.8 94.6 93.5
+[18] Diagnosis Typing Up Keyboard 20 PD (mild), 33 HC ENS 97 96
+[20] Diagnosis Arm movements at rest, waving
+and walkingUp Smartphone 21 PD (> 1 year), 21
+HCANN 95 95 95
+[25] UPDRS scoring FT Up Video 13 PD (UPDRS: 0-3) SVM 88
+[27] UPDRS scoring Hand tremor Up Smartphone 52 PD NB 97
+[29] UPDRS scoring FT Up EM tracking 107 PD, 49 HC EVOL ≥89.7
+[44] Diagnosis Gait Low Force sensor 93 PD (mild and
+early), 73 HCANN 95.89 96.77 96.38
+[45] Diagnosis Gait, Posture Low Smartphone 10 PD, 10 HC RF 97.6 98.5 98.0
+[51] Diagnosis Gait Low IMU 156 PD, 424 HC kNN 85.51
+[53] FoG detection Gait Low IMU 20 PD (H&Y > 2) Linear SVM 95.6 82.2 95.4
+[40] Diagnosis Gait Low Camera system & force
+plate23 PD (H&Y: 2), 26
+HCRF 90 96 92.6
+[67] Classi ﬁcation of severity of
+motor disordersUnconstrained activity All Multimodal 19 PD, 4 non-PD ANN 97.1 94.9
+[68] Assessment FtN, FT, HOC, HT, SIT, HA All IMU 12 PD (H&Y: 2-3) SVM > 95
+[58] Diagnosis Gait, Posture, FT, RT All Smartphone 10 PD, 10 HC RF 96.9 96.2
+[50] Diagnosis (PD - H&Y I) Gait All IMU 27 PD (H&Y:1-3), 27
+HCSVM 94.5
+PD–Parkinson ’s disease; HC –Healthy controls; UPDRS –Uniﬁed Parkinson ’s disease Rating Scale; H&Y –Hoen and Yahr scale; ANN –Artiﬁcial Neural Network;
+EVOL - Evolutinary algorithms; ENS –Ensemble of di ﬀerent algorithms; kNN –k-Nearest Neighbours; NB –Naïve Bayes; SVM –Support Vector Machine; RF –
+Random Forest; Ac –Accuracy; Se –Sensitivity; Sp –Speciﬁcity; IMU –Inertial Measurement Unit; EM tracking –Electromagnetic tracking; FtN –Finger to nose; FT –
+Finger tapping; HOC –Hand opening/closing; HT –Heel tapping; SIT –Sitting; HA –Hand alternating; RT –Reaction time.M. Beli ć, et al. Clinical Neurology and Neurosurgery 184 (2019) 105442
+5subgroups: 1) diagnostic support and 2) disease monitoring and as-
+sessment. The most commonly used algorithms are Support Vector
+Machine, k-Nearest Neighbours, Naïve Bayes, Arti ﬁcial Neural
+Networks, Linear Discriminant Analysis, Tree-based algorithms (whichincludes Decision Trees, AdaBoost DT, Random Forest, Random Trees,
+and others).
+Research has shown that simple wearable instrumentation in com-
+bination with supervised machine learning algorithms can provide
+signiﬁcant diagnostic support and discriminate between PD patients
+and healthy subjects with accuracy above 90%. Arti ﬁcial Neural
+Network proved to be the most successful algorithm for early diag-
+nostics, reporting accuracy above 95% using features extracted from
+gait force patterns. This is especially important, since in early disease
+stages motor symptoms are not clearly visible and with delayed diag-
+nostics the progression of the disease is unbridled. High-accuracy re-
+sults are also obtained for detection of motor symptoms, disease stage
+and severity. Prediction of symptoms severity was successfully applied
+using various algorithms and sensors. However, Support Vector
+Machine combined with IMUs proved to be the most successful ap-
+proach, with accuracy above 95%, as demonstrated for tremor, brady-
+kinesia and dyskinesia.
+The presented results could be considered as pilot studies for future
+full-scale implementations. Although numbers of participants in the
+presented studies are typically su ﬃcient for ﬁnding statistical sig-
+niﬁcances between groups, having few dozens of patients is not enough
+for full exploitation of machine learning and even less for deep learning
+algorithms. In addition, some analysed datasets consisted of simulated
+data (e.g. falls), usually with young people as subjects, contrary to the
+users and real-life situations they are designed for [ 63]. Furthermore,
+results obtained with di ﬀerent methodologies cannot be completely
+comparable if the recording conditions and applied methodologies are
+too diverse. Another challenge in the implementation of AI and ML can
+be incomplete or inappropriately labelled data. For the assessment ofthe disease symptoms, each recording must be correctly annotated,
+which is especially hard for recordings outside clinical settings. In cases
+where clinicians are not sure of the diagnosis (early disease stages), the
+provided reference labels may be incorrect, which could cause algo-
+rithms to learn wrong patterns from the data. One of the future stra-
+tegies should include collecting data from multiple sources (di ﬀerent
+research groups, medical institutions, cities or countries) but with sys-tematically and precisely deﬁ ned methodologies in terms of used in-
+strumentation, sensor placement and position, signal length, recordingprotocols, testing, data storing, and structured reporting [ 72].
+There are already some relevant publicly available databases, such
+as PhysioNet, a database that contains ground reaction force data ob-
+tained during walking from 93 participants with mild to intermediate
+PD, and 73 HC, which allowed several research groups to test and verify
+their methods [ 41,42,44] As part of the FP7 project REMPARK, funded
+by the European Community, a database with movement data from 93PD patients was developed for the assessment of motor symptoms and
+conditions [ 73]. The database contains information from three sources:
+annotations or data labelling, video recordings of patients ’performance
+and data collected from wrist and waist worn inertial sensors. There are
+some available databases that contain clinical data for more than 8000
+patients (out of which several thousand are PD), however, no similar
+database (in terms of size) comprising kinematic data is available [ 74].
+Given these limitations, the validation of sensor-derived assessment anddiagnostics of PD would bene ﬁt from increased and widespread colla-
+boration among di ﬀerent research groups. Aligning data collection
+protocols, and sharing data sets among researchers would provide a
+good basis for the development of large-scale databases and more
+precise and clinically acceptable algorithms.
+5. Conclusion
+This systematic review presents an overview of studies investigatingthe use of arti ﬁcial
+ intelligence, speci ﬁcally machine learning algo-
+rithms, for diagnostics, therapy assessments and progress prediction in
+PD based on kinematic data collected from upper and lower extremities
+and whole-body movements. Despite promising validation initiatives,
+study sample sizes are relatively small, the instrumentation is quite
+diverse both in type and positioning. Participant groups are often too
+heterogeneous regarding disease stage and symptoms. There is also a
+lack of consistency in outcome measures, methods of assessing validity,
+and form of reported results. Given these limitations, the validation of
+sensor-derived assessments of PD features would bene ﬁt from increased
+collaboration among researchers, aligning data collection protocols,sharing and merging data sets.
+Funding
+This work was supported in part by the Ministry of Science,
+Education and Technological Development of the Republic of Serbia
+[grant number 175016]. We would like to thank dr Goran Kva ščev,
+assistant professor, for the consultation and advising regarding themanuscript.
+Declaration of Competing Interest
+None.
+References
+[1]F. Jiang, Y. Jiang, H. Zhi, Y. Dong, H. Li, S. Ma, Y. Wang, Q. Dong, H. Shen,
+Y. Wang, Arti ﬁcial intelligence in healthcare: past, present and future, Stroke Vasc.
+Neurol. 2 (2017) 230 –243.
+[2]A. Holzinger, Machine Learning for Health Informatics. In Lecture Notes inComputer Science (including Subseries Lecture Notes in Artiﬁ cial Intelligence and
+Lecture Notes in Bioinformatics), (2016) ISBN 978-3-319-50477-3 .
+[3]W.O. Contreras López, P.A. Navarro, S. Crispin, Intraoperative clinical application
+of augmented reality in neurosurgery: a systematic review, Clin. Neurol. Neurosurg.
+(2019) .
+[4]P. Hamet, Arti ﬁcial intelligence in medicine, Metabolism 69 (2017) S36– S40.
+[5]L. Li, F. Yu, D. Shi, J. Shi, Z. Tian, J. Yang, X. Wang, Q. Jiang, Application of virtualreality technology in clinical medicine, Am. J. Transl. Res. 9 (2017) 3867 –3880 .
+[6]C.-Y. Liaw, M. Guvendiren, Current and emerging applications of 3D printing inmedicine, Biofabrication 9 (2017) 024102 .
+[7]E. Rovini, C. Maremmani, F. Cavallo, How wearable sensors can support parkinson ’s
+disease diagnosis and treatment: a systematic review, Front. Neurosci. 11 (2017)
+555.
+[8]C.H. Adler, T.G. Beach, J.G. Hentz, H.A. Shill, J.N. Caviness, E. Driver-Dunckley,M.N. Sabbagh, L.I. Sue, S.A. Jacobson, C.M. Belden, et al., Low clinical diagnostic
+accuracy of early vs advanced Parkinson disease: clinicopathologic study,
+Neurology (2014) .
+[9]J. Jankovic, Parkinson ’s disease: clinical features and diagnosis, J. Neurol.
+Neurosurg. Psychiatry 79 (2008) 368 –376.
+[10] A. Berardelli, G.K. Wenning, A. Antonini, D. Berg, B.R. Bloem, V. Bonifati,
+D. Brooks, D.J. Burn, C. Colosimo, A. Fanciulli, et al., EFNS/MDS-ES re-
+commendations for the diagnosis of Parkinson ’s disease, Eur. J. Neurol. (2013) .
+[11] David Gil, Magnus Johnson, Diagnosing Parkinson by using arti ﬁcial neural net-
+works and support vector machines, Glob. J. Comput. Sci. Technol. (2009) .
+[12] C.R. Pereira, D.R. Pereira, S.A.T. Weber, C. Hook, V.H.C. de Albuquerque, J.P. Papa,A survey on computer-assisted Parkinson ’s disease diagnosis, Artif. Intell. Med.
+(2018) .
+[13] S. Russel, P. Norvig, Arti ﬁcial Intelligence —A Modern Approach, 3rd edition,
+(2012) ISBN 9780136042594 .
+[14] MDS UPDRS Rating Scale, (2019) Available online: https://www.movementdi-sorders.org/MDS-Files1/PDFs/Rating-Scales/MDS-UPDRS_English_FINAL.pdf
+(Accessed on Jan 31, 2019).
+[15] E. Rovini, C. Maremmani, F. Cavallo, How wearable sensors can support parkinson ’s
+disease diagnosis and treatment: a systematic review, Front. Neurosci. (2017) .
+[16] C. Ahlrichs, M. Lawo, Parkinson ’s disease motor symptoms in machine learning: a
+review,
+Health Informatics —Int. J. (2013) .
+[17] L. Giancardo, A. Sánchez-Ferro, T. Arroyo-Gallego, I. Butterworth, C.S. Mendoza,
+P. Montero, M. Matarazzo, J.A. Obeso, M.L. Gray, R.S.J. Estépar, Computer key-
+board interaction as an indicator of early Parkinson ’s disease, Sci. Rep. (2016) .
+[18] W.R. Adams, High-accuracy detection of early Parkinson ’s disease using multiple
+characteristics of ﬁnger movement while typing, PLoS One (2017) .
+[19] T. Arroyo-Gallego, M.J. Ledesma-Carbayo, I. Butterworth, M. Matarazzo,P. Montero-Escribano, V. Puertas-Martín, M.L. Gray, L. Giancardo, Á Sánchez-Ferro,
+Detecting motor impairment in early parkinson ’s disease via natural typing inter-
+action with keyboards: validation of the neuroQWERTY approach in an un-
+controlled At-Home setting, J. Med. Internet Res. (2018) .
+[20] L. Fraiwan, R. Khnouf, A.R. Mashagbeh, Parkinsons disease hand tremor detectionsystem for mobile application, J. Med. Eng. Technol. (2016) .
+[21] D. Iakovakis, S. Hadjidimitriou, V. Charisis, S. Bostantzopoulou, Z. Katsarou,M. Beli ć, et al.
+Clinical Neurology and Neurosurgery 184 (2019) 105442
+6
