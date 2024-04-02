@@ -26,7 +26,7 @@ def props_to_dict(props) -> dict:
 
 
 def check_label(this_node_name: str, this_node_label: str, graph_node_label: str = None) -> str:
-    if this_node_label == graph_node_label:
+    if this_node_label != graph_node_label and graph_node_label is not None:
         return graph_node_label
     elif this_node_label == 'Node':
         return create_node_label_openai(this_node_name)
@@ -42,6 +42,8 @@ def add_node_history(this_node: BaseNode):
         for node in graph_nodes:
             if node['name'].lower() == this_node.id.lower():
                 this_node.type = check_label(this_node.id, this_node.type, node.get('label'))
+                if 'label' in node.keys():
+                    node.pop('label')
                 this_node.properties.update(node)
                 # this_node.properties['reference'].append(paper_name)
                 break

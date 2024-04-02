@@ -7,7 +7,7 @@ from langchain_community.graphs.graph_document import (Node as BaseNode, Relatio
 
 from utils.debugger import logger
 
-def init_graph() -> Neo4jGraph:
+def init_knowledge_base() -> Neo4jGraph:
     try:
         load_dotenv()
         url = os.getenv('DB_URL')

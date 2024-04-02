@@ -1,8 +1,5 @@
 .DS_Store
-data/.DS_Store
-data/pdf_papers/
-data/txt_papers/
-data/txt_parsed_papers/
+data/
 pipeline/__pycache__/
 utils/__pycache__/
 .env

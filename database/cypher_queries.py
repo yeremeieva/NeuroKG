@@ -5,7 +5,7 @@ from langchain.chains import GraphCypherQAChain
 import langchain_openai
 
 from utils.debugger import logger
-from database.init_database import init_graph
+from database.init_database import init_knowledge_base
 
 
 load_dotenv()
@@ -76,11 +76,11 @@ def get_graph_diameter() -> int:
 def language_query():
     os.getenv('OPENAI_API_KEY')
 
-    graph = init_graph()
-    graph.refresh_schema()
+    knowledge_base = init_knowledge_base()
+    knowledge_base.refresh_schema()
 
     chain = GraphCypherQAChain.from_llm(
-        langchain_openai.ChatOpenAI(temperature=0, model="gpt-4-turbo-preview"), graph=graph, verbose=True, validate_cypher=False
+        langchain_openai.ChatOpenAI(temperature=0, model="gpt-4-turbo-preview"), graph=knowledge_base, verbose=True, validate_cypher=False
     )
 
     chain.run("What Deep Brain Stimulation (Medicalprocedure) treats?")
