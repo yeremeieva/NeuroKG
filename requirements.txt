@@ -1,0 +1,7 @@
+vertexai~=1.43.0
+python-dotenv~=1.0.1
+openai~=1.14.0
+langchain~=0.1.12
+pypdf2~=3.0.1
+neo4j~=5.2.1
+tqdm~=4.66.2
