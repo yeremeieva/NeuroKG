@@ -54,7 +54,7 @@ def compare_graphs(graph_documents: list[GraphDocument]) -> GraphDocument:
 
     graph2 = graph_documents[rel_to_nodes.index(min(rel_to_nodes))]
 
-    if len(graph2.nodes) > len(graph1.nodes) and min(rel_to_nodes) < 3:
+    if len(graph2.nodes) > len(graph1.nodes) and min(rel_to_nodes) <= 5:
         return graph2
     else:
         return graph1
@@ -62,18 +62,21 @@ def compare_graphs(graph_documents: list[GraphDocument]) -> GraphDocument:
 
 def loop_over_documents(inner_documents:  list[Document]):
     for i, d in tqdm(enumerate(inner_documents), total=len(inner_documents)):
-        print(d.metadata['title'])
-        graphs = []
+        try:
+            print(d.metadata['title'])
+            graphs = []
 
-        for _ in range(0, 3):
-            graph = extract_graph(d)
-            graphs.append(graph)
+            for _ in range(0, 2):
+                graph = extract_graph(d)
+                graphs.append(graph)
 
-        best_graph = compare_graphs(graphs)
-        print(len(best_graph.nodes))
-        print(len(best_graph.relationships))
-        print()
-        store_graph(best_graph)
+            best_graph = compare_graphs(graphs)
+            print(len(best_graph.nodes))
+            print(len(best_graph.relationships))
+            print()
+            store_graph(best_graph)
+        except Exception as e:
+            logger.exception(f'not successfully add the graph to KB, exception "{e}"')
 
 if __name__ == '__main__':
     start_time = time.time()

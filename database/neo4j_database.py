@@ -40,7 +40,7 @@ def add_node_history(this_node: BaseNode):
 
     if graph_nodes:
         for node in graph_nodes:
-            if node['name'].lower() == this_node.id.lower():
+            if node['id'].lower() == this_node.id.lower():
                 this_node.type = check_label(this_node.id, this_node.type, node.get('label'))
                 if 'label' in node.keys():
                     node.pop('label')

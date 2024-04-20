@@ -1,14 +1,13 @@
-from openai import OpenAI
-from langchain_openai import ChatOpenAI
+from langchain_core.prompts import PromptTemplate, ChatPromptTemplate
+from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 from langchain.chains.openai_functions import create_structured_output_chain
 from langchain.chains import ConversationChain, LLMChain
-import langchain_openai
-from langchain_core.prompts import PromptTemplate
+from langchain_openai import ChatOpenAI
 from langchain_community.callbacks import get_openai_callback
-import tiktoken
 from langchain_text_splitters import CharacterTextSplitter
-from langchain.chains.conversation.memory import ConversationBufferWindowMemory
 
+from openai import OpenAI
+import tiktoken
 from dotenv import load_dotenv
 import os
 
@@ -21,35 +20,8 @@ client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 os.getenv('OPENAI_API_KEY')
 
 
-# def split_text_by_tokens(text : str, token_limit=80):
-#     try:
-#         text_splitter = CharacterTextSplitter.from_tiktoken_encoder(
-#             chunk_size=token_limit, chunk_overlap=0
-#         )
-#         chunks = text_splitter.split_text(text)
-#         print(len(chunks))
-#         return chunks
-#     except Exception as e:
-#         logger.exception(f'not successfully split txt by tokens, exception "{e}"')
-
-
-def count_tokens(chain, query):
-    with get_openai_callback() as cb:
-        result = chain.invoke(query)
-        # logger.info(f'Spent a total of {cb.total_tokens} tokens')
-    return result
-
-
-# def replace_memory():
-#   AImem = []
-#   for index,value in enumerate(memory.dict()['chat_memory']['messages']):
-#     if value['type']=='ai':
-#       AImem.append(memory.dict()['chat_memory']['messages'][index]['content'])
-#
-#   memory.clear()
-#
-#   for ai_mem in AImem:
-#     memory.chat_memory.add_ai_message(ai_mem)
+def find_doi():
+    pass
 
 
 def txt_to_parsed_txt_openai(text_to_parse: str,  temperature=0.2) -> str:
@@ -105,8 +77,7 @@ def create_node_label_openai(node_name: str,  temperature=0.7) -> str:
         logger.exception(f'not successfully created new label with fucking chat gpt, exception "{e}"')
 
 def prompt_to_create_knowledge_openai():
-    os.getenv('OPENAI_API_KEY')
-    llm = langchain_openai.ChatOpenAI(model="gpt-4-turbo-preview", temperature=0)
+    llm = ChatOpenAI(model="gpt-4-turbo-preview", temperature=0)
     prompt = ChatPromptTemplate.from_messages(
         [("system",
           f"""# Knowledge Graph Instructions for GPT-4
