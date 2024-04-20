@@ -2,6 +2,8 @@ import PyPDF2
 import os
 from langchain.docstore.document import Document
 from typing import Optional
+import nltk
+# nltk.download('punkt')
 
 from utils.debugger import logger
 
@@ -30,7 +32,7 @@ def read_pdf(file_path: str) -> Optional[str]:
         with open(file_path, "rb") as file:
             reader = PyPDF2.PdfReader(file)
             num_pages = len(reader.pages)
-            for page_num in range(8):
+            for page_num in range(num_pages - 2):
                 page = reader.pages[page_num]
                 text += page.extract_text()
         return text
@@ -73,11 +75,20 @@ def txt_to_doc(file_path: str) -> Optional[Document]:
     except Exception as e:
         logger.exception(f'not successfully read txt, exception "{e}"')
 
+def split_text_by_tokens(text, token_limit):
+    tokens = nltk.word_tokenize(text)
+    num_tokens = len(tokens)
+    num_chunks = num_tokens // token_limit + (1 if num_tokens % token_limit != 0 else 0)
+    chunks = []
+    for i in range(num_chunks):
+        start_index = i * token_limit
+        end_index = min((i + 1) * token_limit, num_tokens)
+        chunk = ' '.join(tokens[start_index:end_index])
+        chunks.append(chunk)
+    return chunks
 
 # if __name__ == '__main__':
-#     doc = txt_to_doc('data/txt_parsed_papers/parsed_paper_innovations.txt')
-#
-#     text_splitter = TokenTextSplitter(chunk_size=2048, chunk_overlap=24)
-#
-#     documents = text_splitter.split_documents([doc])
-#     print(documents)
+#     long_text = " "
+#     result = split_text_by_tokens(long_text, 5)
+#     for i, elem in enumerate(result):
+#         print(f"Chunk {i + 1}:", elem)

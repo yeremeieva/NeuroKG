@@ -3,6 +3,8 @@ from chat.openai_parser import txt_to_parsed_txt_openai
 from chat.gemini_parser import txt_to_parsed_txt_gemini
 from utils.debugger import logger
 
+
+
 import time
 
 def pdf_to_txt(input_papers):
@@ -17,10 +19,11 @@ def txt_to_parsed_txt(input_papers):
     for paper in input_papers:
         try:
             text = read_txt(f'./data/txt_papers/{paper}')
-            # result = txt_to_parsed_txt_openai(str(text))
-            result = txt_to_parsed_txt_gemini(str(text))
+            result = txt_to_parsed_txt_openai(str(text))
+            model = 'openai'
+            # result = txt_to_parsed_txt_gemini(str(text))
             try:
-                write_txt(f'./data/txt_parsed_papers/parsed_{paper}', result)
+                write_txt(f'./data/{model}_txt_parsed_papers/parsed_{paper}', result)
                 logger.info(f'paper {paper} is parsed')
                 time.sleep(3)
             except Exception as e:
