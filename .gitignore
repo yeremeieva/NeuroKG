@@ -3,3 +3,8 @@ data/
 pipeline/__pycache__/
 utils/__pycache__/
 .env
+log_file.log
+.idea
+chat/log_file.log
+pipeline/log_file.log
+utils/log_file.log

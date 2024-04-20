@@ -16,9 +16,6 @@ def extract_graph(document: Document) -> GraphDocument:
 
     nodes = [map_to_base_node(node) for node in data.nodes]
     rels = [map_to_base_relationship(rel) for rel in data.rels]
-    print('doc name: '+ document.metadata['source'])
-    print(f'rels nodes: {len(nodes)}')
-    print(f'rels len: {len(rels)}')
 
     for node in nodes:
         add_node_history(node)
@@ -45,13 +42,10 @@ def compare_graphs(graph_documents: list[GraphDocument]) -> GraphDocument:
     rel_to_nodes = []
 
     for graph_document in graph_documents:
-        print(len(graph_document.nodes))
-        print(len(graph_document.relationships))
         rel_to_nodes.append(abs(len(graph_document.nodes) - len(graph_document.relationships)))
 
     graph1 = graph_documents[rel_to_nodes.index(min(rel_to_nodes))]
     rel_to_nodes.pop(rel_to_nodes.index(min(rel_to_nodes)))
-
     graph2 = graph_documents[rel_to_nodes.index(min(rel_to_nodes))]
 
     if len(graph2.nodes) > len(graph1.nodes) and min(rel_to_nodes) <= 5:
@@ -63,17 +57,12 @@ def compare_graphs(graph_documents: list[GraphDocument]) -> GraphDocument:
 def loop_over_documents(inner_documents:  list[Document]):
     for i, d in tqdm(enumerate(inner_documents), total=len(inner_documents)):
         try:
-            print(d.metadata['title'])
             graphs = []
-
             for _ in range(0, 2):
                 graph = extract_graph(d)
                 graphs.append(graph)
 
             best_graph = compare_graphs(graphs)
-            print(len(best_graph.nodes))
-            print(len(best_graph.relationships))
-            print()
             store_graph(best_graph)
         except Exception as e:
             logger.exception(f'not successfully add the graph to KB, exception "{e}"')
@@ -84,7 +73,6 @@ if __name__ == '__main__':
     input_papers = list_files(f'./data/{model}_txt_parsed_papers', ending='.txt')
     documents = [txt_to_doc(f'./data/{model}_txt_parsed_papers/{paper}') for paper in input_papers]
     logger.info('Good News!!!! Parsed txt to documents')
-
 
     loop_over_documents(documents)
 

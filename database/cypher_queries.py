@@ -32,6 +32,7 @@ def get_nodes_and_labels() -> dict:
     except Exception as e:
         logger.exception(f'not successfully loaded dictionary of nodes and labels by cypher_query, exception "{e}"')
 
+
 def get_nodes() -> list[dict]:
     cypher_query = "MATCH (n) RETURN properties(n) as n_properties, labels(n) as n_labels"
     nodes = []
@@ -61,16 +62,27 @@ def get_graph_diameter() -> int:
                       RETURN length(path) AS diameter
                       ORDER BY diameter
                       DESC LIMIT 1"""
-
     try:
         with driver.session() as session:
             result = session.run(cypher_query)
 
-            return result.data('diameter')[0]
+            return result.data()[0]['diameter']
 
     except Exception as e:
         logger.exception(f'not successfully calculated diameter by cypher_query, exception "{e}"')
 
+
+def count_nodes() -> int:
+    cypher_query = """MATCH (n)
+                      RETURN count(n) as count"""
+    try:
+        with driver.session() as session:
+            result = session.run(cypher_query)
+
+            return result.data()[0]['count']
+
+    except Exception as e:
+        logger.exception(f'not successfully counted nodes by cypher_query, exception "{e}"')
 
 
 def language_query():
@@ -80,10 +92,10 @@ def language_query():
     knowledge_base.refresh_schema()
 
     chain = GraphCypherQAChain.from_llm(
-        langchain_openai.ChatOpenAI(temperature=0, model="gpt-4-turbo-preview"), graph=knowledge_base, verbose=True, validate_cypher=False
+        langchain_openai.ChatOpenAI(temperature=1, model="gpt-4-turbo-preview"), graph=knowledge_base, verbose=True, validate_cypher=False
     )
 
-    chain.run("What Deep Brain Stimulation (Medicalprocedure) treats?")
+    chain.run("What Deep Brain Stimulation treats?")
 #
 # if __name__ == '__main__':
     # print(get_nodes())
