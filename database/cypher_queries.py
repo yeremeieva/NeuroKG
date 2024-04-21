@@ -3,9 +3,11 @@ import os
 from dotenv import load_dotenv
 from langchain.chains import GraphCypherQAChain
 import langchain_openai
+import typing as t
 
 from utils.debugger import logger
 from database.init_database import init_knowledge_base
+from constants.constants import QUERIES
 
 
 load_dotenv()
@@ -14,6 +16,7 @@ username = os.getenv('DB_USER')
 password = os.getenv('DB_PASS')
 
 driver = GraphDatabase.driver(url, auth=(username, password))
+
 
 def get_nodes_and_labels() -> dict:
     cypher_query = "MATCH (n) RETURN n.id AS node_id, labels(n) AS node_label"
@@ -51,38 +54,24 @@ def get_nodes() -> list[dict]:
         logger.exception(f'not successfully loaded dictionary of nodes and labels by cypher_query, exception "{e}"')
 
 
-def get_graph_diameter() -> int:
-    cypher_query = """MATCH (n)
-                      WITH collect(n) AS nodes
-                      UNWIND nodes AS a
-                      UNWIND nodes AS b
-                      WITH a, b
-                      WHERE id(a) < id(b)
-                      MATCH path=shortestPath((a)-[*]-(b))
-                      RETURN length(path) AS diameter
-                      ORDER BY diameter
-                      DESC LIMIT 1"""
+def query(query_type: str) -> t.Optional:
+    try:
+        cypher_query = QUERIES[query_type]
+        result = query_scheme(cypher_query, query_type)
+        return result
+
+    except Exception as e:
+        logger.exception(f'probably have not found your request in QUERIES, exception "{e}"')
+
+
+def query_scheme(cypher_query:str, query_type:str) -> t.Optional:
     try:
         with driver.session() as session:
             result = session.run(cypher_query)
-
-            return result.data()[0]['diameter']
-
-    except Exception as e:
-        logger.exception(f'not successfully calculated diameter by cypher_query, exception "{e}"')
-
-
-def count_nodes() -> int:
-    cypher_query = """MATCH (n)
-                      RETURN count(n) as count"""
-    try:
-        with driver.session() as session:
-            result = session.run(cypher_query)
-
-            return result.data()[0]['count']
+            return result.data()
 
     except Exception as e:
-        logger.exception(f'not successfully counted nodes by cypher_query, exception "{e}"')
+        logger.exception(f'not successfully counted {query_type} or processed your cypher query, exception "{e}"')
 
 
 def language_query():
@@ -96,6 +85,7 @@ def language_query():
     )
 
     chain.run("What Deep Brain Stimulation treats?")
-#
+
+
 # if __name__ == '__main__':
     # print(get_nodes())
