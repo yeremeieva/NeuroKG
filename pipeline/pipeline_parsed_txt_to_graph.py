@@ -5,8 +5,9 @@ import time
 
 from database.neo4j_database import map_to_base_node, map_to_base_relationship, add_node_history
 from database.init_database import init_knowledge_base
+from database.cypher_queries import add_doi
 from chat.openai_parser import prompt_to_create_knowledge_openai
-from utils.reader import list_files, txt_to_doc
+from utils.reader import list_files, txt_to_doc, read_txt
 from utils.debugger import logger
 
 
@@ -28,15 +29,18 @@ def extract_graph(document: Document) -> GraphDocument:
                 rel.target = node
 
     graph_document = GraphDocument(
-      nodes= nodes,
-      relationships = rels,
-      source = document)
+      nodes=nodes,
+      relationships=rels,
+      source=document)
 
     return graph_document
 
-def store_graph(graph_document: GraphDocument):
+
+def store_graph(graph_document: GraphDocument, paper_name: str):
     knowledge_base = init_knowledge_base()
     knowledge_base.add_graph_documents([graph_document])
+    add_doi(graph_document, paper_name)
+
 
 def compare_graphs(graph_documents: list[GraphDocument]) -> GraphDocument:
     rel_to_nodes = []
@@ -54,18 +58,21 @@ def compare_graphs(graph_documents: list[GraphDocument]) -> GraphDocument:
         return graph1
 
 
-def loop_over_documents(inner_documents:  list[Document]):
-    for i, d in tqdm(enumerate(inner_documents), total=len(inner_documents)):
-        try:
+def loop_over_documents(inner_documents:  list[Document], papers_name: str):
+    try:
+        for i, d in tqdm(enumerate(inner_documents), total=len(inner_documents)):
+            paper_text = read_txt(f'./data/txt_papers/{papers_name[i][7:]}')
             graphs = []
             for _ in range(0, 2):
                 graph = extract_graph(d)
                 graphs.append(graph)
 
             best_graph = compare_graphs(graphs)
-            store_graph(best_graph)
-        except Exception as e:
-            logger.exception(f'not successfully add the graph to KB, exception "{e}"')
+            store_graph(best_graph, paper_text)
+
+    except Exception as e:
+        logger.exception(f'not successfully add the graph to KB, exception "{e}"')
+
 
 if __name__ == '__main__':
     start_time = time.time()
@@ -74,8 +81,9 @@ if __name__ == '__main__':
     documents = [txt_to_doc(f'./data/{model}_txt_parsed_papers/{paper}') for paper in input_papers]
     logger.info('Good News!!!! Parsed txt to documents')
 
-    loop_over_documents(documents)
-
+    loop_over_documents(documents[:4], input_papers[:4])
+    # graph_try = extract_graph(documents[0])
+    # store_graph(graph_try, paper_name)
     logger.info('Exciting News!!!! All papers were written to the graph!!!!!!!!!')
 
     end_time = time.time()

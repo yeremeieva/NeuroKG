@@ -2,12 +2,14 @@ from neo4j import GraphDatabase
 import os
 from dotenv import load_dotenv
 from langchain.chains import GraphCypherQAChain
+from langchain_community.graphs.graph_document import GraphDocument
 import langchain_openai
 import typing as t
 
 from utils.debugger import logger
 from database.init_database import init_knowledge_base
 from constants.constants import QUERIES
+from chat.openai_parser import find_doi
 
 
 load_dotenv()
@@ -18,8 +20,31 @@ password = os.getenv('DB_PASS')
 driver = GraphDatabase.driver(url, auth=(username, password))
 
 
+def add_doi(graph_document: GraphDocument, paper_name: str):
+    try:
+        doi = find_doi(paper_name)
+        print(doi)
+        for node in graph_document.nodes:
+            node_name = node.properties['name']
+            node_type = node.type
+            doi_list = []
+            if 'DOI' in node.properties:
+                doi_list = node.properties['DOI']
+
+            doi_list.append(doi)
+
+            cypher_query = f'MATCH(n: `{node_type}` {{name: "{node_name}"}}) SET n.DOI = {doi_list} RETURN n'
+
+            with driver.session() as session:
+                session.run(cypher_query)
+
+    except Exception as e:
+        logger.exception(f'not successfully added DOI by cypher_query, exception "{e}"')
+
+
 def get_nodes_and_labels() -> dict:
-    cypher_query = "MATCH (n) RETURN n.id AS node_id, labels(n) AS node_label"
+    cypher_query = """MATCH (n) 
+                      RETURN n.id AS node_id, labels(n) AS node_label"""
     dictionary = {}
 
     try:
@@ -64,7 +89,7 @@ def query(query_type: str) -> t.Optional:
         logger.exception(f'probably have not found your request in QUERIES, exception "{e}"')
 
 
-def query_scheme(cypher_query:str, query_type:str) -> t.Optional:
+def query_scheme(cypher_query: str, query_type: str) -> t.Optional:
     try:
         with driver.session() as session:
             result = session.run(cypher_query)

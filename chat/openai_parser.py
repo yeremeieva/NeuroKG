@@ -13,18 +13,39 @@ import os
 
 from database.init_database import KnowledgeGraph
 from utils.debugger import logger
-from utils.reader import split_text_by_tokens
+from utils.reader import split_text_by_tokens, read_txt
 
 load_dotenv()
 client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 os.getenv('OPENAI_API_KEY')
 
 
-def find_doi():
-    pass
+def find_doi(text_to_parse : str) -> str:
+    try:
+        template = """
+        Your task is to find the DOI of the paper inside it's text or another link identifier from specifically this paper, not references.
+        RETURN ONLY THE DOI, NO OTHER WORDS!!
+        Paper text: {paper_text}
+
+        DOI: """
+        prompt = PromptTemplate(
+            template=template,
+            input_variables=['paper_text']
+        )
+
+        llm = ChatOpenAI(
+            temperature=0.1,
+            model_name="gpt-4-turbo-preview"
+        )
+        chunks = split_text_by_tokens(text_to_parse, 4000)
+        llm_chain = LLMChain(prompt=prompt, llm=llm)
+        return llm_chain.invoke(chunks[0])['text']
+
+    except Exception as e:
+        logger.exception(f'not successfully parsing text with fucking chat gpt, exception "{e}"')
 
 
-def txt_to_parsed_txt_openai(text_to_parse: str,  temperature=0.2) -> str:
+def txt_to_parsed_txt_openai(text_to_parse: str, temperature=0.2) -> str:
     try:
         chunks = split_text_by_tokens(text_to_parse, 2000)
 
@@ -65,16 +86,18 @@ def txt_to_parsed_txt_openai(text_to_parse: str,  temperature=0.2) -> str:
         logger.exception(f'not successfully parsing text with fucking chat gpt, exception "{e}"')
 
 
-def create_node_label_openai(node_name: str,  temperature=0.7) -> str:
+def create_node_label_openai(node_name: str, temperature=0.7) -> str:
     try:
         response = client.chat.completions.create(model="gpt-4-turbo-preview",
-        messages=[
-            {"role": "system", "content": f"You: Label with one word this node {node_name} for neuroscientific knowledge graph"},
-        ],
-        temperature=temperature)
+                                                  messages=[
+                                                      {"role": "system",
+                                                       "content": f"You: Label with one word this node {node_name} for neuroscientific knowledge graph"},
+                                                  ],
+                                                  temperature=temperature)
         return response.choices[0].message.content
     except Exception as e:
         logger.exception(f'not successfully created new label with fucking chat gpt, exception "{e}"')
+
 
 def prompt_to_create_knowledge_openai():
     llm = ChatOpenAI(model="gpt-4-turbo-preview", temperature=0)
@@ -104,7 +127,11 @@ Remember, the knowledge graph should be coherent and easily understandable for s
 ## 5. Strict Compliance
 Adhere to the rules strictly. Non-compliance will result in termination.
           """),
-            ("human", "Use the given format to extract information from the following input: {input}"),
-            ("human", "Tip: Make sure to answer in the correct format"),
-        ])
+         ("human", "Use the given format to extract information from the following input: {input}"),
+         ("human", "Tip: Make sure to answer in the correct format"),
+         ])
     return create_structured_output_chain(KnowledgeGraph, llm, prompt, verbose=False)
+
+
+# if __name__ == '__main__':
+

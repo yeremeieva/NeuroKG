@@ -15,6 +15,7 @@ def pdf_to_txt(input_papers):
         except Exception as e:
             logger.exception(f'not successfully wrote txt to folder txt_papers, exception "{e}"')
 
+
 def txt_to_parsed_txt(input_papers):
     for paper in input_papers:
         try:
