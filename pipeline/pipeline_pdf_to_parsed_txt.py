@@ -22,7 +22,6 @@ def txt_to_parsed_txt(input_papers):
             text = read_txt(f'./data/txt_papers/{paper}')
             result = txt_to_parsed_txt_openai(str(text))
             model = 'openai'
-            # result = txt_to_parsed_txt_gemini(str(text))
             try:
                 write_txt(f'./data/{model}_txt_parsed_papers/parsed_{paper}', result)
                 logger.info(f'paper {paper} is parsed')

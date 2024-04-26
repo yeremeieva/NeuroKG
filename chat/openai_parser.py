@@ -20,11 +20,12 @@ client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
 os.getenv('OPENAI_API_KEY')
 
 
-def find_doi(text_to_parse : str) -> str:
+def find_doi(text_to_parse: str) -> str:
     try:
         template = """
         Your task is to find the DOI of the paper inside it's text or another link identifier from specifically this paper, not references.
         RETURN ONLY THE DOI, NO OTHER WORDS!!
+        In case you have not found the doi, return 'NO DOI FOUND'
         Paper text: {paper_text}
 
         DOI: """
@@ -39,7 +40,9 @@ def find_doi(text_to_parse : str) -> str:
         )
         chunks = split_text_by_tokens(text_to_parse, 4000)
         llm_chain = LLMChain(prompt=prompt, llm=llm)
-        return llm_chain.invoke(chunks[0])['text']
+        result = llm_chain.invoke(chunks[0])['text']
+        print(result)
+        return result
 
     except Exception as e:
         logger.exception(f'not successfully parsing text with fucking chat gpt, exception "{e}"')

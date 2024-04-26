@@ -7,6 +7,7 @@ import langchain_openai
 import typing as t
 
 from utils.debugger import logger
+from utils.reader import read_txt
 from database.init_database import init_knowledge_base
 from constants.constants import QUERIES
 from chat.openai_parser import find_doi
@@ -22,8 +23,11 @@ driver = GraphDatabase.driver(url, auth=(username, password))
 
 def add_doi(graph_document: GraphDocument, paper_name: str):
     try:
-        doi = find_doi(paper_name)
-        print(doi)
+        paper_text = read_txt(f'./data/txt_papers/{paper_name[7:]}')
+        doi = find_doi(paper_text)
+        print(paper_name)
+        if doi == 'NO DOI FOUND':
+            doi = f'paper_name: {paper_name[13:]}'
         for node in graph_document.nodes:
             node_name = node.properties['name']
             node_type = node.type
