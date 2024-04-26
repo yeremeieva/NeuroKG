@@ -1,11 +1,11 @@
+import time
+from tqdm import tqdm
+
 from utils.reader import list_files, read_pdf, write_txt, read_txt
 from chat.openai_parser import txt_to_parsed_txt_openai
 from chat.gemini_parser import txt_to_parsed_txt_gemini
 from utils.debugger import logger
 
-
-
-import time
 
 def pdf_to_txt(input_papers):
     for paper_name_pdf in input_papers:
@@ -17,7 +17,7 @@ def pdf_to_txt(input_papers):
 
 
 def txt_to_parsed_txt(input_papers):
-    for paper in input_papers:
+    for i, paper in tqdm(enumerate(input_papers), total=len(input_papers)):
         try:
             text = read_txt(f'./data/txt_papers/{paper}')
             result = txt_to_parsed_txt_openai(str(text))

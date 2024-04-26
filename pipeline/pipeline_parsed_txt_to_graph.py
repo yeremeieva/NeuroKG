@@ -81,7 +81,7 @@ if __name__ == '__main__':
     documents = [txt_to_doc(f'./data/{model}_txt_parsed_papers/{paper}') for paper in input_papers]
     logger.info('Good News!!!! Parsed txt to documents')
 
-    loop_over_documents(documents[4:6], input_papers[4:6])
+    loop_over_documents(documents, input_papers)
     # graph_try = extract_graph(documents[0])
     # store_graph(graph_try, paper_name)
     logger.info('Exciting News!!!! All papers were written to the graph!!!!!!!!!')
