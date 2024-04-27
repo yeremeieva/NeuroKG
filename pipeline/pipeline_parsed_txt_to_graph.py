@@ -59,19 +59,18 @@ def compare_graphs(graph_documents: list[GraphDocument]) -> GraphDocument:
 
 
 def loop_over_documents(inner_documents:  list[Document], papers_name: str):
-    try:
-        for i, d in tqdm(enumerate(inner_documents), total=len(inner_documents)):
-
+    for i, d in tqdm(enumerate(inner_documents), total=len(inner_documents)):
+        try:
             graphs = []
-            for _ in range(0, 2):
+            for _ in range(0, 3):
                 graph = extract_graph(d)
                 graphs.append(graph)
 
             best_graph = compare_graphs(graphs)
             store_graph(best_graph, papers_name[i])
 
-    except Exception as e:
-        logger.exception(f'not successfully add the graph to KB, exception "{e}"')
+        except Exception as e:
+            logger.exception(f'not successfully add the graph to KB, exception "{e}"')
 
 
 if __name__ == '__main__':
@@ -81,7 +80,7 @@ if __name__ == '__main__':
     documents = [txt_to_doc(f'./data/{model}_txt_parsed_papers/{paper}') for paper in input_papers]
     logger.info('Good News!!!! Parsed txt to documents')
 
-    loop_over_documents(documents, input_papers)
+    loop_over_documents(documents[41:], input_papers[41:])
     # graph_try = extract_graph(documents[0])
     # store_graph(graph_try, paper_name)
     logger.info('Exciting News!!!! All papers were written to the graph!!!!!!!!!')
