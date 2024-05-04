@@ -58,7 +58,7 @@ def txt_to_parsed_txt_openai(text_to_parse: str, temperature=0.2) -> str:
         )
 
         template = """You need to provide summary of the large scientific papers about neuroscience. 
-        During the conversation you will get around 80 tokens from the paper and you have to write your summary about this part.
+        During the conversation you will get around 2000 tokens from the paper and you have to write your summary about this part.
         If Previous parts are not provided, than it is the first chunk of the paper.
         If you have Previous parts and summaries, your task is to extend existing summary with new details from the new chunk of the paper.
         Later this summaries will be used to create neuroscientific knowledge graph, so keep in mind to select detailed and valuable information.
@@ -109,7 +109,7 @@ def prompt_to_create_knowledge_openai():
           f"""# Knowledge Graph Instructions for GPT-4
 ## 1. Overview
 You are a top-tier algorithm designed for extracting information from neuro scientific papers in structured formats to build a knowledge graph.Nodes represent entities and concepts like disease, treatment, etc.
-Node(id='Neurological and psychiatric side effects', type='Adverse Effect')] rels=[Relationship(source=Node(id='H.A. Wishart'), target=Node(id='Journal of Neurology, Neurosurgery, and Psychiatry'), type='Published In')
+nodes =[Node(id='Neurological and psychiatric side effects', type='Adverse Effect')], rels=[Relationship(source=Node(id='H.A. Wishart'), target=Node(id='Journal of Neurology, Neurosurgery, and Psychiatry'), type='Published In')]
 ## 2. Labeling Nodes
 - **Consistency**: Ensure you use basic or elementary types for node labels.
   - For example, when you identify an entity representing a brain area, always label it as **"Brain Area"**. Avoid using more specific terms like "region" or "anatomy structure".
