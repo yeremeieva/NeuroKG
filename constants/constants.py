@@ -52,3 +52,21 @@ QUERIES = {
                          ORDER BY count DESC, edge ASC"""
 
 }
+
+COMPLEX_QUERIES = {
+    'edges5_table': """MATCH (n1)-[r1]-(n2)-[r2]-(n3)-[r3]-(n4)-[r4]-(n5)-[r5]-(n6)
+                       RETURN n1.name, type(r2), n3.name, type(r3), n4.name, type(r4), n5.name, type(r5), n6.name 
+                       LIMIT 5000""",
+    'edges5_graph': """MATCH p=(n1)-[r*5]-(n2)
+                       RETURN p 
+                       LIMIT 50""",
+    'brain_areas_graph': """MATCH p=(n:`Brain area`)--(k) 
+                            RETURN p """,
+    'path_between_nodes': """MATCH p=(n1 {name:'Neuroinflammation'})-[r*1..6]-(n2 {name:'Brain Metastases'})
+                             RETURN p""",
+    'brain_area_forward': """MATCH (n:`Brain area`)-[r]->(k)
+                             RETURN n.name, type(r), k.name""",
+    'brain_area_backward': """MATCH (k)-[r]->(n:`Brain area`)
+                              RETURN k.name, type(r), n.name"""
+
+}
