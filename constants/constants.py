@@ -16,8 +16,9 @@ QUERIES = {
     'count_edges': """MATCH ()-[r]->()
                       RETURN count(r) as count_edges""",
 
-    'isolated_nodes': """MATCH (n) 
-                         WHERE NOT EXISTS ((n)<-[]-()) RETURN count(n) as isolated_nodes""",
+    'isolated_nodes': """MATCH (n)
+                         WHERE NOT (n)--()
+                         RETURN COUNT(n) as isolated_nodes""",
 
     'degree_nodes': """MATCH (n)
                        WITH COUNT{(n)-[]-()} as degree
@@ -41,5 +42,13 @@ QUERIES = {
 
     'nodes_names': """MATCH (n) 
                       WHERE EXISTS ((n)-[]-())
-                      RETURN n.id as node_id"""
+                      RETURN n.id as node_id""",
+    'count_label_dis': """MATCH (n) 
+                          RETURN labels(n) as label,  COUNT(*) as count
+                          ORDER BY count DESC, label ASC""",
+
+    'count_edge_dis': """MATCH ()-[r]->() 
+                         RETURN type(r) as edge, COUNT(*) as count
+                         ORDER BY count DESC, edge ASC"""
+
 }
