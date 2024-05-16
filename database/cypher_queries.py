@@ -113,8 +113,8 @@ def language_query():
         langchain_openai.ChatOpenAI(temperature=1, model="gpt-4-turbo-preview"), graph=knowledge_base, verbose=True, validate_cypher=False
     )
 
-    chain.run("What Deep Brain Stimulation treats?")
+    chain.run("What does contribute to Alzheimer'S Disease?")
 
 
-# if __name__ == '__main__':
-    # print(get_nodes())
+if __name__ == '__main__':
+    print(language_query())
